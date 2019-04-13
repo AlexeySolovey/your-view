@@ -123,7 +123,7 @@ li a {
 }
 
 .phone_header .button_ico span:before {
-    background: url(../common/phone_ico_19_19.png) no-repeat center;
+    background: url(../img/icon/phone_ico_19_19.png) no-repeat center;
     width: 19px;
     height: 19px
 }
@@ -181,7 +181,7 @@ li a {
     top: 50%;
     left: 50%;
     display: block;
-    background: url(../common/pag_arrow.jpg) no-repeat center;
+    background: url(../img/icon/pag_arrow.jpg) no-repeat center;
     width: 7px;
     height: 12px
 }
@@ -253,7 +253,7 @@ a.button {
     left: 3px;
     width: 14px;
     height: 10px;
-    background: url(../common/check_radio.png) no-repeat center;
+    background: url(../img/icon/check_radio.png) no-repeat center;
     opacity: 0;
     -webkit-transition: all .2s;
     transition: all .2s
@@ -1053,7 +1053,7 @@ a.button {
 .studio {
     font-size: 13px;
     padding-right: 60px;
-    background: url(../common/webra.png) no-repeat right top;
+    background: url(../img/icon/webra.png) no-repeat right top;
     float: right;
     position: relative;
     margin-left: -20px
