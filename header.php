@@ -59,7 +59,7 @@
                     <a href="/salon.php" title="Салон" class="">Салон</a>
                 </li>
                                         <li>
-                    <a href="/page/contacts" title="Контакты" class="">Контакты</a>
+                    <a href="/contact.php" title="Контакты" class="">Контакты</a>
                 </li>
                     </ul>
 

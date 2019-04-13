@@ -501,7 +501,7 @@ a.button {
 }
 
 .header .header_mid_line .header_cart .button_border span:before {
-    background: url(../common/user_14_16.png) no-repeat center;
+    background: url(../img/icon/user_14_16.png) no-repeat center;
     height: 16px;
     width: 14px;
     -webkit-transition: ease .5s;
@@ -523,7 +523,7 @@ a.button {
 
 .header .header_mid_line .header_cart .shopping_cart .price:before {
     padding-left: 30px;
-    background: url(../common/cart_ico.png) no-repeat center;
+    background: url(../img/icon/cart_ico.png) no-repeat center;
     width: 20px;
     height: 17px;
     -webkit-transition: .5s ease;
