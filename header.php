@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main_md.css">
+    
     <link rel="stylesheet" href="css/lib.min.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/calculation.css">
-    <link rel="stylesheet" href="css/adv-slider.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
     <title>Ваш Вид</title>
 </head>
 <body>
