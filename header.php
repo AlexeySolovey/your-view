@@ -44,7 +44,7 @@
                     <a href="/page/about" title="О нас" class="">О нас</a>
                 </li>
                                         <li>
-                    <a href="/page/rassrochka" title="Рассрочка" class="">Рассрочка</a>
+                    <a href="/installment_plan.php" title="Рассрочка" class="">Рассрочка</a>
                 </li>
                                         <li>
                     <a href="/mezhkomnatnye-dveri/page/installation" title="Монтаж" class="">Монтаж</a>
@@ -76,7 +76,7 @@
                         <!--col-lg-3 col-md-2 col-sm-2-->
                         <div class="col-lg-3 col-md-2 col-sm-2">
                             <div class="logo">
-                                <a href="/"><img src="img/logo_190_67.png.pagespeed.ce.BS15qWulYk.png" class="img-responsive" alt="Ваш вид"></a>
+                                <a href="/"><img src="img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
                             </div>
                         </div>
                         <!--col-lg-5 col-md-6 col-sm-6 -->

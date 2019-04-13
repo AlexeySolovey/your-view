@@ -94,7 +94,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="#">
-                                <img src="img/blog.jpg" class="img-responsive" alt="">
+                                <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
@@ -113,7 +113,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="#">
-                                <img src="img/blog.jpg" class="img-responsive" alt="">
+                                <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
@@ -131,7 +131,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="#">
-                                <img src="img/blog.jpg" class="img-responsive" alt="">
+                                <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
@@ -149,7 +149,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="#">
-                                <img src="img/blog.jpg" class="img-responsive" alt="">
+                                <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
@@ -167,7 +167,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="#">
-                                <img src="img/blog.jpg" class="img-responsive" alt="">
+                                <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
@@ -185,7 +185,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="#">
-                                <img src="img/blog.jpg" class="img-responsive" alt="">
+                                <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
