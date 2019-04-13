@@ -220,7 +220,7 @@
 </div>
 
 
-<?php include('footer.php'); ?>
+
 
 <footer class="footer section_border">
     <div class="container">
@@ -304,3 +304,6 @@
         </div>
     </div>
 </div>
+
+
+<?php include('footer.php'); ?>
