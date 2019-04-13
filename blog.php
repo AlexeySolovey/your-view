@@ -1,20 +1,18 @@
 <?php include('header.php'); ?>
 
 <div class="content">
-	<div class="breadcrumb_wrapp">
-	    <div class="container">
-	        <ol class="breadcrumb">
-				<li>
-					<a href="/" class="active">
-						<span>Главная</span>
-					</a>  
-				</li>  
-				<li class="active">
-					<span>Блог</span>
-				</li>
-			</ol>        
-		</div>
-	</div>
+	<?php include('pagination.php'); ?>
+    <div class="salon_title">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main_title left_text">
+                        Салон                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<section class="blog">
         <div class="container">

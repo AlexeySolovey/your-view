@@ -56,7 +56,7 @@
                     <a href="/mezhkomnatnye-dveri/page/service" title="Сервис" class="">Сервис</a>
                 </li>
                                         <li>
-                    <a href="/page/salon" title="Салон" class="">Салон</a>
+                    <a href="/salon.php" title="Салон" class="">Салон</a>
                 </li>
                                         <li>
                     <a href="/page/contacts" title="Контакты" class="">Контакты</a>
