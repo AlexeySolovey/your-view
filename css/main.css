@@ -891,7 +891,7 @@ a.button {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: 0;
-    background: url(../common/model_arrow.png) no-repeat center
+    background: url(../img/icon/slide-arrow.png) no-repeat center
 }
 
 .slick_prev {
@@ -5490,40 +5490,40 @@ input:focus:required:invalid {
     }
 }
 
-.js_salon_slider {
+.custome-slider {
     margin: 0 45px;
     padding: 15px;
     background-color: #fff
 }
 
-.js_salon_slider .slick-slide {
+.custome-slider .slick-slide {
     margin: 0 7px
 }
 
-.js_salon_slider .slick-slide img {
+.custome-slider .slick-slide img {
     margin: 0 auto
 }
 
 @media (max-width:991px) {
-    .js_salon_slider .slick_prev {
+    .custome-slider .slick_prev {
         right: 99%
     }
 }
 
 @media (max-width:767px) {
-    .js_salon_slider .slick_prev {
+    .custome-slider .slick_prev {
         right: 90%
     }
 }
 
 @media (max-width:991px) {
-    .js_salon_slider .slick_next {
+    .custome-slider .slick_next {
         left: 99%
     }
 }
 
 @media (max-width:767px) {
-    .js_salon_slider .slick_next {
+    .custome-slider .slick_next {
         left: 90%
     }
 }
