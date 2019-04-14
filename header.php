@@ -48,11 +48,11 @@
                                     </li>
 
                                     <li>
-                                        <a href="/mezhkomnatnye-dveri/page/installation" title="Монтаж" class="">Монтаж</a>
+                                        <a href="/installation.php" title="Монтаж" class="">Монтаж</a>
                                     </li>
 
                                     <li>
-                                        <a href="/mezhkomnatnye-dveri/page/delivery" title="Доставка" class="">Доставка</a>
+                                        <a href="/delivery.php" title="Доставка" class="">Доставка</a>
                                     </li>
 
                                     <li>
