@@ -216,7 +216,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="main_title left_text">
-                        Монтаж                    </div>
+                        Монтаж                    
+                    </div>
                 </div>
 
                 <div class="col-md-4 col-sm-5">
