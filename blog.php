@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+
 <header class="header">
     <div class="header_bottom_line">
         <div class="container">
@@ -226,7 +227,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <a href="/"><img src="img/logo_190_67.png.pagespeed.ce.BS15qWulYk.png" class="img-responsive logo_footer" alt="" data-pagespeed-url-hash="28445216" ></a>
+                <a href="/"><img src="img/logo_190_67.png" class="img-responsive logo_footer" alt="" data-pagespeed-url-hash="28445216" ></a>
             </div>
 
             <div class="col-sm-4 footer_class">

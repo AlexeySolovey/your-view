@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    
-    <link rel="stylesheet" href="css/lib.min.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/calculation.css">
-    <link rel="stylesheet" href="css/responsive.css">
+<meta charset="UTF-8">
 
+<link rel="stylesheet" href="css/lib.min.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/calculation.css">
+<link rel="stylesheet" href="css/responsive.css">
 
-
-    <title>Ваш Вид</title>
+<title>Ваш Вид</title>
 </head>
 <body>
     <header class="header">
@@ -32,38 +30,43 @@
 
                             <div class="collapse navbar-collapse" id="nav">
                                 <div class="bot_arrow"></div>
-                                
-          <ul class="">
-                            <li>
-                    <a href="/" title="Главная" class="current">Главная</a>
-                </li>
-                                        <li>
-                    <a href="/blog.php" title="Блог" class="">Блог</a>
-                </li>
-                                        <li>
-                    <a href="/page/about" title="О нас" class="">О нас</a>
-                </li>
-                                        <li>
-                    <a href="/installment_plan.php" title="Рассрочка" class="">Рассрочка</a>
-                </li>
-                                        <li>
-                    <a href="/mezhkomnatnye-dveri/page/installation" title="Монтаж" class="">Монтаж</a>
-                </li>
-                                        <li>
-                    <a href="/mezhkomnatnye-dveri/page/delivery" title="Доставка" class="">Доставка</a>
-                </li>
-                                        <li>
-                    <a href="/mezhkomnatnye-dveri/page/service" title="Сервис" class="">Сервис</a>
-                </li>
-                                        <li>
-                    <a href="/salon.php" title="Салон" class="">Салон</a>
-                </li>
-                                        <li>
-                    <a href="/contact.php" title="Контакты" class="">Контакты</a>
-                </li>
-                    </ul>
+                                <ul class="">
+                                    <li>
+                                        <a href="/" title="Главная" class="current">Главная</a>
+                                    </li>
 
+                                    <li>
+                                        <a href="/blog.php" title="Блог" class="">Блог</a>
+                                    </li>
 
+                                    <li>
+                                        <a href="/about.php" title="О нас" class="">О нас</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/installment_plan.php" title="Рассрочка" class="">Рассрочка</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/mezhkomnatnye-dveri/page/installation" title="Монтаж" class="">Монтаж</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/mezhkomnatnye-dveri/page/delivery" title="Доставка" class="">Доставка</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/service.php" title="Сервис" class="">Сервис</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/salon.php" title="Салон" class="">Салон</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/contact.php" title="Контакты" class="">Контакты</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -95,11 +98,11 @@
 
                         <div class="col-sm-4 header_cart">
                             
-                                                        <a href="/profile/documents" class="button button_border button_ico hidden-sm hidden-xs">
-                                    <span>
-                                        Войти
-                                    </span>
-                                </a>
+                            <a href="/profile/documents" class="button button_border button_ico hidden-sm hidden-xs">
+                                <span>
+                                    Войти
+                                </span>
+                            </a>
                             
                             <a href="/cart" class="button button_border shopping_cart">
                                 <span class="price">
@@ -109,7 +112,6 @@
                                 <span class="number" ng-bind="goods_count"></span>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -134,43 +136,41 @@
                             <div class="collapse navbar-collapse" id="nav_mob">
                                 <div class="bot_arrow"></div>
                                 <ul>
-                                    
-         <ul class="">
-                            <li>
-                    <a href="/" title="Главная" class="current">Главная</a>
-                </li>
+                                        
+                                    <ul class="">
                                         <li>
-                    <a href="/blog" title="Блог" class="">Блог</a>
-                </li>
+                                            <a href="/" title="Главная" class="current">Главная</a>
+                                        </li>
                                         <li>
-                    <a href="/page/about" title="О нас" class="">О нас</a>
-                </li>
+                                            <a href="/blog" title="Блог" class="">Блог</a>
+                                        </li>
                                         <li>
-                    <a href="/page/rassrochka" title="Рассрочка" class="">Рассрочка</a>
-                </li>
+                                            <a href="/page/about" title="О нас" class="">О нас</a>
+                                        </li>
                                         <li>
-                    <a href="/mezhkomnatnye-dveri/page/installation" title="Монтаж" class="">Монтаж</a>
-                </li>
+                                            <a href="/page/rassrochka" title="Рассрочка" class="">Рассрочка</a>
+                                        </li>
                                         <li>
-                    <a href="/mezhkomnatnye-dveri/page/delivery" title="Доставка" class="">Доставка</a>
-                </li>
+                                            <a href="/mezhkomnatnye-dveri/page/installation" title="Монтаж" class="">Монтаж</a>
+                                        </li>
                                         <li>
-                    <a href="/mezhkomnatnye-dveri/page/service" title="Сервис" class="">Сервис</a>
-                </li>
+                                            <a href="/mezhkomnatnye-dveri/page/delivery" title="Доставка" class="">Доставка</a>
+                                        </li>
                                         <li>
-                    <a href="/page/salon" title="Салон" class="">Салон</a>
-                </li>
+                                            <a href="/mezhkomnatnye-dveri/page/service" title="Сервис" class="">Сервис</a>
+                                        </li>
                                         <li>
-                    <a href="/page/contacts" title="Контакты" class="">Контакты</a>
-                </li>
-                    </ul>
-
-
+                                            <a href="/page/salon" title="Салон" class="">Салон</a>
+                                        </li>
+                                        <li>
+                                            <a href="/page/contacts" title="Контакты" class="">Контакты</a>
+                                        </li>
+                                    </ul>
                                 </ul>
                             </div>
 
                             <div class="logo">
-                                <a href="/"><img src="img/logo_190_67.png.pagespeed.ce.BS15qWulYk.png" class="img-responsive" alt="Ваш вид"></a>
+                                <a href="#"><img src="img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
                             </div>
 
                             <a href="tel:+380443910475" class="phone ct-phone-044">+38 (044) 391-04-75</a>
@@ -194,7 +194,7 @@
                                 </span>
                             </button>
 
-                                                    <a href="/profile/documents" class="button_user visible-sm visible-xs"></a>
+                            <a href="/profile/documents" class="button_user visible-sm visible-xs"></a>
 
                             <a href="/cart" class="button button_border  shopping_cart">
                                 <span class="price">
@@ -206,7 +206,6 @@
                                 </span>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -216,10 +215,8 @@
             <div class="container">
                 <div class="row">
                     
-                <ul class="">
+                    <ul class="">
                     </ul>
-
-
                 </div>
             </div>
         </div>
