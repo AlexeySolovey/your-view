@@ -240,7 +240,7 @@
                     <!--                                data-target=".make_door"-->
                     <!--                                data-subject="Дверь на заказ"-->
                     <!--                                data-text="
-                    Новейшая технология нанесения 3D резьбы одновременно в трёх плоскостях позволяет создавать объёмные модели любых форм и размеров. Двери с 3D фрезеровкой выглядят благородно и изысканно, особенно подходят для классического интерьера.<!--                           "-->
+                    Новейшая технология нанесения 3D резьбы одновременно в трёх плоскостях позволяет создавать объёмные модели любых форм и размеров. Двери с 3D фрезеровкой выглядят благородно и изысканно, особенно подходят для классического интерьера.                           "-->
                     <!--                        >-->
                     <!--                            Подробнее-->
                     <!--                        </button>-->
@@ -497,6 +497,309 @@
         </div>
     </section>
 
+    <section class="service service_mk_wrapp">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main_title">
+                        При производстве дверей используем <br>
+                        исключительно экологически чистые материалы                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                    
+    <!--            -->
+        <div class="full_width_item full_width_item_left aos-init aos-animate" data-aos="fade-up" style="background-image: url(img/75920.png)">
+            <div class="container">
+                <div class="row">
+
+                    <img src="img/75920.png" class="img-responsive visible-xs" alt="">
+
+                    <div class="col-sm-6 full_width_box col-sm-offset-6">
+                        <div class="title">
+                            Натуральное дерево                            
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Наши двери производятся из дерева, заготовленного в экологически чистых районах Украины. Двери и комплектующие имеют все необходимые сертификаты качества и безопасны для применения в жилых помещениях.                                
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                        
+    <!--            -->
+        <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url(img/cffb.png)">
+            <div class="container">
+                <div class="row">
+
+                    <img src="img/cffb.png" class="img-responsive visible-xs" alt="">
+
+                    <div class="col-sm-6 full_width_box ">
+                        <div class="title">
+                            Итальянский лак                            
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Все двери покрыты грунтом, вскрыты в три слоя качественным итальянским лаком на водной основе. За счет твердости лака двери обладают высокой прочностью, не боятся ударов, сколов, царапин, устойчивы к температурным изменениям и имеют исключительный внешний вид.                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                        
+    <!--            -->
+        <div class="full_width_item full_width_item_left aos-init" data-aos="fade-up" style="background-image: url(img/daace.png)">
+            <div class="container">
+                <div class="row">
+
+                    <img src="img/daace.png" class="img-responsive visible-xs" alt="">
+
+                    <div class="col-sm-6 full_width_box col-sm-offset-6">
+                        <div class="title">
+                            Только качественная фурнитура                           
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Мы используем механизмы и скрытые петли AGB (Италия), ручки Colombo (Италия). Врезка фурнитуры происходит в заводских условиях. Срок эксплуатации такой фурнитуры - 10 лет.                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="can_also">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main_title">У нас Вы также можете заказать</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="can_also_item">
+                        <div class="img">
+                            <img src="img/can_also.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="title">
+                            Порталы
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="can_also_item">
+                        <div class="img">
+                            <img src="img/can_also.png" class="img-responsive" alt="" >
+                        </div>
+                        <div class="title">
+                            Плинтусы
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="can_also_item">
+                        <div class="img">
+                            <img src="img/can_also.png" class="img-responsive" alt="" >
+                        </div>
+                        <div class="title">
+                            Наличники
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="can_also_item">
+                        <div class="img">
+                            <img src="img/can_also.png" class="img-responsive" alt="" >
+                        </div>
+                        <div class="title">
+                            Накладки на входные двери
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="produced_mk">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main_title">
+                    Все двери производятся на современном австрийском оборудовании в Украине                
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="video hidden">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E4JhvzPEq0M" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+                <div class="video">
+                    <img alt="" src="img/lol.jpg" style="max-width: 100%;">
+                </div>
+
+                <div class="produced_mk_wrapp clearfix">
+                    <div class="col-sm-4">
+                        <img src="img/zav.jpg" class="img-responsive" alt="">
+                        <div class="produced_mk_item item_1">
+                            <div class="title">
+                                Высокие производственные мощности                            
+                            </div>
+                            <div class="desc">
+                                Мы располагаем собственным производством, с современным высокотехнологичным оборудованием                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/zav.jpg" class="img-responsive" alt="">
+                        <div class="produced_mk_item item_2">
+                            <div class="title">
+                                Оборудование с мировым именем                            
+                            </div>
+                            <div class="desc">
+                                Вся мебель производится на австрийском оборудовании FELDER-GROUP, которое известно во всём мире и зарекомендовало себя как надёжного производителя качественной продукции                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/zav.jpg" class="img-responsive" alt="">
+                        <div class="produced_mk_item item_3">
+                            <div class="title">
+                                Команда профессионалов                            
+                            </div>
+                            <div class="desc">
+                                В нашем штате работает 57 столяров с большим опытом работы и высоким уровнем профессионализма. Все сотрудники обладают достаточной квалификацией                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="records">
+    <div class="container">
+        <div class="main_title">
+            Именно поэтому мы<br>
+            в Книге рекордов Украины            
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 col-sm-offset-6">
+                <div class="record_block">
+                    <img class="img-responsive center-block" alt="" data-pagespeed-url-hash="1192319815" src="img/record.png">
+                    <p><b>В 2011 году был построен каркасный дом на 100 квадратных метров за 19 дней.</b></p>
+                    
+                    <p>За 3 дня 5 наших бригад установили все окна, двери (входные и межкомнатные), смонтировали мебель, шкафы и кухню.</p>
+                    
+                    <div class="note">Нас внесли в реестр национальных рекордов за уровень и сроки выполнения работ: планирование, подбор материалов, монтаж.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="service_mk service_mk_new" style="background-image: url('../img/6d.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <div class="title">
+                    Даем гарантию 1,5 года и бессрочное обслуживание                
+                </div>
+                <p>
+                    Мы единственные, кто дает 1,5 года гарантии на все работы.<br>
+                    <br>
+                    И даже после ее окончания наш сервисный центр будет следить за состоянием ваших дверей. Один звонок, и через пару часов наш мастер будет у вас.
+                </p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <img class="img-responsive pull-right service_mk_image" alt="" src="img/pag.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="panorama" style="background-image: url('img/panorama.jpg')">
+    <div class="container">
+        <div class="row panorama__row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="panorama__maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.61058519553!2d30.497330731772323!3d50.48559289261233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdfd0c56f15f%3A0xb6a1b1d1a7f1a602!2z0LLRg9C7LiDQktC10YDQsdC-0LLQsCwgMjQsINCa0LjRl9Cy!5e0!3m2!1sru!2sua!4v1464082865672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    <div class="panorama__maps-box panorama__maps-address">
+                        Киев, ул.Вербовая, 24, 2 этаж
+                        <span>(1 минута от м.Почайна)</span>
+                    </div>
+                    <div class="panorama__maps-box panorama__maps-schedule">
+                        График работы:
+                        <span>пн-сб 9:00-19:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="panorama__link">
+                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
+                    <div class="title">
+                        3D тур
+                    </div>
+                    <div class="desc">
+                        по салону
+                    </div>
+                    <a href="#" class="button">
+                        Смотреть
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="panorama__footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panorama__footer-block">
+                    <div class="panorama__form-title">
+                        Получите дополнительную
+                        <span>
+                            СКИДКУ 5%                        
+                        </span>
+                    </div>
+                    <div class="panorama__form-form">
+                        <div class="panorama__form-desc">
+                            Запишитесь в наш салон на просмотр и получите скидку
+                        </div>
+                        <form class="ajaxForm panorama-form form-vertical ng-pristine ng-valid" id="yw0" action="/default/feedbacks/index" method="post">
+                            <div style="display:none">
+                                <input type="hidden" value="beb0ee5f4a46fb11c47de39062f93db10fa835b3" name="YII_CSRF_TOKEN">
+                            </div>
+
+                            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">           
+                            <input value="Запишитесь в наш салон на просмотр и получите скидку с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">          
+                            <input required="required" placeholder="ФИО" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                        
+                            <input required="required" placeholder="Номер телефона" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">       
+                            <button class="button">Записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </div>
 
@@ -584,6 +887,37 @@
                     <a href="#"  target="_blank" class="link"></a>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal modal_main modal_call fade in">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+        <div class="js_title title">Заказать звонок</div>
+        <div class="js_desc desc">
+            Оставьте ваши контакты, и наш менеджер свяжется
+            с вами в ближайшее время
+        </div>
+
+        <form class="ajaxForm form-vertical ng-pristine ng-valid" id="yw1" action="/default/feedbacks/index" method="post">
+            <div style="display:none">
+                <input type="hidden" value="e8bce8c0e0e94763b6ce1e70b008ef666277678e" name="YII_CSRF_TOKEN">
+            </div>
+            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">        
+            <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">        
+            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">        
+            <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">        
+            <button type="submit" class="button">
+                <span>Сохранить</span>
+            </button>
+        </form> 
+
+        <div class="modal_note">
+            Ваши персональные данные не будут опубликованы
+            или переданы третьим лицам.
         </div>
     </div>
 </div>

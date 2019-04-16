@@ -17,7 +17,7 @@
     position: absolute;
     top: -332px;
     left: 0;
-    background: url(../common/calculion_bg.png) no-repeat top left;
+    background: url(../img/calculion_bg.png) no-repeat top left;
     z-index: 9;
     width: 420px;
     height: 640px
@@ -391,15 +391,15 @@
 
 .calculation .calculation_item_1 .form_type_1 label {
     width: 175px;
-    background: url(../common/dveri_type_1.jpg) no-repeat center
+    background: url(../img/dveri_type_1.jpg) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_1 label:hover {
-    background: url(../common/dveri_type_1_h.png) no-repeat center
+    background: url(../img/dveri_type_1_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_1 input[type=radio]:checked+label {
-    background: url(../common/dveri_type_1_h.png) no-repeat center
+    background: url(../img/dveri_type_1_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_2 label {
