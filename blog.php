@@ -6,7 +6,7 @@
             <div class="row">
                 <ul class="">
                     <li>
-                        <a href="/vhodnie-dveri" title="Входные двери" class="">Входные двери</a>
+                        <a href="/entrance_doors.php" title="Входные двери" class="">Входные двери</a>
                     </li>
 
                     <li>

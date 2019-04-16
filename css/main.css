@@ -580,7 +580,7 @@ a.button {
 }
 
 .anons {
-    background: url(../common/anons_1920_577.jpg) no-repeat center;
+    background: url(../img/anons_1920_577.jpg) no-repeat center;
     background-size: cover;
     min-height: 570px;
     padding-top: 40px;
@@ -600,15 +600,12 @@ a.button {
 .anons .desc,
 .anons .title {
     line-height: 65px;
-    /*color: #2c3439*/
-    color:#fff;
-    
+    color: #2c3439
 }
 
 .anons .title {
     font-weight: 500;
     margin-top: 0;
-    color:#fff;
     font-size: 73px;
     margin-bottom: 10px
 }
@@ -629,7 +626,7 @@ a.button {
 }
 
 .anons .button span:before {
-    background: url(../common/loyer_ico_28_31.png) no-repeat center;
+    background: url(../img/loyer_ico_28_31.png) no-repeat center;
     width: 28px;
     height: 31px
 }
@@ -675,7 +672,7 @@ a.button {
 }
 
 .advantages {
-    background: url(../common/advantages_bg_1920_620.png) no-repeat center;
+    background: url(../img/advantages_bg_1920_620.png) no-repeat center;
     min-height: 620px;
     background-size: cover;
     padding-top: 220px;
@@ -1744,7 +1741,7 @@ iframe {
 .card_diagram:after {
     top: -300px;
     left: 0;
-    background: url(../common/calculion_bg.png) no-repeat top left
+    background: url(../img/calculion_bg.png) no-repeat top left
 }
 
 .card_diagram:before {
