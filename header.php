@@ -32,7 +32,7 @@
                                 <div class="bot_arrow"></div>
                                 <ul class="">
                                     <li>
-                                        <a href="/" title="Главная" class="current">Главная</a>
+                                        <a href="/index.php" title="Главная" class="current">Главная</a>
                                     </li>
 
                                     <li>
@@ -79,7 +79,7 @@
                         <!--col-lg-3 col-md-2 col-sm-2-->
                         <div class="col-lg-3 col-md-2 col-sm-2">
                             <div class="logo">
-                                <a href="/"><img src="img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
+                                <a href="/index.php"><img src="img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
                             </div>
                         </div>
                         <!--col-lg-5 col-md-6 col-sm-6 -->

@@ -120,24 +120,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="main_title">
-                       </div>
-                           <div class="main_desc">
-                              	</div>
-                                    <div class="js-adv-slider slick-initialized slick-slider slick-dotted" style="display: block;"><div class="slick_prev slick-arrow"></div>
-                                    <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                		<img src="/uploads/screens/341/cb7c232c254fa540d73bd3676a9f9530.1170_436.jpg,qcode=NDI5NS4xMTcwXzQzNg==.pagespeed.ce.EB6BOnm0xb.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1314711159" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                            			</div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 0px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
-                                	<img src="/uploads/screens/341/9da76a06194e2d18fbd6d01a4bea0978.1170_436.jpg,qcode=NDI5NC4xMTcwXzQzNg==.pagespeed.ce.Z49B0PzJqP.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1694420198" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                            		</div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 0px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
-                                	<img src="/uploads/screens/341/cb7c232c254fa540d73bd3676a9f9530.1170_436.jpg,qcode=NDI5NS4xMTcwXzQzNg==.pagespeed.ce.EB6BOnm0xb.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1314711159" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                            		</div><div class="slick-slide slick-cloned" data-slick-index="2" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                	<img src="/uploads/screens/341/9da76a06194e2d18fbd6d01a4bea0978.1170_436.jpg,qcode=NDI5NC4xMTcwXzQzNg==.pagespeed.ce.Z49B0PzJqP.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1694420198" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                            		</div><div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                	<img src="/uploads/screens/341/cb7c232c254fa540d73bd3676a9f9530.1170_436.jpg,qcode=NDI5NS4xMTcwXzQzNg==.pagespeed.ce.EB6BOnm0xb.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1314711159" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                            		</div></div></div>
+                    <div class="main_title"></div>
+                            <div class="main_desc"></div>
+                                <div class="js-adv-slider slick-initialized slick-slider slick-dotted" style="display: block;"><div class="slick_prev slick-arrow"></div>
+                                    <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
+                                        <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 0px;" tabindex="-1">
+                                    		<img src="" class="img-responsive" alt="">
+                                			</div>
+                                            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 0px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
+                                    	    <img src="" class="img-responsive" alt="">
+                                		</div>
+                                        <div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 0px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
+                                    	<img src="" class="img-responsive" alt="">
+                                		</div>
+                                        <div class="slick-slide slick-cloned" data-slick-index="2" aria-hidden="true" style="width: 0px;" tabindex="-1">
+                                    	<img src="" class="img-responsive" alt="">
+                                		</div>
+                                        <div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 0px;" tabindex="-1">
+                                    	<img src="" class="img-responsive" alt="">
+                                		</div>
+                                    </div>
+                                </div>
                                                     
-                                    <div class="slick_next slick-arrow"></div><ul class="slick-dots" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button></li><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button></li></ul></div>
+                            <div class="slick_next slick-arrow"></div>
+                            <ul class="slick-dots" role="tablist">
+                                <li class="slick-active" role="presentation">
+                                    <button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button>
+                                </li>
+                                <li class="" role="presentation">
+                                    <button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </div>
@@ -183,7 +197,159 @@
 </section>
 
 
+<div class="js_quasion slick-initialized slick-slider"><div class="slick_prev slick-arrow slick-disabled" aria-disabled="true" style="display: block;"></div>
+    <div class="slick-list draggable" style="height: 470px;"><div class="slick-track" style="opacity: 1; width: 6076px;"><div class="question slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1519px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
+            <div class="container">
+                <div class="row">
+                    <div class="question_wrapp clearfix">
+                        <div class="col-md-6 no_padding">
+                            <img class="img-responsive" alt="" src="img/question_1_new.png">
+                        </div>
 
+                        <div class="col-md-6">
+                            <div class="main_title">
+                                Не можете определиться <br>
+                                с дверью - мы поможем вам!                        
+                            </div>
+                            <div class="main_desc">
+                                Ответьте всего на 3 вопроса, и наш помощник подберет для вас подходящие модели дверей.                        
+                            </div>
+
+                            <div class="button_wrapp">
+                                <button class="button button_ico btn_next" tabindex="0">
+                                    <span>
+                                        Подобрать                                
+                                    </span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="question slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1519px; position: relative; left: -1519px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
+            <div class="container">
+
+                <div class="row">
+                    <div class="question_wrapp clearfix">
+                        <div class="col-md-6 no_padding">
+                            <img class="img-responsive" alt="" src="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="main_title">
+                                Куда будете ставить дверь?
+                            </div>
+                            <form class="assistant ng-pristine ng-valid" id="door_type">
+                                <input type="radio" id="radioA_0" class="radio_assistant" name="type_assistant" value="dveri-v-kvartiru" tabindex="-1">
+                                <label for="radioA_0">В квартиру</label>
+                                <input type="radio" id="radioA_1" class="radio_assistant" name="type_assistant" value="dveri-v-ofis" tabindex="-1">
+                                <label for="radioA_1">В офис</label>
+                                <input type="radio" id="radioA_2" class="radio_assistant" name="type_assistant" value="dveri-v-dom" tabindex="-1">
+                                <label for="radioA_2">В дом</label>
+                            </form>
+
+                            <div class="button_wrapp">
+                                <button class="button button_border btn_prev" tabindex="-1">
+                                <span>
+                                    Назад
+                                </span>
+                                </button>
+
+                                <button class="button btn_next" tabindex="-1">
+                                <span>
+                                    Далее
+                                </span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="question slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1519px; position: relative; left: -3038px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
+            <div class="container">
+                <div class="row">
+                    <div class="question_wrapp clearfix">
+                        <div class="col-md-6 no_padding">
+                            <img class="img-responsive" alt="" src="" >
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="main_title">
+                                Выберите класс двери
+                            </div>
+                            <form class="assistant ng-pristine ng-valid" id="door_class">
+                                <label for="radioA_2_37">Эконом класс</label>
+                                <label for="radioA_2_38">Средний класс</label>
+                                <label for="radioA_2_39">Премиум класс</label>
+                            </form>
+
+                            <div class="button_wrapp">
+                                <button class="button button_border btn_prev" tabindex="-1">
+                                <span>
+                                    Назад
+                                </span>
+                                </button>
+
+                                <button class="button btn_next" tabindex="-1">
+                                <span>
+                                    Далее
+                                </span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="question slick-slide" data-slick-index="3" aria-hidden="true" style="width: 1519px; position: relative; left: -4557px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
+            <div class="container">
+                <div class="row">
+                    <div class="question_wrapp clearfix">
+                        <div class="col-md-6 no_padding">
+                            <img class="img-responsive" alt=""src="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="main_title">
+                                Выберите размер
+                            </div>
+                            <form class="assistant ng-pristine ng-valid" id="door_size">
+                                <label for="radioA_3_187">860х2040 мм</label>
+                                <label for="radioA_3_47">960х2050 мм</label>
+                                <label for="radioA_3_249">1200х2040 мм</label>
+                                <label for="radioA_3_5">Нужен замерщик</label>
+                            </form>
+                            <div class="button_wrapp">
+                                <button class="button button_border btn_prev" tabindex="-1">
+                                <span>
+                                    Назад
+                                </span>
+                                </button>
+
+                                <button class="button button_res" tabindex="-1">
+                                <span>
+                                    Смотреть результат
+                                </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+
+    
+
+    
+<div class="slick_next slick-arrow" style="display: block;" aria-disabled="false"></div></div>
 
 
 
@@ -482,19 +648,19 @@
                                 </div>
 
                                 <div class="form_size_img" ng-show="form_type_model == undefined">
-                                	<img src="" alt="" >
+                                	<img src="img/dveri_type_1.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 1">
-                                	<img src="" alt="" >
+                                	<img src="img/dveri_type_2.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 2">
-                                	<img src="" alt="" >
+                                	<img src="img/dveri_type_3.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 3">
-                                	<img src="" alt="" >
+                                	<img src="img/dveri_type_4.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 4">
-                                	<img src="" alt="" >
+                                	<img src="img/dveri_type_4.jpg" alt="" >
                                 </div>
 
                                 <div class="button_wrapp">

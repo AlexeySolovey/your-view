@@ -404,41 +404,41 @@
 
 .calculation .calculation_item_1 .form_type_2 label {
     width: 245px;
-    background: url(../common/dveri_type_2.jpg) no-repeat center
+    background: url(../img/dveri_type_2.jpg) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_2 label:hover {
-    background: url(../common/dveri_type_2_h.png) no-repeat center
+    background: url(../img/dveri_type_2_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_2 input[type=radio]:checked+label {
-    background: url(../common/dveri_type_2_h.png) no-repeat center
+    background: url(../img/dveri_type_2_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_3 label {
     width: 245px;
-    background: url(../common/dveri_type_3.jpg) no-repeat center
+    background: url(../img/dveri_type_3.jpg) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_3 label:hover {
-    background: url(../common/dveri_type_3_h.png) no-repeat center
+    background: url(../img/dveri_type_3_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_3 input[type=radio]:checked+label {
-    background: url(../common/dveri_type_3_h.png) no-repeat center
+    background: url(../img/dveri_type_3_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_4 label {
     width: 320px;
-    background: url(../common/dveri_type_4.jpg) no-repeat center
+    background: url(../img/dveri_type_4.jpg) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_4 label:hover {
-    background: url(../common/dveri_type_4_h.png) no-repeat center
+    background: url(../img/dveri_type_4_h.png) no-repeat center
 }
 
 .calculation .calculation_item_1 .form_type_4 input[type=radio]:checked+label {
-    background: url(../common/dveri_type_4_h.png) no-repeat center
+    background: url(../img/dveri_type_4_h.png) no-repeat center
 }
 
 .calculation .calculation_item_2 {
@@ -595,7 +595,7 @@
 }
 
 .calculation .calculation_item_3 .button_wrapp .button_ico span:before {
-    background: url(../common/price_work.png) no-repeat center;
+    background: url(../img/price_work.png) no-repeat center;
     width: 23px;
     height: 30px
 }
