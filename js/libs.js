@@ -6765,17 +6765,17 @@ function(e) {
         },
         definitions: {
             9: {
-                validator: "[0-9ï¼‘-ï¼™]",
+                validator: "[0-9]",
                 cardinality: 1,
                 definitionSymbol: "*"
             },
             a: {
-                validator: "[A-Za-zÐ-ÑÐÑ‘Ã€-Ã¿Âµ]",
+                validator: "[A-Za-z]",
                 cardinality: 1,
                 definitionSymbol: "*"
             },
             "*": {
-                validator: "[0-9ï¼‘-ï¼™A-Za-zÐ-ÑÐÑ‘Ã€-Ã¿Âµ]",
+                validator: "[0-9]",
                 cardinality: 1
             }
         },
