@@ -7,22 +7,22 @@
                 
 				<ul class="">
                     <li>
-		                <a href="/vhodnie-dveri/exclusive" title="Эксклюзивные" class="">Эксклюзивные</a>
+		                <a href=/exclusive.php title="Эксклюзивные" class="">Эксклюзивные</a>
 		            </li>
 		            <li>
-		                <a href="/vhodnie-dveri/dveri-v-kvartiru" title="Для квартиры" class="">Для квартиры</a>
+		                <a href="/for_an_apartment.php" title="Для квартиры" class="">Для квартиры</a>
 		            </li>
 		            <li>
-		                <a href="/vhodnie-dveri/dveri-v-ofis" title="Для офиса" class="">Для офиса</a>
+		                <a href="/for_office.php" title="Для офиса" class="">Для офиса</a>
 		            </li>
 		            <li>
-		                <a href="/vhodnie-dveri/dveri-v-dom" title="Для дома" class="">Для дома</a>
+		                <a href="/for_home.php" title="Для дома" class="">Для дома</a>
 		            </li>
 		            <li>
-		                <a href="/vhodnie-dveri/texnicheskie-dveri" title="Технические" class="">Технические</a>
+		                <a href="/Technical.php" title="Технические" class="">Технические</a>
 		            </li>
 		            <li>
-		                <a href="/vhodnie-dveri/dveri-pod-zakaz" title="Под заказ" class="">Под заказ</a>
+		                <a href="/Under_the_order.php" title="Под заказ" class="">Под заказ</a>
 		            </li>
 		        </ul>            
             </div>
@@ -342,12 +342,6 @@
     </div>
 </div>
 
-
-    
-
-
-    
-
     
 <div class="slick_next slick-arrow" style="display: block;" aria-disabled="false"></div></div>
 
@@ -367,11 +361,11 @@
             </div>
         </div>
 
-        <button class="button" type="button" data-toggle="modal" data-target=".modal_calculate" data-subject="Зафиксировать скидку с сайта входные двери">Зафиксировать скидку</button>
+        <button class="button" type="button" data-toggle="modal">Зафиксировать скидку</button>
     </div>
 
 
-    <form action="/" method="post" id="param_kitchen" class="ng-pristine ng-valid">
+    <form action="#" method="post" id="param_kitchen" class="ng-pristine ng-valid">
 
         <div class="calculation_item calculation_item_0 clearfix">
             <div class="container">
@@ -391,12 +385,19 @@
                                 Выберите класс двери
                             </div>
                                 <input type="radio" id="radio0_1" class="radio_circle ng-pristine ng-valid" name="type_radio" value="1" data-desc="Стандарт" ng-model="type_radio_model">
+
                                 <label for="radio0_1">Эконом</label>
+
                                 <input type="radio" id="radio0_2" class="radio_circle ng-pristine ng-valid" name="type_radio" value="2" data-desc="Стандарт +" ng-model="type_radio_model">
+
                                 <label for="radio0_2">Стандарт+</label>
+
                                 <input type="radio" id="radio0_3" class="radio_circle ng-pristine ng-valid" name="type_radio" value="3" data-desc="Монолит" ng-model="type_radio_model">
+
                                 <label for="radio0_3">Премиум</label>
+
                                 <input type="radio" id="radio0_4" class="radio_circle ng-pristine ng-valid" name="type_radio" value="4" data-desc="Молоток" ng-model="type_radio_model">
+
                                 <label for="radio0_4">Антивандальные</label>
                             
                             <a href="#next" type="button" class="button button_show animate-link" value="1" ng-click="calculation_item_show=true">Далее</a>
@@ -404,7 +405,15 @@
                     </div>
                     <div class="col-md-9 col-sm-7">
                         <div class="calculation_type_radio_img">
-                            <img src="img/monolit.jpg" class="img-responsive" ng-show="type_radio_model == undefined" alt="" >
+
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt="" data-pagespeed-url-hash="656914440" src="img/monolit.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+
+
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt="" data-pagespeed-url-hash="656914440" src="img/monolit.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+
+
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt="" data-pagespeed-url-hash="656914440" src="img/monolit.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+
                         </div>
                     </div>
                 </div>
@@ -487,46 +496,60 @@
                             <div class="door_image_slider">
                                  	<div>
                                         <input type="radio" id="radio4_1" name="door_image" value="1">
-                                        <label for="radio4_1"><img src="" class="img-responsive center-block" alt=""></label>
+                                        <label for="radio4_1">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="radio4_2" name="door_image" value="2">
-                                        <label for="radio4_2"><img src="" class="img-responsive center-block" alt="" ></label>
+                                        <label for="radio4_2">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="radio4_3" name="door_image" value="3">
-                                        <label for="radio4_3"><img src="" class="img-responsive center-block" alt=""></label>
+                                        <label for="radio4_3">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="radio4_4" name="door_image" value="4">
-                                        <label for="radio4_4"><img src="" class="img-responsive center-block" alt=""></label>
+                                        <label for="radio4_4">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="radio4_5" name="door_image" value="5">
-                                        <label for="radio4_5"><img src="" class="img-responsive center-block" alt="" ></label>
+                                        <label for="radio4_5">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="radio4_6" name="door_image" value="6">
-                                        <label for="radio4_6"><img src="" class="img-responsive center-block" alt="" ></label>
+                                        <label for="radio4_6">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="radio4_7" name="door_image" value="7">
-                                        <label for="radio4_7"><img src="" class="img-responsive center-block" alt="" ></label>
+                                        <label for="radio4_7">
+                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        </label>
                                     </div>
                             </div>
                         </div>
                     </div>
 
                     <a href="/vhodnie-dveri/catalog">
-	                        <span>
-	                             Смотреть полный каталог
-	                        </span>
+                        <span>
+                             Смотреть полный каталог
+                        </span>
 	                </a>
 
                     <div class="col-md-4 col-sm-12">

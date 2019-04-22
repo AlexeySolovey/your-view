@@ -10,11 +10,11 @@
                     </li>
 
                     <li>
-                        <a href="/mezhkomnatnye-dveri" title="Межкомнатные двери" class="">Межкомнатные двери</a>
+                        <a href="/vhodnie-dveri.php" title="Межкомнатные двери" class="">Межкомнатные двери</a>
                     </li>
 
                     <li>
-                        <a href="/balkon" title="Балконы" class="">Балконы</a>
+                        <a href="/balconies.php" title="Балконы" class="">Балконы</a>
                     </li>
 
                     <li>

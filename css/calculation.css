@@ -48,7 +48,7 @@
 
 .calculation .img_hide {
     height: 264px;
-    background: url(../common/hide_img.png) no-repeat center;
+    background: url(../img/hide_img.png) no-repeat center;
     margin: 0 -100px 0 -70px;
     background-size: cover
 }
@@ -86,7 +86,7 @@
     transform: translate(-50%, -50%) rotate(0deg);
     width: 26px;
     height: 15px;
-    background: url(../common/arrow.png) no-repeat center;
+    background: url(../img/arrow.png) no-repeat center;
     -webkit-transition: ease, .5s;
     transition: ease, .5s
 }
@@ -274,7 +274,7 @@
 }
 
 .calculation .calculation_item_1 .on_desc {
-    background: url(../common/on_desc.png) no-repeat bottom;
+    background: url(../img/on_desc.png) no-repeat bottom;
     position: absolute;
     width: 1433px;
     height: 27px;
@@ -554,7 +554,7 @@
 
 .calculation .calculation_item_3 {
     margin: -25px -85px 0 85px;
-    background: url(../common/calculation_item_3_bg.jpg) no-repeat center;
+    background: url(../img/calculation_item_3_bg.jpg) no-repeat center;
     background-size: cover
 }
 
@@ -947,7 +947,7 @@
     width: 287px;
     height: 169px;
     padding: 20px 15px 15px 55px;
-    background: url(../common/sale_bg.png) no-repeat center
+    background: url(../img/sale_bg.png) no-repeat center
 }
 
 .sale_wrapp_block .sale_title {

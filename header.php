@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/calculation.css">
 <link rel="stylesheet" href="css/responsive.css">
-
+<link rel="stylesheet" href="css/balcon.css">
 <title>Ваш Вид</title>
 </head>
 <body>

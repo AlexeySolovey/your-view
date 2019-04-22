@@ -14,10 +14,6 @@
                     </li>
 
                     <li>
-                        <a href="/kuhni" title="Кухни" class="">Кухни</a>
-                    </li>
-
-                    <li>
                         <a href="/balkon" title="Балконы" class="">Балконы</a>
                     </li>
 

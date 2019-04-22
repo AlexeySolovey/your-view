@@ -173,7 +173,8 @@
 
                     <div class="col-sm-6 col-sm-offset-6 full_width_box">
                         <div class="title">
-                            Доставка по Киеву                        </div>
+                            Доставка по Киеву                        
+                        </div>
                         <div class="desc">
                             <p>
                                 </p><p><span style="font-family: Roboto, sans-serif; font-size: 14px;">Доставка осуществляется по всем районам Киева. Доставляем ежедневно, время доставки предварительно согласовывается с заказчиком. Доставку нестандартных дверей просчитывает менеджер. Стоимость доставки стандартных дверей зависит от класса двери.</span></p>
@@ -181,7 +182,8 @@
                         </div>
                         <div class="price">
                             <p>
-                                Узнать стоимость доставки стандартной двери.                            </p>
+                                Узнать стоимость доставки стандартной двери.                            
+                            </p>
                             <form action="" class="select_form">
                                 <div class="jq-selectbox jqselect delivery_price" style="display: inline-block; position: relative; z-index:100">
                                 	<select class="delivery_price" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
