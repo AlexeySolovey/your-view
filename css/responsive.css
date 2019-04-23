@@ -694,8 +694,6 @@
     }
     .link_block .link_block_item_big .title,
     .link_block .link_block_item_small .title {
-        bottom: 10px;
-        left: 15px;
         font-size: 17px
     }
     .produced_index .main_title {
