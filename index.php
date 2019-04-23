@@ -448,26 +448,21 @@
 <div class="modal modal_main modal_call fade in">
     <div class="modal-dialog" role="document">
         <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
-
         <div class="js_title title">Заказать звонок</div>
         <div class="js_desc desc">
             Оставьте ваши контакты, и наш менеджер свяжется
             с вами в ближайшее время
         </div>
 
-        <form class="ajaxForm form-vertical ng-pristine ng-valid" id="yw1" action="/default/feedbacks/index" method="post">
-            <div style="display:none">
-                <input type="hidden" value="e8bce8c0e0e94763b6ce1e70b008ef666277678e" name="YII_CSRF_TOKEN">
-            </div>
+        <form class="form-vertical" action="/" method="post">
             <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">        
             <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">        
-            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">        
+            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text"> 
             <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">        
             <button type="submit" class="button">
                 <span>Сохранить</span>
             </button>
         </form> 
-
         <div class="modal_note">
             Ваши персональные данные не будут опубликованы
             или переданы третьим лицам.
