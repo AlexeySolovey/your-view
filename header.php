@@ -98,13 +98,13 @@
 
                         <div class="col-sm-4 header_cart">
                             
-                            <a href="/profile/documents" class="button button_border button_ico hidden-sm hidden-xs">
+                            <a href="/to_come_in.php" class="button button_border button_ico hidden-sm hidden-xs">
                                 <span>
                                     Войти
                                 </span>
                             </a>
                             
-                            <a href="/cart" class="button button_border shopping_cart">
+                            <a href="/products.php" class="button button_border shopping_cart">
                                 <span class="price">
                                     <span class="price_num" ng-if="summ" ng-bind-html="summ"></span>
                                     <span class="price_num" ng-if="!summ">Нет товаров</span>

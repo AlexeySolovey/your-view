@@ -51,7 +51,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/0001.png">
+                                <img class="img-responsive" alt="" src="img/point.png">
                             </div>
                             <div class="text">
                                 Единый дизайн, стиль и цвет                                
@@ -59,7 +59,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/0001.png">
+                                <img class="img-responsive" alt="" src="img/zoom.png">
                             </div>
                             <div class="text">
                                 Проверенная годами фурнитура                                
@@ -67,7 +67,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/0001.png">
+                                <img class="img-responsive" alt="" src="img/door_wihte.png">
                             </div>
                             <div class="text">
                                 Полноценная гарантия на всю продукцию                                
@@ -103,7 +103,7 @@
                     Кухни под заказ
                 </div>
             </a>
-            <a href="/balkon" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_2.png')">
+            <a href="/balkon" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_3.png')">
                 <div class="title">
                     Балконы под ключ
                 </div>
@@ -111,12 +111,12 @@
         </div>
 
         <div class="col-sm-4 link_block_item ">
-            <a href="/mezhkomnatnye-dveri" class="link_block_item_small" style="background-image: url('img/link_block_item_2.png')">
+            <a href="/mezhkomnatnye-dveri" class="link_block_item_small" style="background-image: url('img/link_block_item_4.png')">
                 <div class="title">
                     Межкомнатные двери
                 </div>
             </a>
-            <a href="/cottage" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_2.png')">
+            <a href="/cottage" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_5.png')">
                 <div class="title">
                     Остекление коттеджей
                 </div>
@@ -156,7 +156,7 @@
                     <div class="col-sm-6 ">
                         <div class="produced_list clearfix">
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
-                                <img class="img-responsive" alt="" src="img/product_list_2.png">
+                                <img class="img-responsive" alt="" src="img/product_list_1.png">
                                 <div class="title">
                                     ВХОДНЫЕ ДВЕРИ
                                 </div>
@@ -170,35 +170,35 @@
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
-                                <img class="img-responsive" alt="" src="img/product_list_2.png">
+                                <img class="img-responsive" alt="" src="img/product_list_3.png">
                                 <div class="title">
                                     ОКНА
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
-                                <img class="img-responsive" alt="" src="img/product_list_2.png">
+                                <img class="img-responsive" alt="" src="img/product_list_4.png">
                                 <div class="title">
                                     БАЛКОНЫ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
-                                <img class="img-responsive" alt="" src="img/product_list_2.png">
+                                <img class="img-responsive" alt="" src="img/product_list_5.png">
                                 <div class="title">
                                     ИНТЕРЬЕР КОМПЛЕКТЫ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
-                                <img class="img-responsive" alt="" src="img/product_list_2.png">
+                                <img class="img-responsive" alt="" src="img/product_list_6.png">
                                 <div class="title">
                                     ШКАФЫ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
-                                <img class="img-responsive" alt="" src="img/product_list_2.png">
+                                <img class="img-responsive" alt="" src="img/product_list_7.png">
                                 <div class="title">
                                     КУХНИ
                                 </div>
@@ -252,22 +252,12 @@
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/rehau.png" >
+                    <img class="img-responsive" alt="" src="img/0003.png" >
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/blum.png" >
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="img">
-                    <img class="img-responsive" alt="" src="img/rehau.png">
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="img">
-                    <img class="img-responsive" alt="" src="img/blum.png">
+                    <img class="img-responsive" alt="" src="img/0004.png" >
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
@@ -277,12 +267,22 @@
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/blum.png">
+                    <img class="img-responsive" alt="" src="img/0005.png">
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/rehau.png">
+                    <img class="img-responsive" alt="" src="img/0006.png">
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <div class="img">
+                    <img class="img-responsive" alt="" src="img/0007.png">
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <div class="img">
+                    <img class="img-responsive" alt="" src="img/0008.png">
                 </div>
             </div>
         </div>
