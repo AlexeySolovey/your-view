@@ -509,7 +509,7 @@ body .button:focus {
 }
 
 .header .header_mid_line .header_cart .button_border:hover span:before {
-    background: url(../common/user_14_16_h.png) no-repeat center
+    background: url(../img/icon/user_14_16_h.png) no-repeat center
 }
 
 .header .header_mid_line .header_cart .shopping_cart {
@@ -550,7 +550,7 @@ body .button:focus {
 }
 
 .header .header_mid_line .header_cart .shopping_cart:hover .price:before {
-    background: url(../common/cart_ico_h.png) no-repeat center
+    background: url(../img/icon/cart_ico_h.png) no-repeat center
 }
 
 .header .header_bottom_line {
@@ -660,7 +660,7 @@ body .button:focus {
 
 .anons,
 .diagram {
-    margin-bottom: 40px
+    /*margin-bottom: 40px*/
 }
 
 .diagram .main_title {

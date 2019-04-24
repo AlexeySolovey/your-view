@@ -27,6 +27,7 @@
 </header>
 
 
+
 <section class="balcon_shot">
     <div class="container">
         <div class="row">

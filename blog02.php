@@ -6,7 +6,7 @@
             <div class="row">
                 <ul class="">
                     <li>
-                        <a href="/vhodnie-dveri" title="Входные двери" class="">Входные двери</a>
+                        <a href="/entrance_doors.php" title="Входные двери" class="">Входные двери</a>
                     </li>
 
                     <li>
@@ -14,11 +14,11 @@
                     </li>
                     
                     <li>
-                        <a href="/balkon" title="Балконы" class="">Балконы</a>
+                        <a href="/balconies.php" title="Балконы" class="">Балконы</a>
                     </li>
 
                     <li>
-                        <a href="/cottage" title="Остекление коттеджей" class="">Остекление коттеджей</a>
+                        <a href="/glazing_cottages.php" title="Остекление коттеджей" class="">Остекление коттеджей</a>
                     </li>
                 </ul>
             </div>
