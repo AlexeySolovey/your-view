@@ -247,42 +247,42 @@
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt=""src="img/blum.png">
+                    <img class="img-responsive" alt=""src="img/model_list_01.png">
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/0003.png" >
+                    <img class="img-responsive" alt="" src="img/model_list_02.png" >
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/0004.png" >
+                    <img class="img-responsive" alt="" src="img/model_list_03.png" >
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/rehau.png">
+                    <img class="img-responsive" alt="" src="img/model_list_04.png">
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/0005.png">
+                    <img class="img-responsive" alt="" src="img/model_list_05.png">
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/0006.png">
+                    <img class="img-responsive" alt="" src="img/model_list_06.png">
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/0007.png">
+                    <img class="img-responsive" alt="" src="img/model_list_07.png">
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="img">
-                    <img class="img-responsive" alt="" src="img/0008.png">
+                    <img class="img-responsive" alt="" src="img/model_list_08.png">
                 </div>
             </div>
         </div>
