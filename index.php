@@ -42,7 +42,7 @@
                 <div class="anons_block">
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/0001.png" >
+                                <img class="img-responsive" alt="" src="img/eco.png" >
                             </div>
                             <div class="text">
                                 Экологически <br>
@@ -374,22 +374,22 @@
                         <a href="/index.php" title="Главная" class="">Главная</a>
                     </li>
                     <li>
-                        <a href="/blog" title="Блог" class="current">Блог</a>
+                        <a href="/blog.php" title="Блог" class="current">Блог</a>
                     </li>
                     <li>
-                        <a href="/page/about" title="О нас" class="">О нас</a>
+                        <a href="/about.php" title="О нас" class="">О нас</a>
                     </li>
                     <li>
-                        <a href="/page/rassrochka" title="Рассрочка" class="">Рассрочка</a>
+                        <a href="/installment_plan.php" title="Рассрочка" class="">Рассрочка</a>
                     </li>
                     <li>
-                        <a href="/page/salon" title="Салон" class="">Салон</a>
+                        <a href="/salon.php" title="Салон" class="">Салон</a>
                     </li>
                     <li>
-                        <a href="/page/contacts" title="Контакты" class="">Контакты</a>
+                        <a href="/contact.php" title="Контакты" class="">Контакты</a>
                     </li>
                     <li>
-                        <a href="/page/sitemap" title="Карта сайта" class="">Карта сайта</a>
+                        <a href="/" title="Карта сайта" class="">Карта сайта</a>
                     </li>
                 </ul>
             </div>
