@@ -49,6 +49,8 @@ AOS.init({
 
 
 $(document).ready(function(){
+    
+    //custome slider
     if($('.custome-slider').length){
       $('.custome-slider').slick({
         slidesToShow: 4,
@@ -84,5 +86,14 @@ $(document).ready(function(){
       });
 
     }
-    
+    //product slider (about us)
+    if($('.js_slider_production').length){
+        $('.js_slider_production').slick({
+        slidesToShow: 1,
+        prevArrow: '<span class="slick_prev"></span>',
+        nextArrow: '<span class="slick_next"></span>',
+      });
+    }
+
+    //
 });

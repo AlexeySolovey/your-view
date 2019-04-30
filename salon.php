@@ -4,21 +4,10 @@
         <div class="container">
             <div class="row">
                 <ul class="">
-                    <li>
-                        <a href="/entrance_doors.php" title="Входные двери" class="">Входные двери</a>
-                    </li>
-
-                    <li>
-                        <a href="/mezhkomnatnye-dveri" title="Межкомнатные двери" class="">Межкомнатные двери</a>
-                    </li>
-
-                    <li>
-                        <a href="/balconies.php" title="Балконы" class="">Балконы</a>
-                    </li>
-
-                    <li>
-                        <a href="/glazing_cottages.php" title="Остекление коттеджей" class="">Остекление коттеджей</a>
-                    </li>
+                    <li><a href="/entrance_doors.php" title="Входные двери" class="">Входные двери</a></li>
+                    <li><a href="/mezhkomnatnye-dveri" title="Межкомнатные двери" class="">Межкомнатные двери</a></li>
+                    <li><a href="/balconies.php" title="Балконы" class="">Балконы</a></li>
+                    <li><a href="/glazing_cottages.php" title="Остекление коттеджей" class="">Остекление коттеджей</a></li>
                 </ul>
             </div>
         </div>

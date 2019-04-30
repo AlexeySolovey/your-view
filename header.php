@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="css/lib.min.css">
 <link rel="stylesheet" href="css/fonts.css">
@@ -193,9 +194,6 @@
                                     Заказать звонок
                                 </span>
                             </button>
-
-                            <a href="/profile/documents" class="button_user visible-sm visible-xs"></a>
-
                             <a href="/cart" class="button button_border  shopping_cart">
                                 <span class="price">
                                     <span class="price_num" ng-if="summ" ng-bind-html="summ"></span>

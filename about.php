@@ -119,130 +119,21 @@
                 <div class="main_title">
                     Наше производство                
                 </div>
-                <div style="background-color: #ddd;">
-                	<h1>Тут будет слайдер</h1>
-                </div>
-
-                <!--Slider-->
-              <!--   <div class="js_slider_production slick-initialized slick-slider" style="display: block;">
-            		<div class="slick_prev slick-arrow" style="display: block;"></div>
-                
-                   	<div class="slick-list draggable">
-                       	<div class="slick-track" style="opacity: 1; width: 32400px; transform: translate3d(-1200px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-                            <img src="/uploads/pages/43/605068feb6f1d3f3b7b9e7905c1435f5.1091_615.jpg,qcode=MjU2Ny4xMDkxXzYxNQ==.pagespeed.ce.lQTGMZyZeh.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3981994130" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    	</div>
-
-	                    <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1200px;" tabindex="0">
-	                        <img src="/uploads/pages/43/276a776b2013df34d078d280ff0208de.1091_615.jpg,qcode=MjU2My4xMDkxXzYxNQ==.pagespeed.ce._Q8TeBQ-xi.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1732540238" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/b0af34a53df402f3cd20ee404c2b788d.1091_615.jpg,qcode=MjU2MS4xMDkxXzYxNQ==.pagespeed.ce.OiNpBcMO5u.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3136798836" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/25f6e072de6cf202c5348b71ca0c2c71.1091_615.jpg,qcode=MjU2NS4xMDkxXzYxNQ==.pagespeed.ce.se6uj5MzTt.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="346143968" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="3" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/3f9717118103c7f60348c22a40786cd9.1091_615.jpg,qcode=MjU1Ny4xMDkxXzYxNQ==.pagespeed.ce.5PRBT7McCl.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1296879310" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="4" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/2c7af4d92899376e46107878716ea788.1091_615.jpg,qcode=MjU2NC4xMDkxXzYxNQ==.pagespeed.ce.f1IfaIZC9L.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1845214815" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="5" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/d50769265333176ee2e35fc3fe537b95.1091_615.jpg,qcode=MjU1OC4xMDkxXzYxNQ==.pagespeed.ce.9TnAqyE5BT.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3335566540" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="6" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/7f6b950318a67c27fb86c99a42feca5f.1091_615.jpg,qcode=MjU1OS4xMDkxXzYxNQ==.pagespeed.ce.yXZVkIKF7H.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="2693744267" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="7" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/f8fbc57cd50dae150a8b1f2841e3853e.1091_615.jpg,qcode=MjU2MC4xMDkxXzYxNQ==.pagespeed.ce.eWc3zh_t_m.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="240816256" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="8" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/3f6b79ccf35e2da7d103f80aa463a8f2.1091_615.jpg,qcode=MjU2Mi4xMDkxXzYxNQ==.pagespeed.ce.60lw3Oemkk.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="259280207" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="9" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/a1bb1d4d4f3036b0dd5e3e9c88bc0668.1091_615.jpg,qcode=MjU1NS4xMDkxXzYxNQ==.pagespeed.ce.fTLSdcaJcc.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1760126703" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="10" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/9cb49b7c3ac0f9f9cd482ac7f3c312ff.1091_615.jpg,qcode=MjU2Ni4xMDkxXzYxNQ==.pagespeed.ce.TZ9KinOZgq.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1854442630" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="11" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/0f9039211ba931369fb82e40ce169ebb.1091_615.jpg,qcode=MjU1Ni4xMDkxXzYxNQ==.pagespeed.ce.et6ugRSHBw.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3397859612" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide" data-slick-index="12" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/605068feb6f1d3f3b7b9e7905c1435f5.1091_615.jpg,qcode=MjU2Ny4xMDkxXzYxNQ==.pagespeed.ce.lQTGMZyZeh.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3981994130" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="13" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/276a776b2013df34d078d280ff0208de.1091_615.jpg,qcode=MjU2My4xMDkxXzYxNQ==.pagespeed.ce._Q8TeBQ-xi.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1732540238" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="14" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/b0af34a53df402f3cd20ee404c2b788d.1091_615.jpg,qcode=MjU2MS4xMDkxXzYxNQ==.pagespeed.ce.OiNpBcMO5u.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3136798836" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="15" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/25f6e072de6cf202c5348b71ca0c2c71.1091_615.jpg,qcode=MjU2NS4xMDkxXzYxNQ==.pagespeed.ce.se6uj5MzTt.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="346143968" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="16" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/3f9717118103c7f60348c22a40786cd9.1091_615.jpg,qcode=MjU1Ny4xMDkxXzYxNQ==.pagespeed.ce.5PRBT7McCl.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1296879310" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="17" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/2c7af4d92899376e46107878716ea788.1091_615.jpg,qcode=MjU2NC4xMDkxXzYxNQ==.pagespeed.ce.f1IfaIZC9L.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1845214815" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="18" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/d50769265333176ee2e35fc3fe537b95.1091_615.jpg,qcode=MjU1OC4xMDkxXzYxNQ==.pagespeed.ce.9TnAqyE5BT.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3335566540" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="19" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/7f6b950318a67c27fb86c99a42feca5f.1091_615.jpg,qcode=MjU1OS4xMDkxXzYxNQ==.pagespeed.ce.yXZVkIKF7H.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="2693744267" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="20" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/f8fbc57cd50dae150a8b1f2841e3853e.1091_615.jpg,qcode=MjU2MC4xMDkxXzYxNQ==.pagespeed.ce.eWc3zh_t_m.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="240816256" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="21" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/3f6b79ccf35e2da7d103f80aa463a8f2.1091_615.jpg,qcode=MjU2Mi4xMDkxXzYxNQ==.pagespeed.ce.60lw3Oemkk.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="259280207" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="22" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/a1bb1d4d4f3036b0dd5e3e9c88bc0668.1091_615.jpg,qcode=MjU1NS4xMDkxXzYxNQ==.pagespeed.ce.fTLSdcaJcc.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1760126703" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="23" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/9cb49b7c3ac0f9f9cd482ac7f3c312ff.1091_615.jpg,qcode=MjU2Ni4xMDkxXzYxNQ==.pagespeed.ce.TZ9KinOZgq.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="1854442630" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="24" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/0f9039211ba931369fb82e40ce169ebb.1091_615.jpg,qcode=MjU1Ni4xMDkxXzYxNQ==.pagespeed.ce.et6ugRSHBw.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3397859612" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-	                    <div class="slick-slide slick-cloned" data-slick-index="25" aria-hidden="true" style="width: 1200px;" tabindex="-1">
-	                        <img src="/uploads/pages/43/605068feb6f1d3f3b7b9e7905c1435f5.1091_615.jpg,qcode=MjU2Ny4xMDkxXzYxNQ==.pagespeed.ce.lQTGMZyZeh.jpg" class="img-responsive" alt="" data-pagespeed-url-hash="3981994130" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-	                    </div>
-
-                    </div>
-                </div>      -->                                                 
-	                <div class="slick_next slick-arrow" style="display: block;">
-	                </div>
+                <div class="js_slider_production"> 
+                    <div class="slick-list"><img src="/img/prod/prod_1.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_2.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_3.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_4.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_5.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_6.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_7.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_8.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_9.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_10.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_11.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_12.jpg" alt="" class="img-responsive"></div>
+                    <div class="slick-list"><img src="/img/prod/prod_13.jpg" alt="" class="img-responsive"></div>
             	</div>
-
-
 	            <div class="production_item_wrapp">    
 	            	<div class="production_item">
 	                    <span>2</span>
