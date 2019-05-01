@@ -25,7 +25,7 @@
 
                     <div class="text">
                         <div class="title">
-                            1,5 года                            
+                            2 года                            
                         </div>
 
                         <div class="desc">
@@ -103,7 +103,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <img src="img/" class="img-responsive visible-xs" alt="">
+                        <img src="img/master_02.png" class="img-responsive visible-xs" alt="">
 
                         <div class="col-sm-6  full_width_box">
                             <div class="title">
@@ -124,7 +124,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <img src="" class="img-responsive visible-xs" alt="">
+                        <img src="img/master_03.png" class="img-responsive visible-xs" alt="">
 
                         <div class="col-sm-6 col-sm-offset-6 full_width_box">
                             <div class="title">
@@ -145,7 +145,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <img src="" class="img-responsive visible-xs" alt="">
+                        <img src="master_04.png" class="img-responsive visible-xs" alt="">
 
                         <div class="col-sm-6  full_width_box">
                             <div class="title">
@@ -165,7 +165,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <img src="" class="img-responsive visible-xs" alt="">
+                        <img src="img/master_05.png" class="img-responsive visible-xs" alt="">
 
                         <div class="col-sm-6 col-sm-offset-6 full_width_box">
                             <div class="title">
@@ -185,7 +185,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <img src="" class="img-responsive visible-xs" alt="">
+                        <img src="img/master_06.png" class="img-responsive visible-xs" alt="">
 
                         <div class="col-sm-6  full_width_box">
                             <div class="title">
