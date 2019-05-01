@@ -118,7 +118,7 @@
 		                       <li data-aos="fade-right" data-aos-duration="404" class="aos-init">Максимальная сумма: 50 000 грн</li>       
 		                       <li data-aos="fade-right" data-aos-duration="504" class="aos-init">Если рассрочка до 10 месяцев включительно, то она под 0%</li>
 		                    </ul>
-	                        <button class="button">
+	                        <button class="button" data-toggle="modal" data-target=".modal_call">
 	                            <span>
 	                                Заказать консультацию                                
 	                            </span>
@@ -154,7 +154,7 @@
                             	<li data-aos="fade-right" data-aos-duration="4" class="aos-init">Максимальный срок рассрочки - 6 месяцев</li>  
                             	<li data-aos="fade-right" data-aos-duration="104" class="aos-init">Шестая часть суммы должна быть на кредитной карте</li>                                                      <li data-aos="fade-right" data-aos-duration="204" class="aos-init">Переплата - 0%</li> 
                             </ul>
-                            <button class="button">
+                            <button class="button" data-toggle="modal" data-target=".modal_call">
                                 <span>
                                     Заказать консультацию                                
                                 </span>
