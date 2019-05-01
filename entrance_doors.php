@@ -55,7 +55,7 @@
 	                <div class="anons_block">
 	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
 	                        <div class="img">
-	                            <img src="img/anons_block_item_1.png" alt="">
+	                            <img src="img/sexangle/anons_block_item_1.png" alt="">
 	                        </div>
 	                        <div class="text">
 	                            Четвертый класс  <br>
@@ -64,7 +64,7 @@
 	                    </div>
 	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
 	                        <div class="img">
-	                            <img src="img/anons_block_item_1.png" alt="">
+	                            <img src="img/sexangle/anons_block_item_2.png" alt="">
 	                        </div>
 	                        <div class="text">
 	                            Сопротивление <br>
@@ -74,7 +74,7 @@
 	                    </div>
 	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
 	                        <div class="img">
-	                            <img src="img/anons_block_item_1.png" alt="" >
+	                            <img src="img/sexangle/anons_block_item_3.png" alt="" >
 	                        </div>
 	                        <div class="text">
 	                            637 вариантов <br>
@@ -84,7 +84,7 @@
 	                    </div>
 	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
 	                        <div class="img">
-	                            <img src="img/anons_block_item_1.png" alt="">
+	                            <img src="img/sexangle/anons_block_item_4.png" alt="">
 	                        </div>
 	                        <div class="text">
 	                            Срок эксплуатации <br>
@@ -177,14 +177,14 @@
                     </div>
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                        <img src="img/advantages_item.png" alt="">
+                        <img src="img/advantages_item_2.png" alt="">
                         <div class="text">
                             Входные двери Ваш вид соответствуют современным требованиям безопасности
                         </div>
                     </div>
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="img/advantages_item.png" alt="">
+                        <img src="img/advantages_item_3.png" alt="">
                         <div class="text">
                             Тепло и звуко изоляция входных дверей Ваш вид надежно сохранит тепло в Вашем доме
                         </div>
@@ -227,7 +227,8 @@
                     </div>
                 </div>
             </div>
-        </div><div class="question slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1519px; position: relative; left: -1519px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
+        </div>
+        <div class="question slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1519px; position: relative; left: -1519px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
             <div class="container">
 
                 <div class="row">
@@ -406,13 +407,15 @@
                     <div class="col-md-9 col-sm-7">
                         <div class="calculation_type_radio_img">
 
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt="" data-pagespeed-url-hash="656914440" src="img/monolit.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/monolitn.jpg">
 
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/standart.jpg">
 
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt="" data-pagespeed-url-hash="656914440" src="img/monolit.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/standartplus.jpg" >
 
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/monolitn.jpg" >
 
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt="" data-pagespeed-url-hash="656914440" src="img/monolit.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/molotok.jpg" >
 
                         </div>
                     </div>
@@ -447,7 +450,7 @@
                             <div class="calculation_item_1_wrapp js_option" data-name="Формат двери">
 
                                 <div class="form_type form_type_1 clearfix">
-                                    <input type="radio" id="radio1_1" name="form_type" ng-value="1" data-desc="Обычная" ng-model="form_type_model" class="ng-pristine ng-valid" value="1">
+                                    <input type="radio" id="radio1_1" value="1">
                                     <label for="radio1_1"></label>
                                     <div class="desc">
                                         Обычная
@@ -455,7 +458,7 @@
                                 </div>
 
                                 <div class="form_type form_type_2">
-                                    <input type="radio" id="radio1_2" name="form_type" value="2" data-desc="Двустворчатая" ng-model="form_type_model" class="ng-pristine ng-valid">
+                                    <input type="radio" id="radio1_2"  value="2">
                                     <label for="radio1_2"></label>
                                     <div class="desc">
                                         Двустворчатая
@@ -463,7 +466,7 @@
                                 </div>
 
                                 <div class="form_type form_type_3">
-                                    <input type="radio" id="radio1_3" name="form_type" value="3" data-desc="Полуторная" ng-model="form_type_model" class="ng-pristine ng-valid">
+                                    <input type="radio" id="radio1_3"  value="3" class="ng-pristine ng-valid">
                                     <label for="radio1_3"></label>
                                     <div class="desc">
                                         Полуторная
@@ -471,7 +474,7 @@
                                 </div>
 
                                 <div class="form_type form_type_4">
-                                    <input type="radio" id="radio1_4" name="form_type" value="4" data-desc="Трехстворчатая" ng-model="form_type_model" class="ng-pristine ng-valid">
+                                    <input type="radio" id="radio1_4" value="4" class="ng-pristine ng-valid">
                                     <label for="radio1_4"></label>
                                     <div class="desc">
                                         Трехстворчатая
@@ -671,19 +674,19 @@
                                 </div>
 
                                 <div class="form_size_img" ng-show="form_type_model == undefined">
-                                	<img src="img/dveri_type_1.jpg" alt="" >
+                                	<img src="img/white-door/dveri_type_1.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 1">
-                                	<img src="img/dveri_type_2.jpg" alt="" >
+                                	<img src="img/white-door/dveri_type_2.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 2">
-                                	<img src="img/dveri_type_3.jpg" alt="" >
+                                	<img src="img/white-door/dveri_type_3.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 3">
-                                	<img src="img/dveri_type_4.jpg" alt="" >
+                                	<img src="img/white-door/dveri_type_4.jpg" alt="" >
                                 </div>
                                 <div class="form_size_img ng-hide" ng-show="form_type_model == 4">
-                                	<img src="img/dveri_type_4.jpg" alt="" >
+                                	<img src="img/white-door/dveri_type_4.jpg" alt="" >
                                 </div>
 
                                 <div class="button_wrapp">
