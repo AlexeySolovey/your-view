@@ -733,7 +733,7 @@ body .button:focus {
 }
 
 .question .question_wrapp {
-    background: url(../common/question_bg_1391_515.png) no-repeat center;
+    background: url(../img/question_bg_1391_515.png) no-repeat center;
     background-size: cover;
     margin: 0 -90px 70px;
     padding: 0 120px 0 0;
@@ -2386,7 +2386,7 @@ iframe {
     left: 0;
     width: 14px;
     height: 15px;
-    background: url(../img/installments_item_wrapp_list.png) no-repeat center
+    background: url(../img/icon/installments_item_wrapp_list.png) no-repeat center
 }
 
 .installments .installments_item_wrapp .button {

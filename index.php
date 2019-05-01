@@ -42,7 +42,7 @@
                 <div class="anons_block">
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/eco.png" >
+                                <img class="img-responsive" alt="" src="img/sexangle/eco.png">
                             </div>
                             <div class="text">
                                 Экологически <br>
@@ -59,7 +59,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/zoom.png">
+                                <img class="img-responsive" alt="" src="img/sexangle/zoom.png" >
                             </div>
                             <div class="text">
                                 Проверенная годами фурнитура                                
@@ -67,7 +67,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/door_wihte.png">
+                                <img class="img-responsive" alt="" src="img/sexangle/door_wihte.png" >
                             </div>
                             <div class="text">
                                 Полноценная гарантия на всю продукцию                                

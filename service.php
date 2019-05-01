@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 service_advanced_item">
-                    <img src="img/ooo15.png" class="img-responsive" alt="">
+                    <img src="img/sexangle/list_01.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
                         <div class="title">
@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="col-sm-4 service_advanced_item">
-                    <img src="img/hool.png" class="img-responsive" alt="">
+                    <img src="img/sexangle/list_02.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
                         <div class="title">
@@ -49,7 +49,7 @@
                 </div>
                     
                 <div class="col-sm-4 service_advanced_item">
-                    <img src="img/doore.png" class="img-responsive" alt="" >
+                    <img src="img/sexangle/list_03.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
                         <div class="title">
@@ -99,11 +99,11 @@
                 </div>
             </div>
 
-            <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url('../img/master02.png')">
+            <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url('../img/master_02.png')">
                 <div class="container">
                     <div class="row">
 
-                        <img src="" class="img-responsive visible-xs" alt="">
+                        <img src="img/" class="img-responsive visible-xs" alt="">
 
                         <div class="col-sm-6  full_width_box">
                             <div class="title">
@@ -120,7 +120,7 @@
                 </div>
             </div>
                     
-            <div class="full_width_item full_width_item_left aos-init" data-aos="fade-up" style="background-image: url('../img/hooldoor.png')">
+            <div class="full_width_item full_width_item_left aos-init" data-aos="fade-up" style="background-image: url('../img/master_03.png')">
                 <div class="container">
                     <div class="row">
 
@@ -141,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url('../img/car.png')">
+            <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url('../img/master_04.png')">
                 <div class="container">
                     <div class="row">
 
@@ -161,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="full_width_item full_width_item_left aos-init" data-aos="fade-up" style="background-image: url('../img/inst.png')">
+            <div class="full_width_item full_width_item_left aos-init" data-aos="fade-up" style="background-image: url('../img/master_05.png')">
                 <div class="container">
                     <div class="row">
 
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url('../img/dom.png')">
+            <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url('../img/master_06.png')">
                 <div class="container">
                     <div class="row">
 
@@ -224,7 +224,7 @@
                     <div class="installation_services">              
                     	<style>
                          .installation .installation_services .installation_item.installation_item_1:before {
-                                    background: url('../img/rem01.png') no-repeat center !important;
+                                    background: url('../img/icon/rem01.png') no-repeat center !important;
                                 }
                         </style>
 	                    <div class="installation_item installation_item_1">
@@ -232,7 +232,7 @@
 	                    </div>
                      	<style>
                             .installation .installation_services .installation_item.installation_item_2:before {
-                                    background: url('../img/rem02.png') no-repeat center !important;
+                                    background: url('../img/icon/rem02.png') no-repeat center !important;
                                 }
                         </style>
 						<div class="installation_item installation_item_2">
@@ -241,7 +241,7 @@
                                                     
                         <style>
                             .installation .installation_services .installation_item.installation_item_3:before {
-                                    background: url('../img/rem03.png') no-repeat center !important;
+                                    background: url('../img/icon/rem03.png') no-repeat center !important;
                                 }
                         </style>
 
@@ -251,7 +251,7 @@
                                                     
                         <style>
                             .installation .installation_services .installation_item.installation_item_4:before {
-                                    background: url('../img/rem04.png') no-repeat center !important;
+                                    background: url('../img/icon/rem04.png') no-repeat center !important;
                                 }
                         </style>
 
@@ -261,7 +261,7 @@
                                                     
                         <style>
                             .installation .installation_services .installation_item.installation_item_5:before {
-                                    background: url('../img/rem05.png') no-repeat center !important;
+                                    background: url('../img/icon/rem05.png') no-repeat center !important;
                                 }
                         </style>
 

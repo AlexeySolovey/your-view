@@ -177,7 +177,7 @@
 	                    <div class="installation_services">              
 	                    	<style>
 	                         .installation .installation_services .installation_item.installation_item_1:before {
-	                                    background: url('../img/74e.png') no-repeat center !important;
+	                                    background: url('../img/icon/rem01.png') no-repeat center !important;
 	                                }
 	                        </style>
 		                    <div class="installation_item installation_item_1">
@@ -185,7 +185,7 @@
 		                    </div>
 	                     	<style>
 	                            .installation .installation_services .installation_item.installation_item_2:before {
-	                                    background: url('../img/74e.png') no-repeat center !important;
+	                                    background: url('../img/icon/rem02.png') no-repeat center !important;
 	                                }
 	                        </style>
 							<div class="installation_item installation_item_2">
@@ -194,7 +194,7 @@
 	                                                    
 	                        <style>
 	                            .installation .installation_services .installation_item.installation_item_3:before {
-	                                    background: url('../img/74e.png') no-repeat center !important;
+	                                    background: url('../img/icon/rem03.png') no-repeat center !important;
 	                                }
 	                        </style>
 
@@ -204,7 +204,7 @@
 	                                                    
 	                        <style>
 	                            .installation .installation_services .installation_item.installation_item_4:before {
-	                                    background: url('../img/74e.png') no-repeat center !important;
+	                                    background: url('../img/icon/rem04.png') no-repeat center !important;
 	                                }
 	                        </style>
 
@@ -214,7 +214,7 @@
 	                                                    
 	                        <style>
 	                            .installation .installation_services .installation_item.installation_item_5:before {
-	                                    background: url('../img/74e.png') no-repeat center !important;
+	                                    background: url('../img/icon/rem05.png') no-repeat center !important;
 	                                }
 	                        </style>
 
@@ -284,7 +284,7 @@
 	                </div>
 
 	                <div class="col-md-8 col-sm-">
-	                    <img src="img/door2.png" class="img-responsive" alt="">
+	                    <img src="img/ca1.jpg" class="img-responsive" alt="">
 	                </div>
 	            </div>
 	   	</section>

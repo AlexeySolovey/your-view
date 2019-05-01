@@ -54,7 +54,7 @@
                     <div class="border_item_wrapp clearfix">
                         
                         <div class="col-sm-4 border_item_box">
-                            <img src="img/pro.png" class="img-responsive" alt="">
+                            <img src="img/sexangle/pro.png" class="img-responsive" alt="" style="height: 100%">
 
                             <div class="text aos-init aos-animate" data-aos="fade-right">
                                 <div class="title">
@@ -69,7 +69,7 @@
                         </div>
 
                         <div class="col-sm-4 border_item_box">
-                            <img src="img/block.png" class="img-responsive" alt="">
+                            <img src="img/sexangle/block.png" class="img-responsive" alt="" style="height: 100%">
 
                             <div class="text aos-init aos-animate" data-aos="fade-right">
                                 <div class="title">
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     	<div class="col-sm-4 border_item_box">
-                            <img src="img/pagespeed.png" class="img-responsive" alt="">
+                            <img src="img/sexangle/pagespeed.png" class="img-responsive" alt="" style="height: 100%">
 
                             <div class="text aos-init aos-animate" data-aos="fade-right">
                                 <div class="title">
@@ -107,7 +107,7 @@
                     
                     <div class="installments_item_wrapp">
                         <div class="col-sm-5">
-                            <img src="img/alifapng.png" alt="">
+                            <img class="img-responsive" src="img/alifapng.png" alt="">
                         </div>
                         <div class="col-sm-7">
 		                    <ul> 
@@ -118,7 +118,7 @@
 		                       <li data-aos="fade-right" data-aos-duration="404" class="aos-init">Максимальная сумма: 50 000 грн</li>       
 		                       <li data-aos="fade-right" data-aos-duration="504" class="aos-init">Если рассрочка до 10 месяцев включительно, то она под 0%</li>
 		                    </ul>
-	                        <button class="button" data-toggle="modal" data-target=".modal_call" data-title="Заказать консультацию" data-subject="Заказать консультацию с главного сайта">
+	                        <button class="button">
 	                            <span>
 	                                Заказать консультацию                                
 	                            </span>
@@ -128,7 +128,7 @@
                         <div class="col-sm-12">
 
                             <div class="installments_info">
-                                <img class="img-responsive" alt="" src="img/installments_item_wrapp_ico.png">
+                                <img class="img-responsive" alt="" src="img/icon/installments_item_wrapp_ico.png">
                                 <div class="desc">
                                     — Также вы можете самостоятельно оформить кредит в любом банке, а мы вышлем счет на оплату вашему банку                                
                                 </div>
@@ -154,7 +154,7 @@
                             	<li data-aos="fade-right" data-aos-duration="4" class="aos-init">Максимальный срок рассрочки - 6 месяцев</li>  
                             	<li data-aos="fade-right" data-aos-duration="104" class="aos-init">Шестая часть суммы должна быть на кредитной карте</li>                                                      <li data-aos="fade-right" data-aos-duration="204" class="aos-init">Переплата - 0%</li> 
                             </ul>
-                            <button class="button" data-toggle="modal" data-target=".modal_call" data-title="Заказать консультацию" data-subject="Заказать консультацию с главного сайта">
+                            <button class="button">
                                 <span>
                                     Заказать консультацию                                
                                 </span>
@@ -162,7 +162,7 @@
                         </div>
                         <div class="col-sm-12">
                             <div class="installments_info">
-                                <img class="img-responsive" alt="" data-pagespeed-url-hash="590898985" src="img/installments_item_wrapp_ico.png">
+                                <img class="img-responsive" alt="" data-pagespeed-url-hash="590898985" src="img/icon/installments_item_wrapp_ico.png">
                                 <div class="desc">
                                     — Решение по возможной сумме рассрочки определяется звонком или заявкой в банк                                
                                 </div>

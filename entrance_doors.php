@@ -198,12 +198,14 @@
 
 
 <div class="js_quasion slick-initialized slick-slider"><div class="slick_prev slick-arrow slick-disabled" aria-disabled="true" style="display: block;"></div>
-    <div class="slick-list draggable" style="height: 470px;"><div class="slick-track" style="opacity: 1; width: 6076px;"><div class="question slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1519px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
+    <div class="slick-list draggable" style="height: 470px;">
+        <div class="slick-track" style="opacity: 1; width: 6076px;">
+        <div class="question slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1519px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
             <div class="container">
                 <div class="row">
                     <div class="question_wrapp clearfix">
                         <div class="col-md-6 no_padding">
-                            <img class="img-responsive" alt="" src="img/question_1_new.png">
+                            <img class="img-responsive" alt="" src="img/question_1_new.png" style="height:;">
                         </div>
 
                         <div class="col-md-6">
