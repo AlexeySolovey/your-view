@@ -179,7 +179,7 @@
                 <div class="row">
                     <div class="question_wrapp clearfix">
                         <div class="col-md-6 no_padding">
-                            <img class="img-responsive" alt="" src="img/question_1_new.png" style="height:;">
+                            <img class="img-responsive" alt="" src="img/question_1_new.png">
                         </div>
 
                         <div class="col-md-6">
