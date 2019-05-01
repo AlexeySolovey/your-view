@@ -59,21 +59,21 @@
                     Принципы работы компании Ваш Вид               
                 </div>
                 <div class="col-sm-3 principles_item aos-init" data-aos="fade-up" data-aos-duration="200">
-                    <img class="img-responsive" alt="" data-pagespeed-url-hash="2680594578" src="img/chell.png">
+                    <img class="img-responsive" alt="" data-pagespeed-url-hash="2680594578" src="img/sexangle/chell.png">
                     <div class="desc">
                         Все двери проверяются монтажниками на целостность перед доставкой.                        
                     </div>
                 </div>
 
                 <div class="col-sm-3 principles_item aos-init" data-aos="fade-up" data-aos-duration="400">
-                    <img class="img-responsive" alt="" data-pagespeed-url-hash="1001839314" src="img/doors.png">
+                    <img class="img-responsive" alt="" data-pagespeed-url-hash="1001839314" src="img/sexangle/doors.png">
                     <div class="desc">
                         Наш сервис комплексный, если вам потребуются подготовительные работы, демонтаж, наши монтажники все сделают сами.                        
                     </div>
                 </div>
 
                 <div class="col-sm-3 principles_item aos-init" data-aos="fade-up" data-aos-duration="600">
-                	<img class="img-responsive" alt="" data-pagespeed-url-hash="1267404937" src="img/puples.png">
+                	<img class="img-responsive" alt="" data-pagespeed-url-hash="1267404937" src="img/sexangle/puples.png">
 
 	                <div class="desc">
 	                    Наш персонал квалифицированный, опытный, вежливый и приветливый.                        
@@ -81,7 +81,7 @@
 	            </div>
 
                 <div class="col-sm-3 principles_item aos-init" data-aos="fade-up" data-aos-duration="800">
-                    <img class="img-responsive" alt="" data-pagespeed-url-hash="4187787795" src="img/box.png" >
+                    <img class="img-responsive" alt="" data-pagespeed-url-hash="4187787795" src="img/sexangle/box.png" >
                     <div class="desc">
                         Все расходные материалы мы привозим с собой, так что вам не придется ни о чем беспокоиться.                   
                     </div>
