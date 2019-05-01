@@ -31,132 +31,106 @@
 </header>
 
 
-<div ng-controller="mainController" class="ng-scope">
-	<section class="anons">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-md-8 col-sm-12">
-	                <h1 class="title">
-	                    Взломостойкие,
-	                    энергосберегающие
-	                    двери
-	                </h1>
-	                <div class="desc">
-	                    ОТ ПРОИЗВОДИТЕЛЯ ЗА 1 ДЕНЬ.
-	                </div>
-	                <a href="/vhodnie-dveri/catalog" class="button button_ico">
-	                    <span>
-	                    	Перейти в каталог                        
-	                    </span>
-	                </a>
-	            </div>
+<section class="anons">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <h1 class="title">
+                    Взломостойкие,
+                    энергосберегающие
+                    двери
+                </h1>
+                <div class="desc">
+                    ОТ ПРОИЗВОДИТЕЛЯ ЗА 1 ДЕНЬ.
+                </div>
+                <a href="/vhodnie-dveri/catalog" class="button button_ico">
+                    <span>
+                    	Перейти в каталог
+                    </span>
+                </a>
+            </div>
 
-	            <div class="col-sm-12">
-	                <div class="anons_block">
-	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
-	                        <div class="img">
-	                            <img src="img/sexangle/anons_block_item_1.png" alt="">
-	                        </div>
-	                        <div class="text">
-	                            Четвертый класс  <br>
-	                            взломостойкости
-	                        </div>
-	                    </div>
-	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
-	                        <div class="img">
-	                            <img src="img/sexangle/anons_block_item_2.png" alt="">
-	                        </div>
-	                        <div class="text">
-	                            Сопротивление <br>
-	                            теплопередаче <br>
-	                            0,67 м2*К/Вт
-	                        </div>
-	                    </div>
-	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
-	                        <div class="img">
-	                            <img src="img/sexangle/anons_block_item_3.png" alt="" >
-	                        </div>
-	                        <div class="text">
-	                            637 вариантов <br>
-	                            дверей в наличии <br>
-	                            на складе
-	                        </div>
-	                    </div>
-	                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
-	                        <div class="img">
-	                            <img src="img/sexangle/anons_block_item_4.png" alt="">
-	                        </div>
-	                        <div class="text">
-	                            Срок эксплуатации <br>
-	                            дверей – 10 лет
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	</section>
-
-	<section class="diagram">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-sm-12">
-	                <h2 class="main_title">
-	                    Что скрывает дверь “Ваш вид”
-	                </h2>
-
-	                <div class="diagram_bg" style="background-image: url('img/diagram_2.png')">
-
-	                </div>
-
-	            </div>
-
-	        </div>
-	    </div>
-	</section>
-
-
-<section class="adv-slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="main_title"></div>
-                            <div class="main_desc"></div>
-                                <div class="js-adv-slider slick-initialized slick-slider slick-dotted" style="display: block;"><div class="slick_prev slick-arrow"></div>
-                                    <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                    		<img src="" class="img-responsive" alt="">
-                                			</div>
-                                            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 0px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
-                                    	    <img src="" class="img-responsive" alt="">
-                                		</div>
-                                        <div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 0px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
-                                    	<img src="" class="img-responsive" alt="">
-                                		</div>
-                                        <div class="slick-slide slick-cloned" data-slick-index="2" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                    	<img src="" class="img-responsive" alt="">
-                                		</div>
-                                        <div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                    	<img src="" class="img-responsive" alt="">
-                                		</div>
-                                    </div>
-                                </div>
-                                                    
-                            <div class="slick_next slick-arrow"></div>
-                            <ul class="slick-dots" role="tablist">
-                                <li class="slick-active" role="presentation">
-                                    <button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button>
-                                </li>
-                                <li class="" role="presentation">
-                                    <button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button>
-                                </li>
-                            </ul>
+            <div class="col-sm-12">
+                <div class="anons_block">
+                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
+                        <div class="img">
+                            <img src="img/sexangle/anons_block_item_1.png" alt="">
                         </div>
+                        <div class="text">
+                            Четвертый класс  <br>
+                            взломостойкости
+                        </div>
+                    </div>
+                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
+                        <div class="img">
+                            <img src="img/sexangle/anons_block_item_2.png" alt="">
+                        </div>
+                        <div class="text">
+                            Сопротивление <br>
+                            теплопередаче <br>
+                            0,67 м2*К/Вт
+                        </div>
+                    </div>
+                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
+                        <div class="img">
+                            <img src="img/sexangle/anons_block_item_3.png" alt="" >
+                        </div>
+                        <div class="text">
+                            637 вариантов <br>
+                            дверей в наличии <br>
+                            на складе
+                        </div>
+                    </div>
+                    <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
+                        <div class="img">
+                            <img src="img/sexangle/anons_block_item_4.png" alt="">
+                        </div>
+                        <div class="text">
+                            Срок эксплуатации <br>
+                            дверей – 10 лет
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
+
+<section class="diagram">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="main_title">
+                    Что скрывает дверь “Ваш вид”
+                </h2>
+                <div class="diagram_bg" style="background-image: url('img/diagram_2.png')">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="adv-slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="main_title"></div>
+                    <div class="main_desc"></div>
+                        <div class="js-adv-slider">
+                            <div class="">
+                        	   <img src="img/adv-slide1.jpg" class="img-responsive" alt="">
+                    		</div>
+                            <div class="">
+                               <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>                          
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="advantages">
     <div class="container">
