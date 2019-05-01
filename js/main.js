@@ -95,5 +95,17 @@ $(document).ready(function(){
       });
     }
 
-    //
+    //adv-slider (enters doors)
+    if($('.js-adv-slider').length){
+        $('.js-adv-slider').slick({
+            slidesToShow: 1,
+            dots: true,
+            autoplay: true,
+            arrow: false,
+            autoplaySpeed: 3e3,
+            prevArrow: '<span class="slick_prev"></span>',
+            nextArrow: '<span class="slick_next"></span>',
+        });
+    }
+    
 });
