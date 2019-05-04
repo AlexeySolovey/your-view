@@ -2683,14 +2683,19 @@ iframe {
 }
 
 .service_advanced .service_advanced_item {
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex*/
+
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
 }
 
 .service_advanced .service_advanced_item .text {
     padding-left: 30px;
-    padding-top: 7px
+    /*padding-top: 7px*/
 }
 
 .service_advanced .service_advanced_item .title {

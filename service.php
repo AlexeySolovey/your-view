@@ -17,10 +17,13 @@
         </div>
     </section><!--records-->
 
+
+
+
     <section class="service_advanced">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 service_advanced_item">
+                <div class="col-sm-4 service_advanced_item ">
                     <img src="img/sexangle/list_01.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
@@ -34,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4 service_advanced_item">
+                <div class="col-sm-4 service_advanced_item ">
                     <img src="img/sexangle/list_02.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
@@ -48,7 +51,7 @@
                     </div>
                 </div>
                     
-                <div class="col-sm-4 service_advanced_item">
+                <div class="col-sm-4 service_advanced_item ">
                     <img src="img/sexangle/list_03.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
