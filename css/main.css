@@ -319,7 +319,7 @@ a.button {
     left: 12px;
     width: 24px;
     height: 24px;
-    background: url(../common/check_assistans.png) no-repeat center;
+    background: url(../img/icon/check_assistans.png) no-repeat center;
     -webkit-transition: all .2s;
     transition: all .2s;
     opacity: 0

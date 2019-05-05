@@ -105,6 +105,37 @@ $(document).ready(function(){
         });
     }
 
+    // door image slider
+    function showDoorSlider(){
+        if($('.door_image_slider').length){
+            $('.door_image_slider').slick({
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                prevArrow: '<span class="slick_prev"></span>',
+                nextArrow: '<span class="slick_next"></span>',
+                responsive: [{
+                    breakpoint: 1141,
+                    settings: {
+                        slidesToShow: 6,
+                        slidesToScroll: 6
+                    }
+                }, {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+    }
+
     //js_quasion
 
     if($('.js_quasion').length){
@@ -128,4 +159,24 @@ $(document).ready(function(){
         $('.js_quasion .slick_next').trigger('click');
     });
     
+
+
+    // vhodnie dveri
+
+    $('.js_option > input').on('click', function(){
+        valOption = this.value;
+        var imgOption = $('.option-img');
+        imgOption.css('display', 'none');
+        for(var i = 0; i < imgOption.length; i++){
+            if(valOption === imgOption[i].dataset.name)
+                imgOption[i].style.display = 'block';
+        }
+    });
+
+    $('.button_show').on('click', function(){
+        $(this).hide();
+        $('.img_hide').css('display', 'none');
+        $('#next').slideDown(700);
+        showDoorSlider();
+    });
 });

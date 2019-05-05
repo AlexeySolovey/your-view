@@ -324,8 +324,7 @@
 
 
 <section class="calculation calculation-vd over_h" id="calculation">
-
-    <div class="sale_wrapp_block ng-hide" ng-show="calculation_item_show">
+    <div class="sale_wrapp_block ng-hide" style="display: none">
         <h2 class="sale_title">
             Ваша скидка составляет:
         </h2>
@@ -336,84 +335,60 @@
                 + <span id="global_option_discount">0</span>%
             </div>
         </div>
-
         <button class="button" type="button" data-toggle="modal">Зафиксировать скидку</button>
     </div>
 
 
     <form action="#" method="post" id="param_kitchen" class="ng-pristine ng-valid">
-
         <div class="calculation_item calculation_item_0 clearfix">
             <div class="container">
                 <div class="row">
-
                     <div class="main_title">
                         Рассчитайте стоимость вашей двери online
                     </div>
                     <div class="main_desc">
                         Получите дополнительную скидку от компании "Ваш Вид"
                     </div>
-
-
                     <div class="col-md-3 col-sm-5">
-                        <div class="calculation_type_radio js_option" data-name="Класс двери">
+                        <div class="calculation_type_radio js_option">
                             <div class="title">
                                 Выберите класс двери
                             </div>
-                                <input type="radio" id="radio0_1" class="radio_circle ng-pristine ng-valid" name="type_radio" value="1" data-desc="Стандарт" ng-model="type_radio_model">
+                            <input type="radio" id="radio0_1" class="radio_circle" name="type_radio" value="monolitn">
+                            <label for="radio0_1">Эконом</label>
 
-                                <label for="radio0_1">Эконом</label>
+                            <input type="radio" id="radio0_2" class="radio_circle" name="type_radio" value="standart">
+                            <label for="radio0_2">Стандарт+</label>
 
-                                <input type="radio" id="radio0_2" class="radio_circle ng-pristine ng-valid" name="type_radio" value="2" data-desc="Стандарт +" ng-model="type_radio_model">
+                            <input type="radio" id="radio0_3" class="radio_circle" name="type_radio" value="standartplus">
+                            <label for="radio0_3">Премиум</label>
 
-                                <label for="radio0_2">Стандарт+</label>
-
-                                <input type="radio" id="radio0_3" class="radio_circle ng-pristine ng-valid" name="type_radio" value="3" data-desc="Монолит" ng-model="type_radio_model">
-
-                                <label for="radio0_3">Премиум</label>
-
-                                <input type="radio" id="radio0_4" class="radio_circle ng-pristine ng-valid" name="type_radio" value="4" data-desc="Молоток" ng-model="type_radio_model">
-
-                                <label for="radio0_4">Антивандальные</label>
+                            <input type="radio" id="radio0_4" class="radio_circle" name="type_radio" value="molotok">
+                            <label for="radio0_4">Антивандальные</label>
                             
-                            <a href="#next" type="button" class="button button_show animate-link" value="1" ng-click="calculation_item_show=true">Далее</a>
+                            <a href="#next" type="button" class="button button_show animate-link" value="1">Далее</a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-7">
                         <div class="calculation_type_radio_img">
-
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/monolitn.jpg">
-
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/standart.jpg">
-
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/standartplus.jpg" >
-
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/monolitn.jpg" >
-
-                            <img class="img-responsive" ng-show="type_radio_model == undefined" alt=""  src="img/molotok.jpg" >
-
+                            <img class="img-responsive option-img" data-name="monolitn" alt="calc-img" src="img/monolitn.jpg">
+                            <img class="img-responsive option-img" data-name="standart" alt="calc-img" src="img/standart.jpg">
+                            <img class="img-responsive option-img" data-name="standartplus" alt="calc-img" src="img/standartplus.jpg" style="display: block;">
+                            <img class="img-responsive option-img" data-name="molotok" alt="calc-img" src="img/molotok.jpg" >
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="button_arrow button_show" value="1" ng-click="calculation_item_show=true">
-
+            <div class="button_arrow button_show" on-click="showBlock()">
             </div>
-
         </div>
-
-
         <div class="container">
             <div class="row">
-                <div class="img_hide" ng-hide="calculation_item_show ">
-
-                </div>
+                <div class="img_hide"></div>
             </div>
         </div>
 
-
-        <div class="calculation_item_wrapp ng-hide" id="next" ng-show="calculation_item_show">
+        <div class="calculation_item_wrapp" id="next">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -472,72 +447,64 @@
                             </div>
 
                             <div class="door_image_slider">
-                                 	<div>
-                                        <input type="radio" id="radio4_1" name="door_image" value="1">
-                                        <label for="radio4_1">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
-                                        </label>
-                                    </div>
+                             	<div>
+                                    <input type="radio" id="radio4_1" name="door_image" value="1">
+                                    <label for="radio4_1">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                    </label>
+                                </div>
 
-                                    <div>
-                                        <input type="radio" id="radio4_2" name="door_image" value="2">
-                                        <label for="radio4_2">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
-                                        </label>
-                                    </div>
+                                <div>
+                                    <input type="radio" id="radio4_2" name="door_image" value="2">
+                                    <label for="radio4_2">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                    </label>
+                                </div>
 
-                                    <div>
-                                        <input type="radio" id="radio4_3" name="door_image" value="3">
-                                        <label for="radio4_3">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
-                                        </label>
-                                    </div>
+                                <div>
+                                    <input type="radio" id="radio4_3" name="door_image" value="3">
+                                    <label for="radio4_3">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                    </label>
+                                </div>
 
-                                    <div>
-                                        <input type="radio" id="radio4_4" name="door_image" value="4">
-                                        <label for="radio4_4">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
-                                        </label>
-                                    </div>
+                                <div>
+                                    <input type="radio" id="radio4_4" name="door_image" value="4">
+                                    <label for="radio4_4">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                    </label>
+                                </div>
 
-                                    <div>
-                                        <input type="radio" id="radio4_5" name="door_image" value="5">
-                                        <label for="radio4_5">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
-                                        </label>
-                                    </div>
+                                <div>
+                                    <input type="radio" id="radio4_5" name="door_image" value="5">
+                                    <label for="radio4_5">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                    </label>
+                                </div>
 
-                                    <div>
-                                        <input type="radio" id="radio4_6" name="door_image" value="6">
-                                        <label for="radio4_6">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
-                                        </label>
-                                    </div>
+                                <div>
+                                    <input type="radio" id="radio4_6" name="door_image" value="6">
+                                    <label for="radio4_6">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                    </label>
+                                </div>
 
-                                    <div>
-                                        <input type="radio" id="radio4_7" name="door_image" value="7">
-                                        <label for="radio4_7">
-                                            <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
-                                        </label>
-                                    </div>
+                                <div>
+                                    <input type="radio" id="radio4_7" name="door_image" value="7">
+                                    <label for="radio4_7">
+                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <a href="/vhodnie-dveri/catalog">
-                        <span>
-                             Смотреть полный каталог
-                        </span>
-	                </a>
 
                     <div class="col-md-4 col-sm-12">
-
                         <div class="calculation_item calculation_item_2" data-name="Класс замка">
-
                             <div class="title">
                                 Укажите требуемое количество замков
                             </div>
-
                             <div class="class_kol js_option" data-name="Количество замков">
                                 <div>
                                     <input type="radio" id="radio2_2_1" class="radio_circle" name="class_kol" value="1 замок">
@@ -836,6 +803,44 @@
         </div>
     </div>
 </div>
+
+
+<div class="modal modal_main modal_calculate fade in">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+        <div class="container">
+            <div class="row row_flex">
+                <div class="col-sm-6 modal_calculate_wrapp" id="options_result_html">
+                    <div class="modal_price">
+                        Ваша скидка оставляет:  <span class="js_options_total_discount">0</span> <span> грн.</span>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="modal_calculate_form">
+                        <div class="title">
+                            Наш менеджер уже рассчитывает стоимость дверей. Чтобы зафиксировать вашу скидку введите контакты.
+                        </div>
+
+                        <form class="ajaxForm form-vertical ng-pristine ng-valid" id="calculation" action="/default/feedbacks/index" method="post">
+                            <div style="display:none"><input type="hidden" value="1e0e94fffe7026fcdded6d2cb8924318d3d19db0" name="YII_CSRF_TOKEN"></div>
+                            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">                        
+                            <input value="Рассчитать стоимость работ с сайта входные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">  
+                            <input value="" name="Feedbacks[content]" id="Feedbacks_content" type="hidden">
+                            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                        
+                            <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">
+                            <button class="button" type="submit"><span>Отправить и получить скидку</span></button>
+                        </form>                        
+                        <div class="modal_note">Ваши персональные данные не будут опубликованы
+                            или переданы третьим лицам.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <?php include('footer.php'); ?>

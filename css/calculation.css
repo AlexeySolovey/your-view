@@ -1,5 +1,6 @@
 .calculation_item_wrapp {
-    margin-bottom: 140px
+    margin-bottom: 140px;
+    display: none;
 }
 
 @media (max-width:767px) {
@@ -242,7 +243,8 @@
 }
 
 .calculation .calculation_item_0 .calculation_type_radio_img img {
-    margin-left: auto
+    margin-left: auto;
+    display: none;
 }
 
 @media (max-width:1199px) {
@@ -595,7 +597,7 @@
 }
 
 .calculation .calculation_item_3 .button_wrapp .button_ico span:before {
-    background: url(../img/price_work.png) no-repeat center;
+    background: url(../img/icon/price_work.png) no-repeat center;
     width: 23px;
     height: 30px
 }
@@ -861,7 +863,7 @@
 }
 
 .calculation .calculation_item_4 .door_image_slider .slick_prev {
-    background-image: url(/public/common/arrows.png);
+    background-image: url(../img/icon/arrows.png);
     left: 0;
     right: auto;
     background-position: -177px 0
@@ -872,7 +874,7 @@
 }
 
 .calculation .calculation_item_4 .door_image_slider .slick_next {
-    background-image: url(/public/common/arrows.png);
+    background-image: url(../img/icon/arrows.png);
     right: 0;
     left: auto;
     background-position: -118px 0
