@@ -101,11 +101,31 @@ $(document).ready(function(){
             slidesToShow: 1,
             dots: true,
             autoplay: true,
-            arrow: false,
             autoplaySpeed: 3e3,
-            prevArrow: '<span class="slick_prev"></span>',
-            nextArrow: '<span class="slick_next"></span>',
         });
     }
+
+    //js_quasion
+
+    if($('.js_quasion').length){
+        $('.js_quasion').slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            arrow:true,
+            fade: true,
+            swipe: false,
+            prevArrow:'<div class="slick_prev"></div>',
+            nextArrow:'<div class="slick_next"></div>'
+        });
+    }
+
+    $('.js_quasion .btn_prev').on('click', function () {
+        $('.js_quasion .slick_prev').trigger('click');
+    });
+    $('.js_quasion .btn_next').on('click', function () {
+        $('.js_quasion .slick_next').trigger('click');
+    });
     
 });

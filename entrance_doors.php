@@ -6,24 +6,12 @@
             <div class="row">
                 
 				<ul class="">
-                    <li>
-		                <a href=/exclusive.php title="Эксклюзивные" class="">Эксклюзивные</a>
-		            </li>
-		            <li>
-		                <a href="/for_an_apartment.php" title="Для квартиры" class="">Для квартиры</a>
-		            </li>
-		            <li>
-		                <a href="/for_office.php" title="Для офиса" class="">Для офиса</a>
-		            </li>
-		            <li>
-		                <a href="/for_home.php" title="Для дома" class="">Для дома</a>
-		            </li>
-		            <li>
-		                <a href="/Technical.php" title="Технические" class="">Технические</a>
-		            </li>
-		            <li>
-		                <a href="/Under_the_order.php" title="Под заказ" class="">Под заказ</a>
-		            </li>
+                    <li><a href=/exclusive.php title="Эксклюзивные" class="">Эксклюзивные</a></li>
+		            <li><a href="/for_an_apartment.php" title="Для квартиры" class="">Для квартиры</a></li>
+		            <li><a href="/for_office.php" title="Для офиса" class="">Для офиса</a></li>
+		            <li><a href="/for_home.php" title="Для дома" class="">Для дома</a></li>
+		            <li><a href="/Technical.php" title="Технические" class="">Технические</a></li>
+		            <li><a href="/Under_the_order.php" title="Под заказ" class="">Под заказ</a></li>
 		        </ul>            
             </div>
         </div>
@@ -171,146 +159,148 @@
 </section>
 
 
-<div class="js_quasion slick-initialized slick-slider"><div class="slick_prev slick-arrow slick-disabled" aria-disabled="true" style="display: block;"></div>
-    <div class="slick-list draggable" style="height: 470px;">
-        <div class="slick-track" style="opacity: 1; width: 6076px;">
-        <div class="question slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1519px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
-            <div class="container">
-                <div class="row">
-                    <div class="question_wrapp clearfix">
-                        <div class="col-md-6 no_padding">
-                            <img class="img-responsive" alt="" src="img/question_1_new.png">
+<div class="js_quasion">
+    <div class="question">
+        <div class="container">
+            <div class="row">
+                <div class="question_wrapp clearfix">
+                    <div class="col-md-6 no_padding">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="main_title">
+                            Не можете определиться <br>
+                            с дверью - мы поможем вам!                        
+                        </div>
+                        <div class="main_desc">
+                            Ответьте всего на 3 вопроса, и наш помощник подберет для вас подходящие модели дверей.                        
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="main_title">
-                                Не можете определиться <br>
-                                с дверью - мы поможем вам!                        
-                            </div>
-                            <div class="main_desc">
-                                Ответьте всего на 3 вопроса, и наш помощник подберет для вас подходящие модели дверей.                        
-                            </div>
+                        <div class="button_wrapp">
+                            <button class="button button_ico btn_next" tabindex="0">
+                                <span>
+                                    Подобрать                                
+                                </span>
+                            </button>
+                        </div>
 
-                            <div class="button_wrapp">
-                                <button class="button button_ico btn_next" tabindex="0">
-                                    <span>
-                                        Подобрать                                
-                                    </span>
-                                </button>
-                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="question">
+        <div class="container">
+
+            <div class="row">
+                <div class="question_wrapp clearfix" >
+                    <div class="col-md-6 no_padding">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="main_title">
+                            Куда будете ставить дверь?
+                        </div>
+                        <form class="assistant ng-pristine ng-valid" id="door_type">
+                            <input type="radio" id="radioA_0" class="radio_assistant" name="type_assistant" value="dveri-v-kvartiru" tabindex="-1">
+                            <label for="radioA_0">В квартиру</label>
+                            <input type="radio" id="radioA_1" class="radio_assistant" name="type_assistant" value="dveri-v-ofis" tabindex="-1">
+                            <label for="radioA_1">В офис</label>
+                            <input type="radio" id="radioA_2" class="radio_assistant" name="type_assistant" value="dveri-v-dom" tabindex="-1">
+                            <label for="radioA_2">В дом</label>
+                        </form>
+
+                        <div class="button_wrapp">
+                            <button class="button button_border btn_prev" tabindex="-1">
+                            <span>
+                                Назад
+                            </span>
+                            </button>
+
+                            <button class="button btn_next" tabindex="-1">
+                            <span>
+                                Далее
+                            </span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="question">
+        <div class="container">
+            <div class="row">
+                <div class="question_wrapp clearfix">
+                    <div class="col-md-6 no_padding">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="main_title">
+                            Выберите класс двери
+                        </div>
+                        <form class="assistant ng-pristine ng-valid" id="door_class">
+                            <label for="radioA_2_37">Эконом класс</label>
+                            <label for="radioA_2_38">Средний класс</label>
+                            <label for="radioA_2_39">Премиум класс</label>
+                        </form>
+
+                        <div class="button_wrapp">
+                            <button class="button button_border btn_prev" tabindex="-1">
+                            <span>
+                                Назад
+                            </span>
+                            </button>
+
+                            <button class="button btn_next" tabindex="-1">
+                            <span>
+                                Далее
+                            </span>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="question slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1519px; position: relative; left: -1519px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-            <div class="container">
+    </div>
 
-                <div class="row">
-                    <div class="question_wrapp clearfix">
-                        <div class="col-md-6 no_padding">
-                            <img class="img-responsive" alt="" src="">
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="main_title">
-                                Куда будете ставить дверь?
-                            </div>
-                            <form class="assistant ng-pristine ng-valid" id="door_type">
-                                <input type="radio" id="radioA_0" class="radio_assistant" name="type_assistant" value="dveri-v-kvartiru" tabindex="-1">
-                                <label for="radioA_0">В квартиру</label>
-                                <input type="radio" id="radioA_1" class="radio_assistant" name="type_assistant" value="dveri-v-ofis" tabindex="-1">
-                                <label for="radioA_1">В офис</label>
-                                <input type="radio" id="radioA_2" class="radio_assistant" name="type_assistant" value="dveri-v-dom" tabindex="-1">
-                                <label for="radioA_2">В дом</label>
-                            </form>
-
-                            <div class="button_wrapp">
-                                <button class="button button_border btn_prev" tabindex="-1">
-                                <span>
-                                    Назад
-                                </span>
-                                </button>
-
-                                <button class="button btn_next" tabindex="-1">
-                                <span>
-                                    Далее
-                                </span>
-                                </button>
-                            </div>
-
-                        </div>
+    <div class="question">
+        <div class="container">
+            <div class="row">
+                <div class="question_wrapp clearfix">
+                    <div class="col-md-6 no_padding">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
                     </div>
-                </div>
-            </div>
-        </div><div class="question slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1519px; position: relative; left: -3038px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-            <div class="container">
-                <div class="row">
-                    <div class="question_wrapp clearfix">
-                        <div class="col-md-6 no_padding">
-                            <img class="img-responsive" alt="" src="" >
+
+                    <div class="col-md-6">
+                        <div class="main_title">
+                            Выберите размер
                         </div>
+                        <form class="assistant ng-pristine ng-valid" id="door_size">
+                            <label for="radioA_3_187">860х2040 мм</label>
+                            <label for="radioA_3_47">960х2050 мм</label>
+                            <label for="radioA_3_249">1200х2040 мм</label>
+                            <label for="radioA_3_5">Нужен замерщик</label>
+                        </form>
+                        <div class="button_wrapp">
+                            <button class="button button_border btn_prev" tabindex="-1">
+                            <span>
+                                Назад
+                            </span>
+                            </button>
 
-                        <div class="col-md-6">
-                            <div class="main_title">
-                                Выберите класс двери
-                            </div>
-                            <form class="assistant ng-pristine ng-valid" id="door_class">
-                                <label for="radioA_2_37">Эконом класс</label>
-                                <label for="radioA_2_38">Средний класс</label>
-                                <label for="radioA_2_39">Премиум класс</label>
-                            </form>
-
-                            <div class="button_wrapp">
-                                <button class="button button_border btn_prev" tabindex="-1">
-                                <span>
-                                    Назад
-                                </span>
-                                </button>
-
-                                <button class="button btn_next" tabindex="-1">
-                                <span>
-                                    Далее
-                                </span>
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><div class="question slick-slide" data-slick-index="3" aria-hidden="true" style="width: 1519px; position: relative; left: -4557px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-            <div class="container">
-                <div class="row">
-                    <div class="question_wrapp clearfix">
-                        <div class="col-md-6 no_padding">
-                            <img class="img-responsive" alt=""src="">
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="main_title">
-                                Выберите размер
-                            </div>
-                            <form class="assistant ng-pristine ng-valid" id="door_size">
-                                <label for="radioA_3_187">860х2040 мм</label>
-                                <label for="radioA_3_47">960х2050 мм</label>
-                                <label for="radioA_3_249">1200х2040 мм</label>
-                                <label for="radioA_3_5">Нужен замерщик</label>
-                            </form>
-                            <div class="button_wrapp">
-                                <button class="button button_border btn_prev" tabindex="-1">
-                                <span>
-                                    Назад
-                                </span>
-                                </button>
-
-                                <button class="button button_res" tabindex="-1">
-                                <span>
-                                    Смотреть результат
-                                </span>
-                                </button>
-                            </div>
+                            <button class="button button_res" tabindex="-1">
+                            <span>
+                                Смотреть результат
+                            </span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -319,8 +309,17 @@
     </div>
 </div>
 
-    
-<div class="slick_next slick-arrow" style="display: block;" aria-disabled="false"></div></div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

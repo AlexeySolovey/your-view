@@ -6,6 +6,7 @@
 
 <link rel="stylesheet" href="css/lib.min.css">
 <link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/adv-slider.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/calculation.css">
 <link rel="stylesheet" href="css/responsive.css">
