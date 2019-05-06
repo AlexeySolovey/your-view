@@ -136,6 +136,36 @@ AOS.init({
             }
         }
 
+        // doors_slider  // enter dors
+        if($('.doors_slider').length){
+            $('.doors_slider').slick({
+  
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                arrow:true,
+                prevArrow:'<div class="slick_prev"></div>',
+                nextArrow:'<div class="slick_next"></div>',
+                slidesToShow: 4,
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+
+
+
+
+        
         //js_quasion
 
         if($('.js_quasion').length){
