@@ -9,7 +9,7 @@ AOS.init({
         $(this).parents(".filter_list_item").hide()
     }), $(".checkbox_show").on("click", function() {
         $(".hidden_check").addClass("active"), $(".hidden_label").fadeOut()
-    }), $('.card_info [href^="#"], .animate-link').click(function() {
+    }), $('.card_info [href^="#"]').click(function() {
         var i = $(this).attr("href");
         return 0 != $(i).length && $("html, body").animate({
             scrollTop: $(i).offset().top
@@ -191,10 +191,12 @@ AOS.init({
         
 
 
-        // vhodnie dveri
+        //........ vhodnie dveri ...........//
 
-        $('.js_option > input').on('click', function(){
-            valOption = this.value;
+        //show calculation 
+        $('.calculation_type_radio > input').on('click', function(){
+            var valOption = $(this).data('img');
+            console.log(valOption);
             var imgOption = $('.option-img');
             imgOption.css('display', 'none');
             for(var i = 0; i < imgOption.length; i++){
@@ -203,11 +205,110 @@ AOS.init({
             }
         });
 
-        $('.button_show').on('click', function(){
-            $(this).hide();
+        $('.button_show, .animate-link').on('click', function(){
+            showCalculation();            
+        });
+        function showCalculation(){
+            $('.button_show').hide();
             $('.img_hide').css('display', 'none');
             $('#next').slideDown(700);
+            $("html, body").animate({
+                scrollTop: $('#next').offset().top
+            }, 700);
+            $('.sale_wrapp_block').show();
             showDoorSlider();
+        }
+        //end show calculation
+
+        //check door format
+        $('.calculation_item_1_wrapp input').on('change', function(){
+            $('.calculation_item_1_wrapp input').prop( "checked", false );
+            $(this).prop('checked', true);
+            var imgName = $(this).data('img');
+            $('.form_size_img > img ').attr("src", "img/white-door/dveri_"+ imgName +".jpg") 
         });
+        //end door format
+
+        // counter
+
+        var calcObj = {
+            dorClass: '',
+            dorFormat: '',
+            dorImg: '',
+            howManyLocks: '',
+            locksClass: '',
+            accessories: '',
+            typeForOpen: '',
+            width: '',
+            height: '',
+        }
+        var countDiscont = {
+            total: 0,
+            incrise: function(){this.total++;},
+            uncrise: function(){this.total--;}
+        }
+        function showHideDiscont(){ // show 1% puss and hide after 1sec
+            $('.js_sale_wrapp').fadeIn();
+            setTimeout(function () {
+                $('.js_sale_wrapp').fadeOut();
+            }, 500);
+        }
+
+        $('.js_option input:text').on('change', function(){
+            var calcClass = $(this).data('calc');
+            var calcTitle = $(this).data('title');
+            calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' мм' }     
+        });
+        $('.js_option input:radio').on('change', function(){
+            var calcClass = $(this).data('calc');
+            var calcTitle = $(this).data('title');
+            calcObj[calcClass] = { title: calcTitle, data: $(this).val() };
+            showHideDiscont();
+        });
+        $('.js_option input:checkbox').on('change', function(){
+            var newArray = [];
+            var checkBoxs = $('.js_option input:checkbox');
+            var calcTitle = $(this).data('title');
+
+            for(var i = 0; i< checkBoxs.length; i++){
+                if(checkBoxs[i].checked)
+                   newArray.push(checkBoxs[i].value);
+            }
+            calcObj.accessories = { title: calcTitle, data: newArray };
+
+        });
+
+        $('.js-button-calculate').click(function(){
+            $('#options_result_html').text('');
+            for(var key in calcObj){
+                if(calcObj[key]) {
+                   $('#options_result_html').append(`<div class="modal_calculate_item"><div class="left">${calcObj[key].title}</div><div class="right">${calcObj[key].data}</div></div>`);
+                }
+            }
+        })
+
+        // left caluculation block
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            var scrollBottom = scroll + $(window).height();
+            var calcPositionTop = $("#calculation").offset();
+            var calcPositionBottom = $('.models.white_before').offset();
+            console.log(scroll, calcPositionTop.top, calcPositionBottom.top)
+            if(scroll > calcPositionTop.top && scrollBottom < calcPositionBottom.top ){
+                $('.sale_wrapp_block').show();
+
+            }else{
+                $('.sale_wrapp_block').hide();
+            }
+
+        });
+
+        // show more text
+        $('.more_js_typeSection').on('click', function(){
+            $(this).hide();
+            $('.js_typeSection_wrapper').removeClass('height_overflow');
+        });
+        // end show more
+
     });
 })(jQuery)

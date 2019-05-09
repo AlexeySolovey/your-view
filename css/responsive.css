@@ -421,7 +421,8 @@
         align-items: center;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center
+        justify-content: center;
+        text-align: center;
     }
     .sale_wrapp_block .sale_title {
         font-size: 18px;

@@ -16,7 +16,6 @@ html body {
 body.modal-open {
     overflow: auto
 }
-
 .breadcrumb_wrapp .breadcrumb li .point-none {
     pointer-events: none!important;
     color: #000;
@@ -345,7 +344,9 @@ body .button,
     border-radius: 3px;
     line-height: 1;
     -webkit-transition: ease .5s;
-    transition: ease .5s
+    transition: ease .5s;
+    text-transform: none;
+    letter-spacing: 0;
 }
 
 body .button:hover {
@@ -5857,3 +5858,9 @@ input:focus:required:invalid {
     justify-content: center
 }
 .content{padding-bottom: 0}
+@media (min-width:992px) {
+    #site-header.transparent-header{position: inherit;}
+    .home .page-header{display: none;}
+    .page-header,
+    .has-transparent-header .page-header{padding-top: 20px; margin-top: 0;}
+}

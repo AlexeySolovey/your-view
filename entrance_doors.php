@@ -179,9 +179,7 @@
 
                         <div class="button_wrapp">
                             <button class="button button_ico btn_next" tabindex="0">
-                                <span>
-                                    Подобрать                                
-                                </span>
+                                <span>Подобрать</span>
                             </button>
                         </div>
 
@@ -221,12 +219,9 @@
                             </button>
 
                             <button class="button btn_next" tabindex="-1">
-                            <span>
-                                Далее
-                            </span>
+                            <span>Далее</span>
                             </button>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -247,8 +242,11 @@
                             Выберите класс двери
                         </div>
                         <form class="assistant ng-pristine ng-valid" id="door_class">
+                            <input type="radio" id="radioA_2_37" class="radio_assistant" name="type_assistant" value="37" tabindex="0">
                             <label for="radioA_2_37">Эконом класс</label>
+                            <input type="radio" id="radioA_2_38" class="radio_assistant" name="type_assistant" value="38" tabindex="0">
                             <label for="radioA_2_38">Средний класс</label>
+                            <input type="radio" id="radioA_2_39" class="radio_assistant" name="type_assistant" value="39" tabindex="0">
                             <label for="radioA_2_39">Премиум класс</label>
                         </form>
 
@@ -260,9 +258,7 @@
                             </button>
 
                             <button class="button btn_next" tabindex="-1">
-                            <span>
-                                Далее
-                            </span>
+                            <span>Далее</span>
                             </button>
                         </div>
                     </div>
@@ -284,9 +280,13 @@
                             Выберите размер
                         </div>
                         <form class="assistant ng-pristine ng-valid" id="door_size">
+                            <input type="radio" id="radioA_3_187" class="radio_assistant" name="type_radio" value="187" tabindex="0">
                             <label for="radioA_3_187">860х2040 мм</label>
+                            <input type="radio" id="radioA_3_47" class="radio_assistant" name="type_radio" value="47" tabindex="0">
                             <label for="radioA_3_47">960х2050 мм</label>
+                            <input type="radio" id="radioA_3_249" class="radio_assistant" name="type_radio" value="249" tabindex="0">
                             <label for="radioA_3_249">1200х2040 мм</label>
+                            <input type="radio" id="radioA_3_5" class="radio_assistant" name="type_radio" value="999" tabindex="0">
                             <label for="radioA_3_5">Нужен замерщик</label>
                         </form>
                         <div class="button_wrapp">
@@ -310,7 +310,7 @@
 </div>
 
 <section class="calculation calculation-vd over_h" id="calculation">
-    <div class="sale_wrapp_block ng-hide" style="display: none">
+    <div class="sale_wrapp_block" style="display: none;">
         <h2 class="sale_title">
             Ваша скидка составляет:
         </h2>
@@ -337,19 +337,17 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="calculation_type_radio js_option">
-                            <div class="title">
-                                Выберите класс двери
-                            </div>
-                            <input type="radio" id="radio0_1" class="radio_circle" name="type_radio" value="monolitn">
+                            <div class="title">Выберите класс двери</div>
+                            <input type="radio" id="radio0_1" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="monolitn" value="econom">
                             <label for="radio0_1">Эконом</label>
 
-                            <input type="radio" id="radio0_2" class="radio_circle" name="type_radio" value="standart">
+                            <input type="radio" id="radio0_2" class="radio_circle" data-calc="dorClass" data-title="Класс двери" data-img="standart" name="type_radio" value="standartplus">
                             <label for="radio0_2">Стандарт+</label>
 
-                            <input type="radio" id="radio0_3" class="radio_circle" name="type_radio" value="standartplus">
+                            <input type="radio" id="radio0_3" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="standartplus" value="premium">
                             <label for="radio0_3">Премиум</label>
 
-                            <input type="radio" id="radio0_4" class="radio_circle" name="type_radio" value="molotok">
+                            <input type="radio" id="radio0_4" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="molotok" value="antivandal">
                             <label for="radio0_4">Антивандальные</label>
                             
                             <a href="#next" type="button" class="button button_show animate-link" value="1">Далее</a>
@@ -383,100 +381,83 @@
                                 Выберите формат двери
                             </div>
 
-                            <div class="calculation_item_1_wrapp js_option" data-name="Формат двери">
-
+                            <div class="calculation_item_1_wrapp js_option">
                                 <div class="form_type form_type_1 clearfix">
-                                    <input type="radio" id="radio1_1" value="1">
+                                    <input type="radio" id="radio1_1" value="Обычная" data-calc="dorFormat" data-title="Формат двери" data-img="type_1">
                                     <label for="radio1_1"></label>
-                                    <div class="desc">
-                                        Обычная
-                                    </div>
+                                    <div class="desc">Обычная</div>
                                 </div>
 
                                 <div class="form_type form_type_2">
-                                    <input type="radio" id="radio1_2"  value="2">
+                                    <input type="radio" id="radio1_2" data-calc="dorFormat" data-title="Формат двери" data-img="type_2" value="Двустворчатая">
                                     <label for="radio1_2"></label>
-                                    <div class="desc">
-                                        Двустворчатая
-                                    </div>
+                                    <div class="desc">Двустворчатая</div>
                                 </div>
 
                                 <div class="form_type form_type_3">
-                                    <input type="radio" id="radio1_3"  value="3" class="ng-pristine ng-valid">
+                                    <input type="radio" id="radio1_3" data-calc="dorFormat" data-title="Формат двери" value="Полуторная" data-img="type_3">
                                     <label for="radio1_3"></label>
-                                    <div class="desc">
-                                        Полуторная
-                                    </div>
+                                    <div class="desc">Полуторная</div>
                                 </div>
 
                                 <div class="form_type form_type_4">
-                                    <input type="radio" id="radio1_4" value="4" class="ng-pristine ng-valid">
+                                    <input type="radio" id="radio1_4" data-calc="dorFormat"  data-title="Формат двери" data-img="type_4" value="Трехстворчатая">
                                     <label for="radio1_4"></label>
-                                    <div class="desc">
-                                        Трехстворчатая
-                                    </div>
+                                    <div class="desc">Трехстворчатая</div>
                                 </div>
-
-                            </div><!--calculation_item_1_wrapp-->
-
-                            <div class="on_desc">
-
                             </div>
-
+                            <div class="on_desc"></div>
                         </div>
                     </div>
 
                     <div class="col-sm-12">
-                        <div class="calculation_item calculation_item_4 js_option" data-name="Рисунок двери">
-                            <div class="title">
-                                Выберите рисунок двери
-                            </div>
-
+                        <div class="calculation_item calculation_item_4 js_option">
+                            <div class="title">Выберите рисунок двери</div>
                             <div class="door_image_slider">
                              	<div>
-                                    <input type="radio" id="radio4_1" name="door_image" value="1">
+                                    <input type="radio" id="radio4_1" name="door_image" value="1" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_1">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio4_2" name="door_image" value="2">
+                                    <input type="radio" id="radio4_2" name="door_image" value="2" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_2">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio4_3" name="door_image" value="3">
+                                    <input type="radio" id="radio4_3" name="door_image" value="3" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_3">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio4_4" name="door_image" value="4">
+                                    <input type="radio" id="radio4_4" name="door_image" value="4" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_4">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio4_5" name="door_image" value="5">
+                                    <input type="radio" id="radio4_5" name="door_image" value="5" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_5">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio4_6" name="door_image" value="6">
+                                    <input type="radio" id="radio4_6" name="door_image" value="6" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_6">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio4_7" name="door_image" value="7">
+                                    <input type="radio" id="radio4_7" name="door_image" value="7" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_7">
                                         <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
                                     </label>
@@ -493,17 +474,17 @@
                             </div>
                             <div class="class_kol js_option" data-name="Количество замков">
                                 <div>
-                                    <input type="radio" id="radio2_2_1" class="radio_circle" name="class_kol" value="1 замок">
+                                    <input type="radio" id="radio2_2_1" class="radio_circle" name="class_kol" value="1 замок" data-calc="howManyLocks" data-title="Количество замков">
                                     <label for="radio2_2_1">1 замок</label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio2_2_2" class="radio_circle" name="class_kol" value="2 замка">
+                                    <input type="radio" id="radio2_2_2" class="radio_circle" name="class_kol" value="2 замка" data-calc="howManyLocks" data-title="Количество замков">
                                     <label for="radio2_2_2">2 замка</label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio2_2_3" class="radio_circle" name="class_kol" value="3 замка">
+                                    <input type="radio" id="radio2_2_3" class="radio_circle" name="class_kol" value="3 замка" data-calc="howManyLocks" data-title="Количество замков">
                                     <label for="radio2_2_3">3 замка</label>
                                 </div>
                             </div>
@@ -517,70 +498,69 @@
 
                             <div class="class_sec js_option" data-name="Класс замка">
                                 <div>
-                                    <input type="radio" id="radio2_1_1" class="radio_circle" name="class_sec" value="Второй класс взломостойкости">
+                                    <input type="radio" id="radio2_1_1" class="radio_circle" name="class_sec" value="Второй класс взломостойкости" data-calc="locksClass" data-title="Класс замка">
                                     <label for="radio2_1_1">Второй класс взломостойкости</label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio2_1_2" class="radio_circle" name="class_sec" value="Третий класс взломостойкости">
-                                    <label for="radio2_1_2">Третий класс взломостойкости</label>
+                                    <input type="radio" id="radio2_1_2" class="radio_circle" name="class_sec" value="Третий класс взломостойкости" data-calc="locksClass" data-title="Класс замка">
+                                    <label for="radio2_1_2" >Третий класс взломостойкости</label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio2_1_3" class="radio_circle" name="class_sec" value="Четвертный класс взломостойкости">
+                                    <input type="radio" id="radio2_1_3" class="radio_circle" name="class_sec" value="Четвертный класс взломостойкости" data-calc="locksClass" data-title="Класс замка">
                                     <label for="radio2_1_3">Четвертный класс взломостойкости</label>
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="calculation_item calculation_item_2" data-name="Класс замка">
-
+                        <div class="calculation_item calculation_item_2">
                             <div class="title">
                                 Выберите дополнительные комплектующие
                             </div>
                             <div class="class_dop">
-                                <div class="check js_option" data-name="Комплектующие" data-isarray="true">
-                                    <input type="checkbox" id="d1" class="checkbox" name="d1" value="Система краб (паук)">
+                                <div class="check js_option">
+                                    <input type="checkbox" id="d1" class="checkbox" name="d1" value="Система краб (паук)" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d1">Система краб (паук)</label>
-                                    <input type="checkbox" id="d2" class="checkbox" name="d2" value="Глазок">
+                                    <input type="checkbox" id="d2" class="checkbox" name="d2" value="Глазок" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d2">Глазок</label>
-                                    <input type="checkbox" id="d3" class="checkbox" name="d3" value="Нержавеющий порог">
+                                    <input type="checkbox" id="d3" class="checkbox" name="d3" value="Нержавеющий порог" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d3">Нержавеющий порог</label>
-                                    <input type="checkbox" id="d4" class="checkbox" name="d4" value="Термомост">
+                                    <input type="checkbox" id="d4" class="checkbox" name="d4" value="Термомост" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d4">Термомост</label>
-                                    <input type="checkbox" id="d6" class="checkbox" name="d6" value="Броненакладки">
+                                    <input type="checkbox" id="d6" class="checkbox" name="d6" value="Броненакладки" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d6">Броненакладки</label>
-                                    <input type="checkbox" id="d7" class="checkbox" name="d7" value="Ночная защелка">
+                                    <input type="checkbox" id="d7" class="checkbox" name="d7" value="Ночная защелка" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d7">Ночная защелка</label>
-                                    <input type="checkbox" id="d8" class="checkbox" name="d8" value="Стеклопакет">
+                                    <input type="checkbox" id="d8" class="checkbox" name="d8" value="Стеклопакет" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d8">Стеклопакет</label>
-                                    <input type="checkbox" id="d9" class="checkbox" name="d9" value="Решетка">
+                                    <input type="checkbox" id="d9" class="checkbox" name="d9" value="Решетка" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d9">Решетка</label>
-                                    <input type="checkbox" id="d10" class="checkbox" name="d10" value="Дополнительный лист металла">
+                                    <input type="checkbox" id="d10" class="checkbox" name="d10" value="Дополнительный лист металла" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d10">Дополнительный лист металла</label>
-                                    <input type="checkbox" id="d11" class="checkbox" name="d11" value="Арочная дверь">
+                                    <input type="checkbox" id="d11" class="checkbox" name="d11" value="Арочная дверь" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d11">Арочная дверь</label>
-                                    <input type="checkbox" id="d12" class="checkbox" name="d12" value="Дверь с фрамугой">
+                                    <input type="checkbox" id="d12" class="checkbox" name="d12" value="Дверь с фрамугой" data-calc="accessories" data-title="Комплектующие">
                                     <label for="d12">Дверь с фрамугой</label>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="calculation_item calculation_item_2" data-name="Класс замка">
+                        <div class="calculation_item calculation_item_2">
                             <div class="title">
                                 Выберите тип открывания
                             </div>
 
-                            <div class="class_type js_option" data-name="Тип открывания">
+                            <div class="class_type js_option">
                                 <div>
-                                    <input type="radio" id="radio3_1" class="radio_circle" name="class_type" value="Наружное открывание">
+                                    <input type="radio" id="radio3_1" class="radio_circle" name="class_type" value="Наружное открывание" data-calc="typeForOpen" data-title="Тип открывания">
                                     <label for="radio3_1">Наружное открывание</label>
                                 </div>
 
                                 <div>
-                                    <input type="radio" id="radio3_2" class="radio_circle" name="class_type" value="Внутренние открывание">
+                                    <input type="radio" id="radio3_2" class="radio_circle" name="class_type" value="Внутренние открывание" data-calc="typeForOpen" data-title="Тип открывания">
                                     <label for="radio3_2">Внутренние открывание</label>
                                 </div>
                             </div>
@@ -594,31 +574,21 @@
                             </div>
                             <div class="form_size_wrapp">
 
-                                <div class="form_size form_size_1 js_option disable-sale" data-name="Ширина двери" data-append=" мм">
-                                    <p>Ширина</p><div><input type="text" name="X" value="" placeholder=""><span>мм</span></div>
+                                <div class="form_size form_size_1 js_option disable-sale">
+                                    <p>Ширина</p>
+                                    <div><input type="text" name="X" data-calc="width" data-title="Ширина двери"><span>мм</span></div>
                                 </div>
-                                <div class="form_size form_size_2 js_option disable-sale" data-name="Высота двери" data-append=" мм">
-                                    <p>Висота</p><div><input type="text" name="Y" value="" placeholder=""><span>мм</span></div>
+                                <div class="form_size form_size_2 js_option disable-sale">
+                                    <p>Висота</p>
+                                    <div><input type="text" name="Y" data-calc="height" data-title="Высота двери"><span>мм</span></div>
                                 </div>
 
-                                <div class="form_size_img" ng-show="form_type_model == undefined">
+                                <div class="form_size_img">
                                 	<img src="img/white-door/dveri_type_1.jpg" alt="" >
                                 </div>
-                                <div class="form_size_img ng-hide" ng-show="form_type_model == 1">
-                                	<img src="img/white-door/dveri_type_2.jpg" alt="" >
-                                </div>
-                                <div class="form_size_img ng-hide" ng-show="form_type_model == 2">
-                                	<img src="img/white-door/dveri_type_3.jpg" alt="" >
-                                </div>
-                                <div class="form_size_img ng-hide" ng-show="form_type_model == 3">
-                                	<img src="img/white-door/dveri_type_4.jpg" alt="" >
-                                </div>
-                                <div class="form_size_img ng-hide" ng-show="form_type_model == 4">
-                                	<img src="img/white-door/dveri_type_4.jpg" alt="" >
-                                </div>
-
+                                
                                 <div class="button_wrapp">
-                                    <button class="button button_ico" type="button" data-toggle="modal" data-target=".modal_calculate" data-subject="Рассчитать стоимость работ с сайта входные двери">
+                                    <button class="button button_ico js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">
                                             <span>
                                                  Рассчитать стоимость работ
                                             </span>
@@ -888,6 +858,49 @@
     </div>
 </div>
 
+<div class="seo_section" style="margin-bottom: 35px;">
+
+    <div class="js_typeSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="js_typeSection_wrapper height_overflow">
+                            <h1>Что нужно знать, выбирая входные двери в интернет-магазине</h1>
+                            <p>Входная дверь - основной элемент обеспечения безопасности вашего жилища и вашей семьи. Поэтому, мы постарались собрать основные моменты, на которые стоит обратить внимание, выбирая какую купить входную дверь.</p>
+                            <p>В Украине представлены двери нескольких десятков производителей, не считая множества мелких гаражных производств. Часто двери входные у разных производителей называются и выглядят идентично, но по качеству являются совершенно разными. Выбирать интернет-магазин дверей нужно начинать именно с производителя, убедившись, что он достаточно долго работает на рынке, не экономит на комплектующих, выполняет гарантийные обязательства. Обусловлено это частыми случаями выпуска красивых внешне дверей, не обеспеченных хоть какой-нибудь взломостойкостью и теплоизоляцией. Знаменитые китайские двери тому пример. К слову, их иногда продают под видом украинских.</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Далее следует понимать, что покупать двери от производителя нужно именно исходя из условий её эксплуатации: наружная дверь в частном доме практически всегда находится совершенно в других условиях, чем дверь в квартире. Соответственно, в разных случаях нужно акцентировать внимание на разные свойства дверей.</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>По назначению входные двери условно можно разделить на такие категории:</strong></p>
+                            <p>&nbsp;</p>
+                            <p><strong>Двери для квартиры</strong> &nbsp;</p>
+                            <p>Самым важным свойством двери является взломостойкость, поскольку взлом квартиры в абсолютном большинстве случаев производится именно через входную дверь. Особый акцент следует ставить именно на качестве замков, ведь в условиях многоквартирного дома, взлом замка - самый незаметный и быстрый способ попасть в квартиру. Однако, некоторая структурная прочность двери всё равно должна быть обеспечена, ведь случается в жизни разное. В зависимости от температуры в подъезде, шумности соседей и прочих факторов, следует учитывать уровень теплоизоляции, шумоизоляции, дизайн и защитные свойства накладки двери.</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Двери для дома</strong></p>
+                            <p>Двери для частных домов в первую очередь должны обеспечивать достаточную теплоизоляцию, ведь в зимний период через двери может уходить до 20% тепла. Дополнительно необходимо учитывать, что подобная дверь подвержена влиянию ультрафиолета, сильных перепадов температуры, большого количества влаги, которое попадает на порог. Для противодействия этим факторам используются такие элементы, как специальная пленка, которая клеится на накладку, термомост, нержавеющий порог. Ставить сверхсовременные замки на двери в дом не обязательно, поскольку кроме дверей, в доме существует множество вариантов взлома.</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Двери в офис</strong></p>
+                            <p>В целом, в данной категории очень сложно выделить определенные качества. Ведь, вход в офис может быть как внутри помещения, так и выходить на улицу. Требования к безопасности и дизайну также могут быть совершенно противоположные. Поэтому такие двери выбираются исключительно исходя из условий эксплуатации или могут быть изготовлены под заказ.</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Технические двери</strong></p>
+                            <p>Основная задача таких дверей - закрыть проем от посторонних. Они устанавливаются туда, где не важна эстетика, теплоизоляция или особая степень взломостойкости. Основной их плюс - дешевизна.</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Двери под заказ</strong></p>
+                            <p>Они изготавливаются под любые цели и условия эксплуатации. Их главным достоинством является возможность изготовления двери действительно с любым дизайном, размером, внутренней комплектацией, количеством створок, защитными функциями и пр. Минус только один – необходимо будет немного подождать, пока дверь изготовят на производстве.</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Конструкция входной двери и ее составляющие элементы </strong></p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Каждое свойство двери обеспечивается качеством отдельных её деталей. Основные элементы двери для удобства можно разделить на такие группы:</p>
+                        </div>
+
+                        <div class="more_js_typeSection">
+                            Показать больше
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div></div>
 
 <footer class="footer section_border">
     <div class="container">
@@ -963,11 +976,6 @@
             </div>
 
             <div class="col-sm-4">
-                <div class="studio">
-                    Сайт разработан<br>
-                    в компании <span class="name">WEBRA</span>
-                    <a href="#"  target="_blank" class="link"></a>
-                </div>
             </div>
         </div>
     </div>
@@ -984,7 +992,6 @@
                     <div class="modal_price">
                         Ваша скидка оставляет:  <span class="js_options_total_discount">0</span> <span> грн.</span>
                     </div>
-
                 </div>
                 <div class="col-sm-6">
                     <div class="modal_calculate_form">
