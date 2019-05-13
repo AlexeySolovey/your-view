@@ -1585,7 +1585,7 @@ iframe {
 }
 
 .catalog_card .card_more_info .card_more_info_item .button_ico span:before {
-    background: url(../common/triangle.png) no-repeat center;
+    background: url(../img/icon/triangle.png) no-repeat center;
     width: 19px;
     height: 19px
 }
@@ -1747,7 +1747,7 @@ iframe {
 .card_diagram:before {
     bottom: 5px;
     right: -15px;
-    background: url(../common/after_diagram.png) no-repeat top right;
+    background: url(../img/after_diagram.png) no-repeat top right;
     z-index: 9
 }
 
@@ -3838,7 +3838,7 @@ iframe {
 }
 
 .in_order {
-    background: url(../common/in_order.png) no-repeat left center
+    background: url(../img/icon/in_order.png) no-repeat left center
 }
 
 .card_soc {
@@ -3866,19 +3866,19 @@ iframe {
 }
 
 .card_soc a.fb {
-    background-image: url(../common/card_fb.png)
+    background-image: url(../img/icon/card_fb.png)
 }
 
 .card_soc a.tw {
-    background-image: url(../common/card_tw.png)
+    background-image: url(../img/icon/card_tw.png)
 }
 
 .card_soc a.vk {
-    background-image: url(../common/card_vk.png)
+    background-image: url(../img/icon/card_vk.png)
 }
 
 .card_soc a.tg {
-    background-image: url(../common/card_tg.png)
+    background-image: url(../img/icon/card_tg.png)
 }
 
 .footer_class,

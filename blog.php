@@ -80,14 +80,14 @@
                 <div class="col-md-9 col-sm-8 blog_item_wrapp">
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -99,14 +99,14 @@
 
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -117,14 +117,14 @@
                     </div>
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -135,14 +135,14 @@
                     </div>
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -153,14 +153,14 @@
                     </div>
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -171,14 +171,14 @@
                     </div>
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -189,14 +189,14 @@
                     </div>
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
@@ -207,14 +207,14 @@
                     </div>
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
-                            <a href="#">
+                            <a href="/article.php">
                                 <img src="img/door.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
-                                <a href="#">
+                                <a href="/article.php">
                                     Какой должна быть толщина металла входной двери?                                        
                                 </a>
                             </div>
