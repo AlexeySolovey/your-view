@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="form_masters mass">
+                <div class="form_masters mass" style="background: url(img/form_bg.png) no-repeat center;">
                     <div class="form_title">
                         ВЫЗВАТЬЗАМЕРЩИКА                    
                     </div>
@@ -228,7 +228,7 @@
                 </div>
             </div>
             <div class="col-sm-4 fears_item">
-                <img src="img/fears_item_1.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_2.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Зимой холодно не будет?
                 </div>
@@ -237,7 +237,7 @@
                 </div>
             </div>
             <div class="col-sm-4 fears_item">
-                <img src="img/fears_item_1.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_3.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Никакой плесени
                 </div>
@@ -251,18 +251,20 @@
 
 
 
-<section class="rev white white_after white_before">
+<section class="review" style="padding: 40px 0 0; background-color: #4e5b62; color: #fff; font-size: 18px;">
     <div class="container">
         <div class="row row_no_padding">
-            <div class="col-sm-3 col-xs-12">
-                <img src="img/person3.jpg" alt=""  style="border-radius: 30px;">
+            <div class="col-sm-3 col-xs-12" style="padding-left: 0;padding-right: 0;float: left;">
+                <img src="img/person3.jpg" class="img-responsive review_img" alt="" style="    border-radius: 100px;">
             </div>
-            <div class="col-sm-9 col-xs-12 review_content">
-                <div class="review_title"><strong>"Буду рекомендувати Вашу фірму знайомим..."</strong></div>
-                <div class="review_text">Замовляли в Вашій фірмі винос балкону, залишилися дуже задоволені якістю товару і вашими працівниками, а також виконанням їхньої роботи.<br>
-                <br>
-                Буду рекомендувати Вашу фірму знайомим.</div><br>
-                <div class="review_author"><i>Анастасия Горевич</i></div>
+            <div class="col-sm-9 col-xs-12 review_content" style="padding-left: 45px;padding-top: 15px;padding-bottom: 15px;background: url(../img/icon/review_top.png) left top no-repeat,url(../img/icon/review_bottom.png) right bottom no-repeat;min-height: 300px;">
+                <div class="review_title" style="font-family: inherit;font-size: 33px;font-weight: 700;color: inherit;margin-bottom: 20px;">"Очень рада, что посоветовали именно
+                    эту компанию"</div>
+                <div class="review_text">
+                    <p>
+                        Хочу поблагодарить компанию "Ваш Вид" за качественный ремонт балкона. Очень рада, что посоветовали именно эту компанию.</p>
+                </div>
+                <div class="review_author"><i>Анна Николаевна</i></div>
             </div>
         </div>
     </div>
@@ -270,8 +272,7 @@
 
 
 
-<section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center;
-    text-align: center; color: #fff;">
+<section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
     <div class="container">
         <div class="row">
             <form class="ajaxForm form-vertical ng-pristine ng-valid" enctype="multipart/form-data" data-show=".modal-ty" id="yw1" action="/default/feedbacks/index" method="post">
@@ -343,8 +344,6 @@
         </div>
     </div>
 </section>
-
-
 
 
 

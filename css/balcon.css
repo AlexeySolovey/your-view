@@ -4,6 +4,7 @@
 
 .review_content{
 	font-size: 20px;
+	margin-left: 50px;
 }
 
 .row_no_padding{
@@ -146,7 +147,7 @@
 }
 
 .mass{
-	background: url(img/form_bg.png) no-repeat center;
+	/*background: url(img/form_bg.png) no-repeat center;*/
 	background-size: 100% 100%;
     width: 380px;
     padding: 30px 40px 40px;
