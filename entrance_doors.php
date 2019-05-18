@@ -363,7 +363,7 @@
                     </div>
                 </div>
             </div>
-            <div class="button_arrow button_show" on-click="showBlock()">
+            <div class="button_arrow button_show" on-click="showBlock()" style="border: 3px solid red;">
             </div>
         </div>
         <div class="container">
@@ -417,49 +417,49 @@
                              	<div>
                                     <input type="radio" id="radio4_1" name="door_image" value="1" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_1">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="img/doors2/dveri_slider_1.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_2" name="door_image" value="2" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_2">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_2.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_3" name="door_image" value="3" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_3">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="img/doors2/dveri_slider_3.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_4" name="door_image" value="4" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_4">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="img/doors2/dveri_slider_4.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_5" name="door_image" value="5" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_5">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_5.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_6" name="door_image" value="6" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_6">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_6.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_7" name="door_image" value="7" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_7">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_7.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
                             </div>
@@ -614,12 +614,122 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door2.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
                             <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
+                               Тринити Стандарт+ Квартира</a></div>
+                            <div class="price">7 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door3.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Мадрид Монолит Квартира</a></div>
+                            <div class="price">13 777 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door4.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Под заказ Милан Стандарт+</a></div>
+                            <div class="price">10 150 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door5.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Эдем 10 Стандарт Квартира</a></div>
+                            <div class="price">4 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door6.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Талисман Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door7.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Кристина Элит Квартира</a></div>
+                            <div class="price">12 400 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door8.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Горизонт Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door9.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                              Лиана Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door10.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Ронда Стандарт Квартира</a></div>
+                            <div class="price">6 950 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door11.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Реал Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="#">
+                                    <img src="img/doors/door12.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="#" class="door_model">
+                               Граффити Стандарт+ Квартира</a></div>
                             <div class="price">8 000 <span class="currency">грн.</span></div>
                         </div>
                         <div class="door">
@@ -630,118 +740,8 @@
                             </div>
 
                             <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                               Лофт 4 Стандарт Квартира</a></div>
+                            <div class="price">6 000 <span class="currency">грн.</span></div>
                         </div>
                         <div class="door">
                             <div class="img_wrap">

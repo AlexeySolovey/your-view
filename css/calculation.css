@@ -64,13 +64,14 @@
     width: 62px;
     height: 62px;
     border-radius: 100%;
+    border: 3px solid red;
     background-color: #fff;
     margin: 0 auto;
     position: absolute;
     bottom: -30px;
     left: 50%;
-    -webkit-transform: translateX(-50%) rotate(180deg);
-    transform: translateX(-50%) rotate(180deg);
+    /*-webkit-transform: translateX(-50%) rotate(180deg);*/
+    /*transform: translateX(-50%) rotate(180deg);*/
     border: 0;
     cursor: pointer;
     z-index: 9;
@@ -86,8 +87,8 @@
     -webkit-transform: translate(-50%, -50%) rotate(0deg);
     transform: translate(-50%, -50%) rotate(0deg);
     width: 26px;
-    height: 15px;
-    background: url(../img/icon/arrow.png) no-repeat center;
+    height: 22px;
+    background: url(../img/icon/icons8-48.png) no-repeat center;
     -webkit-transition: ease, .5s;
     transition: ease, .5s
 }
