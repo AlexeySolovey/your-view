@@ -364,7 +364,7 @@
 
                 <div class="col-md-9 col-sm-8 catalog_wrapp clearfix">
 
-					<a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+					<a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -378,7 +378,7 @@
 	                    </div>
 	                </a>
 
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -393,7 +393,7 @@
 	                </a>
 
 
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -407,7 +407,7 @@
 	                    </div>
 	                </a>
 
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -421,7 +421,7 @@
 	                    </div>
 	                </a>
 
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -435,7 +435,7 @@
 	                    </div>
 	                </a>
 
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -448,7 +448,7 @@
                             </div>
 	                    </div>
 	                </a>
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -461,7 +461,7 @@
                             </div>
 	                    </div>
 	                </a>
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -474,7 +474,7 @@
                             </div>
 	                    </div>
 	                </a>
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -487,7 +487,7 @@
                             </div>
 	                    </div>
 	                </a>
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -500,7 +500,7 @@
                             </div>
 	                    </div>
 	                </a>
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >
@@ -513,7 +513,7 @@
                             </div>
 	                    </div>
 	                </a>
-	                <a href="/vhodnie-dveri/pod-zakaz-milan" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
+	                <a href="/characteristic.php" class="col-md-4 col-ms-6 col-xs-6 catalog_item_box">
                         <div class="catalog_item ">
                             <div class="img">
 									<img src="img/Rim.png" class="img-responsive" alt="Под заказ Милан Стандарт+" title="Под заказ Милан Стандарт+" >

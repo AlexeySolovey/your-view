@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="form_masters mass">
+                <div class="form_masters mass" style="background: url(img/form_bg.png) no-repeat center;">
                     <div class="form_title">
                         ВЫЗВАТЬЗАМЕРЩИКА                    
                     </div>
@@ -228,7 +228,7 @@
                 </div>
             </div>
             <div class="col-sm-4 fears_item">
-                <img src="img/fears_item_1.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_2.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Зимой холодно не будет?
                 </div>
@@ -237,7 +237,7 @@
                 </div>
             </div>
             <div class="col-sm-4 fears_item">
-                <img src="img/fears_item_1.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_3.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Никакой плесени
                 </div>
@@ -251,18 +251,20 @@
 
 
 
-<section class="rev white white_after white_before">
+<section class="review" style="padding: 40px 0 0; background-color: #4e5b62; color: #fff; font-size: 18px;">
     <div class="container">
         <div class="row row_no_padding">
-            <div class="col-sm-3 col-xs-12">
-                <img src="img/person3.jpg" alt=""  style="border-radius: 30px;">
+            <div class="col-sm-3 col-xs-12" style="padding-left: 0;padding-right: 0;float: left;">
+                <img src="img/person3.jpg" class="img-responsive review_img" alt="" style="    border-radius: 100px;">
             </div>
-            <div class="col-sm-9 col-xs-12 review_content">
-                <div class="review_title"><strong>"Буду рекомендувати Вашу фірму знайомим..."</strong></div>
-                <div class="review_text">Замовляли в Вашій фірмі винос балкону, залишилися дуже задоволені якістю товару і вашими працівниками, а також виконанням їхньої роботи.<br>
-                <br>
-                Буду рекомендувати Вашу фірму знайомим.</div><br>
-                <div class="review_author"><i>Анастасия Горевич</i></div>
+            <div class="col-sm-9 col-xs-12 review_content" style="padding-left: 45px;padding-top: 15px;padding-bottom: 15px;background: url(../img/icon/review_top.png) left top no-repeat,url(../img/icon/review_bottom.png) right bottom no-repeat;min-height: 300px;">
+                <div class="review_title" style="font-family: inherit;font-size: 33px;font-weight: 700;color: inherit;margin-bottom: 20px;">"Очень рада, что посоветовали именно
+                    эту компанию"</div>
+                <div class="review_text">
+                    <p>
+                        Хочу поблагодарить компанию "Ваш Вид" за качественный ремонт балкона. Очень рада, что посоветовали именно эту компанию.</p>
+                </div>
+                <div class="review_author"><i>Анна Николаевна</i></div>
             </div>
         </div>
     </div>
@@ -270,13 +272,12 @@
 
 
 
-<section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center;
-    text-align: center; color: #fff;">
+<section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
     <div class="container">
         <div class="row">
-            <form class="ajaxForm form-vertical ng-pristine ng-valid" enctype="multipart/form-data" data-show=".modal-ty" id="yw1" action="/default/feedbacks/index" method="post">
+            <form class="ajaxForm form-vertical ng-pristine ng-valid"  id="yw1" action="/default/feedbacks/index" method="post">
                 <div style="display:none">
-                    <input type="hidden" value="7a2afdc438c357df8a857752664a88cdbbfe370f" name="YII_CSRF_TOKEN">
+                    <input type="hidden" name="YII_CSRF_TOKEN">
                 </div>            
                 <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">           
                 <input value="Рассчитать стоимость  с сайта балконов" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">            
@@ -288,63 +289,92 @@
                 <div class="col-sm-3">
                     <div class="form_item">
                         <span class="placeholder">Габариты</span>
-                        <div id="size_select-styler" data-$selectcontroller="[object Object]" class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100">
-                        <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                            <option value="3 метра">3 метра</option>
-                            <option value="3.5 метра">3.5 метра</option>
-                            <option value="4.5 метра">4.5 метра</option>
-                            <option value="5 метров">5 метров</option>
-                            <option value="6 метров">6 метров</option>
-                            <option value="другой">другой</option>
-                        </select>
-                        <div class="jq-selectbox__select" style="position: relative">
-                            <div class="jq-selectbox__select-text">3 метра</div>
-                            <div class="jq-selectbox__trigger">
-                                <div class="jq-selectbox__trigger-arrow"></div>
+                        <div id="size_select-styler" class="jq-selectbox jqselect">
+                            <select id="size_select">
+                                <option value="3 метра">3 метра</option>
+                                <option value="3.5 метра">3.5 метра</option>
+                                <option value="4.5 метра">4.5 метра</option>
+                                <option value="5 метров">5 метров</option>
+                                <option value="6 метров">6 метров</option>
+                                <option value="другой">другой</option>
+                            </select>
+                            <div class="jq-selectbox__select">
+                                <div class="jq-selectbox__select-text">3 метра</div>
+                                <div class="jq-selectbox__trigger" >
+                                    <div class="jq-selectbox__trigger-arrow"></div>
+                                </div>
+                            </div>
+                            <div class="jq-selectbox__dropdown">
+                                <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                    <li class="selected sel" style="">3 метра</li>
+                                    <li style="">3.5 метра</li><li style="">4.5 метра</li>
+                                    <li style="">5 метров</li>
+                                    <li style="">6 метров</li>
+                                    <li style="">другой</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
-                            <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                <li class="selected sel" style="">3 метра</li>
-                                <li style="">3.5 метра</li><li style="">4.5 метра</li>
-                                <li style="">5 метров</li>
-                                <li style="">6 метров</li>
-                                <li style="">другой</li>
-                            </ul>
-                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="form_item">
                         <span class="placeholder">Тип балкона</span>
-                        <div id="size_select-styler" data-$selectcontroller="[object Object]" class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100"><select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                            <option value="Прямой">Прямой</option>
-                            <option value="Г-образный">Г-образный</option>
-                            <option value="П-образный">П-образный</option>
-                            <option value="Другой">Другой</option>
-                        </select><div class="jq-selectbox__select" style="position: relative"><div class="jq-selectbox__select-text">Прямой</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; display: none;"><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li class="selected sel" style="">Прямой</li><li style="">Г-образный</li><li style="">П-образный</li><li style="">Другой</li></ul></div></div>
+                            <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100"><select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                <option value="Прямой">Прямой</option>
+                                <option value="Г-образный">Г-образный</option>
+                                <option value="П-образный">П-образный</option>
+                                <option value="Другой">Другой</option>
+                            </select>
+                            <div class="jq-selectbox__select" style="position: relative">
+                                <div class="jq-selectbox__select-text">Прямой</div>
+                                <div class="jq-selectbox__trigger">
+                                    <div class="jq-selectbox__trigger-arrow"></div>
+                                </div>
+                            </div>
+                            <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                    <li class="selected sel" style="">Прямой</li>
+                                    <li style="">Г-образный</li>
+                                    <li style="">П-образный</li>
+                                    <li style="">Другой</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="col-sm-3">
                     <div class="form_item">
                         <span class="placeholder">Утепление</span>
-                        <div id="size_select-styler" data-$selectcontroller="[object Object]" class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100"><select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                            <option value="Теплый балкон">Теплый балкон</option>
-                            <option value="Холодный балкон">Холодный балкон</option>
-                        </select><div class="jq-selectbox__select" style="position: relative"><div class="jq-selectbox__select-text">Теплый балкон</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; display: none;"><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li class="selected sel" style="">Теплый балкон</li><li style="">Холодный балкон</li></ul></div></div>
+                        <div id="size_select-styler"  class="jq-selectbox jqselect" style="  position: relative; z-index:100">
+                                <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                    <option value="Теплый балкон">Теплый балкон</option>
+                                    <option value="Холодный балкон">Холодный балкон</option>
+                                </select>
+                            <div class="jq-selectbox__select" style="position: relative">
+                                <div class="jq-selectbox__select-text">Теплый балкон</div>
+                                <div class="jq-selectbox__trigger">
+                                    <div class="jq-selectbox__trigger-arrow"></div>
+                                </div>
+                            </div>
+                            <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                    <li class="selected sel" style="">Теплый балкон</li>
+                                    <li style="">Холодный балкон</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <button type="button" class="button send_to_form">Рассчитать
+                    <button type="button" class="button send_to_form" style="width: 100%; margin: 28px 0 15px;">
+                        Рассчитать
                     </button>
                 </div>
             </form>        
         </div>
     </div>
 </section>
-
-
 
 
 
@@ -455,7 +485,7 @@
     <div class="container">
         <div class="row row_no_padding">
             <div class="col-sm-3 col-xs-12">
-                <img src="img/anastasia.jpg" alt=""  style="border-radius: 30px;">
+                <img src="img/anastasia.jpg" alt=""  style="border-radius: 100px;">
             </div>
             <div class="col-sm-9 col-xs-12 review_content">
                 <div class="review_title"><strong>"Буду рекомендувати Вашу фірму знайомим..."</strong></div>
