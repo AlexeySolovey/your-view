@@ -963,10 +963,10 @@
             <div class="col-sm-4">
                 <div class="soc">
                     <a href="#" target="_blank" rel="nofollow">
-                        <img src="img/icon/fb.png.pagespeed.ce.dtdQx8G5LR.png" class="img-responsive" alt="">
+                        <img src="img/icon/fb.png" class="img-responsive" alt="social icon">
                     </a>
                     <a href="#" target="_blank" rel="nofollow">
-                        <img src="/img/icon/inst.png.pagespeed.ce.HNbLBJ8m9E.png" class="img-responsive" alt="" >
+                        <img src="/img/icon/inst.png" class="img-responsive" alt="social icon" >
                     </a>
                 </div>
             </div>
