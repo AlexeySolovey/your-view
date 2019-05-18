@@ -42,7 +42,7 @@
                 <div class="anons_block">
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
                         <div class="img">
-                            <img src="img/sexangle/anons_block_item_1.png" alt="">
+                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_1.png" alt="">
                         </div>
                         <div class="text">
                             Четвертый класс  <br>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
                         <div class="img">
-                            <img src="img/sexangle/anons_block_item_2.png" alt="">
+                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_2.png" alt="">
                         </div>
                         <div class="text">
                             Сопротивление <br>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
                         <div class="img">
-                            <img src="img/sexangle/anons_block_item_3.png" alt="" >
+                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_3.png" alt="" >
                         </div>
                         <div class="text">
                             637 вариантов <br>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
                         <div class="img">
-                            <img src="img/sexangle/anons_block_item_4.png" alt="">
+                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_4.png" alt="">
                         </div>
                         <div class="text">
                             Срок эксплуатации <br>
@@ -91,7 +91,7 @@
                 <h2 class="main_title">
                     Что скрывает дверь “Ваш вид”
                 </h2>
-                <div class="diagram_bg" style="background-image: url('img/diagram_2.png')">
+                <div class="diagram_bg" style="background-image: url('/wp-content/themes/oceanwpchild/img/diagram_2.png')">
                 </div>
             </div>
         </div>
@@ -107,10 +107,10 @@
                     <div class="main_desc"></div>
                         <div class="js-adv-slider">
                             <div class="">
-                        	   <img src="img/adv-slide1.jpg" class="img-responsive" alt="">
+                        	   <img src="/wp-content/themes/oceanwpchild/img/adv-slide1.jpg" class="img-responsive" alt="">
                     		</div>
                             <div class="">
-                               <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
+                               <img src="/wp-content/themes/oceanwpchild/img/adv-slide2.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                     </div>
@@ -132,21 +132,21 @@
                 <div class="advantages_item_wrapp clearfix">
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
-                        <img src="img/advantages_item.png" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/advantages_item.png" alt="">
                         <div class="text">
                             Надёжные и доступные входные двери Ваш вид производятся на собственном производстве в Украине
                         </div>
                     </div>
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                        <img src="img/advantages_item_2.png" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/advantages_item_2.png" alt="">
                         <div class="text">
                             Входные двери Ваш вид соответствуют современным требованиям безопасности
                         </div>
                     </div>
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="img/advantages_item_3.png" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/advantages_item_3.png" alt="">
                         <div class="text">
                             Тепло и звуко изоляция входных дверей Ваш вид надежно сохранит тепло в Вашем доме
                         </div>
@@ -165,7 +165,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix">
                     <div class="col-md-6 no_padding">
-                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -195,7 +195,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix" >
                     <div class="col-md-6 no_padding">
-                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -234,7 +234,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix">
                     <div class="col-md-6 no_padding">
-                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -272,7 +272,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix">
                     <div class="col-md-6 no_padding">
-                        <img src="img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -355,16 +355,15 @@
                     </div>
                     <div class="col-md-9 col-sm-7">
                         <div class="calculation_type_radio_img">
-                            <img class="img-responsive option-img" data-name="monolitn" alt="calc-img" src="img/monolitn.jpg">
-                            <img class="img-responsive option-img" data-name="standart" alt="calc-img" src="img/standart.jpg">
-                            <img class="img-responsive option-img" data-name="standartplus" alt="calc-img" src="img/standartplus.jpg" style="display: block;">
-                            <img class="img-responsive option-img" data-name="molotok" alt="calc-img" src="img/molotok.jpg" >
+                            <img class="img-responsive option-img" data-name="monolitn" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/monolitn.jpg">
+                            <img class="img-responsive option-img" data-name="standart" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/standart.jpg">
+                            <img class="img-responsive option-img" data-name="standartplus" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/standartplus.jpg" style="display: block;">
+                            <img class="img-responsive option-img" data-name="molotok" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/molotok.jpg" >
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="button_arrow button_show" on-click="showBlock()">
-            </div>
+            <div class="button_arrow button_show" on-click="showBlock()"></div>
         </div>
         <div class="container">
             <div class="row">
@@ -417,49 +416,49 @@
                              	<div>
                                     <input type="radio" id="radio4_1" name="door_image" value="1" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_1">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_1.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_2" name="door_image" value="2" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_2">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_2.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_3" name="door_image" value="3" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_3">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_3.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_4" name="door_image" value="4" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_4">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_4.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_5" name="door_image" value="5" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_5">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_5.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_6" name="door_image" value="6" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_6">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_6.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_7" name="door_image" value="7" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_7">
-                                        <img src="img/dveri_slider_1.png" class="img-responsive center-block" alt="" >
+                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_7.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
                             </div>
@@ -584,7 +583,7 @@
                                 </div>
 
                                 <div class="form_size_img">
-                                	<img src="img/white-door/dveri_type_1.jpg" alt="" >
+                                	<img src="/wp-content/themes/oceanwpchild/img/white-door/dveri_type_1.jpg" alt="" >
                                 </div>
                                 
                                 <div class="button_wrapp">
@@ -613,161 +612,161 @@
                     <div class="js_slider doors_slider">
                         <div class="door">
                             <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door2.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
-                            <div><a href="#" class="door_model">
+                            <div><a href="/dveri/" class="door_model">
+                               Тринити Стандарт+ Квартира</a></div>
+                            <div class="price">7 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door3.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Мадрид Монолит Квартира</a></div>
+                            <div class="price">13 777 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door4.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Под заказ Милан Стандарт+</a></div>
+                            <div class="price">10 150 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door5.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Эдем 10 Стандарт Квартира</a></div>
+                            <div class="price">4 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door6.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Талисман Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door7.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Кристина Элит Квартира</a></div>
+                            <div class="price">12 400 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door8.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Горизонт Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door9.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                              Лиана Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door10.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Ронда Стандарт Квартира</a></div>
+                            <div class="price">6 950 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door11.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Реал Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door12.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Граффити Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door1.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Лофт 4 Стандарт Квартира</a></div>
+                            <div class="price">6 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door1.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
                                Гранд Стандарт+ Квартира</a></div>
                             <div class="price">8 000 <span class="currency">грн.</span></div>
                         </div>
                         <div class="door">
                             <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                <a href="/dveri/">
+                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door1.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="#">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="#" class="door_model">
+                            <div><a href="/dveri/" class="door_model">
                                Гранд Стандарт+ Квартира</a></div>
                             <div class="price">8 000 <span class="currency">грн.</span></div>
                         </div>   
                     </div>
 
-                    <a href="#">
+                    <a href="/dveri/">
                         <span>Смотреть полный каталог</span>
                     </a>
                 </div>
@@ -791,7 +790,7 @@
 
 
 
-<div class="panorama" style="background-image: url('img/panorama.jpg')">
+<div class="panorama" style="background-image: url('/wp-content/themes/oceanwpchild/img/panorama.jpg')">
     <div class="container">
         <div class="row panorama__row">
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -809,7 +808,7 @@
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
+                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/pano_img.png.pagespeed.png">
                     <div class="title">
                         3D тур
                     </div>
