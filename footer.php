@@ -72,9 +72,7 @@
 
             <div class="col-sm-4">
                 <div class="studio">
-                    Сайт разработан<br>
-                    в компании <span class="name">WEBRA</span>
-                    <a href="#"  target="_blank" class="link"></a>
+                    
                 </div>
             </div>
         </div>
