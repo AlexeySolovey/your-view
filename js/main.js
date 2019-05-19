@@ -215,7 +215,7 @@ AOS.init({
             $("html, body").animate({
                 scrollTop: $('#next').offset().top
             }, 700);
-            $('.sale_wrapp_block').show();
+            $('.sale_wrapp_block').addClass('opened');
             showDoorSlider();
         }
         //end show calculation
@@ -225,7 +225,7 @@ AOS.init({
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');
-            $('.form_size_img > img ').attr("src", "img/white-door/dveri_"+ imgName +".jpg") 
+            $('.form_size_img > img ').attr("src", "/wp-content/themes/oceanwpchild/img/white-door/dveri_"+ imgName +".jpg") 
         });
         //end door format
 
@@ -237,21 +237,38 @@ AOS.init({
             dorImg: '',
             howManyLocks: '',
             locksClass: '',
-            accessories: '',
+            accessories: {title: 'accessories', data: []},
             typeForOpen: '',
             width: '',
             height: '',
         }
         var countDiscont = {
             total: 0,
+            check: 0,
             incrise: function(){this.total++;},
             uncrise: function(){this.total--;}
         }
         function showHideDiscont(){ // show 1% puss and hide after 1sec
-            $('.js_sale_wrapp').fadeIn();
-            setTimeout(function () {
-                $('.js_sale_wrapp').fadeOut();
-            }, 500);
+            countDiscont.total = 0;
+            for (key in calcObj) {
+                if(key === "width" || key === "height") continue;
+                if (calcObj[key]) countDiscont.total++;
+            }
+            if(!calcObj['accessories']['data'].length) countDiscont.total--;
+
+            if(countDiscont.total > countDiscont.check) {
+                countDiscont.check = countDiscont.total;
+                $('.js_sale_wrapp').fadeIn();
+                $('.js_options_total_discount').text(countDiscont.total);
+                setTimeout(function () {
+                    $('.js_sale_wrapp').fadeOut();
+                }, 500);
+            }else if(countDiscont.total < countDiscont.check){
+                countDiscont.check = countDiscont.total;
+                $('.js_options_total_discount').text(countDiscont.total);
+            }
+
+           
         }
 
         $('.js_option input:text').on('change', function(){
@@ -275,33 +292,34 @@ AOS.init({
                    newArray.push(checkBoxs[i].value);
             }
             calcObj.accessories = { title: calcTitle, data: newArray };
-
+            showHideDiscont();
         });
 
         $('.js-button-calculate').click(function(){
             $('#options_result_html').text('');
             for(var key in calcObj){
                 if(calcObj[key]) {
-                   $('#options_result_html').append(`<div class="modal_calculate_item"><div class="left">${calcObj[key].title}</div><div class="right">${calcObj[key].data}</div></div>`);
+                    if(key === 'accessories' && !calcObj['accessories']['data'].length) continue;
+                    $('#options_result_html').append(`<div class="modal_calculate_item"><div class="left">${calcObj[key].title}</div><div class="right">${calcObj[key].data}</div></div>`);
                 }
             }
         })
 
         // left caluculation block
-        $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
-            var scrollBottom = scroll + $(window).height();
-            var calcPositionTop = $("#calculation").offset();
-            var calcPositionBottom = $('.models.white_before').offset();
-            console.log(scroll, calcPositionTop.top, calcPositionBottom.top)
-            if(scroll > calcPositionTop.top && scrollBottom < calcPositionBottom.top ){
-                $('.sale_wrapp_block').show();
+        if($("#calculation").length){
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                var scrollBottom = scroll + $(window).height();
+                var calcPositionTop = $("#calculation").offset();
+                var calcPositionBottom = $('.models.white_before').offset();
+                if(scroll > calcPositionTop.top && scrollBottom < calcPositionBottom.top ){
+                    $('.sale_wrapp_block').addClass('canshow');
+                }else{
+                    $('.sale_wrapp_block').removeClass('canshow');
+                }
 
-            }else{
-                $('.sale_wrapp_block').hide();
-            }
-
-        });
+            });
+        }
 
         // show more text
         $('.more_js_typeSection').on('click', function(){
@@ -309,6 +327,81 @@ AOS.init({
             $('.js_typeSection_wrapper').removeClass('height_overflow');
         });
         // end show more
+
+
+        //........ form sending ...........//
+
+
+        // simple form
+
+        $('.send-mess, .js-door-calculate').on('click', function(){
+            var formName = $(this).data('form');
+            var formData = takeData(formName);
+            if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
+           // if(!openCaseValidate()) return;
+            messAjax(formData);
+        });
+
+        function openCaseValidate(){
+            validateOpenCase = true;
+            var OCN = $('#open_case_name');
+            var OCP = $('#open_case_phone');
+            var OCE = $('#open_case_email');
+
+            if(OCN.val()<3) addError(OCN);
+            if(OCP.val().search(regPhone) != 0) addError(OCP);
+            if(OCE.val().search(regEmail) != 0) addError(OCE);
+
+            removeError();
+            return validateOpenCase;
+        }
+        function messAjax(data){
+           
+           $('.modal_call, .modal_calculate').modal('hide');
+            $.ajax({
+                url: '/wp-admin/admin-ajax.php',
+                method: 'POST',
+                data: {
+                    action: 'open_case',
+                    data: data
+                },
+                success: function (response) {
+                    console.log(response);
+                    $(".js_modal_result").modal('show');
+                    //$('#open-case-message').text('The message was sent! Thank you!');
+                    //$('#open_case_name, #open_case_phone, #open_case_email').val('');
+                }
+            });
+        }
+
+        function takeData(formName){
+            var tempData = {};
+            $('#'+ formName).find ('input, textearea, select').each(function() {
+              tempData[this.name] = $(this).val();
+            });
+            return tempData;
+
+        }
+
+        function getCalculate() {
+            var _calс = {};
+            for(var i in calcObj) {
+                if(calcObj[i]){
+                    if(i == 'accessories') {
+                        if(calcObj[i].data.length) _calс[i] = calcObj[i];
+                        continue;
+                    }
+                    _calс[i] = calcObj[i]
+                }
+            }
+             
+            return {
+                discount: countDiscont.total,
+                doorInfo: _calс
+            }
+        }
+
+
 
     });
 })(jQuery)

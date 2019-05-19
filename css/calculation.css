@@ -16,7 +16,7 @@
 .calculation:before {
     content: '';
     position: absolute;
-    top: -332px;
+    top: -360px;
     left: 0;
     background: url(../img/calculion_bg.png) no-repeat top left;
     z-index: 9;
@@ -949,13 +949,18 @@
     width: 287px;
     height: 169px;
     padding: 20px 15px 15px 55px;
-    background: url(../img/icon/sale_bg.png) no-repeat center
+    background: url(../img/icon/sale_bg.png) no-repeat center;
+    display: none;
+}
+.sale_wrapp_block.opened.canshow{
+    display: block;
 }
 
 .sale_wrapp_block .sale_title {
     font-size: 15px;
     margin-top: 0
 }
+
 
 .sale_wrapp_block .sale_price {
     font-size: 35px;

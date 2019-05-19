@@ -369,19 +369,34 @@
             с вами в ближайшее время
         </div>
 
-        <form class="form-vertical" action="/" method="post">
-            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">        
-            <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">        
-            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text"> 
-            <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">        
-            <button type="submit" class="button">
+        <div class="form-vertical" id='form-feedback'>
+            <input value="1" name="type" type="hidden">        
+            <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
+            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">        
+            <button class="button send-mess" data-form="form-feedback">
                 <span>Сохранить</span>
             </button>
-        </form> 
+        </div> 
         <div class="modal_note">
             Ваши персональные данные не будут опубликованы
             или переданы третьим лицам.
         </div>
+    </div>
+</div>
+
+<div class="modal modal_main modal_ty fade js_modal_result in">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+        <div class="js_title title">
+            Спасибо
+        </div>
+
+        <div class="js_desc desc">
+            Мы свяжемся с вами в ближайшее время.
+        </div>
+
     </div>
 </div>
 

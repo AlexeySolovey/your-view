@@ -5860,6 +5860,12 @@ input:focus:required:invalid {
     justify-content: center
 }
 .content{padding-bottom: 0}
+
+
+#site-header.transparent-header{
+    z-index: 999;
+}
+
 @media (min-width:992px) {
     #site-header.transparent-header{position: inherit;}
     .home .page-header{display: none;}

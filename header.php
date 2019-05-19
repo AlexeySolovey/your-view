@@ -63,7 +63,7 @@
                                 <a href="tel:+380443910475" class="phone ct-phone-044">+38 (044) 391-04-75</a>
                                 <a href="tel:+380443910475" class="phone ct-phone-067">+38 (067) 380-11-06</a>
                             </div>
-                            <button class="button button_red button_ico" data-toggle="modal" data-target=".modal_call" data-title="Заказать звонок" data-subject="Заказать звонок с сайта межкомнатные двери">
+                            <button class="button button_red button_ico" data-toggle="modal" data-target=".modal_call" >
                                 <span>
                                     Заказать звонок
                                 </span>

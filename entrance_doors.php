@@ -42,7 +42,7 @@
                 <div class="anons_block">
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
                         <div class="img">
-                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_1.png" alt="">
+                            <img src="img/sexangle/anons_block_item_1.png" alt="">
                         </div>
                         <div class="text">
                             Четвертый класс  <br>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
                         <div class="img">
-                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_2.png" alt="">
+                            <img src="img/sexangle/anons_block_item_2.png" alt="">
                         </div>
                         <div class="text">
                             Сопротивление <br>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
                         <div class="img">
-                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_3.png" alt="" >
+                            <img src="img/sexangle/anons_block_item_3.png" alt="" >
                         </div>
                         <div class="text">
                             637 вариантов <br>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
                         <div class="img">
-                            <img src="/wp-content/themes/oceanwpchild/img/sexangle/anons_block_item_4.png" alt="">
+                            <img src="img/sexangle/anons_block_item_4.png" alt="">
                         </div>
                         <div class="text">
                             Срок эксплуатации <br>
@@ -91,7 +91,7 @@
                 <h2 class="main_title">
                     Что скрывает дверь “Ваш вид”
                 </h2>
-                <div class="diagram_bg" style="background-image: url('/wp-content/themes/oceanwpchild/img/diagram_2.png')">
+                <div class="diagram_bg" style="background-image: url('img/diagram_2.png')">
                 </div>
             </div>
         </div>
@@ -107,10 +107,10 @@
                     <div class="main_desc"></div>
                         <div class="js-adv-slider">
                             <div class="">
-                        	   <img src="/wp-content/themes/oceanwpchild/img/adv-slide1.jpg" class="img-responsive" alt="">
+                        	   <img src="img/adv-slide1.jpg" class="img-responsive" alt="">
                     		</div>
                             <div class="">
-                               <img src="/wp-content/themes/oceanwpchild/img/adv-slide2.jpg" class="img-responsive" alt="">
+                               <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                     </div>
@@ -132,21 +132,21 @@
                 <div class="advantages_item_wrapp clearfix">
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
-                        <img src="/wp-content/themes/oceanwpchild/img/advantages_item.png" alt="">
+                        <img src="img/advantages_item.png" alt="">
                         <div class="text">
                             Надёжные и доступные входные двери Ваш вид производятся на собственном производстве в Украине
                         </div>
                     </div>
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                        <img src="/wp-content/themes/oceanwpchild/img/advantages_item_2.png" alt="">
+                        <img src="img/advantages_item_2.png" alt="">
                         <div class="text">
                             Входные двери Ваш вид соответствуют современным требованиям безопасности
                         </div>
                     </div>
 
                     <div class="col-sm-4 advantages_item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="/wp-content/themes/oceanwpchild/img/advantages_item_3.png" alt="">
+                        <img src="img/advantages_item_3.png" alt="">
                         <div class="text">
                             Тепло и звуко изоляция входных дверей Ваш вид надежно сохранит тепло в Вашем доме
                         </div>
@@ -165,7 +165,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix">
                     <div class="col-md-6 no_padding">
-                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -195,7 +195,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix" >
                     <div class="col-md-6 no_padding">
-                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -234,7 +234,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix">
                     <div class="col-md-6 no_padding">
-                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -272,7 +272,7 @@
             <div class="row">
                 <div class="question_wrapp clearfix">
                     <div class="col-md-6 no_padding">
-                        <img src="/wp-content/themes/oceanwpchild/img/question_1_new.png" class="img-responsive" alt="">
+                        <img src="img/question_1_new.png" class="img-responsive" alt="">
                     </div>
 
                     <div class="col-md-6">
@@ -296,11 +296,11 @@
                             </span>
                             </button>
 
-                            <button class="button button_res" tabindex="-1">
-                            <span>
-                                Смотреть результат
-                            </span>
-                            </button>
+                            <a href="/dveri/" class="button button_res" tabindex="-1">
+                                <span>
+                                    Смотреть результат
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@
 </div>
 
 <section class="calculation calculation-vd over_h" id="calculation">
-    <div class="sale_wrapp_block" style="display: none;">
+    <div class="sale_wrapp_block">
         <h2 class="sale_title">
             Ваша скидка составляет:
         </h2>
@@ -318,10 +318,10 @@
             <span class="js_options_total_discount">0</span>%
 
             <div class="js_sale_wrapp">
-                + <span id="global_option_discount">0</span>%
+                + <span id="global_option_discount">1</span>%
             </div>
         </div>
-        <button class="button" type="button" data-toggle="modal">Зафиксировать скидку</button>
+        <button class="button js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">Зафиксировать скидку</button>
     </div>
 
 
@@ -338,16 +338,16 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="calculation_type_radio js_option">
                             <div class="title">Выберите класс двери</div>
-                            <input type="radio" id="radio0_1" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="monolitn" value="econom">
+                            <input type="radio" id="radio0_1" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="monolitn" value="Эконом">
                             <label for="radio0_1">Эконом</label>
 
-                            <input type="radio" id="radio0_2" class="radio_circle" data-calc="dorClass" data-title="Класс двери" data-img="standart" name="type_radio" value="standartplus">
+                            <input type="radio" id="radio0_2" class="radio_circle" data-calc="dorClass" data-title="Класс двери" data-img="standart" name="type_radio" value="Стандарт+">
                             <label for="radio0_2">Стандарт+</label>
 
-                            <input type="radio" id="radio0_3" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="standartplus" value="premium">
+                            <input type="radio" id="radio0_3" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="standartplus" value="Премиум">
                             <label for="radio0_3">Премиум</label>
 
-                            <input type="radio" id="radio0_4" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="molotok" value="antivandal">
+                            <input type="radio" id="radio0_4" class="radio_circle" data-calc="dorClass" data-title="Класс двери" name="type_radio" data-img="molotok" value="Антивандальные">
                             <label for="radio0_4">Антивандальные</label>
                             
                             <a href="#next" type="button" class="button button_show animate-link" value="1">Далее</a>
@@ -355,10 +355,10 @@
                     </div>
                     <div class="col-md-9 col-sm-7">
                         <div class="calculation_type_radio_img">
-                            <img class="img-responsive option-img" data-name="monolitn" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/monolitn.jpg">
-                            <img class="img-responsive option-img" data-name="standart" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/standart.jpg">
-                            <img class="img-responsive option-img" data-name="standartplus" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/standartplus.jpg" style="display: block;">
-                            <img class="img-responsive option-img" data-name="molotok" alt="calc-img" src="/wp-content/themes/oceanwpchild/img/molotok.jpg" >
+                            <img class="img-responsive option-img" data-name="monolitn" alt="calc-img" src="img/monolitn.jpg">
+                            <img class="img-responsive option-img" data-name="standart" alt="calc-img" src="img/standart.jpg">
+                            <img class="img-responsive option-img" data-name="standartplus" alt="calc-img" src="img/standartplus.jpg" style="display: block;">
+                            <img class="img-responsive option-img" data-name="molotok" alt="calc-img" src="img/molotok.jpg" >
                         </div>
                     </div>
                 </div>
@@ -416,49 +416,49 @@
                              	<div>
                                     <input type="radio" id="radio4_1" name="door_image" value="1" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_1">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_1.png" class="img-responsive center-block" alt="">
+                                        <img src="img/doors2/dveri_slider_1.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_2" name="door_image" value="2" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_2">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_2.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_2.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_3" name="door_image" value="3" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_3">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_3.png" class="img-responsive center-block" alt="">
+                                        <img src="img/doors2/dveri_slider_3.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_4" name="door_image" value="4" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_4">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_4.png" class="img-responsive center-block" alt="">
+                                        <img src="img/doors2/dveri_slider_4.png" class="img-responsive center-block" alt="">
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_5" name="door_image" value="5" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_5">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_5.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_5.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_6" name="door_image" value="6" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_6">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_6.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_6.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="radio4_7" name="door_image" value="7" data-calc="dorImg" data-title="Рисунок двери">
                                     <label for="radio4_7">
-                                        <img src="/wp-content/themes/oceanwpchild/img/doors2/dveri_slider_7.png" class="img-responsive center-block" alt="" >
+                                        <img src="img/doors2/dveri_slider_7.png" class="img-responsive center-block" alt="" >
                                     </label>
                                 </div>
                             </div>
@@ -583,14 +583,14 @@
                                 </div>
 
                                 <div class="form_size_img">
-                                	<img src="/wp-content/themes/oceanwpchild/img/white-door/dveri_type_1.jpg" alt="" >
+                                	<img src="img/white-door/dveri_type_1.jpg" alt="" >
                                 </div>
                                 
                                 <div class="button_wrapp">
                                     <button class="button button_ico js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">
-                                            <span>
-                                                 Рассчитать стоимость работ
-                                            </span>
+                                        <span>
+                                             Рассчитать стоимость работ
+                                        </span>
                                     </button>
                                 </div>
                             </div>
@@ -613,7 +613,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door2.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door2.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -624,7 +624,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door3.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door3.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -635,7 +635,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door4.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door4.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -646,7 +646,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door5.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door5.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -657,7 +657,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door6.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door6.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -668,7 +668,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door7.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door7.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -679,7 +679,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door8.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door8.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -690,7 +690,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door9.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door9.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -701,7 +701,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door10.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door10.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -712,7 +712,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door11.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door11.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -723,7 +723,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door12.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door12.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -734,7 +734,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -745,7 +745,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -756,7 +756,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="/wp-content/themes/oceanwpchild/img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -790,7 +790,7 @@
 
 
 
-<div class="panorama" style="background-image: url('/wp-content/themes/oceanwpchild/img/panorama.jpg')">
+<div class="panorama" style="background-image: url('img/panorama.jpg')">
     <div class="container">
         <div class="row panorama__row">
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -808,7 +808,7 @@
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/pano_img.png.pagespeed.png">
+                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
                     <div class="title">
                         3D тур
                     </div>
@@ -832,7 +832,7 @@
                     <div class="panorama__form-title">
                         Получите дополнительную
                         <span>
-                            СКИДКУ 5%                        
+                            СКИДКУ 5%
                         </span>
                     </div>
                     <div class="panorama__form-form">
@@ -919,15 +919,13 @@
                             Наш менеджер уже рассчитывает стоимость дверей. Чтобы зафиксировать вашу скидку введите контакты.
                         </div>
 
-                        <form class="ajaxForm form-vertical ng-pristine ng-valid" id="calculation" action="/default/feedbacks/index" method="post">
-                            <div style="display:none"><input type="hidden" value="1e0e94fffe7026fcdded6d2cb8924318d3d19db0" name="YII_CSRF_TOKEN"></div>
-                            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">                        
-                            <input value="Рассчитать стоимость работ с сайта входные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">  
-                            <input value="" name="Feedbacks[content]" id="Feedbacks_content" type="hidden">
-                            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                        
-                            <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">
-                            <button class="button" type="submit"><span>Отправить и получить скидку</span></button>
-                        </form>                        
+                        <div class="ajaxForm form-vertical" id="calculation-form" >
+                            <input value="1" name="type" type="hidden">                        
+                            <input value="Рассчитать стоимость работ с сайта входные двери" name="Feedbacks" type="hidden">  
+                            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+                            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">
+                            <button class="button js-door-calculate" data-form="calculation-form"><span>Отправить и получить скидку</span></button>
+                        </div>
                         <div class="modal_note">Ваши персональные данные не будут опубликованы
                             или переданы третьим лицам.</div>
                     </div>
@@ -937,6 +935,18 @@
     </div>
 </div>
 
+
+
+
+<div class="form-vertical" id='form-feedback'>
+            <input value="1" name="type" type="hidden">        
+            <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
+            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">        
+            <button class="button send-mess" data-form="form-feedback">
+                <span>Сохранить</span>
+            </button>
+        </div> 
 
 
 <?php include('footer.php'); ?>
