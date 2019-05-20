@@ -1,0 +1,12 @@
+/*
+Theme Name:     oceanwpchild
+Description:    Дочерняя тема для темы oceanwp
+Template:       oceanwp
+Version:        0.1.0
+*/
+
+@import url("./css/lib.min.css");
+@import url("./css/fonts.css");
+@import url("./css/main.css");
+@import url("./css/calculation.css");
+@import url("./css/responsive.css");

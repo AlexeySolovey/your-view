@@ -5866,6 +5866,49 @@ input:focus:required:invalid {
     z-index: 999;
 }
 
+.woocommerce-widget-layered-nav,
+.widget_product_categories{
+    position: relative;
+}
+.woocommerce-widget-layered-nav:before,
+.widget_product_categories:before{
+    content:"";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background: url(../img/icon/pag_arrow.jpg) no-repeat;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all cubic-bezier(0.62, 0.28, 0.23, 0.99) 250ms;
+    transition: all cubic-bezier(0.62, 0.28, 0.23, 0.99) 250ms;
+    pointer-events: none;
+}
+.woocommerce-widget-layered-nav.opened:before,
+.widget_product_categories.opened:before{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.woocommerce-widget-layered-nav-list,
+.product-categories{
+    max-height: 235px;
+}
+.woocommerce-widget-layered-nav-list.chosen{
+    display: block;
+}
+
+.woocommerce ul.products li.product li.title a{color:#d8282d}
+.woocommerce ul.products li.product .price .amount{color:black;}
+.woocommerce ul.products li.product:hover .price .amount{color:#d8282d}
+
 @media (min-width:992px) {
     #site-header.transparent-header{position: inherit;}
     .home .page-header{display: none;}
