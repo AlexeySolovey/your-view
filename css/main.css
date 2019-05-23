@@ -430,7 +430,6 @@ body .button:focus {
 
 .header .header_line {
     position: relative;
-    background-color: #f2f2f2
 }
 
 .anons,
@@ -4200,7 +4199,9 @@ iframe {
 .zoomContainer {
     z-index: 9999
 }
-
+.container{
+    max-width: 100%;
+}
 .anons_mk {
     background: url(../common/mk_bg.jpg) no-repeat center;
     min-height: 620px;
@@ -5448,9 +5449,6 @@ input:focus:required:invalid {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column
-    }
-    .header .header-social{
-        margin-right: -20px;
     }
 }
 

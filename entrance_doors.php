@@ -311,14 +311,16 @@
 
 <section class="calculation calculation-vd over_h" id="calculation">
     <div class="sale_wrapp_block">
-        <h2 class="sale_title">
-            Ваша скидка составляет:
-        </h2>
-        <div class="sale_price">
-            <span class="js_options_total_discount">0</span>%
+        <div class="sale_mobile">
+            <h2 class="sale_title">
+                Ваша скидка составляет:
+            </h2>
+            <div class="sale_price">
+                <span class="js_options_total_discount">0</span>%
 
-            <div class="js_sale_wrapp">
-                + <span id="global_option_discount">1</span>%
+                <div class="js_sale_wrapp">
+                    + <span id="global_option_discount">1</span>%
+                </div>
             </div>
         </div>
         <button class="button js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">Зафиксировать скидку</button>

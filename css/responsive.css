@@ -423,6 +423,7 @@
         -ms-flex-pack: center;
         justify-content: center;
         text-align: center;
+        display: none;
     }
     .sale_wrapp_block .sale_title {
         font-size: 18px;
@@ -934,12 +935,43 @@
     .sale_wrapp_block {
         height: auto
     }
+    .mob_header_line{
+        display: flex;
+        justify-content:space-between;
+        align-content:center;
+    }
+    .mob_header_line .button span:before{
+        background: url(../img/icon/phone_ico_19_19.png) no-repeat center;
+        width: 19px;
+        height: 19px;
+    }
+    .mob_phone{min-width: 130px;}
+    .header_mob .button.button_ico{
+        position: relative;
+    }
+    .header .header_line a{
+        padding: 0;
+        height: 17px;
+        line-height: 17px;
+    }
+    .header_mob .button.button_ico span {
+        width: 33px;
+        height: 30px;
+    }
+    .header-social{margin-right: -5px;}
+    .sale_mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .sale_wrapp_block .sale_price {
         margin-right: 0;
         margin-bottom: 5px
     }
     .sale_wrapp_block .sale_title {
-        margin: 0 0 10px
+        margin: 0 0 10px;
+        margin-right: 30px;
     }
     .question_wrapp img {
         margin-bottom: 25px
@@ -1880,5 +1912,13 @@
     .error_error .big_img {
         width: auto;
         max-width: 214%
+    }
+    .calculation .calculation_item_1 .form_type_1 label,
+    .calculation .calculation_item_1 .form_type_2 label,
+    .calculation .calculation_item_1 .form_type_3 label,
+    .calculation .calculation_item_1 .form_type_4 label{
+        width: 130px;
+        height: 190px;
+        margin: 0 20px;
     }
 }

@@ -289,7 +289,7 @@ AOS.init({
 
             for(var i = 0; i< checkBoxs.length; i++){
                 if(checkBoxs[i].checked)
-                   newArray.push(checkBoxs[i].value);
+                   newArray.push(' ' + checkBoxs[i].value);
             }
             calcObj.accessories = { title: calcTitle, data: newArray };
             showHideDiscont();

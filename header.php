@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="css/lib.min.css">
@@ -54,14 +55,14 @@
                     <div class="row row_flex">
                         <div class="col-sm-2">
                             <div class="logo">
-                                <a href="/index.php"><img src="img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
+                                <a href="/index.php"><img src="/img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
                             </div>
                         </div>
                         <div class="col-sm-8 phone_header">
 
                             <div class="phone_header-box">
                                 <a href="tel:+380443910475" class="phone ct-phone-044">+38 (044) 391-04-75</a>
-                                <a href="tel:+380443910475" class="phone ct-phone-067">+38 (067) 380-11-06</a>
+                                <a href="tel:+380673801106" class="phone ct-phone-067">+38 (067) 380-11-06</a>
                             </div>
                             <button class="button button_red button_ico" data-toggle="modal" data-target=".modal_call" >
                                 <span>
@@ -77,7 +78,7 @@
                                 </a>
 
                                 <a href="#" target="_blank" rel="nofollow">
-                                    <img src="img/icon/fb.png" class="img-responsive" alt="social icon">
+                                    <img src="/img/icon/fb.png" class="img-responsive" alt="social icon">
                                 </a>
                                 <a href="#" target="_blank" rel="nofollow">
                                     <img src="/img/icon/youtube.png" class="img-responsive" alt="social icon" >
@@ -125,48 +126,29 @@
                                 <a href="#"><img src="img/logo_190_67.png" class="img-responsive" alt="Ваш вид"></a>
                             </div>
                             <a href="tel:+380443910475" class="phone ct-phone-044">+38 (044) 391-04-75</a>
-                            <a href="tel:+380443910475" class="phone ct-phone-067">+38 (067) 380-11-06</a>
+                            <a href="tel:+380673801106" class="phone ct-phone-067">+38 (067) 380-11-06</a>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="header_mid_line">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 phone_header header_cart">
-                            <button class="button button_red button_ico">
-                                <span>
-                                    Заказать звонок
-                                </span>
-                            </button>
+                    <div class="mob_header_line">
+                        <button class="button button_red button_ico"><span></span></button>
+                        <div>
+                            <a href="tel:+380443910475" class="mob_phone">+38 (044) 391-04-75</a>
+                            <a href="tel:+380673801106" class="mob_phone">+38 (067) 380-11-06</a>
                         </div>
+                        <div class="header-social">
+                            <a href="#" target="_blank" rel="nofollow">
+                                <img src="/img/icon/inst.png" class="img-responsive" alt="social icon" >
+                            </a>
 
-                        <div class="col-xs-6">
-                            <div class="header-social">
-                                <a href="#" target="_blank" rel="nofollow">
-                                    <img src="/img/icon/inst.png" class="img-responsive" alt="social icon" >
-                                </a>
-
-                                <a href="#" target="_blank" rel="nofollow">
-                                    <img src="img/icon/fb.png" class="img-responsive" alt="social icon">
-                                </a>
-                                <a href="#" target="_blank" rel="nofollow">
-                                    <img src="/img/icon/youtube.png" class="img-responsive" alt="social icon" >
-                                </a>
-                            </div>
+                            <a href="#" target="_blank" rel="nofollow">
+                                <img src="/img/icon/fb.png" class="img-responsive" alt="social icon">
+                            </a>
+                            <a href="#" target="_blank" rel="nofollow">
+                                <img src="/img/icon/youtube.png" class="img-responsive" alt="social icon" >
+                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="header_bottom_line">
-            <div class="container">
-                <div class="row">
-                    
-                    <ul class="">
-                    </ul>
                 </div>
             </div>
         </div>

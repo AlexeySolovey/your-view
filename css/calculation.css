@@ -68,6 +68,7 @@
     background-color: #fff;
     margin: 0 auto;
     position: absolute;
+    margin-left: -32px;
     bottom: -30px;
     left: 50%;
     /*-webkit-transform: translateX(-50%) rotate(180deg);*/
