@@ -22,7 +22,9 @@ body.modal-open {
     font-size: 12px;
     text-decoration: none!important
 }
-
+.catalog_card .owp-product-nav-wrap {
+    margin-top: -50px;
+}
 .section_border {
     position: relative;
     overflow: hidden
@@ -1674,7 +1676,8 @@ iframe {
     font-size: 30px;
     line-height: 22px;
     top: -65px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center;
 }
 
 .characteristic .characteristic_wrapp .characteristic_item {
