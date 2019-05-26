@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node4">
+  <panorama id="node1" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/1_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/1_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/1_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/1_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/1_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/1_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/1_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/1_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/1_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/1_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/1_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/1_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-2.67" fov="68" pan="-106.92"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 17:19:32" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node4}" tilt="-33.87" target="" id="p" pan="-107.72" description="" title=""/>
+      <hotspot skinid="p" url="{node2}" tilt="-31.29" target="" id="p" pan="-10.66" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/2_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/2_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/2_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/2_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/2_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/2_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/2_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/2_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/2_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/2_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/2_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/2_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.64" fov="68" pan="-14.91"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 17:18:13" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node4}" tilt="-29.26" target="" id="p" pan="114.79" description="" title=""/>
+      <hotspot skinid="p" url="{node1}" tilt="-34.92" target="" id="p" pan="92.76" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/3_back_o_0.jpg" tile3url="/public/common/vid_panorama/images/3_back_o_3.jpg" tile1url="/public/common/vid_panorama/images/3_back_o_1.jpg" prev5url="/public/common/vid_panorama/images/3_back_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/3_back_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/3_back_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/3_back_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/3_back_o_2.jpg" prev2url="/public/common/vid_panorama/images/3_back_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/3_back_o_5.jpg" prev1url="/public/common/vid_panorama/images/3_back_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/3_back_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-6.4" fov="68" pan="133.76"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 17:13:41" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node6}" tilt="-26.43" target="" id="p" pan="-87.7" description="" title=""/>
+      <hotspot skinid="p" url="{node1}" tilt="-32.38" target="" id="p" pan="142.15" description="" title=""/>
+      <hotspot skinid="r" url="{node2}" tilt="-39.5" target="" id="r" pan="125.91" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/3_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/3_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/3_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/3_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/3_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/3_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/3_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/3_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/3_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/3_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/3_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/3_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.6" fov="68" pan="-81.25"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 17:13:41" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node1}" tilt="-33.04" target="" id="p" pan="142.38" description="" title=""/>
+      <hotspot skinid="r" url="{node1}" tilt="-41.1" target="" id="r" pan="126.46" description="" title=""/>
+      <hotspot skinid="p" url="{node6}" tilt="-27.6" target="" id="p" pan="-87.82" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/4_back_o_0.jpg" tile3url="/public/common/vid_panorama/images/4_back_o_3.jpg" tile1url="/public/common/vid_panorama/images/4_back_o_1.jpg" prev5url="/public/common/vid_panorama/images/4_back_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/4_back_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/4_back_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/4_back_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/4_back_o_2.jpg" prev2url="/public/common/vid_panorama/images/4_back_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/4_back_o_5.jpg" prev1url="/public/common/vid_panorama/images/4_back_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/4_back_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-3.79" fov="68" pan="-21.47"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 17:05:56" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node3}" tilt="-28.23" target="" id="p" pan="-31.31" description="" title=""/>
+      <hotspot skinid="p" url="{node7}" tilt="-27.22" target="" id="p" pan="-107.74" description="" title=""/>
+      <hotspot skinid="l" url="{node9}" tilt="-38.19" target="" id="l" pan="161.44" description="" title=""/>
+      <hotspot skinid="p" url="{node14}" tilt="-29.02" target="" id="p" pan="124.15" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/4_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/4_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/4_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/4_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/4_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/4_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/4_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/4_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/4_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/4_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/4_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/4_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.02" fov="68" pan="144.05"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 17:05:56" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node7}" tilt="-27.22" target="" id="p" pan="-106.41" description="" title=""/>
+      <hotspot skinid="p" url="{node3}" tilt="-29.35" target="" id="p" pan="-32.27" description="" title=""/>
+      <hotspot skinid="p" url="{node14}" tilt="-30.74" target="" id="p" pan="130.12" description="" title=""/>
+      <hotspot skinid="l" url="{node9}" tilt="-38.28" target="" id="l" pan="158.41" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/5_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/5_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/5_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/5_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/5_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/5_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/5_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/5_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/5_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/5_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/5_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/5_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-3" fov="68" pan="-90.63"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:56:58" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node8}" tilt="-28.73" target="" id="p" pan="99.62" description="" title=""/>
+      <hotspot skinid="l" url="{node11}" tilt="-26.47" target="" id="l" pan="112.57" description="" title=""/>
+      <hotspot skinid="p" url="{node6}" tilt="-30.28" target="" id="p" pan="56.33" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/6_back_o_0.jpg" tile3url="/public/common/vid_panorama/images/6_back_o_3.jpg" tile1url="/public/common/vid_panorama/images/6_back_o_1.jpg" prev5url="/public/common/vid_panorama/images/6_back_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/6_back_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/6_back_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/6_back_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/6_back_o_2.jpg" prev2url="/public/common/vid_panorama/images/6_back_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/6_back_o_5.jpg" prev1url="/public/common/vid_panorama/images/6_back_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/6_back_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-0.32" fov="68" pan="83.92"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:50:17" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node14}" tilt="-27.4" target="" id="p" pan="107.88" description="" title=""/>
+      <hotspot skinid="p" url="{node5}" tilt="-32.48" target="" id="p" pan="64.19" description="" title=""/>
+      <hotspot skinid="p" url="{node7}" tilt="-27.03" target="" id="p" pan="-30.15" description="" title=""/>
+      <hotspot skinid="p" url="{node11}" tilt="-32.62" target="" id="p" pan="-121.01" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/6_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/6_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/6_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/6_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/6_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/6_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/6_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/6_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/6_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/6_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/6_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/6_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0.33" fov="68" pan="-131.43"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:50:17" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node11}" tilt="-30.86" target="" id="p" pan="-119.93" description="" title=""/>
+      <hotspot skinid="p" url="{node7}" tilt="-27.59" target="" id="p" pan="-32.46" description="" title=""/>
+      <hotspot skinid="p" url="{node5}" tilt="-34.5" target="" id="p" pan="62.92" description="" title=""/>
+      <hotspot skinid="p" url="{node14}" tilt="-29.73" target="" id="p" pan="110.94" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/7_back_o_0.jpg" tile3url="/public/common/vid_panorama/images/7_back_o_3.jpg" tile1url="/public/common/vid_panorama/images/7_back_o_1.jpg" prev5url="/public/common/vid_panorama/images/7_back_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/7_back_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/7_back_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/7_back_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/7_back_o_2.jpg" prev2url="/public/common/vid_panorama/images/7_back_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/7_back_o_5.jpg" prev1url="/public/common/vid_panorama/images/7_back_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/7_back_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-2.15" fov="68" pan="129.51"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:40:08" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node8}" tilt="-27.84" target="" id="p" pan="122.79" description="" title=""/>
+      <hotspot skinid="p" url="{node12}" tilt="-29.92" target="" id="p" pan="8.29" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/7_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/7_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/7_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/7_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/7_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/7_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/7_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/7_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/7_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/7_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/7_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/7_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.61" fov="68" pan="9.74"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:40:08" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node12}" tilt="-30.57" target="" id="p" pan="8.46" description="" title=""/>
+      <hotspot skinid="p" url="{node8}" tilt="-30.29" target="" id="p" pan="122.52" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/8_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/8_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/8_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/8_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/8_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/8_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/8_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/8_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/8_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/8_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/8_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/8_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.94" fov="68" pan="-3.44"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:32:33" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node10}" tilt="-29.74" target="" id="p" pan="0.27" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/9_back_o_0.jpg" tile3url="/public/common/vid_panorama/images/9_back_o_3.jpg" tile1url="/public/common/vid_panorama/images/9_back_o_1.jpg" prev5url="/public/common/vid_panorama/images/9_back_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/9_back_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/9_back_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/9_back_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/9_back_o_2.jpg" prev2url="/public/common/vid_panorama/images/9_back_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/9_back_o_5.jpg" prev1url="/public/common/vid_panorama/images/9_back_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/9_back_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.24" fov="68" pan="124.23"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:22:35" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node5}" tilt="-28.5" target="" id="p" pan="121.63" description="" title=""/>
+      <hotspot skinid="p" url="{node9}" tilt="-31.73" target="" id="p" pan="70.38" description="" title=""/>
+      <hotspot skinid="p" url="{node16}" tilt="-29.9" target="" id="p" pan="5.58" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/9_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/9_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/9_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/9_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/9_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/9_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/9_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/9_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/9_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/9_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/9_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/9_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.42" fov="68" pan="-31.06"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:22:35" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node16}" tilt="-29.64" target="" id="p" pan="3.83" description="" title=""/>
+      <hotspot skinid="p" url="{node9}" tilt="-32.1" target="" id="p" pan="70.96" description="" title=""/>
+      <hotspot skinid="p" url="{node5}" tilt="-31.8" target="" id="p" pan="122.37" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/10_back_o_0.jpg" tile3url="/public/common/vid_panorama/images/10_back_o_3.jpg" tile1url="/public/common/vid_panorama/images/10_back_o_1.jpg" prev5url="/public/common/vid_panorama/images/10_back_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/10_back_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/10_back_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/10_back_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/10_back_o_2.jpg" prev2url="/public/common/vid_panorama/images/10_back_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/10_back_o_5.jpg" prev1url="/public/common/vid_panorama/images/10_back_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/10_back_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.41" fov="68" pan="-14.94"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:14:29" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node13}" tilt="-27.98" target="" id="p" pan="-21.27" description="" title=""/>
+      <hotspot skinid="p" url="{node17}" tilt="-37.07" target="" id="p" pan="84.59" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/10_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/10_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/10_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/10_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/10_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/10_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/10_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/10_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/10_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/10_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/10_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/10_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-8.66" fov="68" pan="87"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 16:14:29" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node17}" tilt="-37.65" target="" id="p" pan="82.98" description="" title=""/>
+      <hotspot skinid="p" url="{node13}" tilt="-29.33" target="" id="p" pan="-21.81" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input tile0url="/public/common/vid_panorama/images/11_equi_o_0.jpg" tile3url="/public/common/vid_panorama/images/11_equi_o_3.jpg" tile1url="/public/common/vid_panorama/images/11_equi_o_1.jpg" prev5url="/public/common/vid_panorama/images/11_equi_o_preview_5.jpg" prev0url="/public/common/vid_panorama/images/11_equi_o_preview_0.jpg" prev4url="/public/common/vid_panorama/images/11_equi_o_preview_4.jpg" tilescale="1.005000" prev3url="/public/common/vid_panorama/images/11_equi_o_preview_3.jpg" tile2url="/public/common/vid_panorama/images/11_equi_o_2.jpg" prev2url="/public/common/vid_panorama/images/11_equi_o_preview_2.jpg" tile5url="/public/common/vid_panorama/images/11_equi_o_5.jpg" prev1url="/public/common/vid_panorama/images/11_equi_o_preview_1.jpg" tilesize="2000" tile4url="/public/common/vid_panorama/images/11_equi_o_4.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-4.85" fov="68" pan="-91.25"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata source="" datetime="2017:08:19 15:59:28" latitude="" author="" comment="" info="" longitude="" description="" title="" copyright="" tags="tour"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" bordercolor="0x000000" textalpha="1" borderalpha="1" enabled="1" border="1" backgroundalpha="1" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="p" url="{node15}" tilt="-33.77" target="" id="p" pan="91.01" description="" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomspeed="2" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="20" enabled="1" zoomin="0" type="crossdissolve" softedge="0"/>
+    <autorotate noderandom="1" speed="0.100" nodedelay="0.00" useanimation="0" returntohorizon="0.000" startloaded="0" delay="5.00"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0"/>
+  </panorama>
+</tour>
