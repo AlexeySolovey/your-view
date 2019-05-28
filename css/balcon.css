@@ -1,3 +1,52 @@
+.anons.balc{
+	color: #fff;
+}
+
+.balc ul.anons_li li:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    background-size: auto;
+}
+.balc ul.anons_li li:before {
+    top: 0;
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.balc ul.anons_li li {
+    padding-left: 70px;
+    min-height: 55px;
+    font-size: 21px;
+    position: relative;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.balc ul.anons_li .door0::before{
+	background-image: url(../img/icon/balcon_header_icon1.png);
+}
+.balc ul.anons_li .door1::before{
+	background-image: url(../img/icon/balcon_header_icon2.png);
+}
+.balc ul.anons_li .door2::before{
+	background-image: url(../img/icon/balcon_header_icon3.png);
+}
+.balc ul.anons_li .door3::before{
+	background-image: url(../img/icon/balcon_header_icon4.png);
+}
+
 .review_title{
 	font-size: 30px;
 }
@@ -122,7 +171,6 @@
     padding-left: 100px;
     min-height: 180px;
     max-width: 100%;
-    background: url(img/service1.png) no-repeat center;
     background-size: auto;
     font-size: 18px;
 

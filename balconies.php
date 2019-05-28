@@ -28,21 +28,119 @@
 
 
 
-<section class="balcon_shot">
+<section class="anons balc" style="background-image: url('/img/balcon_bg.jpeg');">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-               
+            <div class="col-sm-7 col-xs-12">
+                <h1>Качественные балконы под ключ с гарантией 5 лет и бессрочным обслуживанием</h1>
+                <ul class="anons_li">
+                    <li class="door door0">
+                        Используем оригинальные оконные профили Rehau
+                    </li>
+                    <li class="door door1">
+                        Теплый или холодный балкон
+                    </li>
+                    <li class="door door2">
+                        Гарантированный срок сдачи - не более 10 дней после замера
+                    </li>
+                    <li class="door door3">
+                        Принимаем платежи по безналичному расчету
+                    </li>
+                </ul>
             </div>
-            
-            <div class="col-md-3 col-sm-4">
-               
+            <div class="col-sm-5 col-xs-12">
+                <form class="main_form ng-pristine ng-valid">
+                    <header class="main_form_header">
+                        Моментальный расчет <br>
+                        стоимости балкона
+                    </header>
+                    <div class="main_form_body">
+                        <div class="form_item">
+                            <div class="name">Габариты:</div>
+                            <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
+                                <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                    <option value="3 метра">3 метра</option>
+                                    <option value="3.5 метра">3.5 метра</option>
+                                    <option value="4.5 метра">4.5 метра</option>
+                                    <option value="5 метров">5 метров</option>
+                                    <option value="6 метров">6 метров</option>
+                                    <option value="другой">другой</option>
+                                </select>
+                                <div class="jq-selectbox__select" style="position: relative">
+                                    <div class="jq-selectbox__select-text">3 метра</div>
+                                    <div class="jq-selectbox__trigger">
+                                        <div class="jq-selectbox__trigger-arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                        <li class="selected sel" style="">3 метра</li>
+                                        <li style="">3.5 метра</li>
+                                        <li style="">4.5 метра</li>
+                                        <li style="">5 метров</li>
+                                        <li style="">6 метров</li>
+                                        <li style="">другой</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_item">
+                            <div class="name">Тип балкона:</div>
+                            <div id="syle_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
+                                <select id="syle_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                    <option value="Прямой">Прямой</option>
+                                    <option value="Г-образный">Г-образный</option>
+                                    <option value="П-образный">П-образный</option>
+                                    <option value="Другой">Другой</option>
+                                </select>
+                                <div class="jq-selectbox__select" style="position: relative">
+                                    <div class="jq-selectbox__select-text">Прямой</div>
+                                    <div class="jq-selectbox__trigger">
+                                        <div class="jq-selectbox__trigger-arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                        <li class="selected sel" style="">Прямой</li>
+                                        <li style="">Г-образный</li>
+                                        <li style="">П-образный</li>
+                                        <li style="">Другой</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_item">
+                            <div class="name">Утепление:</div>
+                            <div id="material_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
+                                <select id="material_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                    <option value="Теплый балкон">Теплый балкон</option>
+                                    <option value="Холодный балкон">Холодный балкон</option>
+                                </select>
+                                <div class="jq-selectbox__select" style="position: relative">
+                                    <div class="jq-selectbox__select-text">Теплый балкон</div>
+                                    <div class="jq-selectbox__trigger">
+                                        <div class="jq-selectbox__trigger-arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                        <li class="selected sel" style="">Теплый балкон</li>
+                                        <li style="">Холодный балкон</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select" data-subject="Рассчитать стоимость с сайта балконов" data-button="Рассчитать стоимость" data-title="Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться" data-show=".modal-ty">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 </section>
 
-
+<br/><br/><br/><br/>
 
 
 <section class="rehau" style="background: url(img/rehau_bg.png) no-repeat center;">
@@ -567,87 +665,7 @@
     </div>
 </div>
 
-<footer class="footer section_border">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <a href="/index.php"><img src="img/logo_190_67.png" class="img-responsive logo_footer" alt="" data-pagespeed-url-hash="28445216" ></a>
-            </div>
-
-            <div class="col-sm-4 footer_class">
-                <ul class="footer_list">
-                    <li>
-                        <a href="/index.php" title="Главная" class="">Главная</a>
-                    </li>
-                    <li>
-                        <a href="/blog" title="Блог" class="current">Блог</a>
-                    </li>
-                    <li>
-                        <a href="/page/about" title="О нас" class="">О нас</a>
-                    </li>
-                    <li>
-                        <a href="/page/rassrochka" title="Рассрочка" class="">Рассрочка</a>
-                    </li>
-                    <li>
-                        <a href="/page/salon" title="Салон" class="">Салон</a>
-                    </li>
-                    <li>
-                        <a href="/page/contacts" title="Контакты" class="">Контакты</a>
-                    </li>
-                    <li>
-                        <a href="/page/sitemap" title="Карта сайта" class="">Карта сайта</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 col-md-offset-1 col-sm-4 phone_header phone_header_footer">
-                <a href="tel:+380442289886" class="phone">+38 (044) 228-98-86</a>
-
-                <button class="button button_red button_ico" data-toggle="modal" data-target=".modal_call" data-title="Заказать звонок" data-subject="Заказать звонок с главного сайта">
-                    <span>
-                        Заказать звонок
-                    </span>
-                </button>
-
-                <div class="address">
-                    Киев, ул.Вербовая , 24, 2 этаж
-                </div>
-
-                <div class="mail">
-                    <a href="mailto:info@wid.ua">info@wid.ua</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<div class="footer_line">
-    <div class="container">
-        <div class="row row_flex">
-            <div class="col-sm-4">
-                <div class="soc">
-                    <a href="#" target="_blank" rel="nofollow">
-                        <img src="img/icon/fb.png.pagespeed.ce.dtdQx8G5LR.png" class="img-responsive" alt="">
-                    </a>
-                    <a href="#" target="_blank" rel="nofollow">
-                        <img src="/img/icon/inst.png.pagespeed.ce.HNbLBJ8m9E.png" class="img-responsive" alt="" >
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-4 copy">
-                Все права защищены. 2008-2019 Компания "Ваш Вид"
-            </div>
-
-            <div class="col-sm-4">
-                <div class="studio">
-                    Сайт разработан<br>
-                    в компании <span class="name">WEBRA</span>
-                    <a href="#"  target="_blank" class="link"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <?php include('footer.php'); ?>
+
+</body>
+</html>

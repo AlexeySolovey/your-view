@@ -334,7 +334,7 @@ AOS.init({
 
         // simple form
 
-        $('.send-mess, .js-door-calculate').on('click', function(){
+        $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
             var formName = $(this).data('form');
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
@@ -367,6 +367,7 @@ AOS.init({
                 },
                 success: function (response) {
                     console.log(response);
+                    $('.form_input').val('');
                     $(".js_modal_result").modal('show');
                     //$('#open-case-message').text('The message was sent! Thank you!');
                     //$('#open_case_name, #open_case_phone, #open_case_email').val('');

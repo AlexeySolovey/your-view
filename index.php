@@ -21,7 +21,7 @@
                     </li>
 
                     <li>
-                        <a href="/glazing_cottages.php" title="Остекление коттеджей" class="">Остекление коттеджей</a>
+                        <a href="/cottages.php" title="Остекление коттеджей" class="">Остекление коттеджей</a>
                     </li>
                 </ul>
             </div>
@@ -344,17 +344,13 @@
                         <div class="panorama__form-desc">
                             Запишитесь в наш салон на просмотр и получите скидку
                         </div>
-                        <form class="ajaxForm panorama-form form-vertical ng-pristine ng-valid" id="yw0" action="/default/feedbacks/index" method="post">
-                            <div style="display:none">
-                                <input type="hidden" value="beb0ee5f4a46fb11c47de39062f93db10fa835b3" name="YII_CSRF_TOKEN">
-                            </div>
+                        <div class="ajaxForm panorama-form form-vertical" id="discont">
+                            <input value="Запишитесь в наш салон на просмотр и получите скидку с сайта межкомнатные двери" name="Feedbacks" type="hidden"> 
 
-                            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">           
-                            <input value="Запишитесь в наш салон на просмотр и получите скидку с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">          
-                            <input required="required" placeholder="ФИО" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                        
-                            <input required="required" placeholder="Номер телефона" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">       
-                            <button class="button">Записаться</button>
-                        </form>
+                            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+                            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">    
+                            <button class="button discont-js" data-form="discont">Записаться</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -402,18 +398,6 @@
 
     </div>
 </div>
-
-
-
-
-<div class="hey" style="width: 500px; border: 1px solid; margin-left: 30px;">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus, nobis autem earum repellendus. Omnis pariatur laborum quae maxime iusto, veniam. Fugit explicabo velit recusandae, iusto nobis reprehenderit eos incidunt ipsa corporis debitis, odit excepturi odio, dolores amet, labore! Excepturi unde rem necessitatibus non? Impedit et, nemo ad sed debitis ipsam obcaecati ducimus laudantium repellat quod aliquam magni ut soluta necessitatibus reiciendis, totam quos cupiditate. Doloremque ea a incidunt assumenda ex rem ipsum cumque animi libero itaque accusantium iusto porro quod, consequatur nostrum voluptatum reprehenderit natus id voluptate officia at officiis, alias pariatur nihil. Neque illum aut enim exercitationem quae suscipit recusandae minima itaque molestiae dicta. Eligendi, sequi, reprehenderit! Excepturi fugiat corporis adipisci ab, consequatur necessitatibus repellat itaque quas voluptas veniam corrupti quae illum, ipsum non, accusantium omnis! Nihil aliquam recusandae optio veniam maiores deserunt adipisci non repudiandae aperiam soluta, sunt unde quis cum dolores? Iusto aut cupiditate consectetur expedita hic asperiores, excepturi, quia, delectus omnis architecto suscipit ad aperiam. Distinctio itaque dignissimos cupiditate vitae, quisquam aliquam voluptas sint doloribus, laborum reiciendis totam recusandae? Ipsum suscipit dicta, earum expedita quia id, nulla officia illo voluptates quidem reiciendis! Fugiat neque maiores recusandae perferendis illum pariatur nobis dolor exercitationem quae nisi possimus suscipit ut omnis architecto sunt debitis excepturi, eius saepe est nihil non ducimus provident optio! Ullam molestiae magnam non itaque praesentium? Labore aperiam numquam reprehenderit tenetur ratione beatae, illum velit impedit commodi cum officia officiis tempora facere non magnam omnis voluptates, quos animi, maxime quo soluta, quod praesentium. Nam, quas consequuntur autem. Quibusdam, voluptas assumenda iure sed accusantium, blanditiis sunt accusamus perferendis, corrupti quos placeat alias nobis rerum magni maiores quam a architecto itaque veritatis, molestias minus praesentium voluptates. Quos eveniet libero sunt deserunt ea nulla, et sapiente impedit. Accusantium minima, optio eligendi, dolorem illo quod assumenda eaque voluptas expedita iste delectus impedit architecto fuga reiciendis quia est non similique mollitia itaque corporis consequatur soluta officia magni! Molestiae quis beatae, officiis asperiores inventore consequatur quia.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad laborum qui ipsam. Repudiandae libero illo ex, rem commodi. Necessitatibus, iusto ut autem ducimus quo porro ullam dignissimos earum, officiis consectetur dolorum praesentium molestiae sequi cum quia molestias amet aliquam consequatur illo aliquid in eveniet ratione deserunt doloremque. Perferendis doloremque nam perspiciatis in hic mollitia libero laboriosam quod quam ex, ipsum velit id at porro dolore nobis voluptatibus pariatur beatae recusandae saepe iusto, nostrum tempore. Quae quam deserunt, tempore, expedita odio ipsum non nulla optio obcaecati eveniet inventore! Obcaecati pariatur itaque dignissimos quam corrupti reiciendis porro officiis at numquam culpa, aperiam ut quibusdam, architecto iure quos eius qui modi provident, totam sit. Corrupti ratione, harum sequi labore expedita minima alias sed rem voluptatum, eaque esse!
-</div>
-
-
-
-
 
 
 <?php include('footer.php'); ?>
