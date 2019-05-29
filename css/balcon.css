@@ -1,5 +1,6 @@
 .anons.balc{
 	color: #fff;
+	height: 510px;
 }
 
 .balc ul.anons_li li:before{
@@ -28,7 +29,6 @@
     -ms-flex-align: center;
     align-items: center;
 }
-
 
 
 
@@ -249,17 +249,9 @@
 	display: block;
     width: 100%;
 }
-
-.jq-selectbox__trigger{
-	position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    background: #f0f0f0;
-    border-radius: 0;
-    border-left: 1px solid #f0f0f0;
+.jq-selectbox__trigger-arrow{
+	top:23px;
 }
-
 
 .jq-selectbox__dropdown{
 	position: absolute; 
@@ -276,4 +268,7 @@
 /*================== GLAZING_COTTADES =================*/
 /*=====================================================*/
 
+@media screen and (max-width: 768px){
+	.diagram.balc{padding-top: 270px;}
+}
 
