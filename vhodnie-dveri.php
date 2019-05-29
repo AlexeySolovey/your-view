@@ -70,35 +70,36 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form_item" id="size_select">
-                                <div class="name">Выберите размер:</div>
-                                    <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100">
-                                        <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                            <option value="600 х 2000 мм">600 х 2000 мм</option>
-                                            <option value="700 х 2000 мм">700 х 2000 мм</option>
-                                            <option value="800 х 2000 мм">800 х 2000 мм</option>
-                                            <option value="900 х 2000 мм">900 х 2000 мм</option>
-                                            <option value="Нестандартный">Нестандартный</option>
-                                        </select>
-                                    <div class="jq-selectbox__select" style="position: relative">
-                                        <div class="jq-selectbox__select-text">600 х 2000 мм</div>
-                                        <div class="jq-selectbox__trigger">
-                                            <div class="jq-selectbox__trigger-arrow"></div>
-                                        </div>
-                                    </div>
-                                    <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; top: 0px; display: none;">
-                                        <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                            <li class="selected sel" style="">600 х 2000 мм</li>
-                                            <li style="">700 х 2000 мм</li>
-                                            <li style="">800 х 2000 мм</li>
-                                            <li style="">900 х 2000 мм</li>
-                                            <li style="">Нестандартный</li>
-                                        </ul>
+
+
+                            <div class="name">Выберите размер:</div>
+                                <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100">
+                                    <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                        <option value="600 х 2000 мм">600 х 2000 мм</option>
+                                        <option value="700 х 2000 мм">700 х 2000 мм</option>
+                                        <option value="800 х 2000 мм">800 х 2000 мм</option>
+                                        <option value="900 х 2000 мм">900 х 2000 мм</option>
+                                        <option value="Нестандартный">Нестандартный</option>
+                                    </select>
+                                <div class="jq-selectbox__select" style="position: relative">
+                                    <div class="jq-selectbox__select-text">600 х 2000 мм</div>
+                                    <div class="jq-selectbox__trigger">
+                                        <div class="jq-selectbox__trigger-arrow"></div>
                                     </div>
                                 </div>
+                                <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; top: 0px; display: none;">
+                                    <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                        <li class="selected sel" style="">600 х 2000 мм</li>
+                                        <li style="">700 х 2000 мм</li>
+                                        <li style="">800 х 2000 мм</li>
+                                        <li style="">900 х 2000 мм</li>
+                                        <li style="">Нестандартный</li>
+                                    </ul>
+                                </div>
                             </div>
+
                             <button type="button" class="button send_to_form" >
-                                Рассчитатьстоимость
+                                Рассчитать стоимость
                             </button>
                         </div>
                     </form>
@@ -108,7 +109,7 @@
                     <div class="anons_block">                      
                         <div class="anons_block_item aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                             <div class="img">
-                                <img src="img/door_wihte.png" alt="">
+                                <img src="img/sexangle/door_wihte.png" alt="">
                             </div>
                             <div class="text">
                                 Экологически <br>
@@ -117,7 +118,7 @@
                         </div>                 
                         <div class="anons_block_item aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                             <div class="img">
-                                <img src="img/point.png" alt="">
+                                <img src="img/sexangle/point.png" alt="">
                             </div>
                             <div class="text">
                                 Сухая древесина <br>
@@ -126,7 +127,7 @@
                         </div>                  
                         <div class="anons_block_item aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
                             <div class="img">
-                                <img src="img/zoom.png" alt="" >
+                                <img src="img/sexangle/zoom.png" alt="" >
                             </div>
                             <div class="text">
                                 Итальянская <br>
@@ -135,7 +136,7 @@
                         </div>                 
                         <div class="anons_block_item aos-init aos-animate" data-aos="fade-up" data-aos-delay="700">
                             <div class="img">
-                                <img src="img/card.png" class="img-responsive" alt=""  >
+                                <img src="img/sexangle/card.png" class="img-responsive" alt=""  >
                             </div>
                             <div class="text">
                                 Принимаем платежи <br>
@@ -246,7 +247,7 @@
                     <!--                        </button>-->
                     <!--                    </div>-->
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" alt="">
+                        <img src="img/zakaz/order_mk_2.jpg" alt="">
                         <div class="name">
                             С 3D фрезеровкой
                         </div>
@@ -255,7 +256,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/color.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Любого цвета по
                             RAL каталогу
@@ -265,7 +266,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" alt="">
+                        <img src="img/zakaz/order_mk_4.jpg" alt="">
                         <div class="name">
                             С накладным штапиком
                         </div>
@@ -274,7 +275,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" alt="">
+                        <img src="img/zakaz/order_mk_5.jpg" alt="">
                         <div class="name">
                             Любой ширины
                         </div>
@@ -283,7 +284,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" alt="">
+                        <img src="img/zakaz/order_mk_6.jpg" alt="">
                         <div class="name">
                             1/2/3 створчатые
                         </div>
@@ -292,7 +293,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" alt="" >
+                        <img src="img/zakaz/order_mk_7.jpg" alt="" >
                         <div class="name">
                             С фрамугой
                         </div>
@@ -301,7 +302,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="" >
+                        <img src="img/zakaz/order_mk_8.jpg" class="img-responsive" alt="" >
                         <div class="name">
                             Арочные двери
                         </div>
@@ -310,7 +311,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="" >
+                        <img src="img/zakaz/order_mk_9.jpg" class="img-responsive" alt="" >
                         <div class="name">
                             Со стеклопакетом
                         </div>
@@ -319,7 +320,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_10.jpg" class="img-responsive" alt="">
                         <div class="name">
                             С витражом или
                             стеклом Тиффани
@@ -329,7 +330,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_11.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Двери триплекс
                         </div>
@@ -338,7 +339,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_12.jpg" class="img-responsive" alt="">
                         <div class="name">
                             С декорированным
                             наличником
@@ -348,7 +349,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_13.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Порталы
                         </div>
@@ -357,7 +358,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_14.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Патинирование /
                             старение
@@ -367,7 +368,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_15.jpg" class="img-responsive" alt="">
                         <div class="name">
                             С порогами
                         </div>
@@ -376,7 +377,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_16.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Со скрытым монтажом
                         </div>
@@ -385,7 +386,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_17.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Четвертные двери
                         </div>
@@ -394,7 +395,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_18.jpg" class="img-responsive" alt="">
                         <div class="name">
                             Матовые или глянцевые
                         </div>
@@ -403,7 +404,7 @@
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
-                        <img src="img/color.jpg" class="img-responsive" alt="">
+                        <img src="img/zakaz/order_mk_19.jpg" class="img-responsive" alt="">
                         <div class="name">
                             С художественной
                             росписью
@@ -422,8 +423,9 @@
         <h1>ТУТ БУДЕТ СЛАЙДЕР</h1>
     </section>
 
-  
 
+
+   
 
     <section class="best">
         <div class="container">
@@ -437,7 +439,7 @@
                     <div class="col-md-10 best_img no_padding col-md-offset-2">
                         <img src="img/m01.jpg" class="img-responsive" alt="">
                     </div>
-                    <div class="col-md-5 best_block">
+                    <div class="col-md-5 best_block" style="background-color: #f33237;">
                         <div class="best_block_box">
                             <div class="title">
                                 Комплексный подход                                
@@ -467,7 +469,7 @@
                     <div class="col-md-10 best_img no_padding col-md-offset-2">
                         <img src="img/m03.jpg" class="img-responsive" alt="">
                     </div>
-                    <div class="col-md-5 best_block">
+                    <div class="col-md-5 best_block" style="background-color: #f33237;">
                         <div class="best_block_box">
                             <div class="title">
                                 Полный цикл производства                                
@@ -598,7 +600,7 @@
                 <div class="col-sm-3 col-xs-6">
                     <div class="can_also_item">
                         <div class="img">
-                            <img src="img/can_also.png" class="img-responsive" alt="" >
+                            <img src="img/can_also_2.png" class="img-responsive" alt="" >
                         </div>
                         <div class="title">
                             Плинтусы
@@ -608,7 +610,7 @@
                 <div class="col-sm-3 col-xs-6">
                     <div class="can_also_item">
                         <div class="img">
-                            <img src="img/can_also.png" class="img-responsive" alt="" >
+                            <img src="img/can_also_3.png" class="img-responsive" alt="" >
                         </div>
                         <div class="title">
                             Наличники
@@ -618,7 +620,7 @@
                 <div class="col-sm-3 col-xs-6">
                     <div class="can_also_item">
                         <div class="img">
-                            <img src="img/can_also.png" class="img-responsive" alt="" >
+                            <img src="img/can_also_4.png" class="img-responsive" alt="" >
                         </div>
                         <div class="title">
                             Накладки на входные двери
@@ -659,7 +661,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <img src="img/zav.jpg" class="img-responsive" alt="">
+                        <img src="img/zav02.jpg" class="img-responsive" alt="">
                         <div class="produced_mk_item item_2">
                             <div class="title">
                                 Оборудование с мировым именем                            
@@ -670,7 +672,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <img src="img/zav.jpg" class="img-responsive" alt="">
+                        <img src="img/zav03.jpg" class="img-responsive" alt="">
                         <div class="produced_mk_item item_3">
                             <div class="title">
                                 Команда профессионалов                            
@@ -808,118 +810,6 @@
 
 
 
-<footer class="footer section_border">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <a href="/"><img src="img/logo_190_67.png" class="img-responsive logo_footer" alt="" data-pagespeed-url-hash="28445216" ></a>
-            </div>
 
-            <div class="col-sm-4 footer_class">
-                <ul class="footer_list">
-                    <li>
-                        <a href="/" title="Главная" class="">Главная</a>
-                    </li>
-                    <li>
-                        <a href="/blog" title="Блог" class="current">Блог</a>
-                    </li>
-                    <li>
-                        <a href="/page/about" title="О нас" class="">О нас</a>
-                    </li>
-                    <li>
-                        <a href="/page/rassrochka" title="Рассрочка" class="">Рассрочка</a>
-                    </li>
-                    <li>
-                        <a href="/page/salon" title="Салон" class="">Салон</a>
-                    </li>
-                    <li>
-                        <a href="/page/contacts" title="Контакты" class="">Контакты</a>
-                    </li>
-                    <li>
-                        <a href="/page/sitemap" title="Карта сайта" class="">Карта сайта</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 col-md-offset-1 col-sm-4 phone_header phone_header_footer">
-                <a href="tel:+380442289886" class="phone">+38 (044) 228-98-86</a>
-
-                <button class="button button_red button_ico" data-toggle="modal" data-target=".modal_call" data-title="Заказать звонок" data-subject="Заказать звонок с главного сайта">
-                    <span>
-                        Заказать звонок
-                    </span>
-                </button>
-
-                <div class="address">
-                    Киев, ул.Вербовая , 24, 2 этаж
-                </div>
-
-                <div class="mail">
-                    <a href="mailto:info@wid.ua">info@wid.ua</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<div class="footer_line">
-    <div class="container">
-        <div class="row row_flex">
-            <div class="col-sm-4">
-                <div class="soc">
-                    <a href="#" target="_blank" rel="nofollow">
-                        <img src="img/icon/fb.png.pagespeed.ce.dtdQx8G5LR.png" class="img-responsive" alt="">
-                    </a>
-                    <a href="#" target="_blank" rel="nofollow">
-                        <img src="/img/icon/inst.png.pagespeed.ce.HNbLBJ8m9E.png" class="img-responsive" alt="" >
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-4 copy">
-                Все права защищены. 2008-2019 Компания "Ваш Вид"
-            </div>
-
-            <div class="col-sm-4">
-                <div class="studio">
-                    Сайт разработан<br>
-                    в компании <span class="name">WEBRA</span>
-                    <a href="#"  target="_blank" class="link"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="modal modal_main modal_call fade in">
-    <div class="modal-dialog" role="document">
-        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
-
-        <div class="js_title title">Заказать звонок</div>
-        <div class="js_desc desc">
-            Оставьте ваши контакты, и наш менеджер свяжется
-            с вами в ближайшее время
-        </div>
-
-        <form class="ajaxForm form-vertical ng-pristine ng-valid" id="yw1" action="/default/feedbacks/index" method="post">
-            <div style="display:none">
-                <input type="hidden" value="e8bce8c0e0e94763b6ce1e70b008ef666277678e" name="YII_CSRF_TOKEN">
-            </div>
-            <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">        
-            <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">        
-            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">        
-            <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">        
-            <button type="submit" class="button">
-                <span>Сохранить</span>
-            </button>
-        </form> 
-
-        <div class="modal_note">
-            Ваши персональные данные не будут опубликованы
-            или переданы третьим лицам.
-        </div>
-    </div>
-</div>
 
 <?php include('footer.php'); ?>

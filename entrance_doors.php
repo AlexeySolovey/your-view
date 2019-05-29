@@ -940,7 +940,7 @@
 
 
 
-<div class="form-vertical" id='form-feedback'>
+<!-- <div class="form-vertical" id='form-feedback'>
             <input value="1" name="type" type="hidden">        
             <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
             <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
@@ -949,6 +949,6 @@
                 <span>Сохранить</span>
             </button>
         </div> 
-
+ -->
 
 <?php include('footer.php'); ?>

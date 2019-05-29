@@ -13,7 +13,7 @@
                     </li>
 
                     <li>
-                        <a href="/mezhkomnatnye-dveri" title="Межкомнатные двери" class="">Межкомнатные двери</a>
+                        <a href="/vhodnie-dveri.php" title="Межкомнатные двери" class="">Межкомнатные двери</a>
                     </li>
 
                     <li>
@@ -93,7 +93,7 @@
             </div>
         </div>
         <div class="col-sm-4 link_block_item ">
-            <a href="/vhodnie-dveri" class="link_block_item_big" style="background-image: url('img/link_block_item_1.png')">
+            <a href="/vhodnie-dveri.php" class="link_block_item_big" style="background-image: url('img/link_block_item_1.png')">
                 <div class="title">
                     Входные двери для квартир,<br>частных домов и офисов
                 </div>
@@ -101,12 +101,12 @@
         </div>
 
         <div class="col-sm-4 link_block_item link_block_item_wrapp">
-            <a href="/kuhni" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_2.png')">
+            <a href="#" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_2.png')">
                 <div class="title">
                     Кухни под заказ
                 </div>
             </a>
-            <a href="/balkon" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_3.png')">
+            <a href="/balconies.php" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_3.png')">
                 <div class="title">
                     Балконы под ключ
                 </div>
@@ -114,12 +114,12 @@
         </div>
 
         <div class="col-sm-4 link_block_item ">
-            <a href="/mezhkomnatnye-dveri" class="link_block_item_small" style="background-image: url('img/link_block_item_4.png')">
+            <a href="/entrance_doors.php" class="link_block_item_small" style="background-image: url('img/link_block_item_4.png')">
                 <div class="title">
                     Межкомнатные двери
                 </div>
             </a>
-            <a href="/cottage" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_5.png')">
+            <a href="#" class="col-sm-12 link_block_item_small" style="background-image: url('img/link_block_item_5.png')">
                 <div class="title">
                     Остекление коттеджей
                 </div>

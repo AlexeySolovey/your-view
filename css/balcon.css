@@ -61,7 +61,7 @@
 }
 
 .title-m, .title{
-	text-align: center;
+	/*text-align: center;*/
 	font-size: 40px;
 	margin: 50px 0px 50px 0px;
 }
@@ -262,8 +262,8 @@
 
 
 .jq-selectbox__dropdown{
-	position: absolute; 
-	display: none;
+	/*position: absolute; */
+	/*display: none;*/
 }
 
 .button{
