@@ -273,14 +273,7 @@
 </section>
 
 
-
-
-
-
-
-
 <section class="calculation">
-
     <div class="container clearfix">
         <div class="row">
             <div class="sale_wrapp_block" ng-show="calculation_item_show">

@@ -4234,7 +4234,7 @@ iframe {
 
 .anons_mk .jq-selectbox__select {
     height: 45px;
-    padding: 5px 45px 3px 10px;
+    padding: 0 45px 3px 10px;
     border: 1px solid #ccc;
     border-bottom-color: #cbd2d6;
     border-radius: 6px;
@@ -5906,6 +5906,194 @@ input:focus:required:invalid {
 .woocommerce-widget-layered-nav-list.chosen{
     display: block;
 }
+
+
+.make_door input,
+.modal input,
+.modal_select input {
+    -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .2);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .2);
+    background-color: #e2eaee;
+    border-radius: 1px;
+    margin-bottom: 10px
+}
+
+.modal_select .button {
+    margin-top: 10px;
+    width: 350px;
+    max-width: 100%;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+    line-height: 1;
+    -webkit-transition: ease .5s;
+    transition: ease .5s;
+    border-bottom: 5px solid #188810
+}
+
+.modal_select .modal_note {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.make_door,
+modal {
+    padding: 0!important
+}
+
+.make_door .modal-dialog {
+    padding: 25px 45px;
+    width: auto;
+    max-width: 1000px;
+    background-color: #fff
+}
+
+.make_door .border {
+    border-left: 2px solid #f5f6f7;
+    padding-left: 30px
+}
+
+.make_door .modal_title {
+    margin-top: 35px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1
+}
+
+.make_door .modal_text {
+    font-size: 20px
+}
+
+.make_door .modal_text .inner {
+    min-height: 230px;
+    margin-bottom: 20px
+}
+
+.make_door .modal_text .modal_title {
+    text-align: left;
+    margin-bottom: 30px
+}
+
+.make_door .modal_close {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 60px;
+    border-radius: 0;
+    width: 60px;
+    background: url(../common/close_1.png) no-repeat center #ed3439;
+    z-index: 100;
+    border: 0
+}
+
+.make_door .button {
+    margin-top: 10px;
+    width: 350px;
+    max-width: 100%;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2)
+}
+
+.make_door .modal_note {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.modal_door .modal-dialog {
+    width: auto;
+    max-width: 1200px;
+    padding: 80px 40px 0
+}
+
+.modal_door .modal_title {
+    margin-top: 35px
+}
+
+.modal_door .border {
+    border-left: 2px solid #f5f6f7;
+    padding-left: 30px
+}
+
+.modal_door .door,
+.sketch {
+    text-align: center
+}
+
+.modal_door .sm_slider {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+.modal_door .sm_slider .slick_next,
+.modal_door .sm_slider .slick_prev {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: auto;
+    right: auto;
+    background-image: url(../common/arrows.png);
+    width: 59px;
+    height: 53px;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-position: -58px 0;
+    left: -25px
+}
+
+.modal_door .sm_slider .slick_prev:hover {
+    background-position: -177px 0
+}
+
+.modal_door .sm_slider .slick_next {
+    left: auto;
+    background-position: 0 0;
+    right: -25px
+}
+
+.modal_door .sm_slider .slick_next:hover {
+    background-position: -118px 0
+}
+
+.modal .modal-dialog {
+    background-color: #fff
+}
+
+.modal .modal_close {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 0;
+    border: 0;
+    background-image: url(../common/close_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #ed3439;
+    z-index: 100
+}
+
+.modal .modal_title {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1
+}
+
 
 .woocommerce ul.products li.product li.title a{color:#d8282d}
 .woocommerce ul.products li.product .price .amount{color:black;}

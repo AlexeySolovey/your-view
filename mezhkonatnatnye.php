@@ -169,55 +169,192 @@
                 <div class="col-sm-12">
                     <div class="main_title"></div>
                         <div class="main_desc"></div>
-                        <div class="js-adv-slider slick-initialized slick-slider slick-dotted" style="display: block;">
-                        </div>
-                            <div class="slick_prev slick-arrow"></div>
-                        <div class="slick-list draggable">
-                            <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                <img src="" class="img-responsive" alt="">
-                            </div>
-                            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 0px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
-                                <img src="" class="img-responsive" alt="">
-                            </div>
-                            <div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 0px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
-                                <img src="" class="img-responsive" alt="" >
-                            </div>
-                            <div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 0px;" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
-                                <img src="" class="img-responsive" alt="" >
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                <img src="" class="img-responsive" alt="">
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                <img src="" class="img-responsive" alt="">
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" style="width: 0px;" tabindex="-1">
-                                <img src="" class="img-responsive" alt="">
+                            <div class="js-adv-slider">
+                                <div class="">
+                                   <img src="img/adv-slide1.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="">
+                                   <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>                           
-                             
-                    <div class="slick_next slick-arrow"></div>
-                    <ul class="slick-dots" role="tablist">
-                        <li class="slick-active" role="presentation">
-                            <button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button>
-                        </li>
-                        <li class="" role="presentation">
-                            <button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button>
-                        </li>
-                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="models white_before white_big_after" id="doors">
+        <div class="container">
+            <div class="row">
+                <div class="models_slider">
+                    <h2 class="title">Сейчас на складе 637 моделей <br> входных дверей</h2>
+                    <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
+                    <div class="js_slider doors_slider">
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door2.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Тринити Стандарт+ Квартира</a></div>
+                            <div class="price">7 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door3.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Мадрид Монолит Квартира</a></div>
+                            <div class="price">13 777 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door4.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Под заказ Милан Стандарт+</a></div>
+                            <div class="price">10 150 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door5.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Эдем 10 Стандарт Квартира</a></div>
+                            <div class="price">4 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door6.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Талисман Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door7.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Кристина Элит Квартира</a></div>
+                            <div class="price">12 400 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door8.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Горизонт Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door9.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                              Лиана Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door10.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Ронда Стандарт Квартира</a></div>
+                            <div class="price">6 950 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door11.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Реал Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door12.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Граффити Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Лофт 4 Стандарт Квартира</a></div>
+                            <div class="price">6 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Гранд Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Гранд Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>   
+                    </div>
+
+                    <a href="/dveri/">
+                        <span>Смотреть полный каталог</span>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section style="background: #ddd; margin-bottom: 100px;">
-        <h1>ТУТ БУДЕТ СЛАЙДЕР</h1>
-    </section>
 
     <section class="door_order_mk">
         <div class="container">
@@ -251,7 +388,7 @@
                         <div class="name">
                             С 3D фрезеровкой
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="техт">
                             Подробнее
                         </button>
                     </div>
@@ -422,10 +559,6 @@
     <section style="background: #ddd; margin-bottom: 100px;">
         <h1>ТУТ БУДЕТ СЛАЙДЕР</h1>
     </section>
-
-
-
-   
 
     <section class="best">
         <div class="container">
@@ -808,6 +941,47 @@
 
 
 
+
+
+
+
+<div class="modal make_door fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" data-dismiss="modal" type="button"></button>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <div class="modal_text">
+                    <div class="modal_title">Создайте свою идеальную дверь</div>
+                    <div class="inner" id="new_style_make_door">
+                        <p>Выберите из нашего каталога любой цвет для внешнего оформления вашей двери.</p>
+                        <p>Наши специалисты с радостью проконсультируют Вас и помогут определиться. </p>
+                    </div>
+                    <div class="text-center">
+                        <b>Специалисты компании ВашВид с радостью проконсультируют и сориентируют Вас в стоимости. </b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 border">
+                <div class="modal_title">Закажите консультацию специалиста </div>
+                
+
+
+                <form class="ajaxForm text-center form-vertical" data-hide=".make_door" id="yw4">
+                    <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">
+                    <input value="Дверь на заказ с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">
+                    <input value="" name="Feedbacks[content]" id="Feedbacks_content" type="hidden">
+                    <input required="required" placeholder="Имя" maxlength="100" name="Feedbacks[name]" id="Feedbacks_name" type="text">
+                    <input required="required" class="form_input js_mask" placeholder="Телефон" maxlength="100" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">
+                    <button href="#callbackwidget" class="button" type="submit">Узнать стоимость</button>
+                </form>
+
+
+                <div class="modal_note">Ваши персональные данные не будут опубликованы
+                    или переданы третьим лицам.</div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

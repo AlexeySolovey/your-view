@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                </div>                          
+                </div>
             </div>
         </div>
     </div>
@@ -606,189 +606,175 @@
 
 
 <section class="models white_before white_big_after" id="doors">
-        <div class="container">
-            <div class="row">
-                <div class="models_slider">
-                    <h2 class="title">Сейчас на складе 637 моделей <br> входных дверей</h2>
-                    <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
-                    <div class="js_slider doors_slider">
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door2.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Тринити Стандарт+ Квартира</a></div>
-                            <div class="price">7 850 <span class="currency">грн.</span></div>
+    <div class="container">
+        <div class="row">
+            <div class="models_slider">
+                <h2 class="title">Сейчас на складе 637 моделей <br> входных дверей</h2>
+                <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
+                <div class="js_slider doors_slider">
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door2.png" class="img-responsive" alt="">
+                            </a>
                         </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door3.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
 
-                            <div><a href="/dveri/" class="door_model">
-                               Мадрид Монолит Квартира</a></div>
-                            <div class="price">13 777 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door4.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Под заказ Милан Стандарт+</a></div>
-                            <div class="price">10 150 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door5.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Эдем 10 Стандарт Квартира</a></div>
-                            <div class="price">4 850 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door6.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Талисман Элит Квартира</a></div>
-                            <div class="price">20 300 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door7.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Кристина Элит Квартира</a></div>
-                            <div class="price">12 400 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door8.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Горизонт Стандарт+ Квартира</a></div>
-                            <div class="price">10 250 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door9.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                              Лиана Стандарт+ Квартира</a></div>
-                            <div class="price">10 250 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door10.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Ронда Стандарт Квартира</a></div>
-                            <div class="price">6 950 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door11.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Реал Элит Квартира</a></div>
-                            <div class="price">20 300 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door12.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Граффити Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Лофт 4 Стандарт Квартира</a></div>
-                            <div class="price">6 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>
-                        <div class="door">
-                            <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
-                                </a>
-                            </div>
-
-                            <div><a href="/dveri/" class="door_model">
-                               Гранд Стандарт+ Квартира</a></div>
-                            <div class="price">8 000 <span class="currency">грн.</span></div>
-                        </div>   
+                        <div><a href="/dveri/" class="door_model">
+                           Тринити Стандарт+ Квартира</a></div>
+                        <div class="price">7 850 <span class="currency">грн.</span></div>
                     </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door3.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
 
-                    <a href="/dveri/">
-                        <span>Смотреть полный каталог</span>
-                    </a>
+                        <div><a href="/dveri/" class="door_model">
+                           Мадрид Монолит Квартира</a></div>
+                        <div class="price">13 777 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door4.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Под заказ Милан Стандарт+</a></div>
+                        <div class="price">10 150 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door5.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Эдем 10 Стандарт Квартира</a></div>
+                        <div class="price">4 850 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door6.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Талисман Элит Квартира</a></div>
+                        <div class="price">20 300 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door7.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Кристина Элит Квартира</a></div>
+                        <div class="price">12 400 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door8.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Горизонт Стандарт+ Квартира</a></div>
+                        <div class="price">10 250 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door9.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                          Лиана Стандарт+ Квартира</a></div>
+                        <div class="price">10 250 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door10.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Ронда Стандарт Квартира</a></div>
+                        <div class="price">6 950 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door11.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Реал Элит Квартира</a></div>
+                        <div class="price">20 300 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door12.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Граффити Стандарт+ Квартира</a></div>
+                        <div class="price">8 000 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door1.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Лофт 4 Стандарт Квартира</a></div>
+                        <div class="price">6 000 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door1.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Гранд Стандарт+ Квартира</a></div>
+                        <div class="price">8 000 <span class="currency">грн.</span></div>
+                    </div>
+                    <div class="door">
+                        <div class="img_wrap">
+                            <a href="/dveri/">
+                                <img src="img/doors/door1.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div><a href="/dveri/" class="door_model">
+                           Гранд Стандарт+ Квартира</a></div>
+                        <div class="price">8 000 <span class="currency">грн.</span></div>
+                    </div>   
                 </div>
+
+                <a href="/dveri/">
+                    <span>Смотреть полный каталог</span>
+                </a>
             </div>
         </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+</section>
 
 
 
