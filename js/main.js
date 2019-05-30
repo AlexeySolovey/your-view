@@ -190,6 +190,32 @@ AOS.init({
         });
         
 
+        // doors_slider  // mezkomnatnue
+        if($('.doors_interroom').length){
+            $('.doors_interroom').slick({
+  
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                arrow:true,
+                prevArrow:'<div class="slick_prev"></div>',
+                nextArrow:'<div class="slick_next"></div>',
+                slidesToShow: 6,
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+
 
         //........ vhodnie dveri ...........//
 

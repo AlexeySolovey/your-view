@@ -190,7 +190,7 @@
                 <div class="models_slider">
                     <h2 class="title">Сейчас на складе 637 моделей <br> входных дверей</h2>
                     <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
-                    <div class="js_slider doors_slider">
+                    <div class="js_slider doors_interroom">
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
