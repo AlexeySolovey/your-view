@@ -217,6 +217,14 @@ AOS.init({
         }
 
 
+        //.........inter room doors ........//
+
+        $('.get-custom-door').on('click', function(){
+            var text = $(this).data('subject');
+            $('#new_style_make_door').html(`<p>${text}</p>`);
+        });
+
+
         //........ vhodnie dveri ...........//
 
         //show calculation 

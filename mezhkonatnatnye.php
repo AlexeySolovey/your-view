@@ -367,38 +367,23 @@
                 </div>
 
                 <div class="door_order_mk_wrapp">
-                    <!--                    <div class="order_mk_wrapp_item">-->
-                    <!--                        <img src="/public/common/order_mk.jpg" class="img-responsive" alt="">-->
-                    <!--                        <div class="name">-->
-                    <!--                            С 2D фрезеровкой-->
-                    <!--                        </div>-->
-                    <!---->
-                    <!--                        <button class="button get-custom-door"-->
-                    <!--                                data-toggle="modal"-->
-                    <!--                                data-target=".make_door"-->
-                    <!--                                data-subject="Дверь на заказ"-->
-                    <!--                                data-text="
-                    Новейшая технология нанесения 3D резьбы одновременно в трёх плоскостях позволяет создавать объёмные модели любых форм и размеров. Двери с 3D фрезеровкой выглядят благородно и изысканно, особенно подходят для классического интерьера.                           "-->
-                    <!--                        >-->
-                    <!--                            Подробнее-->
-                    <!--                        </button>-->
-                    <!--                    </div>-->
                     <div class="order_mk_wrapp_item">
                         <img src="img/zakaz/order_mk_2.jpg" alt="">
                         <div class="name">
                             С 3D фрезеровкой
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="техт">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Новейшая технология нанесения 3D резьбы одновременно в трёх плоскостях позволяет создавать объёмные модели любых форм и размеров. Двери с 3D фрезеровкой выглядят благородно и изысканно, особенно подходят для классического интерьера.">
                             Подробнее
                         </button>
                     </div>
                     <div class="order_mk_wrapp_item">
                         <img src="img/zakaz/color.jpg" class="img-responsive" alt="">
                         <div class="name">
-                            Любого цвета по
-                            RAL каталогу
+                            Любого цвета по RAL каталогу
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Специальная технология нанесения двухкомпонентной эмали в несколько этапов позволяет достичь потрясающего эффекта ровной и высококачественной покраски. В каталоге RAL можно подобрать любой цвет из предложенной гаммы.">
                             Подробнее
                         </button>
                     </div>
@@ -407,7 +392,8 @@
                         <div class="name">
                             С накладным штапиком
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Двери с накладным штапиком имеют особенный эффект винтажа, так как данный элемент декора придаёт рельефность и объем деревянным конструкциям. Наиболее выигрышно двери выглядят в классическом интерьере, также используются для оформления в стиле кантри.">
                             Подробнее
                         </button>
                     </div>
@@ -416,7 +402,8 @@
                         <div class="name">
                             Любой ширины
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Изготавливаем двери любой ширины, что позволяет реализовать все дизайнерские задумки без каких-либо ограничений. Заказав продукцию у нас, вы сможете установить двери в проем нестандартного размера и избавить себя от лишних проблем.">
                             Подробнее
                         </button>
                     </div>
@@ -425,7 +412,8 @@
                         <div class="name">
                             1/2/3 створчатые
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                В нашем каталоге представлен широкий ассортимент дверей с различным количеством створок. Наиболее выигрышно смотрится интерьер, в котором комбинируются разные варианты дверей, выполненные в едином стиле, но отличающиеся количеством створок.">
                             Подробнее
                         </button>
                     </div>
@@ -434,7 +422,8 @@
                         <div class="name">
                             С фрамугой
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Если у вас в помещении слишком высокий проем, но крупногабаритные двери не входят в ваши планы, можно заказать вариант с фрамугой. Такие двери выглядят по-особому стильно и благородно, красиво смотрятся в ретро-интерьерах.">
                             Подробнее
                         </button>
                     </div>
@@ -443,7 +432,8 @@
                         <div class="name">
                             Арочные двери
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Такие двери могут украсить как жилые, так и общественные помещения, бывают трёх-, двух-, одностворчатыми, имеют свой стиль и особенности изготовления. Процесс производства арочных дверей является нестандартным и трудоёмким, но в некоторых случаях данный вариант единственно приемлем.">
                             Подробнее
                         </button>
                     </div>
@@ -452,7 +442,8 @@
                         <div class="name">
                             Со стеклопакетом
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Двери со стеклопакетами обычно заказываются для входных конструкций, часто комбинируются с ковкой и другими декоративными элементами. Такие двери не только выглядят красиво и благородно, но и обладают высокой прочностью и хорошими защитными свойствами.">
                             Подробнее
                         </button>
                     </div>
@@ -462,7 +453,8 @@
                             С витражом или
                             стеклом Тиффани
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal" >
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Витражные элементы, добавленные в дверные конструкции, придают интерьеру необычный и даже сказочный вид. Солнечный свет, преломляемый витражом, создаёт в помещении красивую цветовую атмосферу и хорошее настроение.">
                             Подробнее
                         </button>
                     </div>
@@ -471,7 +463,8 @@
                         <div class="name">
                             Двери триплекс
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Используются в современных интерьерах, подчёркивают стиль хай-тек. Основу двери триплекс составляет высокопрочное качественное стекло, на которое с помощью специальных технологий могут наноситься различные узоры.">
                             Подробнее
                         </button>
                     </div>
@@ -481,7 +474,8 @@
                             С декорированным
                             наличником
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Одна из последних тенденций в мебельном производстве. Двери могут выполняться в стандартном стиле, тогда как основное внимание уделяется оформлению наличников, которые декорируются различными вкраплениями и элементами.">
                             Подробнее
                         </button>
                     </div>
@@ -490,7 +484,8 @@
                         <div class="name">
                             Порталы
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Красивые деревянные порталы украсят любое межкомнатные пространство. В зависимости от стиля интерьера, бывают как сложными дизайнерскими конструкциями, так и более простыми вариантами. В основном, служат для декоративных целей и зонирования помещений.">
                             Подробнее
                         </button>
                     </div>
@@ -500,7 +495,8 @@
                             Патинирование /
                             старение
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Во многих стилях интерьера очень органично смотрятся двери с патинированием. С помощью специальных технологий материалам придаётся эффект состаривания, затем двери покрываются защитными составами.">
                             Подробнее
                         </button>
                     </div>
@@ -509,7 +505,8 @@
                         <div class="name">
                             С порогами
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                В большинстве случаев в помещениях устанавливаются двери без порогов, однако для повышения шумоизоляции, защиты от влаги, дыма и других внешних воздействий возможно изготовление и монтаж конструкций с порогами.">
                             Подробнее
                         </button>
                     </div>
@@ -518,7 +515,8 @@
                         <div class="name">
                             Со скрытым монтажом
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Такие двери особенно популярны в современных интерьерах. За счёт использования специальных алюминиевых коробов при производстве дверей, после установки подобной конструкции дверь становится «невидимкой» и не привлекает к себе внимания.">
                             Подробнее
                         </button>
                     </div>
@@ -527,7 +525,8 @@
                         <div class="name">
                             Четвертные двери
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Двери с притвором часто используются в классических интерьерах. Технология изготовления четвертных дверей требует дополнительных усилий и времени, что неизбежно влияет на стоимость готовой продукции.">
                             Подробнее
                         </button>
                     </div>
@@ -536,7 +535,8 @@
                         <div class="name">
                             Матовые или глянцевые
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Двери с глянцевым покрытием красиво смотрятся в ярких современных интерьерах, в сочетании с металлическими декоративными элементами. Если вы являетесь приверженцем классики, рекомендуется использовать стандартные матовые варианты.">
                             Подробнее
                         </button>
                     </div>
@@ -546,12 +546,12 @@
                             С художественной
                             росписью
                         </div>
-                        <button class="button get-custom-door" data-toggle="modal">
+                        <button class="button get-custom-door" data-toggle="modal" data-target=".make_door" data-subject="
+                                Расписные двери могут по достоинству оценить только ценители искусства и высокого стиля. При этом многое зависит от вида художественной росписи, которая должна быть выполнена со вкусом и безупречным качеством.">
                             Подробнее
                         </button>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -953,8 +953,7 @@
                 <div class="modal_text">
                     <div class="modal_title">Создайте свою идеальную дверь</div>
                     <div class="inner" id="new_style_make_door">
-                        <p>Выберите из нашего каталога любой цвет для внешнего оформления вашей двери.</p>
-                        <p>Наши специалисты с радостью проконсультируют Вас и помогут определиться. </p>
+                        
                     </div>
                     <div class="text-center">
                         <b>Специалисты компании ВашВид с радостью проконсультируют и сориентируют Вас в стоимости. </b>
