@@ -3263,17 +3263,17 @@ iframe {
     padding-left: 17px
 }
 
-.modal_main.modal_download .modal-dialog {
+.modal_download .modal-dialog {
     text-align: center;
     width: 925px;
     padding: 60px 70px
 }
 
-.modal_main.modal_download .modal-dialog .desc {
+.modal_download .modal-dialog .desc {
     margin-bottom: 27px
 }
 
-.modal_main.modal_download .modal_wrapp {
+.modal_download .modal_wrapp {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3285,11 +3285,11 @@ iframe {
     justify-content: space-between
 }
 
-.modal_main.modal_download .download_form {
+.modal_download .download_form {
     max-width: 415px
 }
 
-.modal_main.modal_gauger .modal-dialog {
+.modal_gauger .modal-dialog {
     text-align: center;
     width: 1070px;
     border: 0
@@ -4212,7 +4212,7 @@ iframe {
 }
 
 .anons_mk:after {
-    background: url(../common/diagram_before_mk.png) no-repeat center
+    background: url(../img/diagram_before_mk.png) no-repeat center
 }
 
 .anons_mk .title {
@@ -5588,32 +5588,7 @@ input:focus:required:invalid {
     margin-bottom: 30px
 }
 
-@media (max-width:1199px) {
-    .salon_text .title {
-        font-size: 36px
-    }
-}
 
-@media (max-width:767px) {
-    .salon_text .title {
-        font-size: 28px;
-        margin-bottom: 20px;
-        line-height: 36px
-    }
-}
-
-@media (max-width:576px) {
-    .salon_text .title {
-        font-size: 22px;
-        line-height: 28px
-    }
-}
-
-@media (max-width:991px) {
-    .salon_text .title br {
-        display: none
-    }
-}
 
 .salon_wrapp {
     position: relative
@@ -5626,19 +5601,6 @@ input:focus:required:invalid {
     top: 0
 }
 
-@media (max-width:1199px) {
-    .salon_form {
-        right: 25px
-    }
-}
-
-@media (max-width:991px) {
-    .salon_form {
-        position: relative;
-        right: 0
-    }
-}
-
 .salon-form {
     padding: 33px 50px 5px;
     background-color: #e31f25;
@@ -5646,19 +5608,6 @@ input:focus:required:invalid {
     width: 435px;
     margin-left: auto;
     position: relative
-}
-
-@media (max-width:991px) {
-    .salon-form {
-        margin: 0 auto
-    }
-}
-
-@media (max-width:576px) {
-    .salon-form {
-        width: 90%;
-        padding: 20px 20px 5px
-    }
 }
 
 .salon-form:before {
@@ -5676,13 +5625,6 @@ input:focus:required:invalid {
     text-transform: uppercase
 }
 
-@media (max-width:576px) {
-    .salon-form__subtitle {
-        font-size: 12px;
-        line-height: 20px
-    }
-}
-
 .salon-form__title {
     font-size: 59px;
     font-weight: 600;
@@ -5691,7 +5633,61 @@ input:focus:required:invalid {
     margin-bottom: 10px;
     line-height: 45px
 }
+.modal_main.modal_download .modal-dialog {
+    text-align: center;
+    width: 925px;
+    padding: 60px 70px
+}
 
+.modal_main.modal_download .modal-dialog .desc {
+    margin-bottom: 27px
+}
+
+.modal_main.modal_download .modal_wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.modal_main.modal_download .download_form {
+    max-width: 415px
+}
+
+.modal_main.modal_download-mk .modal-dialog {
+    text-align: center;
+    width: 925px;
+    padding: 60px 25px
+}
+
+.modal_main.modal_download-mk .modal-dialog .title {
+    font-size: 30px;
+    margin-bottom: 30px
+}
+
+.modal_main.modal_download-mk .modal-dialog .desc {
+    margin-bottom: 27px
+}
+
+.modal_main.modal_download-mk .modal-dialog .download_form {
+    max-width: 415px
+}
+
+
+.modal_main.modal_download-mk .slick_next {
+    right: 0;
+    left: auto
+}
+
+.modal_main.modal_download-mk .slick_prev {
+    left: 0;
+    right: auto
+}
 @media (max-width:576px) {
     .salon-form__title {
         font-size: 33px;
@@ -6098,6 +6094,27 @@ modal {
 .woocommerce ul.products li.product li.title a{color:#d8282d}
 .woocommerce ul.products li.product .price .amount{color:black;}
 .woocommerce ul.products li.product:hover .price .amount{color:#d8282d}
+
+
+@media (max-width:1199px) {
+    .salon_text .title {font-size: 36px}
+    .salon_form {right: 25px}
+}
+
+@media (max-width:576px) {
+    .salon_text .title { font-size: 22px; line-height: 28px}
+    .salon-form {width: 90%; padding: 20px 20px 5px}
+    .salon-form__subtitle { font-size: 12px;line-height: 20px}
+}
+@media (max-width:991px) {
+    .salon_text .title br {display: none}
+    .salon_form {position: relative;right: 0; margin: 0 auto}
+    .modal_main.modal_download-mk .modal-dialog {width: 95%}
+}
+@media (max-width:767px) {
+    .salon_text .title {font-size: 28px; margin-bottom: 20px; line-height: 36px}
+    .modal_main.modal_download-mk .modal-dialog .download_form {max-width: 100%}
+}
 
 @media (min-width:992px) {
     #site-header.transparent-header{position: inherit;}

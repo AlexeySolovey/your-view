@@ -347,11 +347,7 @@
                         </div>   
                     </div>
 
-                    <a href="/dveri/">
-                        <span>Смотреть полный каталог</span>
-                    </a>
-
-                    <button type="button" class="button button_ico">
+                    <button type="button" class="button button_ico" data-toggle="modal" data-target=".modal_download">
                             <span>
                                 Скачать полный каталог
                             </span>
@@ -725,7 +721,7 @@
                         </div>   
                     </div>
 
-                    <button type="button" class="button button_ico">
+                    <button type="button" class="button button_ico" data-toggle="modal" data-target=".modal_download">
                         <span>
                             Скачать полный каталог
                         </span>
@@ -1089,10 +1085,6 @@
                             Запишитесь в наш салон на просмотр и получите скидку
                         </div>
                         <form class="ajaxForm panorama-form form-vertical ng-pristine ng-valid" id="yw0" action="/default/feedbacks/index" method="post">
-                            <div style="display:none">
-                                <input type="hidden" value="beb0ee5f4a46fb11c47de39062f93db10fa835b3" name="YII_CSRF_TOKEN">
-                            </div>
-
                             <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">           
                             <input value="Запишитесь в наш салон на просмотр и получите скидку с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">          
                             <input required="required" placeholder="ФИО" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                        
@@ -1150,6 +1142,41 @@
         </div>
     </div>
 </div>
+
+
+<div class="modal modal_main modal_download fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" data-dismiss="modal" type="button"></button>
+        <div class="modal_wrapp">
+            <div class="download_img">
+                <img class="img-responsive" alt="" src="/img/modal_mk.png">
+            </div>
+
+            <div class="download_form">
+                <div class="js_title title" >Скачать полный каталог</div>
+                <div class="js_desc desc">
+                    Оставьте ваши контакты, и наш менеджер
+                    свяжется с вами в ближайшее время.
+                </div>
+
+                <div class="form-vertical" id='form-katalog'>
+                    <input value="1" name="type" type="hidden">        
+                    <input value="Скачать полный каталог с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
+                    <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+                    <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">        
+                    <button class="button send-mess" data-form="form-katalog">
+                        <span>Скачать каталог</span>
+                    </button>
+                </div>
+
+                <div class="modal_note">Ваши персональные данные не будут опубликованы
+                    или переданы третьим лицам.</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
 
 <div class="modal modal_main modal_ty fade js_modal_result in">
