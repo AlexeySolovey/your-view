@@ -223,6 +223,31 @@ AOS.init({
             var text = $(this).data('subject');
             $('#new_style_make_door').html(`<p>${text}</p>`);
         });
+        // doors_slider 
+        if($('.doors_interroom_02').length){
+            $('.doors_interroom_02').slick({
+  
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                arrow:true,
+                prevArrow:'<div class="slick_prev"></div>',
+                nextArrow:'<div class="slick_next"></div>',
+                slidesToShow: 4,
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
 
 
         //........ vhodnie dveri ...........//
@@ -373,6 +398,7 @@ AOS.init({
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
+           console.log(formData); return;
             messAjax(formData);
         });
 

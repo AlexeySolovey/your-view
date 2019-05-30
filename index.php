@@ -390,29 +390,3 @@
 
 
 <?php include('footer.php'); ?>
-
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-
-
-<script>
-        (function($){
-            $(window).on("load",function(){
-                
-                $(".heyw").mCustomScrollbar({
-                    setHeight:340,
-                    theme:"minimal-dark"
-                });
-                
-                $(".hey").mCustomScrollbar({
-                    setHeight:300,
-                    theme:"dark-3"
-                });
-                
-                $("#myTab .tab-pane").mCustomScrollbar({
-                    setHeight:280,
-                    theme:"inset-2-dark"
-                });
-                
-            });
-        })(jQuery);
-    </script>

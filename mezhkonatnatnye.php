@@ -194,7 +194,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door2.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_01.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -205,7 +205,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door3.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_02.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -216,7 +216,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door4.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_03.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -227,7 +227,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door5.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_05.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -238,7 +238,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door6.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_06.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -249,7 +249,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door7.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_07.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -260,7 +260,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door8.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_08.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -271,7 +271,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door9.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_09.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -282,7 +282,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door10.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_10.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -293,7 +293,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door11.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_11.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -304,7 +304,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door12.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_12.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -315,7 +315,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_01.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -326,7 +326,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_02.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -337,7 +337,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors/door1.png" class="img-responsive" alt="">
+                                    <img src="img/doors4/list_homedoor_03.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -350,6 +350,12 @@
                     <a href="/dveri/">
                         <span>Смотреть полный каталог</span>
                     </a>
+
+                    <button type="button" class="button button_ico">
+                            <span>
+                                Скачать полный каталог
+                            </span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -556,9 +562,179 @@
         </div>
     </section>
 
-    <section style="background: #ddd; margin-bottom: 100px;">
-        <h1>ТУТ БУДЕТ СЛАЙДЕР</h1>
-    </section>
+    <section class="models white_before white_big_after" id="doors">
+        <div class="container">
+            <div class="row">
+                <div class="models_slider">
+                    <h2 class="title">Сейчас на складе 637 моделей <br> входных дверей</h2>
+                    <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
+                    <div class="js_slider doors_interroom_02">
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_01.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Тринити Стандарт+ Квартира</a></div>
+                            <div class="price">7 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_02.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Мадрид Монолит Квартира</a></div>
+                            <div class="price">13 777 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_03.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Под заказ Милан Стандарт+</a></div>
+                            <div class="price">10 150 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_04.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Эдем 10 Стандарт Квартира</a></div>
+                            <div class="price">4 850 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_05.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Талисман Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_06.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Кристина Элит Квартира</a></div>
+                            <div class="price">12 400 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_07.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Горизонт Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_08.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                              Лиана Стандарт+ Квартира</a></div>
+                            <div class="price">10 250 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_09.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Ронда Стандарт Квартира</a></div>
+                            <div class="price">6 950 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_11.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Реал Элит Квартира</a></div>
+                            <div class="price">20 300 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_12.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Граффити Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_14.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Лофт 4 Стандарт Квартира</a></div>
+                            <div class="price">6 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_01.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Гранд Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_02.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div><a href="/dveri/" class="door_model">
+                               Гранд Стандарт+ Квартира</a></div>
+                            <div class="price">8 000 <span class="currency">грн.</span></div>
+                        </div>   
+                    </div>
+
+                    <button type="button" class="button button_ico">
+                        <span>
+                            Скачать полный каталог
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> 
+
 
     <section class="best">
         <div class="container">
@@ -654,7 +830,7 @@
                     <img src="img/75920.png" class="img-responsive visible-xs" alt="">
 
                     <div class="col-sm-6 full_width_box col-sm-offset-6">
-                        <div class="title">
+                        <div class="title" style="margin: 35px 0px 35px 0px;">
                             Натуральное дерево                            
                         </div>
                         <div class="desc">
@@ -668,21 +844,17 @@
             </div>
         </div>
 
-                        
-    <!--            -->
         <div class="full_width_item full_width_item_right aos-init" data-aos="fade-up" style="background-image: url(img/cffb.png)">
             <div class="container">
                 <div class="row">
-
                     <img src="img/cffb.png" class="img-responsive visible-xs" alt="">
-
                     <div class="col-sm-6 full_width_box ">
-                        <div class="title">
-                            Итальянский лак                            
+                        <div class="title" style="margin: 35px 0px 35px 0px;">
+                            Итальянский лак
                         </div>
                         <div class="desc">
                             <p>
-                                Все двери покрыты грунтом, вскрыты в три слоя качественным итальянским лаком на водной основе. За счет твердости лака двери обладают высокой прочностью, не боятся ударов, сколов, царапин, устойчивы к температурным изменениям и имеют исключительный внешний вид.                                
+                                Все двери покрыты грунтом, вскрыты в три слоя качественным итальянским лаком на водной основе. За счет твердости лака двери обладают высокой прочностью, не боятся ударов, сколов, царапин, устойчивы к температурным изменениям и имеют исключительный внешний вид.
                             </p>
                         </div>
                     </div>
@@ -690,8 +862,7 @@
             </div>
         </div>
 
-                        
-    <!--            -->
+
         <div class="full_width_item full_width_item_left aos-init" data-aos="fade-up" style="background-image: url(img/daace.png)">
             <div class="container">
                 <div class="row">
@@ -699,12 +870,12 @@
                     <img src="img/daace.png" class="img-responsive visible-xs" alt="">
 
                     <div class="col-sm-6 full_width_box col-sm-offset-6">
-                        <div class="title">
-                            Только качественная фурнитура                           
+                        <div class="title" style="margin: 35px 0px 35px 0px;">
+                            Только качественная фурнитура
                         </div>
                         <div class="desc">
                             <p>
-                                Мы используем механизмы и скрытые петли AGB (Италия), ручки Colombo (Италия). Врезка фурнитуры происходит в заводских условиях. Срок эксплуатации такой фурнитуры - 10 лет.                                
+                                Мы используем механизмы и скрытые петли AGB (Италия), ручки Colombo (Италия). Врезка фурнитуры происходит в заводских условиях. Срок эксплуатации такой фурнитуры - 10 лет.
                             </p>
                         </div>
                     </div>
@@ -770,7 +941,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="main_title">
-                    Все двери производятся на современном австрийском оборудовании в Украине                
+                    Все двери производятся на современном австрийском оборудовании в Украине
                 </div>
             </div>
             <div class="col-sm-12">
@@ -786,10 +957,10 @@
                         <img src="img/zav.jpg" class="img-responsive" alt="">
                         <div class="produced_mk_item item_1">
                             <div class="title">
-                                Высокие производственные мощности                            
+                                Высокие производственные мощности
                             </div>
                             <div class="desc">
-                                Мы располагаем собственным производством, с современным высокотехнологичным оборудованием                            
+                                Мы располагаем собственным производством, с современным высокотехнологичным оборудованием
                             </div>
                         </div>
                     </div>
@@ -797,7 +968,7 @@
                         <img src="img/zav02.jpg" class="img-responsive" alt="">
                         <div class="produced_mk_item item_2">
                             <div class="title">
-                                Оборудование с мировым именем                            
+                                Оборудование с мировым именем
                             </div>
                             <div class="desc">
                                 Вся мебель производится на австрийском оборудовании FELDER-GROUP, которое известно во всём мире и зарекомендовало себя как надёжного производителя качественной продукции                            
@@ -962,18 +1133,16 @@
             </div>
             <div class="col-sm-6 col-xs-12 border">
                 <div class="modal_title">Закажите консультацию специалиста </div>
-                
 
-
-                <form class="ajaxForm text-center form-vertical" data-hide=".make_door" id="yw4">
-                    <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">
-                    <input value="Дверь на заказ с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">
-                    <input value="" name="Feedbacks[content]" id="Feedbacks_content" type="hidden">
-                    <input required="required" placeholder="Имя" maxlength="100" name="Feedbacks[name]" id="Feedbacks_name" type="text">
-                    <input required="required" class="form_input js_mask" placeholder="Телефон" maxlength="100" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">
-                    <button href="#callbackwidget" class="button" type="submit">Узнать стоимость</button>
-                </form>
-
+                <div class="form-vertical" id='form-price'>
+                    <input value="1" name="type" type="hidden">        
+                    <input value="Дверь на заказ с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
+                    <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+                    <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">        
+                    <button class="button send-mess" data-form="form-price">
+                        <span>Сохранить</span>
+                    </button>
+                </div> 
 
                 <div class="modal_note">Ваши персональные данные не будут опубликованы
                     или переданы третьим лицам.</div>
@@ -983,6 +1152,20 @@
 </div>
 
 
+<div class="modal modal_main modal_ty fade js_modal_result in">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+        <div class="js_title title">
+            Спасибо
+        </div>
+
+        <div class="js_desc desc">
+            Мы свяжемся с вами в ближайшее время.
+        </div>
+
+    </div>
+</div>
 
 
 <?php include('footer.php'); ?>

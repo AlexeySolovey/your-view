@@ -924,17 +924,4 @@
 </div>
 
 
-
-
-<!-- <div class="form-vertical" id='form-feedback'>
-            <input value="1" name="type" type="hidden">        
-            <input value="Заказать звонок с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
-            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
-            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">        
-            <button class="button send-mess" data-form="form-feedback">
-                <span>Сохранить</span>
-            </button>
-        </div> 
- -->
-
 <?php include('footer.php'); ?>
