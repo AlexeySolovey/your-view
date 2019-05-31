@@ -28,7 +28,7 @@
 
 
 
-<section class="anons balc" style="background-image: url('/wp-content/themes/oceanwpchild/img/balcon_bg.jpeg');">
+<section class="anons balc" style="background-image: url('/img/balcon_bg.jpeg');">
     <div class="container">
         <div class="row">
             <div class="col-sm-7 col-xs-12">
@@ -145,7 +145,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h2 class="main_title"></h2>
-                <div class="diagram_bg" style="background-image: url('wp-content/themes/oceanwpchild/img/diagram_balconies.jpg')">
+                <div class="diagram_bg" style="background-image: url('img/diagram_balconies.jpg')">
                 </div>
             </div>
         </div>
@@ -159,7 +159,7 @@
         <div class="row">
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon1.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon1.jpg">
                     <div class="space_price">
                         от 450 грн/м.п.
                     </div>
@@ -173,7 +173,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon2.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon2.jpg">
                     <div class="space_price">
                         от 6500 грн.
                     </div>
@@ -187,7 +187,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon3.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon3.jpg">
                     <div class="space_price">
                         от 140 грн./м.кв.
                     </div>
@@ -201,7 +201,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon4.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon4.jpg">
                     <div class="space_price">
                         от 310 грн./м.кв.
                     </div>
@@ -215,7 +215,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon5.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon5.jpg">
                     <div class="space_price">
                         от 4000 грн.
                     </div>
@@ -229,7 +229,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon6.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon6.jpg">
                     <div class="space_price">
                         от 4000 грн.
                     </div>
@@ -243,7 +243,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon7.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon7.jpg">
                     <div class="space_price">
                         от 20000 грн.
                     </div>
@@ -257,7 +257,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon8.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon8.jpg">
                     <div class="space_price">
                         от 20000 грн.
                     </div>
@@ -271,7 +271,7 @@
             </div>
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
-                    <img class="img-responsive" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balkon9.jpg">
+                    <img class="img-responsive" alt="" src="/img/balkon/balkon9.jpg">
                     <div class="space_price">
                         от 20000 грн.
                     </div>
@@ -353,7 +353,7 @@
                         </div>
                         <div class="col-md-9 col-sm-8">
                             <div class="calculation_type_radio_img">
-                                <img class="img-responsive js_input js_input_1 active" alt="" src="/wp-content/themes/oceanwpchild/img/balkon/balcon_type-1.png" >
+                                <img class="img-responsive js_input js_input_1 active" alt="" src="/img/balkon/balcon_type-1.png" >
                             </div>
                         </div>
                     </div>
@@ -433,7 +433,7 @@
                                     </div>
 
                                     <div class="form_size_img">
-                                        <img alt="" src="/wp-content/themes/oceanwpchild/img/balkon/plan/balcon_form-1_h.png">
+                                        <img alt="" src="/img/balkon/plan/balcon_form-1_h.png">
                                     </div>
                                 </div>
                             </div>
@@ -485,7 +485,7 @@
 
 
 
-<section class="rehau" style="background: url(wp-content/themes/oceanwpchild/img/rehau_bg.png) no-repeat center;">
+<section class="rehau" style="background: url(img/rehau_bg.png) no-repeat center;">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -497,7 +497,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <img class="img-responsive" alt="" src="wp-content/themes/oceanwpchild/img/sertficat.jpg" >
+                <img class="img-responsive" alt="" src="img/sertficat.jpg" >
             </div>
         </div>
     </div>
@@ -514,82 +514,82 @@
             </div>
             <div class="js_slider_production"> 
                 <div class="slick-list">
-                    <img src="wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
+                    <img src="img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_02.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_02.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_03.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_03.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_04.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_04.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_05.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_05.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_06.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_06.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_07.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_07.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_08.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_08.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_09.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_09.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_10.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_10.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_11.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_11.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_12.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_12.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_13.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_13.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_14.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_14.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_15.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_15.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_16.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_16.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_17.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_17.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_18.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_18.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_19.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_19.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_20.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_20.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_21.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_21.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_22.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_22.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_23.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_23.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_24.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_24.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="slick-list">
-                    <img src="/wp-content/themes/oceanwpchild/img/slide_balkon/slide_list_25.jpg" alt="" class="img-responsive">
+                    <img src="/img/slide_balkon/slide_list_25.jpg" alt="" class="img-responsive">
                 </div>
 
             </div>
@@ -599,7 +599,7 @@
 
 
 
-<section class="call_master" style="background-image: url('wp-content/themes/oceanwpchild/img/xx.png');">&gt;
+<section class="call_master" style="background-image: url('img/xx.png');">&gt;
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -611,7 +611,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="form_masters mass" style="background: url(wp-content/themes/oceanwpchild/img/form_bg.png) no-repeat center;">
+                <div class="form_masters mass" style="background: url(img/form_bg.png) no-repeat center;">
                     <div class="form_title">
                         ВЫЗВАТЬЗАМЕРЩИКА                    
                     </div>
@@ -639,21 +639,21 @@
         <div class="title">Почему наш сервис лучший в Украине</div>
         <div class="row">
             <div class="col-md-4 col-xs-12">
-                <img src="wp-content/themes/oceanwpchild/img/service1.png" alt="">
+                <img src="img/service1.png" alt="">
                 <div class="box">
                     <div class="num">5<span class="num_text">лет гарантии</span></div>
                     <div>на наши работы и пожизненное обслуживание</div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
-                <img src="wp-content/themes/oceanwpchild/img/service1.png" alt="">
+                <img src="img/service1.png" alt="">
                 <div class="box">
                     <div class="num">11<span class="num_text">лет</span></div>
                     <div>опыта работы</div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
-                <img src="wp-content/themes/oceanwpchild/img/service1.png" alt="">
+                <img src="img/service1.png" alt="">
                 <div class="box">
                     <div class="num">2384</div>
                     <div>переоборудованного балкона</div>
@@ -665,7 +665,7 @@
 
 
 
-<section class="make_all" style=" padding: 80px 0;background: url(wp-content/themes/oceanwpchild/img/make_all_bg.jpg) no-repeat center #5b686f;">
+<section class="make_all" style=" padding: 80px 0;background: url(img/make_all_bg.jpg) no-repeat center #5b686f;">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-4 section_padding">
@@ -682,7 +682,7 @@
 
 
 
-<section class="builders_team" style="padding: 120px 0;background: url(wp-content/themes/oceanwpchild/img/builder_team.jpg) no-repeat center;">
+<section class="builders_team" style="padding: 120px 0;background: url(img/builder_team.jpg) no-repeat center;">
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
@@ -699,7 +699,7 @@
 
 
 
-<section class="time_section" style=" padding: 80px 0;background: url(wp-content/themes/oceanwpchild/img/time_bg.jpg) no-repeat center;">&gt;
+<section class="time_section" style=" padding: 80px 0;background: url(img/time_bg.jpg) no-repeat center;">&gt;
     <div class="container">
         <div class="row">
             <div class="col-sm-7 col-sm-offset-5">
@@ -725,7 +725,7 @@
         <div class="row">
             <div class="col-sm-6 col-xs-12 col-sm-offset-6">
                 <div class="record_block">
-                    <img class="img-responsive center-block" alt="" data-pagespeed-url-hash="1192319815" src="wp-content/themes/oceanwpchild/img/record.png">
+                    <img class="img-responsive center-block" alt="" data-pagespeed-url-hash="1192319815" src="img/record.png">
                     <p><b>В 2011 году был построен каркасный дом на 100 квадратных метров за 19 дней.</b></p>
                     
                     <p>За 3 дня 5 наших бригад установили все окна, двери (входные и межкомнатные), смонтировали мебель, шкафы и кухню.</p>
@@ -746,7 +746,7 @@
         </div>
         <div class="row">
             <div class="col-sm-4 fears_item">
-                <img src="wp-content/themes/oceanwpchild/img/fears_item_1.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_1.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Не упадет ли балкон?
                 </div>
@@ -755,7 +755,7 @@
                 </div>
             </div>
             <div class="col-sm-4 fears_item">
-                <img src="wp-content/themes/oceanwpchild/img/fears_item_2.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_2.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Зимой холодно не будет?
                 </div>
@@ -764,7 +764,7 @@
                 </div>
             </div>
             <div class="col-sm-4 fears_item">
-                <img src="wp-content/themes/oceanwpchild/img/fears_item_3.jpg" class="img-responsive" alt="">
+                <img src="img/fears_item_3.jpg" class="img-responsive" alt="">
                 <div class="fears_title">
                     Никакой плесени
                 </div>
@@ -782,9 +782,9 @@
     <div class="container">
         <div class="row row_no_padding">
             <div class="col-sm-3 col-xs-12" style="padding-left: 0;padding-right: 0;float: left;">
-                <img src="wp-content/themes/oceanwpchild/img/person3.jpg" class="img-responsive review_img" alt="" style="    border-radius: 100px;">
+                <img src="img/person3.jpg" class="img-responsive review_img" alt="" style="    border-radius: 100px;">
             </div>
-            <div class="col-sm-9 col-xs-12 review_content" style="padding-left: 45px;padding-top: 15px;padding-bottom: 15px;background: url(../wp-content/themes/oceanwpchild/img/icon/review_top.png) left top no-repeat,url(../wp-content/themes/oceanwpchild/img/icon/review_bottom.png) right bottom no-repeat;min-height: 300px;">
+            <div class="col-sm-9 col-xs-12 review_content" style="padding-left: 45px;padding-top: 15px;padding-bottom: 15px;background: url(../img/icon/review_top.png) left top no-repeat,url(../img/icon/review_bottom.png) right bottom no-repeat;min-height: 300px;">
                 <div class="review_title" style="font-family: inherit;font-size: 33px;font-weight: 700;color: inherit;margin-bottom: 20px;">"Очень рада, что посоветовали именно
                     эту компанию"</div>
                 <div class="review_text">
@@ -799,7 +799,7 @@
 
 
 
-<section class="sketch" id="sketch" style="background: url(wp-content/themes/oceanwpchild/img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
+<section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
     <div class="container">
         <div class="row">
             <form class="ajaxForm form-vertical ng-pristine ng-valid"  id="yw1" action="/default/feedbacks/index" method="post">
@@ -908,7 +908,7 @@
 
 <section>
    <div class="title-m"><strong>Этапы работ</strong></div>
-   <section class="title-img" style="background-image: url(wp-content/themes/oceanwpchild/img/rem.jpg);">
+   <section class="title-img" style="background-image: url(img/rem.jpg);">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 text-title">
@@ -924,7 +924,7 @@
         </div>
    </section>
 
-   <section class="sem" style="background-image: url(wp-content/themes/oceanwpchild/img/rem02.jpg);">
+   <section class="sem" style="background-image: url(img/rem02.jpg);">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 left">
@@ -939,7 +939,7 @@
         </div>
    </section>
 
-    <section class="title-img" style="background-image: url(wp-content/themes/oceanwpchild/img/rem.jpg);">
+    <section class="title-img" style="background-image: url(img/rem.jpg);">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 text-title">
@@ -956,7 +956,7 @@
         </div>
    </section>
 
-   <section class="sem" style="background-image: url(wp-content/themes/oceanwpchild/img/rem02.jpg);">
+   <section class="sem" style="background-image: url(img/rem02.jpg);">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 left">
@@ -972,7 +972,7 @@
         </div>
    </section>
 
-    <section class="title-img" style="background-image: url(wp-content/themes/oceanwpchild/img/rem.jpg);">
+    <section class="title-img" style="background-image: url(img/rem.jpg);">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 text-title">
@@ -989,7 +989,7 @@
         </div>
    </section>
 
-   <section class="sem" style="background-image: url(wp-content/themes/oceanwpchild/img/rem02.jpg);">
+   <section class="sem" style="background-image: url(img/rem02.jpg);">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 left">
@@ -1012,7 +1012,7 @@
     <div class="container">
         <div class="row row_no_padding">
             <div class="col-sm-3 col-xs-12">
-                <img src="wp-content/themes/oceanwpchild/img/anastasia.jpg" alt=""  style="border-radius: 100px;">
+                <img src="img/anastasia.jpg" alt=""  style="border-radius: 100px;">
             </div>
             <div class="col-sm-9 col-xs-12 review_content">
                 <div class="review_title"><strong>"Буду рекомендувати Вашу фірму знайомим..."</strong></div>
@@ -1027,7 +1027,7 @@
 
 
 
-<div class="panorama" style="background-image: url('wp-content/themes/oceanwpchild/img/panorama.jpg')">
+<div class="panorama" style="background-image: url('img/panorama.jpg')">
     <div class="container">
         <div class="row panorama__row">
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -1045,7 +1045,7 @@
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="wp-content/themes/oceanwpchild/img/pano_img.png.pagespeed.png">
+                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
                     <div class="title">
                         3D тур
                     </div>

@@ -608,15 +608,15 @@ body .button:focus {
 
 .anons .desc,
 .anons .title {
-    line-height: 65px;
-    color: #2c3439
+    line-height: 50px;
+    color: #ffffff;
 }
 
 .anons .title {
     /*font-weight: 500;*/
-    margin-top: 0;
-    font-size: 73px;
-    margin-bottom: 10px
+    margin-top: 58px;
+    font-size: 60px;
+    /*margin-bottom: 10px*/
 }
 
 .anons .desc {
@@ -930,7 +930,7 @@ body .button:focus {
 
 .door .door_model {
     font-size: 15px;
-    color: #00000
+    color: #000000;
 }
 
 .door .price {
@@ -2123,7 +2123,7 @@ iframe {
 .blog_page img,
 .production,
 .production .main_title {
-    margin-bottom: 50px
+        margin: 30px 0px 30px 0px;
 }
 
 .production .js_slider_production img {
