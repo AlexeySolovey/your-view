@@ -278,6 +278,67 @@
 .balc.calculation .calculation_item_1 .form_type_5 label{
 	background: url(../img/balkon/plan/balcon_form-4.png) no-repeat center;
 }
+
+
+.space_price{
+	bottom: 0;
+    left: 0;
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+   
+   /* bottom: 5px;
+    left: 0;
+    width: 164px;
+    height: 32px;
+    background: url(../img/plaska.png) no-repeat center;*/
+}
+
+.space_price:before {
+    bottom: 5px;
+    left: 0;
+    width: 164px;
+    height: 32px;
+    background: url(../img/plaska.png) no-repeat center;
+}
+
+.space_item_img{
+	margin-top: 30px;
+}
+
+
+.space_item{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.space_title{
+	padding: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=====================================================*/
 /*================== GLAZING_COTTADES =================*/
 /*=====================================================*/

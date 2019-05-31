@@ -165,8 +165,9 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Вынос балкона                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="4" data-show=".modal-ty">
+                    Вынос балкона                
+                </div>
+                <button class="button button_sm">
                     Посмотреть примеры
                 </button>
             </div>
@@ -178,8 +179,9 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Остекление                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="5" data-show=".modal-ty">
+                    Остекление                
+                </div>
+                <button class="button button_sm">
                     Посмотреть примеры
                 </button>
             </div>
@@ -191,8 +193,9 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Утепление балкона                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="6" data-show=".modal-ty">
+                    Утепление балкона                
+                </div>
+                <button class="button button_sm">
                     Посмотреть примеры
                 </button>
             </div>
@@ -204,8 +207,10 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Обшивка балкона                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="7" data-show=".modal-ty">Посмотреть примеры
+                    Обшивка балкона                
+                </div>
+                <button class="button button_sm">
+                    Посмотреть примеры
                 </button>
             </div>
             <div class="col-sm-4 space_item">
@@ -216,8 +221,10 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Сделать кладовку                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="8" data-show=".modal-ty">Посмотреть примеры
+                    Сделать кладовку                
+                </div>
+                <button class="button button_sm">
+                    Посмотреть примеры
                 </button>
             </div>
             <div class="col-sm-4 space_item">
@@ -228,8 +235,10 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Сделать кабинет или рабочее место                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="9" data-show=".modal-ty">Посмотреть примеры
+                    Сделать кабинет или рабочее место               
+                </div>
+                <button class="button button_sm">
+                    Посмотреть примеры
                 </button>
             </div>
             <div class="col-sm-4 space_item">
@@ -240,8 +249,10 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Увеличить пространство гостинной                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="10" data-show=".modal-ty">Посмотреть примеры
+                    Увеличить пространство гостинной                
+                </div>
+                <button class="button button_sm">
+                    Посмотреть примеры
                 </button>
             </div>
             <div class="col-sm-4 space_item">
@@ -252,8 +263,10 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Увеличить пространство кухни                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="11" data-show=".modal-ty">Посмотреть примеры
+                    Увеличить пространство кухни               
+                </div>
+                <button class="button button_sm">
+                    Посмотреть примеры
                 </button>
             </div>
             <div class="col-sm-4 space_item">
@@ -264,8 +277,10 @@
                     </div>
                 </div>
                 <div class="space_title">
-                    Увеличить детскую комнату                </div>
-                <button class="button button_sm" data-toggle="modal" data-target=".modal_example" data-subject="Посмотреть примеры с сайта балконов" data-button="Отправить заявку" data-title="Чтобы уточнить стоимость, оставьте заявку" data-type="12" data-show=".modal-ty">Посмотреть примеры
+                    Увеличить детскую комнату               
+                </div>
+                <button class="button button_sm" >
+                    Посмотреть примеры
                 </button>
             </div>
         </div>
@@ -505,8 +520,95 @@
 
 
 
-<section style="background: #ddd; margin:50px 0px 50px 0px; text-align: center;">
-    <h1>ТУТ БУДЕТ СЛАЙДЕР</h1>
+<section class="production">
+    <div class="container">
+        <div class="row">
+            <div class="main_title">
+                Так может выглядеть балкон после <br> перепланировки               
+            </div>
+            <div class="js_slider_production"> 
+                <div class="slick-list">
+                    <img src="img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_02.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_03.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_04.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_05.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_06.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_07.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_08.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_09.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_10.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_11.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_12.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_13.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_14.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_15.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_16.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_17.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_18.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_19.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_20.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_21.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_22.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_23.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_24.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_25.jpg" alt="" class="img-responsive">
+                </div>
+
+            </div>
+        </div>
+    </div>
 </section>
 
 
