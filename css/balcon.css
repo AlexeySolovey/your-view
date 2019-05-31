@@ -195,7 +195,6 @@
 }
 
 .mass{
-	/*background: url(img/form_bg.png) no-repeat center;*/
 	background-size: 100% 100%;
     width: 380px;
     padding: 30px 40px 40px;
@@ -215,7 +214,6 @@
 }
 
 #size_select-styler{
-	/*display: inline-block; */
 	position: relative; 
 	z-index:100;
 }
@@ -253,14 +251,7 @@
 	top:23px;
 }
 
-.jq-selectbox__dropdown{
-	/*position: absolute; */
-	/*display: none;*/
-}
-
 .button{
-	/*width: 100%;*/
-    /*margin: 28px 0 15px;*/
     padding: 10px 0 9px;
 }
 

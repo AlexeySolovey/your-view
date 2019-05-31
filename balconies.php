@@ -273,10 +273,10 @@
 </section>
 
 
-<section class="calculation">
+<section class="calculation balc">
     <div class="container clearfix">
         <div class="row">
-            <div class="sale_wrapp_block" ng-show="calculation_item_show">
+            <div class="sale_wrapp_block">
                 <div class="sale_title">
                     Ваша скидка составляет:
                 </div>
@@ -338,14 +338,14 @@
                         </div>
                         <div class="col-md-9 col-sm-8">
                             <div class="calculation_type_radio_img">
-                                <img class="img-responsive js_input js_input_1 active" alt="" data-pagespeed-url-hash="52941484" src="/public/common/balcon_type-1.png.pagespeed.ce.czB4QLFdFu.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_2" alt="" data-pagespeed-url-hash="347441405" src="/public/common/balcon_type-2.png.pagespeed.ce.nb_i0HSe0H.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_3" alt="" data-pagespeed-url-hash="641941326" src="/public/common/balcon_type-3.png.pagespeed.ce.fkmLxCBitN.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_4" alt="" data-pagespeed-url-hash="936441247" src="/public/common/balcon_type-4.png.pagespeed.ce.v_NsHU4clF.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_5" alt="" data-pagespeed-url-hash="1230941168" src="/public/common/balcon_type-5.png.pagespeed.ce.iQDNuS2fbM.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_6" alt="" data-pagespeed-url-hash="1525441089" src="/public/common/balcon_type-6.png.pagespeed.ce.XkSCtfQEIn.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_7" alt="" data-pagespeed-url-hash="1819941010" src="/public/common/balcon_type-7.png.pagespeed.ce.JhiqzRskjD.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
-                                <img class="img-responsive js_input js_input_8" alt="" data-pagespeed-url-hash="2114440931" src="/public/common/balcon_type-8.png.pagespeed.ce.kQW3DwIOge.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                                <img class="img-responsive js_input js_input_1 active" alt="" data-pagespeed-url-hash="52941484" src="/public/common/balcon_type-1.png.pagespeed.ce.czB4QLFdFu.png" >
+                                <img class="img-responsive js_input js_input_2" alt="" src="/public/common/balcon_type-2.png.pagespeed.ce.nb_i0HSe0H.png" >
+                                <img class="img-responsive js_input js_input_3" alt="" src="/public/common/balcon_type-3.png.pagespeed.ce.fkmLxCBitN.png" >
+                                <img class="img-responsive js_input js_input_4" alt="" src="/public/common/balcon_type-4.png.pagespeed.ce.v_NsHU4clF.png" >
+                                <img class="img-responsive js_input js_input_5" alt=""  src="/public/common/balcon_type-5.png.pagespeed.ce.iQDNuS2fbM.png" >
+                                <img class="img-responsive js_input js_input_6" alt=""  src="/public/common/balcon_type-6.png.pagespeed.ce.XkSCtfQEIn.png" >
+                                <img class="img-responsive js_input js_input_7" alt=""  src="/public/common/balcon_type-7.png.pagespeed.ce.JhiqzRskjD.png" >
+                                <img class="img-responsive js_input js_input_8" alt=""  src="/public/common/balcon_type-8.png.pagespeed.ce.kQW3DwIOge.png" >
 
                             </div>
                         </div>
@@ -478,17 +478,6 @@
         </form>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
