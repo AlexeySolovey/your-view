@@ -408,7 +408,7 @@ AOS.init({
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
-            //console.log(formData); return;
+           // console.log(formData); return;
             messAjax(formData);
         });
 
