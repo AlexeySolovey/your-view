@@ -254,30 +254,32 @@
 .button{
     padding: 10px 0 9px;
 }
-.calculation.balc:before {display: none;}
+.balc.calculation:before {display: none;}
 .balc .calculation_item_wrapp{display: block}
+.balc.calculation .calculation_item_0 .calculation_type_radio{padding: 0; border: none;}
+.balc.calculation .calculation_item_0 .calculation_type_radio label{text-align: left;}
+.balc.calculation .calculation_item_0 .calculation_type_radio_img img{display: block;}
 .balc .calculation_item_1{padding-top: 0;  background-color: initial;}
-.balc.calculation .calculation_item_1 .form_type label {
-    width: 160px;
-    height: 160px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-.balc.calculation .calculation_item_1 .form_type_1 label{
-	background: url(../img/balkon/plan/balcon_form-1.png) no-repeat center;
-}
-.balc.calculation .calculation_item_1 .form_type_2 label{
-	background: url(../img/balkon/plan/balcon_form-2.png) no-repeat center;
-}
-.balc.calculation .calculation_item_1 .form_type_3 label{
-	background: url(../img/balkon/plan/balcon_form-3.png) no-repeat center;
-}
-.balc.calculation .calculation_item_1 .form_type_4 label{
-	background: url(../img/balkon/plan/balcon_form-5.png) no-repeat center;
-}
-.balc.calculation .calculation_item_1 .form_type_5 label{
-	background: url(../img/balkon/plan/balcon_form-4.png) no-repeat center;
-}
+.balc.calculation .calculation_item_1 .form_type label {width: 160px; height: 160px;margin-bottom: 10px;cursor: pointer;}
+.balc.calculation .calculation_item_1 .form_type input[type=radio]:checked+label{height: 160px;}
+.balc.calculation .calculation_item_1{height: auto; padding-bottom: 0; margin-bottom: 0;}
+.balc.calculation .calculation_item_1 .form_type_1 label{background: url(../img/balkon/plan/balcon_form-1.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_2 label{background: url(../img/balkon/plan/balcon_form-2.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_3 label{background: url(../img/balkon/plan/balcon_form-3.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_4 label{background: url(../img/balkon/plan/balcon_form-5.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_5 label{background: url(../img/balkon/plan/balcon_form-4.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_1 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-1_h.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_2 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-2_h.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_3 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-3_h.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_4 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-5_h.png) no-repeat center;}
+.balc.calculation .calculation_item_1 .form_type_5 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-4_h.png) no-repeat center;}
+
+.calculation .calculation_item_3{background: none;}
+
+.calculation .calculation_item_4{border: none;}
+.calculation .calculation_item_4 .title{position: relative; text-align: left; text-align: left;margin-bottom: 25px; line-height: 32px;margin-left: -39px;}
+.form_tehno .check .checkbox:not(checked)+label{display: block; text-align: left;}
+
 /*=====================================================*/
 /*================== GLAZING_COTTADES =================*/
 /*=====================================================*/

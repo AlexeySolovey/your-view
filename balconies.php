@@ -338,15 +338,7 @@
                         </div>
                         <div class="col-md-9 col-sm-8">
                             <div class="calculation_type_radio_img">
-                                <img class="img-responsive js_input js_input_1 active" alt="" data-pagespeed-url-hash="52941484" src="/public/common/balcon_type-1.png.pagespeed.ce.czB4QLFdFu.png" >
-                                <img class="img-responsive js_input js_input_2" alt="" src="/public/common/balcon_type-2.png.pagespeed.ce.nb_i0HSe0H.png" >
-                                <img class="img-responsive js_input js_input_3" alt="" src="/public/common/balcon_type-3.png.pagespeed.ce.fkmLxCBitN.png" >
-                                <img class="img-responsive js_input js_input_4" alt="" src="/public/common/balcon_type-4.png.pagespeed.ce.v_NsHU4clF.png" >
-                                <img class="img-responsive js_input js_input_5" alt=""  src="/public/common/balcon_type-5.png.pagespeed.ce.iQDNuS2fbM.png" >
-                                <img class="img-responsive js_input js_input_6" alt=""  src="/public/common/balcon_type-6.png.pagespeed.ce.XkSCtfQEIn.png" >
-                                <img class="img-responsive js_input js_input_7" alt=""  src="/public/common/balcon_type-7.png.pagespeed.ce.JhiqzRskjD.png" >
-                                <img class="img-responsive js_input js_input_8" alt=""  src="/public/common/balcon_type-8.png.pagespeed.ce.kQW3DwIOge.png" >
-
+                                <img class="img-responsive js_input js_input_1 active" alt="" src="/img/balkon/balcon_type-1.png" >
                             </div>
                         </div>
                     </div>
