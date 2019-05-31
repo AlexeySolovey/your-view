@@ -56,43 +56,43 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" style="padding: 40px 0px 40px 0px;">
         <div class="row">
             <div class="col-sm-12">
                 <div class="custome-slider">
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_01.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_02.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_03.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_04.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_05.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_06.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="slick-slide">
                     <a href="#" class="js-fancy">
-                        <img src="img/salon-slide.jpg" class="img-responsive" alt="">
+                        <img src="img/slider_salon/salon_list_07.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                 </div>
