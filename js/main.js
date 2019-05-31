@@ -5,7 +5,7 @@ AOS.init({
     delay: 100,
     disable: window.innerWidth < 991
 }), $(document).ready(function() {
-    0 !== $(".js-fancy").length && $(".js-fancy").fancybox(), $(".close_filter").on("click", function() {
+    0 !== $(".js-fancy-test").length && $(".js-fancy").fancybox(), $(".close_filter").on("click", function() {
         $(this).parents(".filter_list_item").hide()
     }), $(".checkbox_show").on("click", function() {
         $(".hidden_check").addClass("active"), $(".hidden_label").fadeOut()
