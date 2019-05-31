@@ -274,24 +274,24 @@
 .balc.calculation .calculation_item_1 .form_type_4 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-5_h.png) no-repeat center;}
 .balc.calculation .calculation_item_1 .form_type_5 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-4_h.png) no-repeat center;}
 
-.calculation .calculation_item_3{background: none;}
-.calculation .calculation_item_3 .form_size_wrapp{height: auto;}
-.calculation .calculation_item_3 .title{ margin-bottom: 25px; font-size: 32px; font-weight: 500; margin-top: 25px; line-height: 22px; color: inherit;}
-.calculation .calculation_item_3 .form_size{position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
-.calculation .calculation_item_3 .form_size_img{top:105px;}
-.calculation .calculation_item_3 .form_size_1:before { top: 50px;left: 44%;}
-.calculation .calculation_item_3 .form_size_2 {top: 150px;left: -145px;-webkit-box-orient: horizontal;-webkit-box-direction: reverse;-ms-flex-direction: row-reverse;flex-direction: row-reverse;}
-.calculation .calculation_item_3 .form_size_2:before{z-index: -1; height: 1px;}
-.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 { top: 150px; right: -170px;}
-.calculation .calculation_item_3 .form_size_3:before{left: -20px; height: 1px;}
-.calculation .calculation_item_3 .form_size input {width: 160px;}
-.button_wrapp{ text-align: center; margin-top:30px; }
+.balc.calculation .calculation_item_3{background: none;}
+.balc.calculation .calculation_item_3 .form_size_wrapp{height: auto;}
+.balc.calculation .calculation_item_3 .title{ margin-bottom: 25px; font-size: 32px; font-weight: 500; margin-top: 25px; line-height: 22px; color: inherit;}
+.balc.calculation .calculation_item_3 .form_size{position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+.balc.calculation .calculation_item_3 .form_size_img{top:105px;}
+.balc.calculation .calculation_item_3 .form_size_1:before { top: 50px;left: 44%;}
+.balc.calculation .calculation_item_3 .form_size_2 {top: 150px;left: -145px;-webkit-box-orient: horizontal;-webkit-box-direction: reverse;-ms-flex-direction: row-reverse;flex-direction: row-reverse;}
+.balc.calculation .calculation_item_3 .form_size_2:before{z-index: -1; height: 1px;}
+.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 { top: 150px; right: -170px;}
+.balc.calculation .calculation_item_3 .form_size_3:before{left: -20px; height: 1px;}
+.balc.calculation .calculation_item_3 .form_size input {width: 160px;}
+.balc .button_wrapp{ text-align: center; margin-top:30px; }
 
-.calculation .calculation_item_4{border: none;}
-.calculation .calculation_item_4 .title{position: relative; text-align: left; text-align: left;margin-bottom: 25px; line-height: 32px;margin-left: -39px;}
-.form_tehno .check .checkbox:not(checked)+label{display: block; text-align: left;}
+.balc .calculation .calculation_item_4{border: none;}
+.balc .calculation .calculation_item_4 .title{position: relative; text-align: left; text-align: left;margin-bottom: 25px; line-height: 32px;margin-left: -39px;}
+.balc .form_tehno .check .checkbox:not(checked)+label{display: block; text-align: left;}
 
-.space_price{
+.balc .space_price{
 	bottom: 0;
     left: 0;
     position: absolute;
@@ -311,27 +311,33 @@
     background: url(../img/plaska.png) no-repeat center;*/
 }
 
-.space_price:before {
+.balc .space_item_img {
+    position: relative;
+}
+.balc .space_price:before {
+	content: '';
     bottom: 5px;
     left: 0;
     width: 164px;
     height: 32px;
     background: url(../img/plaska.png) no-repeat center;
+    position: absolute;
+    z-index: -1;
 }
 
-.space_item_img{
+.balc .space_item_img{
 	margin-top: 30px;
 }
 
 
-.space_item{
+.balc .space_item{
 	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.space_title{
+.balc .space_title{
 	padding: 20px;
     font-weight: 800;
     font-size: 20px;

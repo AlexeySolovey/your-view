@@ -153,7 +153,7 @@
 </section>
 
 
-<section class="increase_space increase_space_new" id="increase_space">
+<section class="balc increase_space increase_space_new" id="increase_space">
     <div class="container">
         <div class="title">Сделайте балкон частью квартиры</div>
         <div class="row">
