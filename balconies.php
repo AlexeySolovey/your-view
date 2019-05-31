@@ -357,7 +357,7 @@
                                 <div class="calculation_item_1_wrapp js_option" data-name="Формат балкона">
 
                                     <div class="form_type form_type_1 clearfix">
-                                        <input type="radio" id="radio1_1" name="form_type" data-val="Прямой" ng-value="1" ng-model="form_type_model" class="ng-pristine ng-valid" value="1">
+                                        <input type="radio" name="form_type" data-img="form-1_h" value="1">
                                         <label for="radio1_1"></label>
                                         <div class="desc">
                                             Прямой
@@ -365,7 +365,7 @@
                                     </div>
 
                                     <div class="form_type form_type_2">
-                                        <input type="radio" id="radio1_2" name="form_type" data-val="П-образный" ng-value="2" ng-model="form_type_model" class="ng-pristine ng-valid" value="2">
+                                        <input type="radio" name="form_type" data-img="form-2_h" value="2">
                                         <label for="radio1_2"></label>
                                         <div class="desc">
                                             П-образный
@@ -373,7 +373,7 @@
                                     </div>
 
                                     <div class="form_type form_type_3">
-                                        <input type="radio" id="radio1_3" name="form_type" data-val="Угловой (угол слева)" ng-value="3" ng-model="form_type_model" class="ng-pristine ng-valid" value="3">
+                                        <input type="radio" name="form_type" data-img="form-3_h" value="3">
                                         <label for="radio1_3"></label>
                                         <div class="desc">
                                             Угловой (угол слева)
@@ -381,22 +381,20 @@
                                     </div>
 
                                     <div class="form_type form_type_4">
-                                        <input type="radio" id="radio1_4" name="form_type" data-val="Угловой (угол справа)" ng-value="4" ng-model="form_type_model" class="ng-pristine ng-valid" value="4">
+                                        <input type="radio" name="form_type" data-img="form-5_h"value="4">
                                         <label for="radio1_4"></label>
                                         <div class="desc">
                                             Угловой (угол справа)
                                         </div>
                                     </div>
                                     <div class="form_type form_type_5">
-                                        <input type="radio" id="radio1_5" name="form_type" data-val="Эркерный (радиусный)" ng-value="5" ng-model="form_type_model" class="ng-pristine ng-valid" value="5">
+                                        <input type="radio" name="form_type" data-img="form-4_h" value="5">
                                         <label for="radio1_5"></label>
                                         <div class="desc">
                                             Эркерный (радиусный)
                                         </div>
                                     </div>
-
-                                </div><!--calculation_item_1_wrapp-->
-
+                                </div>
                             </div>
                         </div>
 
@@ -406,7 +404,6 @@
                                     Введите размеры стен
                                 </div>
                                 <div class="form_size_wrapp">
-
                                     <div class="form_size form_size_1 js_option" data-name="Центральная часть" data-append="м">
                                         <input type="text" name="X" value="" placeholder="Центральная"><span>м</span>
                                     </div>
@@ -420,12 +417,9 @@
                                         <input type="text" name="R" value="" placeholder="Радиус"><span>м</span>
                                     </div>
 
-                                    <div class="form_size_img" ng-show="form_type_model == undefind"><img alt="" data-pagespeed-url-hash="3570319939" src="/public/common/balcon_form-1_h.png.pagespeed.ce.nI3gTg2CSJ.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></div>
-                                    <div class="form_size_img ng-hide" ng-show="form_type_model == 1"><img alt="" data-pagespeed-url-hash="3570319939" src="/public/common/balcon_form-1_h.png.pagespeed.ce.nI3gTg2CSJ.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></div>
-                                    <div class="form_size_img ng-hide" ng-show="form_type_model == 2"><img alt="" data-pagespeed-url-hash="2306956828" src="/public/common/balcon_form-2_h.png.pagespeed.ce.tEwmR7cBW-.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></div>
-                                    <div class="form_size_img ng-hide" ng-show="form_type_model == 3"><img alt="" data-pagespeed-url-hash="1043593717" src="/public/common/balcon_form-3_h.png.pagespeed.ce.rrZsRVEvuJ.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></div>
-                                    <div class="form_size_img ng-hide" ng-show="form_type_model == 4"><img alt="" data-pagespeed-url-hash="2811834791" src="/public/common/balcon_form-5_h.png.pagespeed.ce.bpqVer4Yvh.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></div>
-                                    <div class="form_size_img ng-hide" ng-show="form_type_model == 5"><img alt="" data-pagespeed-url-hash="1057104056" src="/public/common/balcon_form-4_2.png.pagespeed.ce.ah8iYokqZu.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></div>
+                                    <div class="form_size_img">
+                                        <img alt="" src="/img/balkon/plan/balcon_form-1_h.png">
+                                    </div>
                                 </div>
                             </div>
                         </div>

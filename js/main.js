@@ -280,11 +280,20 @@ AOS.init({
         //end show calculation
 
         //check door format
-        $('.calculation_item_1_wrapp input').on('change', function(){
+        $('.door .calculation_item_1_wrapp input').on('change', function(){
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');
             $('.form_size_img > img ').attr("src", "/wp-content/themes/oceanwpchild/img/white-door/dveri_"+ imgName +".jpg") 
+        });
+        //end door format
+
+        //check balcon format
+        $('.calculation_item_1_wrapp input').on('change', function(){
+            $('.calculation_item_1_wrapp input').prop( "checked", false );
+            $(this).prop('checked', true);
+            var imgName = $(this).data('img');
+            $('.form_size_img > img ').attr("src", "/img/balkon/plan/balcon_"+ imgName +".png") 
         });
         //end door format
 
@@ -398,7 +407,7 @@ AOS.init({
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
-           console.log(formData); return;
+            console.log(formData); return;
             messAjax(formData);
         });
 
