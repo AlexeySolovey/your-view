@@ -369,10 +369,10 @@
                                     Выберите формат балкона
                                 </div>
 
-                                <div class="calculation_item_1_wrapp js_option" data-name="Формат балкона">
+                                <div class="calculation_item_1_wrapp  js_option" data-name="Формат балкона">
 
                                     <div class="form_type form_type_1 clearfix">
-                                        <input type="radio" name="form_type" data-img="form-1_h" value="1">
+                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="1">
                                         <label for="radio1_1"></label>
                                         <div class="desc">
                                             Прямой
@@ -380,7 +380,7 @@
                                     </div>
 
                                     <div class="form_type form_type_2">
-                                        <input type="radio" name="form_type" data-img="form-2_h" value="2">
+                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="2">
                                         <label for="radio1_2"></label>
                                         <div class="desc">
                                             П-образный
@@ -388,7 +388,7 @@
                                     </div>
 
                                     <div class="form_type form_type_3">
-                                        <input type="radio" name="form_type" data-img="form-3_h" value="3">
+                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="3">
                                         <label for="radio1_3"></label>
                                         <div class="desc">
                                             Угловой (угол слева)
@@ -396,14 +396,14 @@
                                     </div>
 
                                     <div class="form_type form_type_4">
-                                        <input type="radio" name="form_type" data-img="form-5_h"value="4">
+                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="4">
                                         <label for="radio1_4"></label>
                                         <div class="desc">
                                             Угловой (угол справа)
                                         </div>
                                     </div>
                                     <div class="form_type form_type_5">
-                                        <input type="radio" name="form_type" data-img="form-4_h" value="5">
+                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="5">
                                         <label for="radio1_5"></label>
                                         <div class="desc">
                                             Эркерный (радиусный)

@@ -290,6 +290,7 @@ AOS.init({
 
         //check balcon format
         $('.calculation_item_1_wrapp input').on('change', function(){
+            console.log('heey');
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');
@@ -407,7 +408,7 @@ AOS.init({
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
-            console.log(formData); return;
+            //console.log(formData); return;
             messAjax(formData);
         });
 

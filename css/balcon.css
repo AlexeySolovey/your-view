@@ -285,10 +285,12 @@
 .balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 { top: 150px; right: -170px;}
 .balc.calculation .calculation_item_3 .form_size_3:before{left: -20px; height: 1px;}
 .balc.calculation .calculation_item_3 .form_size input {width: 160px;}
+.balc.calculation .calculation_item_3 .form_size span{color:#000; font-size: 15px;}
+
 .balc .button_wrapp{ text-align: center; margin-top:30px; }
 
-.balc .calculation .calculation_item_4{border: none;}
-.balc .calculation .calculation_item_4 .title{position: relative; text-align: left; text-align: left;margin-bottom: 25px; line-height: 32px;margin-left: -39px;}
+.balc.calculation .calculation_item_4{border: none;}
+.balc.calculation .calculation_item_4 .title{position: relative; text-align: left; text-align: left;margin-bottom: 25px; line-height: 32px;margin-left: -39px;}
 .balc .form_tehno .check .checkbox:not(checked)+label{display: block; text-align: left;}
 
 .balc .space_price{
