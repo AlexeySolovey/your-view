@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="stylesheet" href="css/balcon.css">
+    <link rel="stylesheet" href="css/cottages.css">
 
 
 
