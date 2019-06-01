@@ -288,29 +288,30 @@
 </section>
 
 
-<section class="calculation balc">
+<section class="calculation balc" id="calculation">
     <div class="container clearfix">
-        <div class="row">
-            <div class="sale_wrapp_block">
-                <div class="sale_title">
+        <div class="sale_wrapp_block opened ">
+            <div class="sale_mobile">
+                <h2 class="sale_title">
                     Ваша скидка составляет:
-                </div>
+                </h2>
                 <div class="sale_price">
-                    <span class="js_options_total_discount">0</span> грн
+                    <span class="js_options_total_discount">0</span>%
 
                     <div class="js_sale_wrapp">
-                        + <span id="global_option_discount">0</span> грн
+                        + <span id="global_option_discount">1</span>%
                     </div>
                 </div>
-                <button class="button" type="button" data-toggle="modal" data-target=".modal_sale" data-subject="Рассчитать стоимость работ с сайта балконов">Зафиксировать скидку</button>
             </div>
-            <div class="calculation_title">
-                Рассчитайте стоимость вашего балкона online
-            </div>
-            <div class="calculation_desc">
-                Получите дополнительную скидку от компании "Ваш Вид"
-            </div>
+            <button class="button js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">Зафиксировать скидку</button>
         </div>
+
+
+
+        
+
+
+
 
         <form action="/" method="post" id="param_kitchen" class="ng-pristine ng-valid">
 
@@ -471,7 +472,9 @@
 
                     </div>
                     <div class="button_wrapp">
-                        <button class="button" type="button" data-toggle="modal" data-target=".modal_sale" data-subject="Рассчитать стоимость работ c сайта балкони">Рассчитать стоимость работ</button>
+                        <button class="button button_ico js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">
+                            Рассчитать стоимость работ
+                        </button>
                     </div>
                 </div>
             </div>
@@ -491,7 +494,7 @@
             <div class="col-sm-6">
                 <div class="text" style="margin-top: 251px;height: 100%;color: #fff; font-size: 18px;">
                     <h2 style="font-size:35px; font-weight: bold;"> Компания Ваш Вид является авторизрованным партнёром компании Rehau </h2>
-                    <p>
+                    <p id="bottomAnchor">
                        Наша компания является авторизированным партнером немецкого производителя оконных профилей Rehau. Все наши монтажники проходят обязательную стажировку и сертификацию, а при монтаже мы следуем всем стандартам Rehau. Это позволяет нам давать гарантию 5 лет на оконные профили и монтаж. 
                     </p>                   
                 </div>
@@ -1087,6 +1090,40 @@
                             <input required="required" placeholder="Номер телефона" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">       
                             <button class="button">Записаться</button>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal modal_main modal_calculate fade in">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+        <div class="container">
+            <div class="row row_flex">
+                <div class="col-sm-6 modal_calculate_wrapp" id="options_result_html">
+                    <div class="modal_price">
+                        Ваша скидка оставляет:  <span class="js_options_total_discount">0</span> <span> грн.</span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="modal_calculate_form">
+                        <div class="title">
+                            Наш менеджер уже рассчитывает стоимость дверей. Чтобы зафиксировать вашу скидку введите контакты.
+                        </div>
+
+                        <div class="ajaxForm form-vertical" id="calculation-form" >
+                            <input value="1" name="type" type="hidden">                        
+                            <input value="Рассчитать стоимость работ с сайта входные двери" name="Feedbacks" type="hidden">  
+                            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+                            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">
+                            <button class="button js-door-calculate" data-form="calculation-form"><span>Отправить и получить скидку</span></button>
+                        </div>
+                        <div class="modal_note">Ваши персональные данные не будут опубликованы
+                            или переданы третьим лицам.</div>
                     </div>
                 </div>
             </div>

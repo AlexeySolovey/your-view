@@ -294,7 +294,7 @@ AOS.init({
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');
-            $('.form_size_img > img ').attr("src", "/img/balkon/plan/balcon_"+ imgName +".png") 
+            $('.form_size_img > img ').attr("src", "/wp-content/themes/oceanwpchild/img/balkon/plan/balcon_"+ imgName +".png") 
         });
         //end door format
 
@@ -380,7 +380,8 @@ AOS.init({
                 var scroll = $(window).scrollTop();
                 var scrollBottom = scroll + $(window).height();
                 var calcPositionTop = $("#calculation").offset();
-                var calcPositionBottom = $('.models.white_before').offset();
+                var calcPositionBottom = $('#bottomAnchor').offset();
+
                 if(scroll > calcPositionTop.top && scrollBottom < calcPositionBottom.top ){
                     $('.sale_wrapp_block').addClass('canshow');
                 }else{
