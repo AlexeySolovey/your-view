@@ -931,6 +931,8 @@ body .button:focus {
 .door .door_model {
     font-size: 15px;
     color: #000000;
+    height: 40px;
+    display: inline-block;
 }
 
 .door .price {
@@ -950,6 +952,18 @@ body .button:focus {
     padding-top: 55px;
     background-color: #fff;
     padding-bottom: 45px
+}
+
+.footer-widget .header-social{
+    display: flex;
+}
+.footer-widget .header-social  a{
+    padding-right: 10px;
+}
+#footer-widgets .button_ico span:before{
+    background: url(../img/icon/phone_ico_19_19.png) no-repeat center;
+    width: 19px;
+    height: 19px;
 }
 
 .footer .footer_list,
@@ -5725,7 +5739,8 @@ input:focus:required:invalid {
     font-size: 16px;
     color: #000;
     height: 59px;
-    text-align: left
+    text-align: left;
+    background: #fff;
 }
 
 @media (max-width:576px) {

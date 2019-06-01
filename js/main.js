@@ -290,7 +290,6 @@ AOS.init({
 
         //check balcon format
         $('.calculation_item_1_wrapp input').on('change', function(){
-            console.log('heey');
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');
@@ -299,6 +298,8 @@ AOS.init({
         //end door format
 
         // counter
+
+        calcType = $('#calculation').data('type');
 
         var calcObj = {
             dorClass: '',
@@ -310,9 +311,18 @@ AOS.init({
             typeForOpen: '',
             width: '',
             height: '',
+
+            balkonFormat: '',
+            workType: {title: 'typework', data: []},
+            centerSide: '',
+            leftSide: '',
+            rightSide: '',
+            radius: '',
+            balcAccessories: {title: 'typework', data: []} 
         }
         var countDiscont = {
             total: 0,
+            show: 0,
             check: 0,
             incrise: function(){this.total++;},
             uncrise: function(){this.total--;}
@@ -323,21 +333,31 @@ AOS.init({
                 if(key === "width" || key === "height") continue;
                 if (calcObj[key]) countDiscont.total++;
             }
-            if(!calcObj['accessories']['data'].length) countDiscont.total--;
+            if(!calcObj['accessories']['data'].length)      countDiscont.total--;
+            if(!calcObj['workType']['data'].length)         countDiscont.total--;
+            if(!calcObj['balcAccessories']['data'].length)  countDiscont.total--;
 
             if(countDiscont.total > countDiscont.check) {
                 countDiscont.check = countDiscont.total;
-                $('.js_sale_wrapp').fadeIn();
-                $('.js_options_total_discount').text(countDiscont.total);
+                $('.js_sale_wrapp').fadeIn(); 
                 setTimeout(function () {
                     $('.js_sale_wrapp').fadeOut();
                 }, 500);
+                showDiscont();
             }else if(countDiscont.total < countDiscont.check){
                 countDiscont.check = countDiscont.total;
-                $('.js_options_total_discount').text(countDiscont.total);
+                showDiscont();
             }
+        }
 
-           
+        function showDiscont() {
+            if(calcType == 'test') {
+                countDiscont.show = countDiscont.total * 125;
+                $('.js_options_total_discount').text(countDiscont.show);
+            } else {
+                countDiscont.show = countDiscont.total;
+                $('.js_options_total_discount').text(countDiscont.show);
+            }   
         }
 
         $('.js_option input:text').on('change', function(){
@@ -354,13 +374,14 @@ AOS.init({
         $('.js_option input:checkbox').on('change', function(){
             var newArray = [];
             var checkBoxs = $('.js_option input:checkbox');
+            var calcName = $(this).data('calc');
             var calcTitle = $(this).data('title');
 
-            for(var i = 0; i< checkBoxs.length; i++){
-                if(checkBoxs[i].checked)
+            for(var i = 0; i < checkBoxs.length; i++){
+                if(checkBoxs[i].checked && checkBoxs[i].dataset.calc == calcName)
                    newArray.push(' ' + checkBoxs[i].value);
             }
-            calcObj.accessories = { title: calcTitle, data: newArray };
+            calcObj[calcName] = { title: calcTitle, data: newArray };
             showHideDiscont();
         });
 
@@ -368,7 +389,9 @@ AOS.init({
             $('#options_result_html').text('');
             for(var key in calcObj){
                 if(calcObj[key]) {
-                    if(key === 'accessories' && !calcObj['accessories']['data'].length) continue;
+                    if(key === 'accessories'     && !calcObj['accessories']['data'].length)     continue;
+                    if(key === 'workType'        && !calcObj['workType']['data'].length)        continue;
+                    if(key === 'balcAccessories' && !calcObj['balcAccessories']['data'].length) continue;
                     $('#options_result_html').append(`<div class="modal_calculate_item"><div class="left">${calcObj[key].title}</div><div class="right">${calcObj[key].data}</div></div>`);
                 }
             }
@@ -382,7 +405,7 @@ AOS.init({
                 var calcPositionTop = $("#calculation").offset();
                 var calcPositionBottom = $('#bottomAnchor').offset();
 
-                if(scroll > calcPositionTop.top && scrollBottom < calcPositionBottom.top ){
+                if(scrollBottom > calcPositionTop.top && scrollBottom < calcPositionBottom.top ){
                     $('.sale_wrapp_block').addClass('canshow');
                 }else{
                     $('.sale_wrapp_block').removeClass('canshow');
@@ -459,7 +482,7 @@ AOS.init({
             var _calс = {};
             for(var i in calcObj) {
                 if(calcObj[i]){
-                    if(i == 'accessories') {
+                    if(i == 'accessories' || i == 'workType'  || i ==  'balcAccessories') {
                         if(calcObj[i].data.length) _calс[i] = calcObj[i];
                         continue;
                     }
@@ -468,8 +491,8 @@ AOS.init({
             }
              
             return {
-                discount: countDiscont.total,
-                doorInfo: _calс
+                discount: countDiscont.show,
+                calcInfo: _calс
             }
         }
 

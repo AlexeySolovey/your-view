@@ -288,7 +288,7 @@
 </section>
 
 
-<section class="calculation balc" id="calculation">
+<section class="calculation balc" id="calculation" data-type='balc'>
     <div class="container clearfix">
         <div class="sale_wrapp_block opened ">
             <div class="sale_mobile">
@@ -296,24 +296,17 @@
                     Ваша скидка составляет:
                 </h2>
                 <div class="sale_price">
-                    <span class="js_options_total_discount">0</span>%
+                    <span class="js_options_total_discount">0</span>грн
 
                     <div class="js_sale_wrapp">
-                        + <span id="global_option_discount">1</span>%
+                        + <span id="global_option_discount">125</span>грн
                     </div>
                 </div>
             </div>
             <button class="button js-button-calculate" type="button" data-toggle="modal" data-target=".modal_calculate">Зафиксировать скидку</button>
         </div>
 
-
-
-        
-
-
-
-
-        <form action="/" method="post" id="param_kitchen" class="ng-pristine ng-valid">
+        <div id="param_kitchen">
 
             <div class="calculation_item calculation_item_0  clearfix">
                 <div class="container">
@@ -325,27 +318,27 @@
                                     работы
                                 </div>
 
-                                <div class="check js_option" data-name="Необходимые работы">
-                                    <input type="checkbox" id="bk1" class="checkbox" data-val="Остекление" data-value="Остекление" name="bk1">
-                                    <label for="bk1" class="js_label" data-hover=".js_input_1">Остекление</label>
+                                <div class="check js_option">
+                                    <input type="checkbox" id="bk1" class="checkbox" name="bk1"  data-calc="workType" value="Остекление" data-title="Необходимые работы">
+                                    <label for="bk1" class="js_label">Остекление</label>
 
-                                    <input type="checkbox" id="bk2" class="checkbox" name="bk2" data-val="Вынос по подоконнику" data-value="Вынос по подоконнику">
-                                    <label for="bk2" class="js_label" data-hover=".js_input_2">Вынос по подоконнику</label>
+                                    <input type="checkbox" id="bk2" class="checkbox" name="bk2" data-calc="workType" value="Вынос по подоконнику" data-title="Необходимые работы">
+                                    <label for="bk2" class="js_label">Вынос по подоконнику</label>
 
-                                    <input type="checkbox" id="bk3" class="checkbox" name="bk3" data-val="Вынос по плите" data-value="Вынос по плите">
-                                    <label for="bk3" class="js_label" data-hover=".js_input_3">Вынос по плите</label>
+                                    <input type="checkbox" id="bk3" class="checkbox" name="bk3" data-calc="workType" value="Вынос по плите" data-title="Необходимые работы">
+                                    <label for="bk3" class="js_label" >Вынос по плите</label>
 
-                                    <input type="checkbox" id="bk4" class="checkbox" name="bk4" data-val="Обшивка наружная" data-value="Обшивка наружная">
-                                    <label for="bk4" class="js_label" data-hover=".js_input_4">Обшивка наружная</label>
+                                    <input type="checkbox" id="bk4" class="checkbox" name="bk4" data-calc="workType" value="Обшивка наружная" data-title="Необходимые работы">
+                                    <label for="bk4" class="js_label">Обшивка наружная</label>
 
-                                    <input type="checkbox" id="bk5" class="checkbox" name="bk5" data-val="Утепление" data-value="Утепление">
+                                    <input type="checkbox" id="bk5" class="checkbox" name="bk5" data-calc="workType" value="Утепление" data-title="Необходимые работы">
                                     <label for="bk5" class="js_label" data-hover=".js_input_5">Утепление</label>
 
-                                    <input type="checkbox" id="bk6" class="checkbox" name="bk6" data-val="Объединение с комнатой" data-value="Объединение с комнатой">
+                                    <input type="checkbox" id="bk6" class="checkbox" name="bk6" data-calc="workType" value="Объединение с комнатой" data-title="Необходимые работы">
                                     <label for="bk6" class="js_label" data-hover=".js_input_6">Объединение с комнатой</label>
 
-                                    <input type="checkbox" id="bk7" class="checkbox" name="bk7" data-val="Изготовление мебели на балкон" data-value="Изготовление мебели на балкон">
-                                    <label for="bk7" class="js_label" data-hover=".js_input_7">Изготовление мебели на балкон</label>
+                                    <input type="checkbox" id="bk7" class="checkbox" name="bk7" data-calc="workType" value="Изготовление мебели на балкон" data-title="Необходимые работы">
+                                    <label for="bk7" class="js_label">Изготовление мебели на балкон</label>
                                 </div>
 
                                 <div class="js_open button_show" value="1" ng-click="calculation_item_show = true"></div>
@@ -373,7 +366,7 @@
                                 <div class="calculation_item_1_wrapp  js_option" data-name="Формат балкона">
 
                                     <div class="form_type form_type_1 clearfix">
-                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="1">
+                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="Прямой" data-calc="balkonFormat" data-title="Формат Балкона">
                                         <label for="radio1_1"></label>
                                         <div class="desc">
                                             Прямой
@@ -381,7 +374,7 @@
                                     </div>
 
                                     <div class="form_type form_type_2">
-                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="2">
+                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="П-образный" data-calc="balkonFormat" data-title="Формат Балкона">
                                         <label for="radio1_2"></label>
                                         <div class="desc">
                                             П-образный
@@ -389,7 +382,7 @@
                                     </div>
 
                                     <div class="form_type form_type_3">
-                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="3">
+                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="Угловой (угол слева)" data-calc="balkonFormat" data-title="Формат Балкона">
                                         <label for="radio1_3"></label>
                                         <div class="desc">
                                             Угловой (угол слева)
@@ -397,14 +390,14 @@
                                     </div>
 
                                     <div class="form_type form_type_4">
-                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="4">
+                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="Угловой (угол справа)" data-calc="balkonFormat" data-title="Формат Балкона">
                                         <label for="radio1_4"></label>
                                         <div class="desc">
                                             Угловой (угол справа)
                                         </div>
                                     </div>
                                     <div class="form_type form_type_5">
-                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="5">
+                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="Эркерный (радиусный)" data-calc="balkonFormat" data-title="Формат Балкона">
                                         <label for="radio1_5"></label>
                                         <div class="desc">
                                             Эркерный (радиусный)
@@ -420,17 +413,17 @@
                                     Введите размеры стен
                                 </div>
                                 <div class="form_size_wrapp">
-                                    <div class="form_size form_size_1 js_option" data-name="Центральная часть" data-append="м">
-                                        <input type="text" name="X" value="" placeholder="Центральная"><span>м</span>
+                                    <div class="form_size form_size_1 js_option">
+                                        <input type="text" name="X" value="" placeholder="Центральная" data-calc="centerSide" data-title="Центральная часть"><span>мм</span>
                                     </div>
-                                    <div class="form_size form_size_2 js_option ng-hide" data-name="Левая часть" data-append="м" ng-show="form_type_model == 2 || form_type_model == 3 ">
-                                        <input type="text" name="Y" value="" placeholder="Левая"><span>м</span>
+                                    <div class="form_size form_size_2 js_option">
+                                        <input type="text" name="Y" value="" placeholder="leftSide" data-calc="leftSide" data-title="Левая часть"><span>мм</span>
                                     </div>
-                                    <div class="form_size form_size_3 js_option ng-hide" data-name="Правая часть" data-append="м" ng-show="form_type_model == 2 || form_type_model == 4">
-                                        <input type="text" name="Z" value="" placeholder="Правая"><span>м</span>
+                                    <div class="form_size form_size_3 js_option">
+                                        <input type="text" name="Z" value="" placeholder="Правая" data-calc="rightSide" data-title="Правая часть"><span>мм</span>
                                     </div>
-                                    <div class="form_size form_size_4 js_option ng-hide" data-name="Радиус" data-append="м" ng-show="form_type_model == 5">
-                                        <input type="text" name="R" value="" placeholder="Радиус"><span>м</span>
+                                    <div class="form_size form_size_4 js_option"  >
+                                        <input type="text" name="R" value="" placeholder="Радиус" data-calc="radius" data-title="Радиус"><span>мм</span>
                                     </div>
 
                                     <div class="form_size_img">
@@ -449,19 +442,20 @@
                                 <div class="form_tehno clearfix">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="check js_option" data-name="Дополнительные комплектующие">
-                                            <input type="checkbox" id="t1" class="checkbox" data-val="Сушка для белья" data-value="Сушка для белья" name="t1">
+                                            <input type="checkbox" id="t1" class="checkbox" data-calc="balcAccessories" value="Сушка для белья" name="t1" data-title="Дополнительные комплектующие">
                                             <label for="t1">Сушка для белья</label>
-                                            <input type="checkbox" id="t2" class="checkbox" data-val="Шкафчик" data-value="Шкафчик" name="t2">
+                                            <input type="checkbox" id="t2" class="checkbox"
+                                            data-calc="balcAccessories" value="Шкафчик" name="t2" data-title="Дополнительные комплектующие">
                                             <label for="t2">Шкафчик</label>
-                                            <input type="checkbox" id="t3" class="checkbox" data-val="Кладовка" data-value="Кладовка" name="t3">
+                                            <input type="checkbox" id="t3" class="checkbox"  data-calc="balcAccessories" value="Кладовка" name="t3" data-title="Дополнительные комплектующие">
                                             <label for="t3">Кладовка</label>
-                                            <input type="checkbox" id="t4" class="checkbox" data-val="Складной стол" data-value="Складной стол" name="t4">
+                                            <input type="checkbox" id="t4" class="checkbox" data-calc="balcAccessories" value="Складной стол" name="t4" data-title="Дополнительные комплектующие">
                                             <label for="t4">Складной стол</label>
-                                            <input type="checkbox" id="t5" class="checkbox" data-val="Подсветка" data-value="Подсветка" name="t5">
+                                            <input type="checkbox" id="t5" class="checkbox" data-calc="balcAccessories" value="Подсветка" name="t5" data-title="Дополнительные комплектующие">
                                             <label for="t5">Подсветка</label>
-                                            <input type="checkbox" id="t6" class="checkbox" data-val="Вынос батареи" data-value="Вынос батареи" name="t6">
+                                            <input type="checkbox" id="t6" class="checkbox" data-calc="balcAccessories" value="Вынос батареи"  name="t6" data-title="Дополнительные комплектующие">
                                             <label for="t6">Вынос батареи</label>
-                                            <input type="checkbox" id="t7" class="checkbox" data-val="Теплый пол" data-value="Теплый пол" name="t7">
+                                            <input type="checkbox" id="t7" class="checkbox" data-calc="balcAccessories" value="Теплый пол"  name="t7" data-title="Дополнительные комплектующие">
                                             <label for="t7">Теплый пол</label>
                                         </div>
                                     </div>
@@ -479,7 +473,7 @@
                 </div>
             </div>
 
-        </form>
+        </div>
     </div>
 </section>
 
@@ -1106,7 +1100,7 @@
             <div class="row row_flex">
                 <div class="col-sm-6 modal_calculate_wrapp" id="options_result_html">
                     <div class="modal_price">
-                        Ваша скидка оставляет:  <span class="js_options_total_discount">0</span> <span> грн.</span>
+                        Ваша скидка оставляет:  <span class="js_options_total_discount">0</span> <span> %</span>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -1128,6 +1122,22 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+
+<div class="modal modal_main modal_ty fade js_modal_result in">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+        <div class="js_title title">
+            Спасибо
+        </div>
+
+        <div class="js_desc desc">
+            Мы свяжемся с вами в ближайшее время.
+        </div>
+
     </div>
 </div>
 

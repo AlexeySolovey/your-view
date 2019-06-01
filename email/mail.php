@@ -16,8 +16,8 @@
 		if($form['calucate']) {
 			$message   .= '<br/><br/>==========<br/><br/>';
 			$message   .= '<b> Cкидка:  	  </b>'   . $form['calucate']['discount']     . '<br/>';
-			foreach($form['calucate']['doorInfo'] as $key => $value) {
-				if($value['title'] == 'Комплектующие') {
+			foreach($form['calucate']['calcInfo'] as $key => $value) {
+				if($value['title'] == 'Комплектующие' || $value['title'] == 'Необходимые работы' || $value['title'] == 'Дополнительные комплектующие') {
 					$message   .= '<b>'.$value['title'].': </b>'.implode(", ", $value['data']) .'<br/>'; 
 					continue;
 				}
