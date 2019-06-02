@@ -301,7 +301,7 @@ AOS.init({
         //end door format
 
         //check balcon format
-        $('.calculation_item_1_wrapp input').on('change', function(){
+        $('.balc .calculation_item_1_wrapp input').on('change', function(){
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');

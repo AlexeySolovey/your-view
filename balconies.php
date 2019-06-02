@@ -274,7 +274,7 @@
 </section>
 
 
-<section class="calculation balc" id="calculation" data-type='balc'>
+<section class="balc calculation" id="calculation" data-type='balc'>
     <div class="container clearfix">
         <div class="sale_wrapp_block opened ">
             <div class="sale_mobile">

@@ -309,7 +309,7 @@
     </div>
 </div>
 
-<section class="calculation calculation-vd over_h" id="calculation">
+<section class="door calculation calculation-vd over_h" id="calculation">
     <div class="sale_wrapp_block">
         <div class="sale_mobile">
             <h2 class="sale_title">
@@ -327,7 +327,7 @@
     </div>
 
 
-    <form action="#" method="post" id="param_kitchen" class="ng-pristine ng-valid">
+    <div>
         <div class="calculation_item calculation_item_0 clearfix">
             <div class="container">
                 <div class="row">
@@ -601,7 +601,7 @@
                 </div>
             </div>
         </div>
-    </form>
+    </div>
 </section>
 
 
