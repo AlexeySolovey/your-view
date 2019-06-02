@@ -8,10 +8,13 @@
 	function send_open_case_mail($form){
 		$to= get_option('admin_email').', soloveyalexey3@gmail.com';
 
-		$subject        = "New feedback";
-		$message 		= '<h3> Тип сообщения: </h3>' . $form['Feedbacks'] . '<br/>';
-		$message	   .= '<b> Имя клиента:   </b>'   . $form['fName']     . '<br/>';
-		$message	   .= '<b> Телефон:  	  </b>'   . $form['phone']     . '<br/>';
+		$subject               = "New feedback";
+								$message  = '<h3> Тип сообщения: </h3>' . $form['Feedbacks'] . '<br/>';
+		if($form['gabarits']) 	$message .= '<b> Габариты: </b>'  	    . $form['gabarits']  . '<br/>';
+								$message .= '<b> Имя клиента: </b>'     . $form['fName']     . '<br/>';
+								$message .= '<b> Телефон:  	  </b>'     . $form['phone']     . '<br/>';
+
+
 
 		if($form['calucate']) {
 			$message   .= '<br/><br/>==========<br/><br/>';
