@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+ <?php include('header.php'); ?>
 
 <header class="header">
 	<div class="header_bottom_line">
@@ -148,7 +148,7 @@
 
 <section class="balc increase_space increase_space_new" id="increase_space">
     <div class="container">
-        <div class="title">Сделайте балкон частью квартиры</div>
+        <div class="title ciclum">Сделайте балкон частью квартиры</div>
         <div class="row">
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">

@@ -5948,7 +5948,7 @@ input:focus:required:invalid {
 .modal_select .modal_note {
     font-size: 13px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 25px;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto
@@ -6136,4 +6136,39 @@ modal {
     .home .page-header{display: none;}
     .page-header,
     .has-transparent-header .page-header{padding-top: 20px; margin-top: 0;}
+}
+
+
+/*==================================*/
+.title.text_title{
+    line-height: 70px;
+}
+
+.fixsd_title_box.title{
+    margin:0;
+}
+
+.img-responsive.images{
+    max-width: none;
+}
+
+.colors.title,.desc.colors{
+    color: #262626;
+}
+
+.button.send-mess.holl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.js_mask.inp{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
 }

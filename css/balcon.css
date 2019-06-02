@@ -347,8 +347,10 @@
     height: 90px;
 }
 
-
-
+.title.ciclum{
+    text-align: center;
+    font-weight: 700;
+}
 
 
 

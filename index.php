@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="title">
+                <div class="title text_title">
                     Двери,окна,кухни от производителя.<br>
                     Комплексные интерьерные решения                    
                 </div>
@@ -34,7 +34,7 @@
                 <div class="anons_block">
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/eco.png">
+                                <img class="img-responsive images" alt="" src="img/sexangle/eco.png">
                             </div>
                             <div class="text">
                                 Экологически <br>
@@ -43,7 +43,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/point.png">
+                                <img class="img-responsive images" alt="" src="img/sexangle/point.png">
                             </div>
                             <div class="text">
                                 Единый дизайн, стиль и цвет                                
@@ -51,7 +51,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/zoom.png" >
+                                <img class="img-responsive images" alt="" src="img/sexangle/zoom.png" >
                             </div>
                             <div class="text">
                                 Проверенная годами фурнитура                                
@@ -59,7 +59,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
                             <div class="img">
-                                <img class="img-responsive" alt="" src="img/sexangle/door_wihte.png" >
+                                <img class="img-responsive images" alt="" src="img/sexangle/door_wihte.png" >
                             </div>
                             <div class="text">
                                 Полноценная гарантия на всю продукцию                                
@@ -149,49 +149,49 @@
                         <div class="produced_list clearfix">
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_1.png">
-                                <div class="title">
+                                <div class="fixsd_title_box title">
                                     ВХОДНЫЕ ДВЕРИ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt=""src="img/product_list_2.png" >
-                                <div class="title">
+                                <div class="title  fixsd_title_box">
                                     МЕЖКОМНАТНЫЕ ДВЕРИ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_3.png">
-                                <div class="title">
+                                <div class="title  fixsd_title_box">
                                     ОКНА
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_4.png">
-                                <div class="title">
+                                <div class="title  fixsd_title_box">
                                     БАЛКОНЫ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_5.png">
-                                <div class="title">
+                                <div class="title  fixsd_title_box">
                                     ИНТЕРЬЕР КОМПЛЕКТЫ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_6.png">
-                                <div class="title">
+                                <div class="title  fixsd_title_box">
                                     ШКАФЫ
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_7.png">
-                                <div class="title">
+                                <div class="title  fixsd_title_box">
                                     КУХНИ
                                 </div>
                             </div>

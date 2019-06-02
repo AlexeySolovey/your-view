@@ -23,12 +23,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-sm-12">
-                <h1 class="title">
+                <h1 class="title colors">
                     Взломостойкие,
                     энергосберегающие
                     двери
                 </h1>
-                <div class="desc">
+                <div class="desc colors">
                     ОТ ПРОИЗВОДИТЕЛЯ ЗА 1 ДЕНЬ.
                 </div>
                 <a href="/vhodnie-dveri/catalog" class="button button_ico">
@@ -413,7 +413,7 @@
 
                     <div class="col-sm-12">
                         <div class="calculation_item calculation_item_4 js_option">
-                            <div class="title">Выберите рисунок двери</div>
+                            <div class="title fixsd_title_box">Выберите рисунок двери</div>
                             <div class="door_image_slider">
                              	<div>
                                     <input type="radio" id="radio4_1" name="door_image" value="1" data-calc="dorImg" data-title="Рисунок двери">
