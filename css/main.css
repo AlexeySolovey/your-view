@@ -4368,8 +4368,8 @@ iframe {
 
 .diagram_mk {
     background: url(../img/diagram.png) no-repeat center;
-    /*margin-top: -250px;*/
-    /*padding-top: 265px;*/
+    margin-top: -250px;
+    padding-top: 265px;
     padding-bottom: 85px;
     background-size: cover;
     margin-bottom: 90px
@@ -4501,7 +4501,7 @@ iframe {
     left: auto;
     background-image: -ms-linear-gradient(90deg, #394349 0%, #4e5b62 100%);
     width: 498px;
-    padding: 30px 30px 30px 30px;
+    padding: 0px 30px 30px 30px;
     top: 45px
 }
 
@@ -4717,7 +4717,6 @@ iframe {
     font-weight: 600;
     color: #fff;
     text-align: center
-    line-height: 69px;
 }
 
 .link_block {
@@ -6138,16 +6137,3 @@ modal {
     .page-header,
     .has-transparent-header .page-header{padding-top: 20px; margin-top: 0;}
 }
-
-
-/*@media (min-width:762px) {
-    .diagram_mk {
-        background: url(../img/diagram.png) no-repeat center;
-         margin-top: -250px; 
-        padding-top: 265px;
-        padding-bottom: 85px;
-        background-size: cover;
-        margin-bottom: 90px;
-    }
-}
-*/

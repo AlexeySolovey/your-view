@@ -155,7 +155,7 @@
 
 <section class="balc increase_space increase_space_new" id="increase_space">
     <div class="container">
-        <div class="title" style="text-align: center; font-weight: 700;">Сделайте балкон частью квартиры</div>
+        <div class="title">Сделайте балкон частью квартиры</div>
         <div class="row">
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
