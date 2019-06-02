@@ -54,6 +54,7 @@
                         Моментальный расчет <br>
                         стоимости балкона
                     </header>
+                    <input type="hidden" name="Feedbacks" value="Расчет стоимости балкона">
                     <div class="main_form_body">
                         <div class="form_item">
                             <div class="name">Габариты:</div>
@@ -65,7 +66,7 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
-                                    <input type="text" class="inputSelect" name="gabarits">
+                                    <input type="hidden" class="inputSelect" name="gabarits" value="3 метра">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                         <li class="selected sel">3 метра</li>
                                         <li>3.5 метра</li>
@@ -80,12 +81,6 @@
                         <div class="form_item">
                             <div class="name">Тип балкона:</div>
                             <div id="syle_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
-                                <select id="syle_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="Прямой">Прямой</option>
-                                    <option value="Г-образный">Г-образный</option>
-                                    <option value="П-образный">П-образный</option>
-                                    <option value="Другой">Другой</option>
-                                </select>
                                 <div class="jq-selectbox__select" style="position: relative">
                                     <div class="jq-selectbox__select-text">Прямой</div>
                                     <div class="jq-selectbox__trigger">
@@ -93,6 +88,7 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <input type="hidden" class="inputSelect" name="balkonType" value="Прямой">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                         <li class="selected sel" style="">Прямой</li>
                                         <li style="">Г-образный</li>
@@ -105,10 +101,6 @@
                         <div class="form_item">
                             <div class="name">Утепление:</div>
                             <div id="material_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
-                                <select id="material_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="Теплый балкон">Теплый балкон</option>
-                                    <option value="Холодный балкон">Холодный балкон</option>
-                                </select>
                                 <div class="jq-selectbox__select" style="position: relative">
                                     <div class="jq-selectbox__select-text">Теплый балкон</div>
                                     <div class="jq-selectbox__trigger">
@@ -116,9 +108,10 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <input type="hidden" class="inputSelect" name="balkonMaterial" value="Теплый балкон">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                        <li class="selected sel" style="">Теплый балкон</li>
-                                        <li style="">Холодный балкон</li>
+                                        <li class="selected sel">Теплый балкон</li>
+                                        <li>Холодный балкон</li>
                                     </ul>
                                 </div>
                             </div>
@@ -800,18 +793,11 @@
                     <div class="sub_title">Получите быстрый расчет стоимости</div>
                     <p>Заполните форму ниже, и мы сделаем бесплатный расчет стоимости за одну минуту</p>
                 </div>
+                <input type="hidden" name="Feedbacks" value="Расчет стоимости балкона">
                 <div class="col-sm-3">
                     <div class="form_item">
                         <span class="placeholder">Габариты</span>
                         <div id="size_select-styler" class="jq-selectbox jqselect">
-                            <select id="size_select">
-                                <option value="3 метра">3 метра</option>
-                                <option value="3.5 метра">3.5 метра</option>
-                                <option value="4.5 метра">4.5 метра</option>
-                                <option value="5 метров">5 метров</option>
-                                <option value="6 метров">6 метров</option>
-                                <option value="другой">другой</option>
-                            </select>
                             <div class="jq-selectbox__select">
                                 <div class="jq-selectbox__select-text">3 метра</div>
                                 <div class="jq-selectbox__trigger" >
@@ -819,12 +805,13 @@
                                 </div>
                             </div>
                             <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <input type="hidden" class="inputSelect" name="gabarits" value="3 метра">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                    <li class="selected sel" style="">3 метра</li>
-                                    <li style="">3.5 метра</li><li style="">4.5 метра</li>
-                                    <li style="">5 метров</li>
-                                    <li style="">6 метров</li>
-                                    <li style="">другой</li>
+                                    <li class="selected sel">3 метра</li>
+                                    <li>3.5 метра</li><li style="">4.5 метра</li>
+                                    <li>5 метров</li>
+                                    <li>6 метров</li>
+                                    <li>другой</li>
                                 </ul>
                             </div>
                         </div>
@@ -834,12 +821,6 @@
                     <div class="form_item">
                         <span class="placeholder">Тип балкона</span>
                         <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
-                            <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                <option value="Прямой">Прямой</option>
-                                <option value="Г-образный">Г-образный</option>
-                                <option value="П-образный">П-образный</option>
-                                <option value="Другой">Другой</option>
-                            </select>
                             <div class="jq-selectbox__select" style="position: relative">
                                 <div class="jq-selectbox__select-text">Прямой</div>
                                 <div class="jq-selectbox__trigger">
@@ -847,11 +828,12 @@
                                 </div>
                             </div>
                             <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <input type="hidden" class="inputSelect" name="balkonType" value="Прямой">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                    <li class="selected sel" style="">Прямой</li>
-                                    <li style="">Г-образный</li>
-                                    <li style="">П-образный</li>
-                                    <li style="">Другой</li>
+                                    <li class="selected sel">Прямой</li>
+                                    <li>Г-образный</li>
+                                    <li>П-образный</li>
+                                    <li>Другой</li>
                                 </ul>
                             </div>
                         </div>
@@ -862,10 +844,6 @@
                     <div class="form_item">
                         <span class="placeholder">Утепление</span>
                         <div id="size_select-styler"  class="jq-selectbox jqselect" style="  position: relative; z-index:100">
-                                <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="Теплый балкон">Теплый балкон</option>
-                                    <option value="Холодный балкон">Холодный балкон</option>
-                                </select>
                             <div class="jq-selectbox__select" style="position: relative">
                                 <div class="jq-selectbox__select-text">Теплый балкон</div>
                                 <div class="jq-selectbox__trigger">
@@ -873,6 +851,7 @@
                                 </div>
                             </div>
                             <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <input type="hidden" class="inputSelect" name="balkonType" value="Теплый балкон">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                     <li class="selected sel" style="">Теплый балкон</li>
                                     <li style="">Холодный балкон</li>
@@ -1116,28 +1095,28 @@
     </div>
 </div>
 
-<div class="modal modal_select fade" tabindex="-1" role="dialog">
+<div class="balc modal modal_select fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button class="modal_close" data-dismiss="modal" type="button"></button>
         <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
        
         <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" id="selectForm_phone" type="text">
         
-        <button class="button send-mess" type="submit" data-form="selectForm">Перезвоните мне</button>
+        <button class="button send-mess" type="submit" data-form="selectForm">Рассчитать</button>
         
         
         <div class="modal_note">Ваши персональные данные не будут опубликованы
             или переданы третьим лицам.</div>
     </div>
 </div><!--modal_form-->
-<div class="modal modal_select2 fade" tabindex="-1" role="dialog">
+<div class="balc modal modal_select2 fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button class="modal_close" data-dismiss="modal" type="button"></button>
         <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
        
         <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" type="text" id="selectForm2_phone">
         
-        <button class="button send-mess" type="submit" data-form="selectForm2">Перезвоните мне</button>
+        <button class="button send-mess" type="submit" data-form="selectForm2">Рассчитать</button>
         
         
         <div class="modal_note">Ваши персональные данные не будут опубликованы

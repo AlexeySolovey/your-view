@@ -440,12 +440,11 @@ AOS.init({
         // simple form
 
         $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
-            alert('hey');
             var formName = $(this).data('form');
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
-            console.log(formData); return;
+           // console.log(formData); return;
             messAjax(formData);
         });
 
@@ -464,7 +463,7 @@ AOS.init({
         }
         function messAjax(data){
            
-           $('.modal_call, .modal_calculate').modal('hide');
+           $('.modal').modal('hide');
             $.ajax({
                 url: '/wp-admin/admin-ajax.php',
                 method: 'POST',
@@ -487,7 +486,7 @@ AOS.init({
             $('#'+ formName).find ('input, textearea, select').each(function() {
               tempData[this.name] = $(this).val();
             });
-            if(formName == 'selectForm') tempData.phone = 'sss'; //$('#' + selectForm + '_phone').val();
+            if(formName == 'selectForm' || formName == 'selectForm2') tempData.phone = $('#' + formName + '_phone').val();
             return tempData;
 
         }
@@ -524,6 +523,7 @@ AOS.init({
 
         $('.jq-selectbox__dropdown li').on('click', function(){
             var info = $(this).text();
+            $(this).parents('.jq-selectbox').find('.jq-selectbox__select-text').text(info);
             $(this).parents('.jq-selectbox__dropdown').hide().find('.inputSelect').val(info);
         })
 

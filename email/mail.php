@@ -9,10 +9,13 @@
 		$to= get_option('admin_email').', soloveyalexey3@gmail.com';
 
 		$subject               = "New feedback";
-								$message  = '<h3> Тип сообщения: </h3>' . $form['Feedbacks'] . '<br/>';
-		if($form['gabarits']) 	$message .= '<b> Габариты: </b>'  	    . $form['gabarits']  . '<br/>';
-								$message .= '<b> Имя клиента: </b>'     . $form['fName']     . '<br/>';
-								$message .= '<b> Телефон:  	  </b>'     . $form['phone']     . '<br/>';
+									$message  = '<h3> Тип сообщения: ' 		. $form['Feedbacks'] . '</h3>';
+		if($form['gabarits']) 		$message .= '<b> Габариты: </b>'  	    . $form['gabarits']  . '<br/>';
+		if($form['balkonType']) 	$message .= '<b> Тип балкона: </b>' 	. $form['balkonType']  . '<br/>';
+		if($form['balkonMaterial']) $message .= '<b> Утепление: </b>'  	    . $form['balkonMaterial']  . '<br/>';
+
+		if($form['fName'])			$message .= '<b> Имя клиента: </b>'     . $form['fName']     . '<br/>';
+									$message .= '<b> Телефон:  	  </b>'     . $form['phone']     . '<br/>';
 
 
 
