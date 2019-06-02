@@ -16,6 +16,7 @@
 
 		if($form['fName'])			$message .= '<b> Имя клиента: </b>'     . $form['fName']     . '<br/>';
 									$message .= '<b> Телефон:  	  </b>'     . $form['phone']     . '<br/>';
+		if($form['email'])			$message .= '<b> Email:  	  </b>'     . $form['email']     . '<br/>';
 
 
 

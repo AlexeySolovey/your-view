@@ -598,18 +598,14 @@
                     <div class="form_title">
                         ВЫЗВАТЬЗАМЕРЩИКА                    
                     </div>
-                    <form class="ajaxForm text-center form-vertical ng-pristine ng-valid" data-show=".modal-ty" id="yw0" >
-                        <div style="display:none">
-                            <input type="hidden" name="YII_CSRF_TOKEN">
-                        </div>                    
-                        <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">     
-                        <input  name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">                    
-                        <input required="required" placeholder="Имя" maxlength="100" name="Feedbacks[name]" id="Feedbacks_name" type="text">                    
-                        <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">           
-                        <span class="error" style="display: none">Проверте правильность ввода номера!</span>
-                        <input placeholder="Email" maxlength="100" name="Feedbacks[email]" id="Feedbacks_email" type="text">                    
-                        <button class="button  button_sm" type="submit">ВЫЗВАТЬ ЗАМЕРЩИКА</button>
-                    </form>                
+                    <div class="ajaxForm text-center form-vertical" id="callGager" >
+                        <input value="Вызвать замерщика балкона" name="Feedbacks" type="hidden">                   
+                        
+                        <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text">                    
+                        <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">          
+                        <input placeholder="Email" maxlength="100" name="email" class="form_input" type="text">                    
+                        <button class="button  button_sm send-mess" type="submit" data-form="callGager">ВЫЗВАТЬ ЗАМЕРЩИКА</button>
+                    </div>
                 </div>
             </div>
         </div>
