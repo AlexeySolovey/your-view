@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<div ng-controller="mainController" class="ng-scope">
+<div>
     <section class="anons anons_mk" style="background-image: url('../img/background.jpg');">
         <div class="container">
             <div class="row">
@@ -18,33 +18,34 @@
                         <div class="main_form_body">
                             <div class="form_item" id="style_select">
                                 <div class="name">Выберите стиль:</div>
-                                    <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100"><select style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                        <option value="Классика">Классика</option>
-                                        <option value="Прованс">Прованс</option>
-                                        <option value="Модерн">Модерн</option>
-                                        <option value="Лофт">Лофт</option>
-                                    </select>
-                                    <div class="jq-selectbox__select" style="position: relative">
-                                        <div class="jq-selectbox__select-text">Классика</div>
-                                        <div class="jq-selectbox__trigger">
-                                            <div class="jq-selectbox__trigger-arrow"></div>
+                                    <div class="jq-selectbox jqselect" style="display: inline-block; position: relative;">
+                                        <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; width: 100%; height: 100%; opacity: 0;">
+                                            <option value="Классика">Классика</option>
+                                            <option value="Прованс">Прованс</option>
+                                            <option value="Модерн">Модерн</option>
+                                            <option value="Лофт">Лофт</option>
+                                        </select>
+                                        <div class="jq-selectbox__select" style="position: relative">
+                                            <div class="jq-selectbox__select-text">Классика</div>
+                                            <div class="jq-selectbox__trigger">
+                                                <div class="jq-selectbox__trigger-arrow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;">
+                                            <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                                <li class="selected sel" style="">Классика</li>
+                                                <li style="">Прованс</li>
+                                                <li style="">Модерн</li>
+                                                <li style="">Лофт</li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; top: 0px; display: none;">
-                                        <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                            <li class="selected sel" style="">Классика</li>
-                                            <li style="">Прованс</li>
-                                            <li style="">Модерн</li>
-                                            <li style="">Лофт</li>
-                                        </ul>
-                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form_item" id="material_select">
-                                <div class="name">Выберите материал:</div>
-                                <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100">
-                                        <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                <div class="form_item" id="material_select">
+                                    <div class="name">Выберите материал:</div>
+                                    <div class="jq-selectbox jqselect" style="display: inline-block; position: relative;">
+                                        <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; width: 100%; height: 100%; opacity: 0;">
                                             <option value="МДФ">МДФ</option>
                                             <option value="Крашенные">Крашенные</option>
                                             <option value="Шпонированные">Шпонированные</option>
@@ -58,7 +59,7 @@
                                             <div class="jq-selectbox__trigger-arrow"></div>
                                         </div>
                                     </div>
-                                    <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; top: 0px; display: none;">
+                                    <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;">
                                         <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                             <li class="selected sel" style="">МДФ</li>
                                             <li style="">Крашенные</li>
@@ -73,8 +74,8 @@
 
 
                             <div class="name">Выберите размер:</div>
-                                <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100">
-                                    <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                                <div class="jq-selectbox jqselect" style="display: inline-block; position: relative;">
+                                    <select style="margin: 0px; padding: 0px; position: absolute; left: 0px; width: 100%; height: 100%; opacity: 0;">
                                         <option value="600 х 2000 мм">600 х 2000 мм</option>
                                         <option value="700 х 2000 мм">700 х 2000 мм</option>
                                         <option value="800 х 2000 мм">800 х 2000 мм</option>
@@ -87,7 +88,7 @@
                                         <div class="jq-selectbox__trigger-arrow"></div>
                                     </div>
                                 </div>
-                                <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; top: 0px; display: none;">
+                                <div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                         <li class="selected sel" style="">600 х 2000 мм</li>
                                         <li style="">700 х 2000 мм</li>
@@ -98,7 +99,7 @@
                                 </div>
                             </div>
 
-                            <button type="button" class="button send_to_form" >
+                            <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select">
                                 Рассчитать стоимость
                             </button>
                         </div>
@@ -1147,6 +1148,22 @@
 
     </div>
 </div>
+
+
+<div class="modal modal_select fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" data-dismiss="modal" type="button"></button>
+        <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
+       
+        <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" id="selectForm_phone" type="text">
+        
+        <button class="button send-mess" type="submit" data-form="selectForm">Перезвоните мне</button>
+        
+        
+        <div class="modal_note">Ваши персональные данные не будут опубликованы
+            или переданы третьим лицам.</div>
+    </div>
+</div><!--modal_form-->
 
 
 

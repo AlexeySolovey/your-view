@@ -49,7 +49,7 @@
                 </ul>
             </div>
             <div class="col-sm-5 col-xs-12">
-                <form class="main_form ng-pristine ng-valid">
+                <div class="main_form" id="selectForm">
                     <header class="main_form_header">
                         Моментальный расчет <br>
                         стоимости балкона
@@ -57,15 +57,7 @@
                     <div class="main_form_body">
                         <div class="form_item">
                             <div class="name">Габариты:</div>
-                            <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
-                                <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="3 метра">3 метра</option>
-                                    <option value="3.5 метра">3.5 метра</option>
-                                    <option value="4.5 метра">4.5 метра</option>
-                                    <option value="5 метров">5 метров</option>
-                                    <option value="6 метров">6 метров</option>
-                                    <option value="другой">другой</option>
-                                </select>
+                            <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
                                 <div class="jq-selectbox__select" style="position: relative">
                                     <div class="jq-selectbox__select-text">3 метра</div>
                                     <div class="jq-selectbox__trigger">
@@ -73,20 +65,21 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <input type="text" class="inputSelect" name="gabarits">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                        <li class="selected sel" style="">3 метра</li>
-                                        <li style="">3.5 метра</li>
-                                        <li style="">4.5 метра</li>
-                                        <li style="">5 метров</li>
-                                        <li style="">6 метров</li>
-                                        <li style="">другой</li>
+                                        <li class="selected sel">3 метра</li>
+                                        <li>3.5 метра</li>
+                                        <li>4.5 метра</li>
+                                        <li>5 метров</li>
+                                        <li>6 метров</li>
+                                        <li>другой</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="form_item">
                             <div class="name">Тип балкона:</div>
-                            <div id="syle_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
+                            <div id="syle_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
                                 <select id="syle_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
                                     <option value="Прямой">Прямой</option>
                                     <option value="Г-образный">Г-образный</option>
@@ -111,7 +104,7 @@
                         </div>
                         <div class="form_item">
                             <div class="name">Утепление:</div>
-                            <div id="material_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
+                            <div id="material_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
                                 <select id="material_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
                                     <option value="Теплый балкон">Теплый балкон</option>
                                     <option value="Холодный балкон">Холодный балкон</option>
@@ -130,11 +123,11 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select" data-subject="Рассчитать стоимость с сайта балконов" data-button="Рассчитать стоимость" data-title="Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться" data-show=".modal-ty">
+                        <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select">
                             Рассчитать стоимость
                         </button>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
@@ -299,7 +292,7 @@
                     <span class="js_options_total_discount">0</span>грн
 
                     <div class="js_sale_wrapp">
-                        + <span id="global_option_discount">125</span>грн
+                        + <span id="global_option_discount">1</span>%
                     </div>
                 </div>
             </div>
@@ -799,11 +792,8 @@
 <section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
     <div class="container">
         <div class="row">
-            <form class="ajaxForm form-vertical ng-pristine ng-valid"  id="yw1" action="/default/feedbacks/index" method="post">
-                <div style="display:none">
-                    <input type="hidden" name="YII_CSRF_TOKEN">
-                </div>            
-                <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">           
+            <div class="ajaxForm form-vertical"  id="selectForm2">
+                   
                 <input value="Рассчитать стоимость  с сайта балконов" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">            
                 <div class="col-sm-12">
                     <div class="title">Рассчитайте стоимость балкона</div>
@@ -828,7 +818,7 @@
                                     <div class="jq-selectbox__trigger-arrow"></div>
                                 </div>
                             </div>
-                            <div class="jq-selectbox__dropdown">
+                            <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                     <li class="selected sel" style="">3 метра</li>
                                     <li style="">3.5 метра</li><li style="">4.5 метра</li>
@@ -843,7 +833,8 @@
                 <div class="col-sm-3">
                     <div class="form_item">
                         <span class="placeholder">Тип балкона</span>
-                            <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100"><select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                        <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
+                            <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
                                 <option value="Прямой">Прямой</option>
                                 <option value="Г-образный">Г-образный</option>
                                 <option value="П-образный">П-образный</option>
@@ -891,11 +882,11 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <button type="button" class="button send_to_form" style="width: 100%; margin: 28px 0 15px;">
+                    <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select2" style="width: 100%; margin: 28px 0 15px;">
                         Рассчитать
                     </button>
                 </div>
-            </form>        
+            </div>        
         </div>
     </div>
 </section>
@@ -1081,7 +1072,7 @@
                             <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">           
                             <input value="Запишитесь в наш салон на просмотр и получите скидку с сайта межкомнатные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">          
                             <input required="required" placeholder="ФИО" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                        
-                            <input required="required" placeholder="Номер телефона" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">       
+                            <input required="required" placeholder="Номер телефона" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">
                             <button class="button">Записаться</button>
                         </form>
                     </div>
@@ -1124,6 +1115,36 @@
         </div>
     </div>
 </div>
+
+<div class="modal modal_select fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" data-dismiss="modal" type="button"></button>
+        <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
+       
+        <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" id="selectForm_phone" type="text">
+        
+        <button class="button send-mess" type="submit" data-form="selectForm">Перезвоните мне</button>
+        
+        
+        <div class="modal_note">Ваши персональные данные не будут опубликованы
+            или переданы третьим лицам.</div>
+    </div>
+</div><!--modal_form-->
+<div class="modal modal_select2 fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" data-dismiss="modal" type="button"></button>
+        <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
+       
+        <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" type="text" id="selectForm2_phone">
+        
+        <button class="button send-mess" type="submit" data-form="selectForm2">Перезвоните мне</button>
+        
+        
+        <div class="modal_note">Ваши персональные данные не будут опубликованы
+            или переданы третьим лицам.</div>
+    </div>
+</div><!--modal_form-->
+
 
 
 <div class="modal modal_main modal_ty fade js_modal_result in">

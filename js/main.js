@@ -50,6 +50,18 @@ AOS.init({
 ;(function($){
     $(document).ready(function(){
         
+        $(document).mouseup(function (e){
+            var formItem = $(".form_item");
+            if (!formItem.is(e.target) // если клик был не по нашему блоку
+                && formItem.has(e.target).length === 0) { // и не по его дочерним элементам
+                $('.jq-selectbox__dropdown').hide();
+            }
+        });
+
+
+
+
+
         //custome slider
         if($('.custome-slider').length){
           $('.custome-slider').slick({
@@ -428,11 +440,12 @@ AOS.init({
         // simple form
 
         $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
+            alert('hey');
             var formName = $(this).data('form');
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
-           // console.log(formData); return;
+            console.log(formData); return;
             messAjax(formData);
         });
 
@@ -474,6 +487,7 @@ AOS.init({
             $('#'+ formName).find ('input, textearea, select').each(function() {
               tempData[this.name] = $(this).val();
             });
+            if(formName == 'selectForm') tempData.phone = 'sss'; //$('#' + selectForm + '_phone').val();
             return tempData;
 
         }
@@ -496,6 +510,22 @@ AOS.init({
             }
         }
 
+
+        //selected
+        $('.jq-selectbox__select').on('click', function(){
+            var el = $(this).parent().find('.jq-selectbox__dropdown');
+            if(el.is(':hidden')) {
+                $('.jq-selectbox__dropdown').hide();
+                el.show();
+            } else {
+                $('.jq-selectbox__dropdown').hide();
+            }
+        });
+
+        $('.jq-selectbox__dropdown li').on('click', function(){
+            var info = $(this).text();
+            $(this).parents('.jq-selectbox__dropdown').hide().find('.inputSelect').val(info);
+        })
 
 
     });
