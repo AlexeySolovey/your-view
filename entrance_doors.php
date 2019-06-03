@@ -796,7 +796,7 @@
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
+                    <img class="img-responsive" alt="" src="img/pano_img.png">
                     <div class="title">
                         3D тур
                     </div>

@@ -6140,13 +6140,15 @@ modal {
 
 
 /*==================================*/
-.title.text_title{
+.text_title.title{
     line-height: 70px;
 }
 
-.fixsd_title_box.title{
+.fixsd_title_box>.produced_list_item>.title{
     margin:0;
 }
+
+
 
 .img-responsive.images{
     max-width: none;
@@ -6171,4 +6173,13 @@ modal {
     display: flex;
     margin: auto;
     margin-bottom: 20px;
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+    padding: 0;
+}
+
+
+.question .button_wrapp .button {
+    padding: 20px 30px; 
 }
