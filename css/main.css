@@ -887,7 +887,9 @@ body .button:focus {
 }
 
 .slick_next,
-.slick_prev {
+.slick_prev,
+.slick_next2,
+.slick_prev2 {
     width: 68px;
     height: 70px;
     position: absolute;
@@ -898,7 +900,6 @@ body .button:focus {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: 0;
-    background: url(../img/icon/slide-arrow.png) no-repeat center
 }
 
 .slick_prev {
@@ -918,6 +919,42 @@ body .button:focus {
 .slick_next:hover {
     background-position: -72px 0
 }
+
+
+
+
+.slick_next,
+.slick_prev{
+    background: url(../img/icon/slide-arrow.png) no-repeat center;
+}
+
+.slick_next2,
+.slick_prev2 {
+    width: 59px;
+    height: 53px;
+    background: url(../img/icon/arrows.png) no-repeat center;
+}
+
+.slick_prev2 {
+    right: 90%;
+    background-position: -177px 0;
+}
+
+.slick_prev2:hover {
+    background-position: -59px 0;
+}
+
+.slick_next2 {
+    left: 90%;
+    background-position: -118px 0;
+}
+
+.slick_next2:hover {
+    background-position: 0 0;
+}
+    
+
+
 
 .door {
     padding: 0 7px
@@ -1333,6 +1370,10 @@ body .button:focus {
 .catalog_card .cadr_image .js_card_slider_nav .slick_next,
 .catalog_card .cadr_image .js_card_slider_nav .slick_prev {
     display: none!important
+}
+
+.adv-slider .slick-arrow{
+    display: none !important;
 }
 
 .catalog_card .card_info {
@@ -5740,7 +5781,7 @@ input:focus:required:invalid {
     color: #000;
     height: 59px;
     text-align: left;
-    background: #fff;
+    background: #fff !important;
 }
 
 @media (max-width:576px) {

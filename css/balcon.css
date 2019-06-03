@@ -336,25 +336,25 @@
 .balc.calculation .calculation_item_3 .form_size span{color:#000; font-size: 15px; position: absolute;top: 15px; z-index: 1;}
 
 
-.balc.calculation .calculation_item_3 .form_size_4:before{content:''; z-index: -1; height: 1px; position: absolute;
+.balc.calculation .calculation_item_3 .form_size_4:before{content:''; z-index: -1; height: 1px; position: absolute;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);width: 140px;height: 2px;background-color: #4e5b62;z-index: -1;top:30px;height: 1px;left: -20px}
 
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 140px;
-    height: 2px;
-    background-color: #4e5b62;
-    z-index: -1;
-	top:30px;
-    height: 1px;
-	left: -20px}
+.balc-example.modal_main .modal-dialog .title{font-size: 30px;font-weight: 100;margin: 0 -20px;}
 
-}
+
 
 .balc .button_wrapp{ text-align: center; margin-top:30px; }
 
 .balc.calculation .calculation_item_4{border: none;}
 .balc.calculation .calculation_item_4 .title{position: relative; text-align: left; text-align: left;margin-bottom: 25px; line-height: 32px;margin-left: -39px;}
 .balc .form_tehno .check .checkbox:not(checked)+label{display: block; text-align: left;}
+
+.modal_main.balc-example .modal-dialog{padding: 10px 70px;}
+.js_slider_production2 {
+	padding: 0 20px;
+	margin-top: 60px;
+}
+.forAddSlider{display: block !important;}
+
 
 .balc .space_price{
 	bottom: 0;

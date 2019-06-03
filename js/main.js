@@ -535,11 +535,19 @@ AOS.init({
 
 
         $('.increase_space button').on('click', function () {
-            setTimeout(function(){
-                $('.js_slider_production').slick();
-            }, 20)
+            
         });
 
+
+        $('.js_slider_production2').slick({
+                    slidesToShow: 1,
+                    prevArrow: '<span class="slick_prev2"></span>',
+                    nextArrow: '<span class="slick_next2"></span>',
+                });
+
+        setTimeout(function(){
+            $('.modal_download').removeClass('forAddSlider');
+        }, 1500);
 
     });
 })(jQuery)
