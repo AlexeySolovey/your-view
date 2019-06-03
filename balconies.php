@@ -340,7 +340,7 @@
                 </div>
             </div>
 
-            <div class="calculation_item_wrapp" ng-show="calculation_item_show" id="next">
+            <div class="calculation_item_wrapp" id="next">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
@@ -352,7 +352,7 @@
                                 <div class="calculation_item_1_wrapp  js_option" data-name="Формат балкона">
 
                                     <div class="form_type form_type_1 clearfix">
-                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="Прямой" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="Прямой" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(null, 2)">
                                         <label for="radio1_1"></label>
                                         <div class="desc">
                                             Прямой
@@ -360,7 +360,7 @@
                                     </div>
 
                                     <div class="form_type form_type_2">
-                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="П-образный" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="П-образный" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(1,2,3)">
                                         <label for="radio1_2"></label>
                                         <div class="desc">
                                             П-образный
@@ -368,7 +368,7 @@
                                     </div>
 
                                     <div class="form_type form_type_3">
-                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="Угловой (угол слева)" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="Угловой (угол слева)" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(1,2)">
                                         <label for="radio1_3"></label>
                                         <div class="desc">
                                             Угловой (угол слева)
@@ -376,14 +376,14 @@
                                     </div>
 
                                     <div class="form_type form_type_4">
-                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="Угловой (угол справа)" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="Угловой (угол справа)" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(null, 2, 3)">
                                         <label for="radio1_4"></label>
                                         <div class="desc">
                                             Угловой (угол справа)
                                         </div>
                                     </div>
                                     <div class="form_type form_type_5">
-                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="Эркерный (радиусный)" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="Эркерный (радиусный)" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields( null, 2, null ,4)">
                                         <label for="radio1_5"></label>
                                         <div class="desc">
                                             Эркерный (радиусный)
@@ -400,16 +400,17 @@
                                 </div>
                                 <div class="form_size_wrapp">
                                     <div class="form_size form_size_1 js_option">
-                                        <input type="text" name="X" value="" placeholder="Центральная" data-calc="centerSide" data-title="Центральная часть"><span>мм</span>
+                                        <input type="text" name="X" value="" placeholder="Центральная" data-calc="centerSide" data-title="Центральная часть"><span>м</span>
                                     </div>
-                                    <div class="form_size form_size_2 js_option">
-                                        <input type="text" name="Y" value="" placeholder="leftSide" data-calc="leftSide" data-title="Левая часть"><span>мм</span>
+                                    <div class="form_size form_size_2 js_option" style="display: none;">
+                                        <input type="text" name="Y" value="" placeholder="Левая" data-calc="leftSide" data-title="Левая часть">
+                                        <span>м</span>
                                     </div>
-                                    <div class="form_size form_size_3 js_option">
-                                        <input type="text" name="Z" value="" placeholder="Правая" data-calc="rightSide" data-title="Правая часть"><span>мм</span>
+                                    <div class="form_size form_size_3 js_option" style="display: none;">
+                                        <input type="text" name="Z" value="" placeholder="Правая" data-calc="rightSide" data-title="Правая часть"><span>м</span>
                                     </div>
-                                    <div class="form_size form_size_4 js_option"  >
-                                        <input type="text" name="R" value="" placeholder="Радиус" data-calc="radius" data-title="Радиус"><span>мм</span>
+                                    <div class="form_size form_size_4 js_option" style="display: none;" >
+                                        <input type="text" name="R" value="" placeholder="Радиус" data-calc="radius" data-title="Радиус"><span>м</span>
                                     </div>
 
                                     <div class="form_size_img">
@@ -1126,7 +1127,87 @@
         <button class="modal_close" data-dismiss="modal" type="button"></button>
         <div class="modal_wrapp">
             <div class="download_img">
-                <img class="img-responsive" alt="" src="/img/balkon/balkon2.jpg">
+                <div class="js_slider_production"> 
+                <div class="slick-list">
+                    <img src="img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_02.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_03.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_04.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_05.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_06.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_07.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_08.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_09.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_10.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_11.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_12.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_13.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_01.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_14.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_15.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_16.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_17.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_18.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_19.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_20.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_21.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_22.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_23.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_24.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="slick-list">
+                    <img src="/img/slide_balkon/slide_list_25.jpg" alt="" class="img-responsive">
+                </div>
+
+            </div>
             </div>
 
             <div class="download_form">

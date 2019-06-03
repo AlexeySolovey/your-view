@@ -325,15 +325,30 @@
 .balc.calculation .calculation_item_3{background: none;}
 .balc.calculation .calculation_item_3 .form_size_wrapp{height: auto;}
 .balc.calculation .calculation_item_3 .title{ margin-bottom: 25px; font-size: 32px; font-weight: 500; margin-top: 25px; line-height: 22px; color: inherit;}
-.balc.calculation .calculation_item_3 .form_size{position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+.balc.calculation .calculation_item_3 .form_size{position: absolute; display: block;  left: 190px;}
 .balc.calculation .calculation_item_3 .form_size_img{top:105px;}
-.balc.calculation .calculation_item_3 .form_size_1:before { top: 50px;left: 44%;}
+.balc.calculation .calculation_item_3 .form_size_1:before { top: 50px;left: 50%;}
 .balc.calculation .calculation_item_3 .form_size_2 {top: 150px;left: -145px;-webkit-box-orient: horizontal;-webkit-box-direction: reverse;-ms-flex-direction: row-reverse;flex-direction: row-reverse;}
 .balc.calculation .calculation_item_3 .form_size_2:before{z-index: -1; height: 1px;}
-.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 { top: 150px; right: -170px;}
+.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 { top: 150px; right: -170px; left:370px;}
 .balc.calculation .calculation_item_3 .form_size_3:before{left: -20px; height: 1px;}
 .balc.calculation .calculation_item_3 .form_size input {width: 160px;}
-.balc.calculation .calculation_item_3 .form_size span{color:#000; font-size: 15px;}
+.balc.calculation .calculation_item_3 .form_size span{color:#000; font-size: 15px; position: absolute;top: 15px; z-index: 1;}
+
+
+.balc.calculation .calculation_item_3 .form_size_4:before{content:''; z-index: -1; height: 1px; position: absolute;
+
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 2px;
+    background-color: #4e5b62;
+    z-index: -1;
+	top:30px;
+    height: 1px;
+	left: -20px}
+
+}
 
 .balc .button_wrapp{ text-align: center; margin-top:30px; }
 

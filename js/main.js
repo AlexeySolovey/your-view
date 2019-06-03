@@ -375,7 +375,11 @@ AOS.init({
         $('.js_option input:text').on('change', function(){
             var calcClass = $(this).data('calc');
             var calcTitle = $(this).data('title');
-            calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' мм' }     
+            if(calcClass == 'centerSide' || calcClass == 'leftSide' || calcClass == 'rightSide' || calcClass == 'radius' ){
+                calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' м' }
+            }else{
+                calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' мм' }
+            }
         });
         $('.js_option input:radio').on('change', function(){
             var calcClass = $(this).data('calc');
@@ -528,5 +532,24 @@ AOS.init({
         })
 
 
+
+
+        $('.increase_space button').on('click', function () {
+            setTimeout(function(){
+                $('.js_slider_production').slick();
+            }, 20)
+        });
+
+
     });
 })(jQuery)
+
+
+
+ function showFields(a,b,c,d) {
+    $('.form_size_wrapp > .form_size').hide();
+    if(a) $('.form_size_wrapp .form_size_2').show();
+    if(b) $('.form_size_wrapp .form_size_1').show();
+    if(c) $('.form_size_wrapp .form_size_3').show();
+    if(d) $('.form_size_wrapp .form_size_4').show();
+}
