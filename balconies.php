@@ -1,4 +1,4 @@
- <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
 <header class="header">
 	<div class="header_bottom_line">
@@ -54,6 +54,7 @@
                         Моментальный расчет <br>
                         стоимости балкона
                     </header>
+                    <input type="hidden" name="Feedbacks" value="Расчет стоимости балкона">
                     <div class="main_form_body">
                         <div class="form_item">
                             <div class="name">Габариты:</div>
@@ -65,7 +66,7 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
-                                    <input type="text" class="inputSelect" name="gabarits">
+                                    <input type="hidden" class="inputSelect" name="gabarits" value="3 метра">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                         <li class="selected sel">3 метра</li>
                                         <li>3.5 метра</li>
@@ -80,12 +81,6 @@
                         <div class="form_item">
                             <div class="name">Тип балкона:</div>
                             <div id="syle_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
-                                <select id="syle_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="Прямой">Прямой</option>
-                                    <option value="Г-образный">Г-образный</option>
-                                    <option value="П-образный">П-образный</option>
-                                    <option value="Другой">Другой</option>
-                                </select>
                                 <div class="jq-selectbox__select" style="position: relative">
                                     <div class="jq-selectbox__select-text">Прямой</div>
                                     <div class="jq-selectbox__trigger">
@@ -93,6 +88,7 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <input type="hidden" class="inputSelect" name="balkonType" value="Прямой">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                         <li class="selected sel" style="">Прямой</li>
                                         <li style="">Г-образный</li>
@@ -105,10 +101,6 @@
                         <div class="form_item">
                             <div class="name">Утепление:</div>
                             <div id="material_select-styler" class="jq-selectbox jqselect" style=" position: relative;">
-                                <select id="material_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="Теплый балкон">Теплый балкон</option>
-                                    <option value="Холодный балкон">Холодный балкон</option>
-                                </select>
                                 <div class="jq-selectbox__select" style="position: relative">
                                     <div class="jq-selectbox__select-text">Теплый балкон</div>
                                     <div class="jq-selectbox__trigger">
@@ -116,9 +108,10 @@
                                     </div>
                                 </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                    <input type="hidden" class="inputSelect" name="balkonMaterial" value="Теплый балкон">
                                     <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                        <li class="selected sel" style="">Теплый балкон</li>
-                                        <li style="">Холодный балкон</li>
+                                        <li class="selected sel">Теплый балкон</li>
+                                        <li>Холодный балкон</li>
                                     </ul>
                                 </div>
                             </div>
@@ -148,7 +141,7 @@
 
 <section class="balc increase_space increase_space_new" id="increase_space">
     <div class="container">
-        <div class="title ciclum">Сделайте балкон частью квартиры</div>
+        <div class="title">Сделайте балкон частью квартиры</div>
         <div class="row">
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
@@ -160,7 +153,7 @@
                 <div class="space_title">
                     Вынос балкона                
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".takeaway">
                     Посмотреть примеры
                 </button>
             </div>
@@ -174,7 +167,7 @@
                 <div class="space_title">
                     Остекление                
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".glazing">
                     Посмотреть примеры
                 </button>
             </div>
@@ -188,7 +181,7 @@
                 <div class="space_title">
                     Утепление балкона                
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".warming">
                     Посмотреть примеры
                 </button>
             </div>
@@ -202,7 +195,7 @@
                 <div class="space_title">
                     Обшивка балкона                
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".sheathing">
                     Посмотреть примеры
                 </button>
             </div>
@@ -216,7 +209,7 @@
                 <div class="space_title">
                     Сделать кладовку                
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".pantry">
                     Посмотреть примеры
                 </button>
             </div>
@@ -230,7 +223,7 @@
                 <div class="space_title">
                     Сделать кабинет или рабочее место               
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".cabinet">
                     Посмотреть примеры
                 </button>
             </div>
@@ -244,7 +237,7 @@
                 <div class="space_title">
                     Увеличить пространство гостинной                
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".livingroom">
                     Посмотреть примеры
                 </button>
             </div>
@@ -258,7 +251,7 @@
                 <div class="space_title">
                     Увеличить пространство кухни               
                 </div>
-                <button class="button button_sm">
+                <button class="button button_sm" data-toggle="modal" data-target=".kitchen">
                     Посмотреть примеры
                 </button>
             </div>
@@ -272,7 +265,7 @@
                 <div class="space_title">
                     Увеличить детскую комнату               
                 </div>
-                <button class="button button_sm" >
+                <button class="button button_sm" data-toggle="modal" data-target=".childrenroom">
                     Посмотреть примеры
                 </button>
             </div>
@@ -281,7 +274,7 @@
 </section>
 
 
-<section class="calculation balc" id="calculation" data-type='balc'>
+<section class="balc calculation" id="calculation" data-type='balc'>
     <div class="container clearfix">
         <div class="sale_wrapp_block opened ">
             <div class="sale_mobile">
@@ -347,7 +340,7 @@
                 </div>
             </div>
 
-            <div class="calculation_item_wrapp" ng-show="calculation_item_show" id="next">
+            <div class="calculation_item_wrapp" id="next">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
@@ -359,7 +352,7 @@
                                 <div class="calculation_item_1_wrapp  js_option" data-name="Формат балкона">
 
                                     <div class="form_type form_type_1 clearfix">
-                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="Прямой" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_1" data-img="form-1_h" value="Прямой" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(null, 2)">
                                         <label for="radio1_1"></label>
                                         <div class="desc">
                                             Прямой
@@ -367,7 +360,7 @@
                                     </div>
 
                                     <div class="form_type form_type_2">
-                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="П-образный" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_2" data-img="form-2_h" value="П-образный" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(1,2,3)">
                                         <label for="radio1_2"></label>
                                         <div class="desc">
                                             П-образный
@@ -375,7 +368,7 @@
                                     </div>
 
                                     <div class="form_type form_type_3">
-                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="Угловой (угол слева)" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_3" data-img="form-3_h" value="Угловой (угол слева)" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(1,2)">
                                         <label for="radio1_3"></label>
                                         <div class="desc">
                                             Угловой (угол слева)
@@ -383,14 +376,14 @@
                                     </div>
 
                                     <div class="form_type form_type_4">
-                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="Угловой (угол справа)" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_4" data-img="form-5_h"value="Угловой (угол справа)" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields(null, 2, 3)">
                                         <label for="radio1_4"></label>
                                         <div class="desc">
                                             Угловой (угол справа)
                                         </div>
                                     </div>
                                     <div class="form_type form_type_5">
-                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="Эркерный (радиусный)" data-calc="balkonFormat" data-title="Формат Балкона">
+                                        <input type="radio" name="form_type" id="radio1_5" data-img="form-4_h" value="Эркерный (радиусный)" data-calc="balkonFormat" data-title="Формат Балкона" onclick="showFields( null, 2, null ,4)">
                                         <label for="radio1_5"></label>
                                         <div class="desc">
                                             Эркерный (радиусный)
@@ -407,16 +400,17 @@
                                 </div>
                                 <div class="form_size_wrapp">
                                     <div class="form_size form_size_1 js_option">
-                                        <input type="text" name="X" value="" placeholder="Центральная" data-calc="centerSide" data-title="Центральная часть"><span>мм</span>
+                                        <input type="text" name="X" value="" placeholder="Центральная" data-calc="centerSide" data-title="Центральная часть"><span>м</span>
                                     </div>
-                                    <div class="form_size form_size_2 js_option">
-                                        <input type="text" name="Y" value="" placeholder="leftSide" data-calc="leftSide" data-title="Левая часть"><span>мм</span>
+                                    <div class="form_size form_size_2 js_option" style="display: none;">
+                                        <input type="text" name="Y" value="" placeholder="Левая" data-calc="leftSide" data-title="Левая часть">
+                                        <span>м</span>
                                     </div>
-                                    <div class="form_size form_size_3 js_option">
-                                        <input type="text" name="Z" value="" placeholder="Правая" data-calc="rightSide" data-title="Правая часть"><span>мм</span>
+                                    <div class="form_size form_size_3 js_option" style="display: none;">
+                                        <input type="text" name="Z" value="" placeholder="Правая" data-calc="rightSide" data-title="Правая часть"><span>м</span>
                                     </div>
-                                    <div class="form_size form_size_4 js_option"  >
-                                        <input type="text" name="R" value="" placeholder="Радиус" data-calc="radius" data-title="Радиус"><span>мм</span>
+                                    <div class="form_size form_size_4 js_option" style="display: none;" >
+                                        <input type="text" name="R" value="" placeholder="Радиус" data-calc="radius" data-title="Радиус"><span>м</span>
                                     </div>
 
                                     <div class="form_size_img">
@@ -605,18 +599,14 @@
                     <div class="form_title">
                         ВЫЗВАТЬЗАМЕРЩИКА                    
                     </div>
-                    <form class="ajaxForm text-center form-vertical ng-pristine ng-valid" data-show=".modal-ty" id="yw0" >
-                        <div style="display:none">
-                            <input type="hidden" name="YII_CSRF_TOKEN">
-                        </div>                    
-                        <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">     
-                        <input  name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">                    
-                        <input required="required" placeholder="Имя" maxlength="100" name="Feedbacks[name]" id="Feedbacks_name" type="text">                    
-                        <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">           
-                        <span class="error" style="display: none">Проверте правильность ввода номера!</span>
-                        <input placeholder="Email" maxlength="100" name="Feedbacks[email]" id="Feedbacks_email" type="text">                    
-                        <button class="button  button_sm" type="submit">ВЫЗВАТЬ ЗАМЕРЩИКА</button>
-                    </form>                
+                    <div class="ajaxForm text-center form-vertical" id="callGager" >
+                        <input value="Вызвать замерщика балкона" name="Feedbacks" type="hidden">                   
+                        
+                        <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text">                    
+                        <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">          
+                        <input placeholder="Email" maxlength="100" name="email" class="form_input" type="text">                    
+                        <button class="button  button_sm send-mess" type="submit" data-form="callGager">ВЫЗВАТЬ ЗАМЕРЩИКА</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -800,18 +790,11 @@
                     <div class="sub_title">Получите быстрый расчет стоимости</div>
                     <p>Заполните форму ниже, и мы сделаем бесплатный расчет стоимости за одну минуту</p>
                 </div>
+                <input type="hidden" name="Feedbacks" value="Расчет стоимости балкона">
                 <div class="col-sm-3">
                     <div class="form_item">
                         <span class="placeholder">Габариты</span>
                         <div id="size_select-styler" class="jq-selectbox jqselect">
-                            <select id="size_select">
-                                <option value="3 метра">3 метра</option>
-                                <option value="3.5 метра">3.5 метра</option>
-                                <option value="4.5 метра">4.5 метра</option>
-                                <option value="5 метров">5 метров</option>
-                                <option value="6 метров">6 метров</option>
-                                <option value="другой">другой</option>
-                            </select>
                             <div class="jq-selectbox__select">
                                 <div class="jq-selectbox__select-text">3 метра</div>
                                 <div class="jq-selectbox__trigger" >
@@ -819,12 +802,13 @@
                                 </div>
                             </div>
                             <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <input type="hidden" class="inputSelect" name="gabarits" value="3 метра">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                    <li class="selected sel" style="">3 метра</li>
-                                    <li style="">3.5 метра</li><li style="">4.5 метра</li>
-                                    <li style="">5 метров</li>
-                                    <li style="">6 метров</li>
-                                    <li style="">другой</li>
+                                    <li class="selected sel">3 метра</li>
+                                    <li>3.5 метра</li><li style="">4.5 метра</li>
+                                    <li>5 метров</li>
+                                    <li>6 метров</li>
+                                    <li>другой</li>
                                 </ul>
                             </div>
                         </div>
@@ -834,12 +818,6 @@
                     <div class="form_item">
                         <span class="placeholder">Тип балкона</span>
                         <div id="size_select-styler" class="jq-selectbox jqselect" style=" position: relative; z-index:100">
-                            <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                <option value="Прямой">Прямой</option>
-                                <option value="Г-образный">Г-образный</option>
-                                <option value="П-образный">П-образный</option>
-                                <option value="Другой">Другой</option>
-                            </select>
                             <div class="jq-selectbox__select" style="position: relative">
                                 <div class="jq-selectbox__select-text">Прямой</div>
                                 <div class="jq-selectbox__trigger">
@@ -847,11 +825,12 @@
                                 </div>
                             </div>
                             <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <input type="hidden" class="inputSelect" name="balkonType" value="Прямой">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                                    <li class="selected sel" style="">Прямой</li>
-                                    <li style="">Г-образный</li>
-                                    <li style="">П-образный</li>
-                                    <li style="">Другой</li>
+                                    <li class="selected sel">Прямой</li>
+                                    <li>Г-образный</li>
+                                    <li>П-образный</li>
+                                    <li>Другой</li>
                                 </ul>
                             </div>
                         </div>
@@ -862,10 +841,6 @@
                     <div class="form_item">
                         <span class="placeholder">Утепление</span>
                         <div id="size_select-styler"  class="jq-selectbox jqselect" style="  position: relative; z-index:100">
-                                <select id="size_select" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                                    <option value="Теплый балкон">Теплый балкон</option>
-                                    <option value="Холодный балкон">Холодный балкон</option>
-                                </select>
                             <div class="jq-selectbox__select" style="position: relative">
                                 <div class="jq-selectbox__select-text">Теплый балкон</div>
                                 <div class="jq-selectbox__trigger">
@@ -873,6 +848,7 @@
                                 </div>
                             </div>
                             <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                                <input type="hidden" class="inputSelect" name="balkonType" value="Теплый балкон">
                                 <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
                                     <li class="selected sel" style="">Теплый балкон</li>
                                     <li style="">Холодный балкон</li>
@@ -1116,34 +1092,39 @@
     </div>
 </div>
 
-<div class="modal modal_select fade" tabindex="-1" role="dialog">
+<div class="balc modal modal_select fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button class="modal_close" data-dismiss="modal" type="button"></button>
         <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
        
         <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" id="selectForm_phone" type="text">
         
-        <button class="button send-mess" type="submit" data-form="selectForm">Перезвоните мне</button>
+        <button class="button send-mess" type="submit" data-form="selectForm">Рассчитать</button>
         
         
         <div class="modal_note">Ваши персональные данные не будут опубликованы
             или переданы третьим лицам.</div>
     </div>
 </div><!--modal_form-->
-<div class="modal modal_select2 fade" tabindex="-1" role="dialog">
+<div class="balc modal modal_select2 fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button class="modal_close" data-dismiss="modal" type="button"></button>
         <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
        
         <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" type="text" id="selectForm2_phone">
         
-        <button class="button send-mess" type="submit" data-form="selectForm2">Перезвоните мне</button>
+        <button class="button send-mess" type="submit" data-form="selectForm2">Рассчитать</button>
         
         
         <div class="modal_note">Ваши персональные данные не будут опубликованы
             или переданы третьим лицам.</div>
     </div>
 </div><!--modal_form-->
+
+
+
+
+
 
 
 
@@ -1162,6 +1143,8 @@
     </div>
 </div>
 
+
+<?php include('balconies-sliders.php'); ?>
 <?php include('footer.php'); ?>
 
 </body>

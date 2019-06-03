@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="title text_title">
+                <div class="title">
                     Двери,окна,кухни от производителя.<br>
                     Комплексные интерьерные решения                    
                 </div>
@@ -34,7 +34,7 @@
                 <div class="anons_block">
                     <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="100">
                             <div class="img">
-                                <img class="img-responsive images" alt="" src="img/sexangle/eco.png">
+                                <img class="img-responsive" alt="" src="img/sexangle/eco.png">
                             </div>
                             <div class="text">
                                 Экологически <br>
@@ -43,7 +43,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="300">
                             <div class="img">
-                                <img class="img-responsive images" alt="" src="img/sexangle/point.png">
+                                <img class="img-responsive" alt="" src="img/sexangle/point.png">
                             </div>
                             <div class="text">
                                 Единый дизайн, стиль и цвет                                
@@ -51,7 +51,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="500">
                             <div class="img">
-                                <img class="img-responsive images" alt="" src="img/sexangle/zoom.png" >
+                                <img class="img-responsive" alt="" src="img/sexangle/zoom.png" >
                             </div>
                             <div class="text">
                                 Проверенная годами фурнитура                                
@@ -59,7 +59,7 @@
                         </div>
                             <div class="anons_block_item aos-init" data-aos="fade-up" data-aos-delay="700">
                             <div class="img">
-                                <img class="img-responsive images" alt="" src="img/sexangle/door_wihte.png" >
+                                <img class="img-responsive" alt="" src="img/sexangle/door_wihte.png" >
                             </div>
                             <div class="text">
                                 Полноценная гарантия на всю продукцию                                

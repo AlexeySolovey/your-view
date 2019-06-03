@@ -23,12 +23,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-sm-12">
-                <h1 class="title colors">
+                <h1 class="title">
                     Взломостойкие,
                     энергосберегающие
                     двери
                 </h1>
-                <div class="desc colors">
+                <div class="desc">
                     ОТ ПРОИЗВОДИТЕЛЯ ЗА 1 ДЕНЬ.
                 </div>
                 <a href="/vhodnie-dveri/catalog" class="button button_ico">
@@ -309,7 +309,7 @@
     </div>
 </div>
 
-<section class="calculation calculation-vd over_h" id="calculation">
+<section class="door calculation calculation-vd over_h" id="calculation">
     <div class="sale_wrapp_block">
         <div class="sale_mobile">
             <h2 class="sale_title">
@@ -327,7 +327,7 @@
     </div>
 
 
-    <form action="#" method="post" id="param_kitchen" class="ng-pristine ng-valid">
+    <div>
         <div class="calculation_item calculation_item_0 clearfix">
             <div class="container">
                 <div class="row">
@@ -413,7 +413,7 @@
 
                     <div class="col-sm-12">
                         <div class="calculation_item calculation_item_4 js_option">
-                            <div class="title fixsd_title_box">Выберите рисунок двери</div>
+                            <div class="title">Выберите рисунок двери</div>
                             <div class="door_image_slider">
                              	<div>
                                     <input type="radio" id="radio4_1" name="door_image" value="1" data-calc="dorImg" data-title="Рисунок двери">
@@ -601,7 +601,7 @@
                 </div>
             </div>
         </div>
-    </form>
+    </div>
 </section>
 
 

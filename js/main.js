@@ -301,7 +301,7 @@ AOS.init({
         //end door format
 
         //check balcon format
-        $('.calculation_item_1_wrapp input').on('change', function(){
+        $('.balc .calculation_item_1_wrapp input').on('change', function(){
             $('.calculation_item_1_wrapp input').prop( "checked", false );
             $(this).prop('checked', true);
             var imgName = $(this).data('img');
@@ -375,7 +375,11 @@ AOS.init({
         $('.js_option input:text').on('change', function(){
             var calcClass = $(this).data('calc');
             var calcTitle = $(this).data('title');
-            calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' мм' }     
+            if(calcClass == 'centerSide' || calcClass == 'leftSide' || calcClass == 'rightSide' || calcClass == 'radius' ){
+                calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' м' }
+            }else{
+                calcObj[calcClass] = { title: calcTitle, data: $(this).val() + ' мм' }
+            }
         });
         $('.js_option input:radio').on('change', function(){
             var calcClass = $(this).data('calc');
@@ -440,12 +444,11 @@ AOS.init({
         // simple form
 
         $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
-            alert('hey');
             var formName = $(this).data('form');
             var formData = takeData(formName);
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
-            console.log(formData); return;
+           // console.log(formData); return;
             messAjax(formData);
         });
 
@@ -464,7 +467,7 @@ AOS.init({
         }
         function messAjax(data){
            
-           $('.modal_call, .modal_calculate').modal('hide');
+           $('.modal').modal('hide');
             $.ajax({
                 url: '/wp-admin/admin-ajax.php',
                 method: 'POST',
@@ -487,7 +490,7 @@ AOS.init({
             $('#'+ formName).find ('input, textearea, select').each(function() {
               tempData[this.name] = $(this).val();
             });
-            if(formName == 'selectForm') tempData.phone = 'sss'; //$('#' + selectForm + '_phone').val();
+            if(formName == 'selectForm' || formName == 'selectForm2') tempData.phone = $('#' + formName + '_phone').val();
             return tempData;
 
         }
@@ -524,9 +527,37 @@ AOS.init({
 
         $('.jq-selectbox__dropdown li').on('click', function(){
             var info = $(this).text();
+            $(this).parents('.jq-selectbox').find('.jq-selectbox__select-text').text(info);
             $(this).parents('.jq-selectbox__dropdown').hide().find('.inputSelect').val(info);
         })
 
 
+
+
+        $('.increase_space button').on('click', function () {
+            
+        });
+
+
+        $('.js_slider_production2').slick({
+                    slidesToShow: 1,
+                    prevArrow: '<span class="slick_prev2"></span>',
+                    nextArrow: '<span class="slick_next2"></span>',
+                });
+
+        setTimeout(function(){
+            $('.modal_download').removeClass('forAddSlider');
+        }, 1500);
+
     });
 })(jQuery)
+
+
+
+ function showFields(a,b,c,d) {
+    $('.form_size_wrapp > .form_size').hide();
+    if(a) $('.form_size_wrapp .form_size_2').show();
+    if(b) $('.form_size_wrapp .form_size_1').show();
+    if(c) $('.form_size_wrapp .form_size_3').show();
+    if(d) $('.form_size_wrapp .form_size_4').show();
+}

@@ -17,26 +17,6 @@
     <link rel="stylesheet" href="css/cottages.css">
 
 
-
-
-
-
-
-    <link rel="stylesheet" href="/public/css/main_balkoni.css,qv9.pagespeed.ce.DxOO2JLerp.css" type="text/css"/>
-    <link rel="stylesheet" href="/public/css/components/adv-slider.css.pagespeed.ce.cUOghUgol2.css" type="text/css"/>
-    <link rel="stylesheet" href="/public/css/custom.css.pagespeed.ce.cRA7O8SNpi.css" type="text/css"/>
-    <link rel="stylesheet" href="/public/css/responsive_balkoni.css,qv7.pagespeed.ce.zi0_4kgpRf.css" type="text/css"/>
-    <link rel="stylesheet" href="/public/css/footer_all.css,qv1.pagespeed.ce.ZLkHY6t3Hg.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdn.saas-support.com/widget/cbk.css">
-
-
-
-
-
-
-
-
-
     <title>Ваш Вид</title>
 </head>
 <body>

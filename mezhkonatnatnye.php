@@ -1155,9 +1155,9 @@
         <button class="modal_close" data-dismiss="modal" type="button"></button>
         <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
        
-        <input required="required" placeholder="Телефон" maxlength="100" class="js_mask inp" name="phone" id="selectForm_phone" type="text">
+        <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" id="selectForm_phone" type="text">
         
-        <button class="button send-mess holl" type="submit" data-form="selectForm">Перезвоните мне</button>
+        <button class="button send-mess" type="submit" data-form="selectForm">Перезвоните мне</button>
         
         
         <div class="modal_note">Ваши персональные данные не будут опубликованы

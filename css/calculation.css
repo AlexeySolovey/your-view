@@ -637,19 +637,11 @@
     height: 752px
 }
 
-
-@media (max-width: 991px){
+@media (max-width:991px) {
     .calculation .calculation_item_3 .form_size_wrapp {
-        height: 770px;
+        height: 480px
     }
 }
-
-@media (max-width:770px) {
-    .calculation .calculation_item_3 .form_size_wrapp {
-        height: 480px;
-    }
-}
-
 
 @media (max-width:576px) {
     .calculation .calculation_item_3 .form_size_wrapp {
