@@ -204,11 +204,11 @@
                         </div>
                         <form class="assistant ng-pristine ng-valid" id="door_type">
                             <input type="radio" id="radioA_0" class="radio_assistant" name="type_assistant" value="dveri-v-kvartiru" tabindex="-1">
-                            <label for="radioA_0">В квартиру</label>
+                            <label for="radioA_0" data-type="dveri-v-kvartiru">В квартиру</label>
                             <input type="radio" id="radioA_1" class="radio_assistant" name="type_assistant" value="dveri-v-ofis" tabindex="-1">
-                            <label for="radioA_1">В офис</label>
+                            <label for="radioA_1" data-type="dveri-v-ofis">В офис</label>
                             <input type="radio" id="radioA_2" class="radio_assistant" name="type_assistant" value="dveri-v-dom" tabindex="-1">
-                            <label for="radioA_2">В дом</label>
+                            <label for="radioA_2" data-type="dveri-v-dom">В дом</label>
                         </form>
 
                         <div class="button_wrapp">
@@ -243,11 +243,11 @@
                         </div>
                         <form class="assistant ng-pristine ng-valid" id="door_class">
                             <input type="radio" id="radioA_2_37" class="radio_assistant" name="type_assistant" value="37" tabindex="0">
-                            <label for="radioA_2_37">Эконом класс</label>
+                            <label for="radioA_2_37" data-type="37">Эконом класс</label>
                             <input type="radio" id="radioA_2_38" class="radio_assistant" name="type_assistant" value="38" tabindex="0">
-                            <label for="radioA_2_38">Средний класс</label>
+                            <label for="radioA_2_38" data-type="38">Средний класс</label>
                             <input type="radio" id="radioA_2_39" class="radio_assistant" name="type_assistant" value="39" tabindex="0">
-                            <label for="radioA_2_39">Премиум класс</label>
+                            <label for="radioA_2_39" data-type="39">Премиум класс</label>
                         </form>
 
                         <div class="button_wrapp">
@@ -281,13 +281,13 @@
                         </div>
                         <form class="assistant ng-pristine ng-valid" id="door_size">
                             <input type="radio" id="radioA_3_187" class="radio_assistant" name="type_radio" value="187" tabindex="0">
-                            <label for="radioA_3_187">860х2040 мм</label>
+                            <label data-type="187" for="radioA_3_187">860х2040 мм</label>
                             <input type="radio" id="radioA_3_47" class="radio_assistant" name="type_radio" value="47" tabindex="0">
-                            <label for="radioA_3_47">960х2050 мм</label>
+                            <label data-type="47" for="radioA_3_47">960х2050 мм</label>
                             <input type="radio" id="radioA_3_249" class="radio_assistant" name="type_radio" value="249" tabindex="0">
-                            <label for="radioA_3_249">1200х2040 мм</label>
+                            <label data-type="249" for="radioA_3_249">1200х2040 мм</label>
                             <input type="radio" id="radioA_3_5" class="radio_assistant" name="type_radio" value="999" tabindex="0">
-                            <label for="radioA_3_5">Нужен замерщик</label>
+                            <label data-type="999" for="radioA_3_5">Нужен замерщик</label>
                         </form>
                         <div class="button_wrapp">
                             <button class="button button_border btn_prev" tabindex="-1">
@@ -296,7 +296,9 @@
                             </span>
                             </button>
 
-                            <a href="/dveri/" class="button button_res" tabindex="-1">
+               <input hidden type="text" id="type" value>
+               <input hidden type="text" id="assistant" value> 
+               <input hidden type="text" id="radio" value>   <a href="/dveri/?filters=" class="button button_res" tabindex="-1">
                                 <span>
                                     Смотреть результат
                                 </span>
