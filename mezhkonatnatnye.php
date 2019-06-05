@@ -177,6 +177,9 @@
                                 <div class="">
                                    <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
                                 </div>
+                                <div class="">
+                                   <img src="img/adv-slide3.jpg" class="img-responsive" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -644,7 +647,7 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors3/doors_list_11.jpg" class="img-responsive" alt="">
+                                    <img src="img/doors3/doors_list_10.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
@@ -654,12 +657,41 @@
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_11.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Двери с художественной росписью 
+                               </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
                                     <img src="img/doors3/doors_list_12.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
-                            <div><a href="/dveri/" class="door_model" style="color: #6666ff;">
-                               Двери в классическом стиле</a></div>
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Двери в классическом стиле                                     
+                                </a>
+                          </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_13.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Двери в классическом стиле со стеклом                                                
+                                </a>
+                            </div>
                         </div>
                         <div class="door">
                             <div class="img_wrap">
@@ -668,29 +700,129 @@
                                 </a>
                             </div>
 
-                            <div><a href="/dveri/" class="door_model" style="color: #6666ff;">
-                              Белая дверь раздвижная</a></div>
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Белые двери в стиле модерн                                                
+                                </a>
+                           </div>
+                        </div> 
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_15.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Светлые полуторные двери                                                
+                                </a>
+                           </div>
                         </div>
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors3/doors_list_01.jpg" class="img-responsive" alt="">
+                                    <img src="img/doors3/doors_list_16.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
-                            <div><a href="/dveri/" class="door_model" style="color: #6666ff;">
-                               Двери в классическом стиле</a></div>
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Дверь в стиле классика                                                
+                                </a>
+                           </div>
                         </div>
                         <div class="door">
                             <div class="img_wrap">
                                 <a href="/dveri/">
-                                    <img src="img/doors3/doors_list_02.jpg" class="img-responsive" alt="">
+                                    <img src="img/doors3/doors_list_17.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
 
-                            <div><a href="/dveri/" class="door_model" style="color: #6666ff;">
-                               Белая дверь раздвижная</a></div>
-                        </div>   
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Дверь в классическом стиле                                                
+                                </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_18.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                 Двери на раздвижной системе                                                
+                                </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_19.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Светлые двери со стеклом                                                
+                                </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_20.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Двери в классическом стиле                                                
+                                </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_21.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                 Белые двери со стеклом                                                
+                                </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_22.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Двери в классическом стиле со стеклом                                                
+                                </a>
+                           </div>
+                        </div>
+                        <div class="door">
+                            <div class="img_wrap">
+                                <a href="/dveri/">
+                                    <img src="img/doors3/doors_list_23.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                                    Светлые двери в стиле Прованс                                                
+                                </a>
+                           </div>
+                        </div>  
                     </div>
 
                     <button type="button" class="button button_ico" data-toggle="modal" data-target=".modal_download">
@@ -1150,10 +1282,12 @@
 </div>
 
 
-<div class="modal modal_select fade" tabindex="-1" role="dialog">
+<div class="modal modal_select fade holl" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button class="modal_close" data-dismiss="modal" type="button"></button>
-        <div class="modal_title">Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться</div>
+        <div class="modal_title">
+            Наш менеджер уже рассчитывает стоимость! Введите номер телефона, по которому с вами можно связаться 
+        </div>
        
         <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="phone" id="selectForm_phone" type="text">
         

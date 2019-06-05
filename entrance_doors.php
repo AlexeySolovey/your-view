@@ -384,7 +384,7 @@
                                 Выберите формат двери
                             </div>
 
-                            <div class="calculation_item_1_wrapp js_option">
+                            <div class="calculation_item_1_wrapp js_option white_door">
                                 <div class="form_type form_type_1 clearfix">
                                     <input type="radio" id="radio1_1" value="Обычная" data-calc="dorFormat" data-title="Формат двери" data-img="type_1">
                                     <label for="radio1_1"></label>
@@ -470,7 +470,7 @@
                     </div>
 
 
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-md-4 col-sm-12 fixsd_title_box">
                         <div class="calculation_item calculation_item_2" data-name="Класс замка">
                             <div class="title">
                                 Укажите требуемое количество замков
@@ -797,8 +797,8 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
-                <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
+                <div class="panorama__link fixsd_title_box">
+                    <img class="img-responsive" alt="" src="img/pano_img.png">
                     <div class="title">
                         3D тур
                     </div>

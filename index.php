@@ -127,7 +127,7 @@
                     в Вашем доме или квартине
                 </div> -->
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-12" >
                 <div class="video">
                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qkPpwhzSRhY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
                 </div>
@@ -145,8 +145,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-sm-6 ">
-                        <div class="produced_list clearfix">
+                    <div class="col-sm-6">
+                        <div class="produced_list clearfix fixsd_title_box"> <!-- Все исправил)))) -->
                             <div class="col-md-4 col-sm-6 col-xs-6 produced_list_item">
                                 <img class="img-responsive" alt="" src="img/product_list_1.png">
                                 <div class="title">

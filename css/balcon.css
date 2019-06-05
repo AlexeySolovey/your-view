@@ -462,6 +462,8 @@
 .door_inner .item.item_1 {
     top: 215px;
     left: 85px
+.fixsd_title_box>.calculation_item_2>.title{
+    margin:0;
 }
 
 .door_inner .item.item_1 .name:before {
