@@ -49,7 +49,10 @@
 }
 
 @media screen and (max-width:1280px) {
-    .border_item {
+    .fears_title {
+		height: 70px!important;
+	}
+	.border_item {
         margin: 0 0 50px
     }
     .modal_main.modal_calculate .modal-dialog,
@@ -331,6 +334,14 @@
 }
 
 @media screen and (max-width:991px) {
+	.anons h1 {
+		font-size: 30px!important;
+		text-align: center!important;
+		line-height: 35px!important;
+	}
+	.anons ul.anons_li li, .main_form .main_form_body .button {
+		font-size: 14px!important;
+	}
 	.sketch .send_to_form {
 		padding: 12px 0 12px 0!important;
 	}
@@ -877,6 +888,91 @@
 }
 
 @media screen and (max-width:767px) {
+	.anons_li {
+		padding-top:15px!important;
+	}
+	.main_form {
+		margin-top:60px!important;
+	}	
+	.main_form .main_form_body {
+		padding-left: 10px!important;
+		padding-right: 10px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_1 {
+		left: 83px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_2 {
+		left: -10px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 {
+		left: 180px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_wrapp {
+		position: relative!important;
+		height: 190px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_img {
+		width: 100px!important;
+		height: 100px!important;
+	}
+	.balc.calculation .calculation_item .title {
+		font-size: 21px!important;
+		font-weight: 600!important;
+		line-height: 22px!important;
+		margin-bottom: 25p!important;
+		top:0px!important;
+		margin-bottom: 25px!important;
+	}
+	.form_masters {
+		width: 100%!important;
+		position: relative!important;
+		top: 0!important;
+		background-size: 100% 100%!important;;
+	}
+	.call_master_desc {
+		margin-bottom: 25px!important;
+	}
+	.call_master {
+		background: #4e5b62!important;
+		height: auto!important;
+		padding: 40px 0!important;
+	}
+	.rehau .text h2 {
+		font-size: 30px!important;
+		line-height: 28px!important;
+		color: #fff!important;
+		margin-bottom: 40px!important;
+		padding-top: 40px!important;
+	}
+	.balc.calculation .calculation_item_1 .title {
+		margin-bottom: 20px!important;
+		font-size: 21px!important;
+	}
+	.balc.calculation .calculation_item_1 .form_type label {
+		width: 60px!important;
+		height: 60px!important;
+		background-size: cover!important;
+	}
+	.form_type {
+		text-align: center!important;
+		margin: 0 10px 10px!important;
+	}
+	.title {
+		margin-bottom: 0px!important;
+		font-size: 30px!important;
+	}
+	.balc .space_title {
+		height: auto!important;
+	}
+	.button.button_sm, .signature .description, a.button.button_sm {
+		font-size: 14px!important;
+	}
+	.balc.calculation .calculation_item_0 .calculation_type_radio {
+		padding: 10px 10px 25px!important;
+	}
+	.calculation .calculation_item_0 {
+		margin-bottom: 40px!important;
+	}
     .anons .title br,
     .header_bottom_line,
     .js_feedback .js_feedback_item .img:before,
@@ -1005,9 +1101,6 @@
     .models .button {
         padding: 24px 25px;
         width: 100%
-    }
-    .form_size_img img {
-        height: 190px
     }
     .sale_wrapp_block {
         height: auto
@@ -1590,7 +1683,7 @@
         color: #000
     }
     .anons {
-        padding-top: 20px;
+        padding-top: 50px;
         height: auto
     }
     .ty_block {
