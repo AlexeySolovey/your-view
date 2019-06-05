@@ -410,7 +410,9 @@
     height: 90px;
 }
 
-
+.fixsd_title_box>.calculation_item_2>.title{
+    margin:0;
+}
 
 
 

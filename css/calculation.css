@@ -1140,3 +1140,22 @@
     left: -65px;
     top: 60%
 }
+
+
+
+
+.fixsd_title_box>.calculation_item>.title{
+    margin:0;
+}
+
+.white_door>.form_type>{
+    margin: 0px 20px 0px 20px;
+}
+
+
+@media (max-width:1195px){
+    .calculation .calculation_item_1 .form_type_3 label {
+        width: 300px;
+        background: url(../img/white-door/dveri_type_3.jpg) no-repeat center
+    }
+}

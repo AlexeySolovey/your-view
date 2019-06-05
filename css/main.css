@@ -1755,7 +1755,7 @@ iframe {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px
 }
 
@@ -1764,6 +1764,7 @@ iframe {
     -ms-flex: 2;
     flex: 2;
     font-size: 14px
+    /*font-weight: 500;*/
 }
 
 .card_video {
@@ -6190,6 +6191,9 @@ modal {
     margin:0;
 }
 
+.fixsd_title_box>.title{
+    margin:0;
+}
 
 
 .img-responsive.images{
@@ -6200,22 +6204,36 @@ modal {
     color: #262626;
 }
 
-.button.send-mess.holl{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-
-.js_mask.inp{
+.holl>.modal-dialog>.js_mask{
     width: 350px;
-    justify-content: center;
-    align-items: center;
     display: flex;
-    margin: auto;
-    margin-bottom: 20px;
+    margin:20px auto;
 }
+
+.holl>.modal-dialog>.send-mess{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+.modal_title{
+    font-size: 35px;
+    text-align: center;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_note{
+    margin-bottom: 25px;
+}
+
 
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
     padding: 0;
@@ -6224,5 +6242,10 @@ modal {
 
 .question .button_wrapp .button {
     padding: 20px 30px; 
+
+}
+
+
+.modal_select .button{
 
 }

@@ -201,7 +201,10 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 col-sm-12 card_more_info">
+
+
+
+                <!-- <div class="col-md-3 col-sm-12 card_more_info">
                     <div class="card_more_info_item">
                         <div class="title">
                             <span>
@@ -215,7 +218,7 @@
                                 но и посоветуют подходящую модель и комплектацию.
                             </p>
                         </div>
-                        <button class="button button_red button_ico">
+                        <button class="button button_red button_ico" data-toggle="modal" data-target=".modal_gauger" data-title="Вызвать замерщика" data-subject="Запрос на вызов замерщика с сайта входные двери">
                             <span>
                                 Вызвать замерщика
                             </span>
@@ -254,7 +257,68 @@
                             дверной конструкции от 1000 грн
                         </div>
                     </div>
+                </div> -->
+
+
+                <div class="col-md-3 col-sm-12 card_more_info">
+                    <div class="card_more_info_item">
+                        <div class="title">
+                            <span>
+                                <img class="img-responsive" alt="" src="img/icon/card_more_info_item_1.png">
+                            </span>
+                            Не можете определиться с дверью?
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Наши замерщики не только определят нужный вам размер,
+                                но и посоветуют подходящую модель и комплектацию.
+                            </p>
+                        </div>
+                        <button class="button button_red button_ico">
+                            <span>
+                                Вызвать замерщика
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="card_more_info_item">
+                        <div class="title">
+                            <span><img class="img-responsive" alt="" src="img/icon/card_more_info_item_2.png"></span>
+                            Доставка
+                        </div>
+                        <ul>
+                            <li>Доставка по Киеву - 250 грн.</li>
+                            <li>Доставка по области <br>250 грн. + 25 грн/км</li>
+                            <li>Доставка по Украине по тарифам курьерской службы</li>
+                        </ul>
+                    </div>
+
+                    <div class="card_more_info_item">
+                        <div class="title">
+                            <span><img class="img-responsive" alt="" src="img/icon/card_more_info_item_3.png"></span>
+                            Гарантия
+                        </div>
+                        <div class="desc">
+                            24 месяца с дня получения заказа
+                        </div>
+                    </div>
+
+                    <div class="card_more_info_item">
+                        <div class="title">
+                            <span><img class="img-responsive" alt="" src="img/icon/card_more_info_item_4.png"></span>
+                            Монтаж:
+                        </div>
+                        <div class="desc">
+                            У нас Вы можете заказать монтаж
+                            дверной конструкции от 1000 грн
+                        </div>
+                    </div>
                 </div>
+
+
+
+
+
 
             </div>
         </div>
@@ -889,6 +953,44 @@
         </div>
 
 
+    </div>
+</div>
+
+
+
+
+<div class="modal-dialog" role="document">
+    <button class="modal_close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+
+    <div class="modal_wrapp">
+        <div class="download_img">
+            <img src="/public/common/modal_gauger.png.pagespeed.ce.rP_wWHDzuX.png" class="img-responsive" alt="">
+        </div>
+
+        <div class="download_form">
+            <div class="js_title title">Вызвать замерщика</div>
+            <div class="js_desc desc">
+                Оставьте ваши контакты, и наш менеджер свяжется с вами
+                для согласования времени приезда замерщика.
+            </div>
+
+            <form class="ajaxForm form-vertical ng-pristine ng-valid" id="yw5" action="/default/feedbacks/index" method="post">
+                <div style="display:none">
+                    <input type="hidden" value="3a389997af46facd512bf68c74e68bfe46588c86" name="YII_CSRF_TOKEN">
+                </div>
+                <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden">              
+                <input value="Запрос на вызов замерщика с сайта входные двери" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden">                
+                <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="Feedbacks[name]" id="Feedbacks_name" type="text">                
+                <input required="required" placeholder="Телефон" maxlength="100" class="form_input js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text">
+                <button type="submit" class="button">
+                    <span>Заказать</span>
+                </button>
+            </form> 
+
+            <div class="modal_note">Ваши персональные данные не будут опубликованы
+                или переданы третьим лицам.
+            </div>
+        </div>
     </div>
 </div>
 
