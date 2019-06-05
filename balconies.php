@@ -126,12 +126,365 @@
     </div>
 </section>
 
-<section class="diagram balc">
+<section class="door_inner white_before mobile_off hidden-sm hidden-xs" id="components">
     <div class="container">
+        <!--        <div class="title">Какой дизайн вы бы не выбрали, <br/>качество вашей кухни останется на <br/>высшем уровне</div>-->
         <div class="row">
-            <div class="col-sm-12">
-                <h2 class="main_title"></h2>
-                <div class="diagram_bg" style="background-image: url('img/diagram_balconies.jpg')">
+            <div class="door_inner_item_wrapp clearfix">
+                <div class="item item_1">
+                    <div class="name">Крыша из профнастила <br>
+                        или битумной черепицы</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Крыша из профнастила или битумной черепицы
+                                    </div>
+                                    <div class="inner_text">
+                                        — Прочная крыша, которая выдерживает падение крупных предметов с большой высоты. Дополнительно шумоизолируется.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item item_2">
+                    <div class="name">Потолок из <br>
+                        безшовного пластика</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Потолок из безшовного пластика
+                                    </div>
+                                    <div class="inner_text">
+                                        Визуально расширяет пространство, не боится попадания влаги, практичен в использовании.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item item_3" data-id="item_3">
+                    <div class="name">Заполнения пространства <br>
+                        крыши минеральной ватой</div>
+
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Заполнение пространства крыши минеральной ватой
+                                    </div>
+                                    <div class="inner_text">
+                                        — Исключает дополнительные области промерзания крыши.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_4" data-id="item_4">
+                    <div class="name">Консоли
+                        (каркас крыши из профиля)</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Консоли (каркас крыши из профиля)
+                                    </div>
+                                    <div class="inner_text">
+                                        — Выдерживает большие нагрузки. Дополнительно обрабатывается антикорозионным покрытием, что увеличивает срок службы в разы.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_5" data-id="item_5">
+                    <div class="name">Изолированные стыки</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Изолированные стыки
+                                    </div>
+                                    <div class="inner_text">
+                                        — Все стыки тщательно обрабатываются битумной мастикой, с целью их гермитизации.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_6" data-id="item_6">
+                    <div class="name">Утепление потолка</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Утепление потолка
+                                    </div>
+                                    <div class="inner_text">
+                                        — Потолок утепляется стиродуром (пенополистеролом), что исключает образование конденсата.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item_7" data-id="item_7">
+                    <div class="name">Дверь балконного блока
+                        (распашная или раздвижная)</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Дверь балконного блока
+                                    </div>
+                                    <div class="inner_text">
+                                        —  Дверь может быть изготовлена любых размеров, с использованием высокотехнологичной фурнитуры, в т.ч. раздвижной
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_8" data-id="item_8">
+                    <div class="name">Внутренняя отделка <br>
+                        вагонкой</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Внутренняя отделка вагонкой
+                                    </div>
+                                    <div class="inner_text">
+                                        — Обшивка балкона вагонкой из пластика или натурального дерева (сосна, ольха, липа)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_10" data-id="item_10">
+                    <div class="name">Минеральная вата</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Минеральная вата
+                                    </div>
+                                    <div class="inner_text">
+                                        — Высококачественный и долговечный тепло и шумоизолирующий материал.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_11" data-id="item_11">
+                    <div class="name">OSB плита</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        OSB плита
+                                    </div>
+                                    <div class="inner_text">
+                                        — Легкий, экологически чистый материал, используется для выравнивания пола.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_12" data-id="item_12">
+                    <div class="name">Деревянные лаги</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Деревянные лаги
+                                    </div>
+                                    <div class="inner_text">
+                                        — Изготавливаются из натурального деревянного бруса, поднимают уровень пола для подкладки слоя теплоизоляции.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_13" data-id="item_13">
+                    <div class="name">Ламинат, половая доска <br>
+                        или линолеум</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Ламинат, половая доска или линолеум
+                                    </div>
+                                    <div class="inner_text">
+                                        — При необходимости, используется любое напольное покрытие, возможно подведение теплого пола.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_14" data-id="item_14">
+                    <div class="name">Утепление <br>
+                        стиродуром</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Утепление стиродуром
+                                    </div>
+                                    <div class="inner_text">
+                                        — Стиродур (пенополистерол) - универсальный теплоизолирующий материал, не боится влаги, не выделяет химических испарений.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_15" data-id="item_15">
+
+                    <div class="name">Паробарьер</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Паробарьер
+                                    </div>
+                                    <div class="inner_text">
+                                        — подкровельная пленка, защищает конструкцию кровли снаружи от проникновения пыли, воды, атмосферных осадков. Позволяет влаге, образовавшейся внутри, выйти наружу: препятствует образованию конденсата и скоплению влаги внутри слоя теплоизоляции.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_16" data-id="item_16">
+                    <div class="name">Гидробарьер</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Гидробарьер
+                                    </div>
+                                    <div class="inner_text">
+                                        — специальная пленка, защищает конструкцию балкона от проникновения пыли и воды. Позволяет влаге, образовавшейся внутри, выйти наружу. Препятствует образованию конденсата и скоплению влаги внутри слоя теплоизоляции.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_17" data-id="item_17">
+                    <div class="name">Обшивка сайдингом</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Обшивка сайдингом
+                                    </div>
+                                    <div class="inner_text">
+                                        — Качественный материал для наружных работ с гарантией от производителя до 50 лет.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_18" data-id="item_18">
+                    <div class="name">Подоконик Danke</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Подоконник Danke
+                                    </div>
+                                    <div class="inner_text">
+                                        — Прочные и долговечные подоконники немецкого производства.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item item_19" data-id="item_19">
+                    <div class="name">Окна Rehau</div>
+
+                    <div class="inner_info_box" style="display: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner_info">
+                                    <span class="circle"></span>
+                                    <div class="inner_name">
+                                        Окна Rehau
+                                    </div>
+                                    <div class="inner_text">
+                                        — Современные энергоэффективные окна из немецкого профиля Rehau. Конфигурация подбирается индивидуально под цели заказчика.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

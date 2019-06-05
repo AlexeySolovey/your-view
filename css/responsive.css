@@ -331,6 +331,83 @@
 }
 
 @media screen and (max-width:991px) {
+	.sketch .send_to_form {
+		padding: 12px 0 12px 0!important;
+	}
+	.fears_title {
+		height: 70px!important;
+	}
+	.service .title {
+		margin-bottom: 40px!important;
+		font-size:30px!important;
+	}
+	.call_master_title {
+		font-size: 25px!important;
+		padding-right: 15px!important;
+		font-weight: 700!important;
+		margin-bottom: 20px!important;
+		line-height: 25px!important;
+		color: #fff!important;
+	}
+	.call_master_desc {
+		font-size: 18px!important;
+		line-height: 21px!important;
+		color: #fff!important;
+	}
+	.call_master {
+		background-position: -739px 0!important;
+	}
+	.rehau {
+		background-size: cover!important;
+		padding-top: 50px!important;
+		padding-bottom: 50px!important;
+	}
+	.rehau .text {
+		margin-top: 0!important;
+	}
+	.rehau .img-responsive {
+		margin-top: 20px!important;
+	}
+	.title {
+		margin-top: 0px!important;
+	}
+	.balc .space_title {
+		padding: 10px!important;
+		font-size: 16px!important;
+		height: 70px!important;
+	}
+	.balc.calculation .calculation_item_3 .title {
+		line-height: normal!important;
+		font-size: 24px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_img {
+		width: 130px!important;
+		top: 64px!important;
+		height: 130px!important;
+		-webkit-transform: translateX(-50%) scale(1);
+		transform: translateX(-50%) scale(1);
+	}
+	.balc.calculation .calculation_item_3 .form_size {
+		left: 160px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_2 {
+		left: -25px!important;
+		top: 105px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 {
+		top: 105px!important;
+		left: 235px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size input {
+		width: 70px!important;
+	}
+	.balc.calculation .calculation_item_3 .form_size input {
+		font-size: 14px!important;
+	}
+	.balc.calculation .calculation_item_4 .title {
+		font-size: 24px!important;
+		top: o!important;
+	}
     .anons .anons_block .anons_block_item,
     .row_flex_ab {
         -webkit-box-orient: vertical;
