@@ -345,11 +345,36 @@ AOS.init({
                 if(key === "width" || key === "height") continue;
                 if (calcObj[key]) countDiscont.total++;
             }
-            if(!calcObj['accessories']['data'].length)      countDiscont.total--;
-            if(!calcObj['workType']['data'].length)         countDiscont.total--;
+			var calcObj1 = calcObj['accessories']['data'].length;
+			var calcObj2 = calcObj['balcAccessories']['data'].length;
+			var calcObj3 = calcObj['workType']['data'].length;
+			var calcObj4 = calcObj2+calcObj3;
+			console.log(calcObj4);
+			//console.log(calcObj3);
+			//console.log(calcObj2);
+            if(!calcObj['accessories']['data'].length)  countDiscont.total--;
+			if(!calcObj['workType']['data'].length)         countDiscont.total--;
             if(!calcObj['balcAccessories']['data'].length)  countDiscont.total--;
-
-            if(countDiscont.total > countDiscont.check) {
+			if(calcObj1==2) {countDiscont.total=countDiscont.total+1;}
+			if(calcObj1==3) {countDiscont.total=countDiscont.total+2;}
+			if(calcObj1==4) {countDiscont.total=countDiscont.total+3;}
+			if(calcObj1==5) {countDiscont.total=countDiscont.total+4;}
+			if(calcObj1>5) {countDiscont.total=countDiscont.total+5;}
+			if(calcObj4 ==2 && calcObj2 >0  && calcObj3 >0) {countDiscont.total=countDiscont.total;}
+			if(calcObj4 ==3 && calcObj2 >0  && calcObj3 >0) {countDiscont.total=countDiscont.total+1;}
+			if(calcObj4 ==4 && calcObj2 >0  && calcObj3 >0) {countDiscont.total=countDiscont.total+2;}
+			if(calcObj4 ==5 && calcObj2 >0  && calcObj3 >0) {countDiscont.total=countDiscont.total+3;}
+			if(calcObj4 ==2 && calcObj2 ==0  && calcObj3 >0) {countDiscont.total=countDiscont.total+1;}
+			if(calcObj4 ==3 && calcObj2 ==0  && calcObj3 >0) {countDiscont.total=countDiscont.total+2;}
+			if(calcObj4 ==4 && calcObj2 ==0  && calcObj3 >0) {countDiscont.total=countDiscont.total+3;}
+			if(calcObj4 ==5 && calcObj2 ==0  && calcObj3 >0) {countDiscont.total=countDiscont.total+4;}			
+			if(calcObj4 ==2 && calcObj2 >0  && calcObj3 ==0) {countDiscont.total=countDiscont.total+1;}
+			if(calcObj4 ==3 && calcObj2 >0  && calcObj3 ==0) {countDiscont.total=countDiscont.total+2;}
+			if(calcObj4 ==4 && calcObj2 >0  && calcObj3 ==0) {countDiscont.total=countDiscont.total+3;}
+			if(calcObj4 ==5 && calcObj2 >0  && calcObj3 ==0) {countDiscont.total=countDiscont.total+4;}	
+			if(calcObj4 >5) {countDiscont.total=countDiscont.total+5;}
+			
+            if(countDiscont.total > countDiscont.check && countDiscont.total < 6) {
                 countDiscont.check = countDiscont.total;
                 $('.js_sale_wrapp').fadeIn(); 
                 setTimeout(function () {
@@ -367,8 +392,12 @@ AOS.init({
                 countDiscont.show = countDiscont.total * 125;
                 $('.js_options_total_discount').text(countDiscont.show);
             } else {
-                countDiscont.show = countDiscont.total;
-                $('.js_options_total_discount').text(countDiscont.show);
+               countDiscont.show = countDiscont.total;
+			    if(countDiscont.show >5) {
+					$('.js_options_total_discount').text(5);
+				} else {
+					$('.js_options_total_discount').text(countDiscont.show);
+				}
             }   
         }
 
