@@ -901,10 +901,12 @@ body .button:focus {
     transform: translateY(-50%);
     margin-top: 0;
 }
+
 .slick_next,
 .slick_prev{
     background: url(../img/icon/slide-arrow.png) no-repeat center;
 }
+
 .slick_prev {
     right: 105%;
     background-position: -145px 0
@@ -923,13 +925,6 @@ body .button:focus {
     background-position: -72px 0
 }
 
-
-
-
-.slick_next,
-.slick_prev{
-    background: url(../img/icon/slide-arrow.png) no-repeat center;
-}
 
 .slick_next2,
 .slick_prev2 {
