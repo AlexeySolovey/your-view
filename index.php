@@ -390,3 +390,22 @@
 
 
 <?php include('footer.php'); ?>
+
+
+<script>
+
+    var tel1 = '+38 (044) 391-04-75';
+    var tel2 = '+38 (067) 380-11-06';
+
+    $(".phone_header-box").html(`
+        <a href="tel:${tel1}" class="phone ct-phone-044">${tel1}</a>
+        <a href="tel:${tel2}" class="phone ct-phone-044">${tel2}</a>
+        `);
+
+</script>
+
+
+
+
+</body>
+</html>

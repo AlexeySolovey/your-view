@@ -58,7 +58,10 @@ AOS.init({
             }
         });
 
-
+        // if (window.location.href.indexOf("vhodnye-dveri") > -1) 
+        //     { 
+        //         $(".phone_header-box").html('<a href="tel:+380443910475" class="phone ct-phone-044">+38 (044) 111-11-11</a>');
+        //     } 
 
 
 
@@ -342,16 +345,16 @@ AOS.init({
         function showHideDiscont(){ // show 1% puss and hide after 1sec
             countDiscont.total = 0;
             for (key in calcObj) {
-                if(key === "width" || key === "height") continue;
+				if(key === "width" || key === "height") continue;
                 if (calcObj[key]) countDiscont.total++;
+				
             }
 			var calcObj1 = calcObj['accessories']['data'].length;
 			var calcObj2 = calcObj['balcAccessories']['data'].length;
 			var calcObj3 = calcObj['workType']['data'].length;
 			var calcObj4 = calcObj2+calcObj3;
 			console.log(calcObj4);
-			//console.log(calcObj3);
-			//console.log(calcObj2);
+
             if(!calcObj['accessories']['data'].length)  countDiscont.total--;
 			if(!calcObj['workType']['data'].length)         countDiscont.total--;
             if(!calcObj['balcAccessories']['data'].length)  countDiscont.total--;
@@ -475,27 +478,32 @@ AOS.init({
         $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
             var formName = $(this).data('form');
             var formData = takeData(formName);
+			var phone =  $('#' +formName+' .js_mask').val().replace(/\D+/g,"").length;
+			if (phone < 12) {
+				$('#' +formName+' .js_mask').css('border-color','#f00');
+			} else {
+				 messAjax(formData);
+			}
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
            // console.log(formData); return;
-            messAjax(formData);
+           
         });
 
         function openCaseValidate(){
             validateOpenCase = true;
             var OCN = $('#open_case_name');
-            var OCP = $('#open_case_phone');
+           // var OCP = $('#open_case_phone');
             var OCE = $('#open_case_email');
 
             if(OCN.val()<3) addError(OCN);
-            if(OCP.val().search(regPhone) != 0) addError(OCP);
+            //if(OCP.val().search(regPhone) != 0) addError(OCP);
             if(OCE.val().search(regEmail) != 0) addError(OCE);
 
             removeError();
             return validateOpenCase;
         }
         function messAjax(data){
-           
            $('.modal').modal('hide');
             $.ajax({
                 url: '/wp-admin/admin-ajax.php',
