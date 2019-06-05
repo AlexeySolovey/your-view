@@ -300,14 +300,14 @@
 	                            </div>
                                 <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
                                 	<ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-	                                	<li class="selected sel" style="">
+	                                	<li class="selected sel">
 	                                		Выберите класс двери
 	                                	</li>
-	                                	<li style="">Стандарт</li>
-	                                	<li style="">Стандарт+</li>
-	                                	<li style="">Элит</li>
-	                                	<li style="">Монолит</li>
-	                                	<li style="">Полуторные двери</li>
+	                                	<li data-price="600">Стандарт</li>
+	                                	<li data-price="700">Стандарт+</li>
+	                                	<li data-price="800">Элит</li>
+	                                	<li data-price="900">Монолит</li>
+	                                	<li data-price="1000">Полуторные двери</li>
 	                                </ul>
 	                            </div>
 	                        </div>
