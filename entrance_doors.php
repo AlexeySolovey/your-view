@@ -19,7 +19,7 @@
 </header>
 
 
-<section class="anons">
+<section class="anons ent_door">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-sm-12">

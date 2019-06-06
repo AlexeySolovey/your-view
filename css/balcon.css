@@ -740,6 +740,10 @@
 	font-size: 12px!important;
 }
 
+.balc.calculation {
+    padding-top: 40px;
+}
+
 .balc.calculation .calculation_item_3 {
     margin: 0;
 	padding: 0;

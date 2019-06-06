@@ -478,12 +478,24 @@ AOS.init({
         $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
             var formName = $(this).data('form');
             var formData = takeData(formName);
-			var phone =  $('#' +formName+' .js_mask').val().replace(/\D+/g,"").length;
-			if (phone < 12) {
-				$('#' +formName+' .js_mask').css('border-color','#f00');
-			} else {
-				 messAjax(formData);
-			}
+
+            if( $('#' +formName+' .js_mask').val() ) {
+                var phone =  $('#' +formName+' .js_mask').val().replace(/\D+/g,"").length;
+            }else if($('#' +formName+'_phone').val()) {
+                var phone =  $('#' +formName+'_phone').val().replace(/\D+/g,"").length;
+            }
+
+            if (phone  < 12 ) {
+                $('#' +formName+' .js_mask').css('border-color','#f00');
+            } else {
+                 messAjax(formData);
+            }
+
+
+
+
+
+
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
            // if(!openCaseValidate()) return;
            // console.log(formData); return;

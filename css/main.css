@@ -608,7 +608,7 @@ body .button:focus {
 
 .anons .desc,
 .anons .title {
-    line-height: 50px;
+    line-height: 65px;
     color: #ffffff;
 }
 
@@ -982,7 +982,7 @@ body .button:focus {
     font-weight: 500;
     color: #000
 }
-
+.door .fixsd_title_box>.calculation_item_2>.title{ margin-bottom: 20px; }
 .footer {
     padding-top: 55px;
     background-color: #fff;
@@ -2478,15 +2478,15 @@ iframe {
     padding-bottom: 125px
 }
 
-.installation:before {
+/*.installation:before {
     content: '';
     position: absolute;
     bottom: 18px;
     left: -30px;
-    background: url(../common/installation_before.png) no-repeat center;
+    background: url(../img/installation_before.png) no-repeat center;
     width: 375px;
     height: 617px
-}
+}*/
 
 .installation:after {
     content: '';
@@ -4331,6 +4331,10 @@ iframe {
     font-weight: 500
 }
 
+.anons.ent_door .title,
+.anons.ent_door .desc{
+    color:#262626;
+}
 .main_form.sm .main_form_header {
     padding-bottom: 0
 }
@@ -4369,7 +4373,7 @@ iframe {
     position: absolute;
     bottom: -30px;
     right: 30px;
-    background: url(/img/icon/form.png) no-repeat center;
+    background: url(../img/icon/form.png) no-repeat center;
     width: 45px;
     height: 48px
 }
@@ -4765,7 +4769,8 @@ iframe {
 }
 
 .link_block .main_title {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .link_block .link_block_item {
@@ -6144,6 +6149,9 @@ modal {
     margin-bottom: 20px;
     line-height: 1
 }
+.models.white_before{
+    margin-top: 80px;
+}
 
 
 .woocommerce ul.products li.product li.title a{color:#d8282d}
@@ -6175,7 +6183,7 @@ modal {
     #site-header.transparent-header{position: inherit;}
     .home .page-header{display: none;}
     .page-header,
-    .has-transparent-header .page-header{padding-top: 20px; margin-top: 0;}
+    .has-transparent-header .page-header{padding-top: 20px; margin-top: 0; padding-bottom: 20px;}
 
 }
 
@@ -6216,9 +6224,6 @@ modal {
     margin: auto;
 }
 
-
-
-
 .modal_title{
     font-size: 35px;
     text-align: center;
@@ -6227,11 +6232,6 @@ modal {
     align-items: center;
     justify-content: center;
 }
-
-.modal_note{
-    margin-bottom: 25px;
-}
-
 
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
     padding: 0;

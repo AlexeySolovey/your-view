@@ -494,7 +494,7 @@
 
 <section class="balc increase_space increase_space_new" id="increase_space">
     <div class="container">
-        <div class="title">Сделайте балкон частью квартиры</div>
+        <div class="main_title">Сделайте балкон частью квартиры</div>
         <div class="row">
             <div class="col-sm-4 space_item">
                 <div class="space_item_img">
@@ -629,6 +629,12 @@
 
 <section class="balc calculation" id="calculation" data-type='balc'>
     <div class="container clearfix">
+        <div class="main_title">
+            Рассчитайте стоимость вашей двери online
+        </div>
+        <div class="main_desc">
+            Получите дополнительную скидку от компании "Ваш Вид"
+        </div>
         <div class="sale_wrapp_block opened ">
             <div class="sale_mobile">
                 <h2 class="sale_title">
