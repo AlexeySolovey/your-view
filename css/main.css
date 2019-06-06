@@ -2255,7 +2255,7 @@ iframe {
     border-left: none;
     border-right: 1px solid #e1e1e1;
     border-top: none;
-    height: 545px
+    height: 592px
 }
 
 .blog .blog_item:first-child {
@@ -2293,7 +2293,7 @@ iframe {
     border: 2px solid #ffe2b6;
     padding: 7px 11px;
     font-size: 11px;
-    margin-bottom: 15px
+    /*margin-bottom: 15px*/
 }
 
 .blog .blog_item .title {
@@ -6243,7 +6243,8 @@ modal {
 
 }
 
-
-.modal_select .button{
-
+@media (max-width:767px){
+    .filter .catalog_filter_item {
+        margin-bottom: 20px;
+    }
 }
