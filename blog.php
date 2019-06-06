@@ -81,7 +81,7 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_01.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
@@ -100,14 +100,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_02.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Что нужно знать о расширении дверного проема?                                        
                                 </a>
                             </div>
                             <div class="desc">
@@ -118,14 +118,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_03.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Какое наполнение металлической двери лучше?                                       
                                 </a>
                             </div>
                             <div class="desc">
@@ -136,14 +136,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_04.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                   Стоит ли экономить на установке дверей?                                       
                                 </a>
                             </div>
                             <div class="desc">
@@ -154,14 +154,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_05.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Немного о дверных ручках                                        
                                 </a>
                             </div>
                             <div class="desc">
@@ -172,14 +172,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_06.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Как заменить цилиндр (личинку) врезного замка двери?                                        
                                 </a>
                             </div>
                             <div class="desc">
@@ -190,14 +190,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_07.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Власти установили памятник вандалам - вандалы в растерянности                                        
                                 </a>
                             </div>
                             <div class="desc">
@@ -208,14 +208,52 @@
                     <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
                         <div class="img">
                             <a href="/article.php">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog_08.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="/article.php">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Важные свойства входных дверей                                        
+                                </a>
+                            </div>
+                            <div class="desc">
+                                Если вы решили купить входную дверь из металла, то вполне очевидно, что безопасность конструкции для вас является одним из приоритетов. Модели, изготовленные из стального листа, хорошо противостоят и силовым воздействиям, и попыткам взлома замков.                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
+                        <div class="img">
+                            <a href="/article.php">
+                                <img src="img/blog/blog_09.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="date">05/07/2018</div>
+                        <div class="content_blog">
+                            <div class="title">
+                                <a href="/article.php">
+                                    Кролики это не только ценный мех, а входная дверь это не только защита от взлома                                        
+                                </a>
+                            </div>
+                            <div class="desc">
+                                Если вы решили купить входную дверь из металла, то вполне очевидно, что безопасность конструкции для вас является одним из приоритетов. Модели, изготовленные из стального листа, хорошо противостоят и силовым воздействиям, и попыткам взлома замков.                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 blog_item aos-init aos-animate" data-aos="fade-up">
+                        <div class="img">
+                            <a href="/article.php">
+                                <img src="img/blog/blog_10.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="date">05/07/2018</div>
+                        <div class="content_blog">
+                            <div class="title">
+                                <a href="/article.php">
+                                   Как усложнить жизнь взломщику - комбинируем разные типы замков                                        
                                 </a>
                             </div>
                             <div class="desc">

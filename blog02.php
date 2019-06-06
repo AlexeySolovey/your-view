@@ -81,14 +81,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="#">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog2_01.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="#">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                   Какой замок поставить для входной двери?                                        
                                 </a>
                             </div>
                             <div class="desc">
@@ -100,14 +100,14 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="#">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog2_02.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="#">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                    Виды замков                                        
                                 </a>
                             </div>
                             <div class="desc">
@@ -119,14 +119,52 @@
                     <div class="col-md-6 blog_item aos-init aos-animate">
                         <div class="img">
                             <a href="#">
-                                <img src="img/door.png" class="img-responsive" alt="">
+                                <img src="img/blog/blog2_03.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="date">05/07/2018</div>
                         <div class="content_blog">
                             <div class="title">
                                 <a href="#">
-                                    Какой должна быть толщина металла входной двери?                                        
+                                   Почему не стоит экономить на замках для входной двери                                        
+                                </a>
+                            </div>
+                            <div class="desc">
+                                Если вы решили купить входную дверь из металла, то вполне очевидно, что безопасность конструкции для вас является одним из приоритетов. Модели, изготовленные из стального листа, хорошо противостоят и силовым воздействиям, и попыткам взлома замков.                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 blog_item aos-init aos-animate">
+                        <div class="img">
+                            <a href="#">
+                                <img src="img/blog/blog2_04.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="date">05/07/2018</div>
+                        <div class="content_blog">
+                            <div class="title">
+                                <a href="#">
+                                    Когда лучше устанавливать пластиковые окна?                                       
+                                </a>
+                            </div>
+                            <div class="desc">
+                                Если вы решили купить входную дверь из металла, то вполне очевидно, что безопасность конструкции для вас является одним из приоритетов. Модели, изготовленные из стального листа, хорошо противостоят и силовым воздействиям, и попыткам взлома замков.                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 blog_item aos-init aos-animate">
+                        <div class="img">
+                            <a href="#">
+                                <img src="img/blog/blog2_05.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="date">05/07/2018</div>
+                        <div class="content_blog">
+                            <div class="title">
+                                <a href="#">
+                                    Дарим 20 000 грн на поездку!                                        
                                 </a>
                             </div>
                             <div class="desc">
