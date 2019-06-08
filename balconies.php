@@ -826,21 +826,10 @@
                                 <div class="form_tehno clearfix">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="check js_option" data-name="Дополнительные комплектующие">
-                                            <!-- <input type="checkbox" id="t1" class="checkbox" data-calc="balcAccessories" value="Сушка для белья" name="t1" data-title="Дополнительные комплектующие">
-                                            <label for="t1">Сушка для белья</label> -->
-                                            <!-- <input type="checkbox" id="t2" class="checkbox"
-                                            data-calc="balcAccessories" value="Шкафчик" name="t2" data-title="Дополнительные комплектующие">
-                                            <label for="t2">Шкафчик</label> -->
-                                            <!-- <input type="checkbox" id="t3" class="checkbox"  data-calc="balcAccessories" value="Кладовка" name="t3" data-title="Дополнительные комплектующие">
-                                            <label for="t3">Кладовка</label> -->
-                                            <!-- <input type="checkbox" id="t4" class="checkbox" data-calc="balcAccessories" value="Складной стол" name="t4" data-title="Дополнительные комплектующие">
-                                            <label for="t4">Складной стол</label> -->
                                             <input type="checkbox" id="t5" class="checkbox" data-calc="balcAccessories" value="Подсветка" name="t5" data-title="Дополнительные комплектующие">
-                                            <label for="t5">Подсветка 1%</label>
-                                           <!--  <input type="checkbox" id="t6" class="checkbox" data-calc="balcAccessories" value="Вынос батареи"  name="t6" data-title="Дополнительные комплектующие">
-                                            <label for="t6">Вынос батареи</label> -->
+                                            <label for="t5">Подсветка</label>
                                             <input type="checkbox" id="t7" class="checkbox" data-calc="balcAccessories" value="Теплый пол"  name="t7" data-title="Дополнительные комплектующие">
-                                            <label for="t7">Теплый пол 1%</label>
+                                            <label for="t7">Теплый пол</label>
                                         </div>
                                     </div>
                                 </div>
