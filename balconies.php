@@ -126,6 +126,13 @@
     </div>
 </section>
 
+<div class="balcons_object">
+    <img src="img/Screenshot_2.png" alt="" class="balcons_object_img">
+</div>
+
+
+
+
 <section class="door_inner white_before mobile_off hidden-sm hidden-xs" id="components">
     <div class="container">
         <!--        <div class="title">Какой дизайн вы бы не выбрали, <br/>качество вашей кухни останется на <br/>высшем уровне</div>-->
@@ -492,6 +499,37 @@
 </section>
 
 
+
+<section class="adv-slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="main_title"></div>
+                    <div class="main_desc"></div>
+                        <div class="js-adv-slider">
+                            <div class="">
+                               <img src="img/adv-slide4.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="">
+                               <img src="img/adv-slide5.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="">
+                               <img src="img/adv-slide1.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="">
+                               <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 <section class="balc increase_space increase_space_new" id="increase_space">
     <div class="container">
         <div class="main_title">Сделайте балкон частью квартиры</div>
@@ -788,21 +826,21 @@
                                 <div class="form_tehno clearfix">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="check js_option" data-name="Дополнительные комплектующие">
-                                            <input type="checkbox" id="t1" class="checkbox" data-calc="balcAccessories" value="Сушка для белья" name="t1" data-title="Дополнительные комплектующие">
-                                            <label for="t1">Сушка для белья</label>
-                                            <input type="checkbox" id="t2" class="checkbox"
+                                            <!-- <input type="checkbox" id="t1" class="checkbox" data-calc="balcAccessories" value="Сушка для белья" name="t1" data-title="Дополнительные комплектующие">
+                                            <label for="t1">Сушка для белья</label> -->
+                                            <!-- <input type="checkbox" id="t2" class="checkbox"
                                             data-calc="balcAccessories" value="Шкафчик" name="t2" data-title="Дополнительные комплектующие">
-                                            <label for="t2">Шкафчик</label>
-                                            <input type="checkbox" id="t3" class="checkbox"  data-calc="balcAccessories" value="Кладовка" name="t3" data-title="Дополнительные комплектующие">
-                                            <label for="t3">Кладовка</label>
-                                            <input type="checkbox" id="t4" class="checkbox" data-calc="balcAccessories" value="Складной стол" name="t4" data-title="Дополнительные комплектующие">
-                                            <label for="t4">Складной стол</label>
+                                            <label for="t2">Шкафчик</label> -->
+                                            <!-- <input type="checkbox" id="t3" class="checkbox"  data-calc="balcAccessories" value="Кладовка" name="t3" data-title="Дополнительные комплектующие">
+                                            <label for="t3">Кладовка</label> -->
+                                            <!-- <input type="checkbox" id="t4" class="checkbox" data-calc="balcAccessories" value="Складной стол" name="t4" data-title="Дополнительные комплектующие">
+                                            <label for="t4">Складной стол</label> -->
                                             <input type="checkbox" id="t5" class="checkbox" data-calc="balcAccessories" value="Подсветка" name="t5" data-title="Дополнительные комплектующие">
-                                            <label for="t5">Подсветка</label>
-                                            <input type="checkbox" id="t6" class="checkbox" data-calc="balcAccessories" value="Вынос батареи"  name="t6" data-title="Дополнительные комплектующие">
-                                            <label for="t6">Вынос батареи</label>
+                                            <label for="t5">Подсветка 1%</label>
+                                           <!--  <input type="checkbox" id="t6" class="checkbox" data-calc="balcAccessories" value="Вынос батареи"  name="t6" data-title="Дополнительные комплектующие">
+                                            <label for="t6">Вынос батареи</label> -->
                                             <input type="checkbox" id="t7" class="checkbox" data-calc="balcAccessories" value="Теплый пол"  name="t7" data-title="Дополнительные комплектующие">
-                                            <label for="t7">Теплый пол</label>
+                                            <label for="t7">Теплый пол 1%</label>
                                         </div>
                                     </div>
                                 </div>

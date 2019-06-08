@@ -755,6 +755,25 @@
 }
 
 
+
+.balcons_object{
+    width: 100%;
+    display: none;
+    margin: 30px 0px 30px 0px;
+}
+
+.balcons_object_img{
+    width: 100%;
+}
+
+@media screen and (max-width: 990px){
+    .balcons_object{
+        display: block;
+    }
+}
+
+
+
 /*=====================================================*/
 /*================== GLAZING_COTTADES =================*/
 /*=====================================================*/

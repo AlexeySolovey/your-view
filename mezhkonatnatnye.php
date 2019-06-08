@@ -172,13 +172,13 @@
                         <div class="main_desc"></div>
                             <div class="js-adv-slider">
                                 <div class="">
+                                   <img src="img/adv-slide3.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="">
                                    <img src="img/adv-slide1.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="">
                                    <img src="img/adv-slide2.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="">
-                                   <img src="img/adv-slide3.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                         </div>
