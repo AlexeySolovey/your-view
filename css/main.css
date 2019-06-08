@@ -85,7 +85,7 @@ li a {
 
 .main_title {
     font-weight: 500;
-    margin-top: 0;
+    margin-top: 50px;
     font-size: 45px
 }
 
@@ -4269,7 +4269,7 @@ body .button:focus {
 .anons_mk .title {
     font-size: 60px;
     color: #fff;
-    height: 470px;
+    height: 350px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4864,7 +4864,7 @@ body .button:focus {
 }
 
 .company_index .main_title {
-    margin-bottom: 110px
+    margin-bottom: 70px
 }
 
 .company_index .img {
@@ -6209,6 +6209,15 @@ modal {
 .question .button_wrapp .button {
     padding: 20px 30px; 
 
+}
+
+
+.marg>.title{
+    top: -20px;
+}
+
+.toor>.title{
+    margin: 0;
 }
 
 @media (max-width:1650px) {

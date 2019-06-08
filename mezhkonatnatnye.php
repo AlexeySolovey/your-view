@@ -550,7 +550,7 @@
     <section class="models white_before white_big_after" id="doors">
         <div class="container">
             <div class="row">
-                <div class="models_slider">
+                <div class="models_slider marg">
                     <h2 class="title">За 9 лет работы более 3000<br> удачно реализованных проектов</h2>
                     <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
                     <div class="js_slider doors_interroom_02">
@@ -1153,8 +1153,8 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
-                <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
+                <div class="panorama__link toor">
+                    <img class="img-responsive" alt="" src="img/pano_img.png">
                     <div class="title">
                         3D тур
                     </div>

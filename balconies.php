@@ -1056,8 +1056,10 @@
                     Свои бригады строителей <br>
                     и монтажников
                 </div>
+                <br>
                 <div class="builders_team_desc">
-                    Все работы выполняются нашими сотрудниками, компания несет ответственность за весь объем выполненных работ и гарантирует качество и долговечность.</div>
+                    Все работы выполняются нашими сотрудниками, компания несет ответственность за весь объем выполненных работ и гарантирует качество и долговечность.
+                </div>
             </div>
         </div>
     </div>
@@ -1065,7 +1067,7 @@
 
 
 
-<section class="time_section" style=" padding: 80px 0;background: url(img/time_bg.jpg) no-repeat center;">&gt;
+<section class="time_section" style=" padding: 80px 0;background: url(img/time_bg.jpg) no-repeat center;">
     <div class="container">
         <div class="row">
             <div class="col-sm-7 col-sm-offset-5">
@@ -1394,8 +1396,8 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
-                <div class="panorama__link">
-                    <img class="img-responsive" alt="" src="img/pano_img.png.pagespeed.png">
+                <div class="panorama__link toor">
+                    <img class="img-responsive" alt="" src="img/pano_img.png">
                     <div class="title">
                         3D тур
                     </div>
