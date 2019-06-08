@@ -340,7 +340,7 @@
 
 .balc.calculation .calculation_item_3 .form_size_4:before{content:''; z-index: -1; height: 1px; position: absolute;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);width: 140px;height: 2px;background-color: #4e5b62;z-index: -1;top:30px;height: 1px;left: -20px}
 
-.balc-example.modal_main .modal-dialog .title{font-size: 30px;font-weight: 100;margin: 0 -20px;}
+.balc-example.modal_main .modal-dialog .title{font-size: 30px;font-weight: 400;margin: 0 -20px;}
 
 
 

@@ -113,9 +113,6 @@
                 <!--Map-->
                 <div class="col-md-9 col-sm-8">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.3047445731204!2d30.497762404346528!3d50.48561329511868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdfd0c56f15f%3A0xb6a1b1d1a7f1a602!2z0YPQuy4g0JLQtdGA0LHQvtCy0LDRjywgMjQsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1535627113770" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                    <style type="text/css">
-                        iframe {height: 600px !important;}
-                    </style>
                 </div>
             </div>
         </div>

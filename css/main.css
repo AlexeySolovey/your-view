@@ -1472,12 +1472,6 @@ body .button:focus {
     border-radius: 100%
 }
 
-.catalog_card .card_info .card_item_wrapp .card_color img,
-iframe {
-    width: 100%;
-    height: 100%
-}
-
 .catalog_card .card_info .card_item_wrapp .card_color.active {
     border: 2px solid #ed3439
 }
@@ -2179,7 +2173,9 @@ iframe {
 .production .main_title {
         margin: 30px 0px 30px 0px;
 }
-
+.js_slider, .js-adv-slider, .js_quasion{
+    opacity: 0;
+}
 .production .js_slider_production img {
     margin: 0 auto
 }
@@ -2827,6 +2823,7 @@ iframe {
     margin-bottom: 10px;
     margin-left: 30px;
     position: relative
+    margin-top:0;
 }
 
 .contacts .contacts_wrapp .contacts_wrapp_item .title span {
@@ -6159,35 +6156,6 @@ modal {
 .woocommerce ul.products li.product:hover .price .amount{color:#d8282d}
 
 
-@media (max-width:1199px) {
-    .salon_text .title {font-size: 36px}
-    .salon_form {right: 25px}
-}
-
-@media (max-width:576px) {
-    .salon_text .title { font-size: 22px; line-height: 28px}
-    .salon-form {width: 90%; padding: 20px 20px 5px}
-    .salon-form__subtitle { font-size: 12px;line-height: 20px}
-}
-@media (max-width:991px) {
-    .salon_text .title br {display: none}
-    .salon_form {position: relative;right: 0; margin: 0 auto}
-    .modal_main.modal_download-mk .modal-dialog {width: 95%}
-}
-@media (max-width:767px) {
-    .salon_text .title {font-size: 28px; margin-bottom: 20px; line-height: 36px}
-    .modal_main.modal_download-mk .modal-dialog .download_form {max-width: 100%}
-}
-
-@media (min-width:992px) {
-    #site-header.transparent-header{position: inherit;}
-    .home .page-header{display: none;}
-    .page-header,
-    .has-transparent-header .page-header{padding-top: 20px; margin-top: 0; padding-bottom: 20px;}
-
-}
-
-
 /*==================================*/
 .text_title.title{
     line-height: 70px;
@@ -6243,8 +6211,35 @@ modal {
 
 }
 
-@media (max-width:767px){
-    .filter .catalog_filter_item {
-        margin-bottom: 20px;
-    }
+@media (max-width:1650px) {
+    .calculation.calculation-vd:before{left: -200px;}
+}
+
+@media (max-width:1199px) {
+    .salon_text .title {font-size: 36px}
+    .salon_form {right: 25px}
+}
+
+@media (max-width:576px) {
+    .salon_text .title { font-size: 22px; line-height: 28px}
+    .salon-form {width: 90%; padding: 20px 20px 5px}
+    .salon-form__subtitle { font-size: 12px;line-height: 20px}
+}
+@media (max-width:991px) {
+    .salon_text .title br {display: none}
+    .salon_form {position: relative;right: 0; margin: 0 auto}
+    .modal_main.modal_download-mk .modal-dialog {width: 95%}
+}
+@media (max-width:767px) {
+    .salon_text .title {font-size: 28px; margin-bottom: 20px; line-height: 36px}
+    .modal_main.modal_download-mk .modal-dialog .download_form {max-width: 100%}
+    .filter .catalog_filter_item {margin-bottom: 20px;}
+}
+
+@media (min-width:992px) {
+    #site-header.transparent-header{position: inherit;}
+    .home .page-header{display: none;}
+    .page-header,
+    .has-transparent-header .page-header{padding-top: 20px; margin-top: 0; padding-bottom: 20px;}
+
 }

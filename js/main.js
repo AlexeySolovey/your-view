@@ -67,6 +67,9 @@ AOS.init({
 
         //custome slider
         if($('.custome-slider').length){
+            $('.custome-slider').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
           $('.custome-slider').slick({
             slidesToShow: 4,
             prevArrow: '<span class="slick_prev"></span>',
@@ -103,6 +106,9 @@ AOS.init({
         }
         //product slider (about us)
         if($('.js_slider_production').length){
+            $('.js_slider_production').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
             $('.js_slider_production').slick({
             slidesToShow: 1,
             prevArrow: '<span class="slick_prev"></span>',
@@ -112,6 +118,9 @@ AOS.init({
 
         //adv-slider (enters doors)
         if($('.js-adv-slider').length){
+            $('.js-adv-slider').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
             $('.js-adv-slider').slick({
                 slidesToShow: 1,
                 dots: true,
@@ -123,6 +132,9 @@ AOS.init({
         // door image slider
         function showDoorSlider(){
             if($('.door_image_slider').length){
+                $('.door_image_slider').on('init', function(slick){
+                  slick.currentTarget.style.opacity= 1;
+                });
                 $('.door_image_slider').slick({
                     slidesToShow: 6,
                     slidesToScroll: 6,
@@ -153,6 +165,9 @@ AOS.init({
 
         // doors_slider  // enter dors
         if($('.doors_slider').length){
+            $('.doors_slider').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
             $('.doors_slider').slick({
   
                 slidesToScroll: 1,
@@ -184,6 +199,9 @@ AOS.init({
         //js_quasion
 
         if($('.js_quasion').length){
+            $('.js_quasion').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
             $('.js_quasion').slick({
                 infinite: false,
                 slidesToShow: 1,
@@ -207,6 +225,9 @@ AOS.init({
 
         // doors_slider  // mezkomnatnue
         if($('.doors_interroom').length){
+            $('.doors_interroom').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
             $('.doors_interroom').slick({
   
                 slidesToScroll: 1,
@@ -240,6 +261,9 @@ AOS.init({
         });
         // doors_slider 
         if($('.doors_interroom_02').length){
+            $('.doors_interroom_02').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
             $('.doors_interroom_02').slick({
   
                 slidesToScroll: 1,
