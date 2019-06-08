@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 service_advanced_item ">
-                    <img src="img/sexangle/list_01_01.png" class="img-responsive" alt="" style="height: 100%;">
+                    <img src="img/sexangle/images_01.png" class="img-responsive" alt="" style="height: 100%;">
 
                     <div class="text">
                         <div class="title">

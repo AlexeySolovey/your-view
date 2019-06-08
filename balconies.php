@@ -127,7 +127,7 @@
 </section>
 
 <div class="balcons_object">
-    <img src="img/Screenshot_2.png" alt="" class="balcons_object_img">
+    <img src="img/balkon.png" alt="" class="balcons_object_img">
 </div>
 
 
