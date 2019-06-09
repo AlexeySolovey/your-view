@@ -335,89 +335,89 @@
 
 @media screen and (max-width:991px) {
 	.anons h1 {
-		font-size: 30px!important;
-		text-align: center!important;
-		line-height: 35px!important;
+		font-size: 30px;
+		text-align: center;
+		line-height: 35px;
 	}
 	.anons ul.anons_li li, .main_form .main_form_body .button {
-		font-size: 14px!important;
+		font-size: 14px;
 	}
 	.sketch .send_to_form {
-		padding: 12px 0 12px 0!important;
+		padding: 12px 0 12px 0;
 	}
 	.fears_title {
-		height: 70px!important;
+		height: 70px;
 	}
 	.service .title {
-		margin-bottom: 40px!important;
-		font-size:30px!important;
+		margin-bottom: 40px;
+		font-size:30px;
 	}
 	.call_master_title {
-		font-size: 25px!important;
-		padding-right: 15px!important;
-		font-weight: 700!important;
-		margin-bottom: 20px!important;
-		line-height: 25px!important;
-		color: #fff!important;
+		font-size: 25px;
+		padding-right: 15px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		line-height: 25px;
+		color: #fff;
 	}
 	.call_master_desc {
-		font-size: 18px!important;
-		line-height: 21px!important;
-		color: #fff!important;
+		font-size: 18px;
+		line-height: 21px;
+		color: #fff;
 	}
 	.call_master {
-		background-position: -739px 0!important;
+		background-position: -739px 0;
 	}
 	.rehau {
-		background-size: cover!important;
-		padding-top: 50px!important;
-		padding-bottom: 50px!important;
+		background-size: cover;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	.rehau .text {
-		margin-top: 0!important;
+		margin-top: 0;
 	}
 	.rehau .img-responsive {
-		margin-top: 20px!important;
+		margin-top: 20px;
 	}
 	.title {
-		margin-top: 0px!important;
+		margin-top: 0px;
 	}
 	.balc .space_title {
-		padding: 10px!important;
-		font-size: 16px!important;
-		height: 70px!important;
+		padding: 10px;
+		font-size: 16px;
+		height: 70px;
 	}
 	.balc.calculation .calculation_item_3 .title {
-		line-height: normal!important;
-		font-size: 24px!important;
+		line-height: normal;
+		font-size: 24px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_img {
-		width: 130px!important;
-		top: 64px!important;
-		height: 130px!important;
+		width: 130px;
+		top: 64px;
+		height: 130px;
 		-webkit-transform: translateX(-50%) scale(1);
 		transform: translateX(-50%) scale(1);
 	}
 	.balc.calculation .calculation_item_3 .form_size {
-		left: 160px!important;
+		left: 160px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_2 {
-		left: -25px!important;
-		top: 105px!important;
+		left: -25px;
+		top: 105px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 {
-		top: 105px!important;
-		left: 235px!important;
+		top: 105px;
+		left: 235px;
 	}
 	.balc.calculation .calculation_item_3 .form_size input {
-		width: 70px!important;
+		width: 70px;
 	}
 	.balc.calculation .calculation_item_3 .form_size input {
-		font-size: 14px!important;
+		font-size: 14px;
 	}
 	.balc.calculation .calculation_item_4 .title {
-		font-size: 24px!important;
-		top: o!important;
+		font-size: 24px;
+		top: 0;
 	}
     .anons .anons_block .anons_block_item,
     .row_flex_ab {
@@ -673,7 +673,8 @@
         width: 460px
     }
     .modal_main.modal_catalog_sale .title {
-        font-size: 22px
+        font-size: 22px;
+            margin-top: 40px;
     }
     .delivery_list img,
     .principles .principles_item img {
@@ -889,89 +890,89 @@
 
 @media screen and (max-width:767px) {
 	.anons_li {
-		padding-top:15px!important;
+		padding-top:15px;
 	}
 	.main_form {
-		margin-top:60px!important;
+		margin-top:60px;
 	}	
 	.main_form .main_form_body {
-		padding-left: 10px!important;
-		padding-right: 10px!important;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_1 {
-		left: 83px!important;
+		left: 83px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_2 {
-		left: -10px!important;
+		left: -10px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4 {
-		left: 180px!important;
+		left: 180px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_wrapp {
-		position: relative!important;
-		height: 190px!important;
+		position: relative;
+		height: 190px;
 	}
 	.balc.calculation .calculation_item_3 .form_size_img {
-		width: 100px!important;
-		height: 100px!important;
+		width: 100px;
+		height: 100px;
 	}
 	.balc.calculation .calculation_item .title {
-		font-size: 21px!important;
-		font-weight: 600!important;
-		line-height: 22px!important;
-		margin-bottom: 25p!important;
-		top:0px!important;
-		margin-bottom: 25px!important;
+		font-size: 21px;
+		font-weight: 600;
+		line-height: 22px;
+		margin-bottom: 25px;
+		top:0px;
+		margin-bottom: 25px;
 	}
 	.form_masters {
-		width: 100%!important;
-		position: relative!important;
+		width: 100%;
+		position: relative;
 		top: 0!important;
-		background-size: 100% 100%!important;;
+		background-size: 100% 100%;;
 	}
 	.call_master_desc {
-		margin-bottom: 25px!important;
+		margin-bottom: 25px;
 	}
 	.call_master {
-		background: #4e5b62!important;
-		height: auto!important;
-		padding: 40px 0!important;
+		background: #4e5b62;
+		height: auto;
+		padding: 40px 0;
 	}
 	.rehau .text h2 {
-		font-size: 30px!important;
-		line-height: 28px!important;
-		color: #fff!important;
-		margin-bottom: 40px!important;
-		padding-top: 40px!important;
+		font-size: 30px;
+		line-height: 28px;
+		color: #fff;
+		margin-bottom: 40px;
+		padding-top: 40px;
 	}
 	.balc.calculation .calculation_item_1 .title {
-		margin-bottom: 20px!important;
-		font-size: 21px!important;
+		margin-bottom: 20px;
+		font-size: 21px;
 	}
 	.balc.calculation .calculation_item_1 .form_type label {
-		width: 60px!important;
-		height: 60px!important;
-		background-size: cover!important;
+		width: 60px;
+		height: 60px;
+		background-size: cover;
 	}
 	.form_type {
-		text-align: center!important;
-		margin: 0 10px 10px!important;
+		text-align: center;
+		margin: 0 10px 10px;
 	}
 	.title {
-		margin-bottom: 0px!important;
+		margin-bottom: 0px;
 		font-size: 30px;
 	}
 	.balc .space_title {
-		height: auto!important;
+		height: auto;
 	}
 	.button.button_sm, .signature .description, a.button.button_sm {
-		font-size: 14px!important;
+		font-size: 14px;
 	}
 	.balc.calculation .calculation_item_0 .calculation_type_radio {
-		padding: 10px 10px 25px!important;
+		padding: 10px 10px 25px;
 	}
 	.calculation .calculation_item_0 {
-		margin-bottom: 40px!important;
+		margin-bottom: 40px;
 	}
     .anons .title br,
     .header_bottom_line,
@@ -1683,7 +1684,7 @@
         color: #000
     }
     .anons {
-        padding-top: 50px;
+        padding-top: 100px;
         height: auto
     }
     .ty_block {

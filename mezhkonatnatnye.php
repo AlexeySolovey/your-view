@@ -551,18 +551,18 @@
         <div class="container">
             <div class="row">
                 <div class="models_slider">
-                    <h2 class="title">За 9 лет работы более 3000<br> удачно реализованных проектов</h2>
-                    <div class="models_note">Цены указаны для стандартного размера 2050* 860, с замками</div>
+                    <h2 class="title">За 9 лет работы более 3000<br> удачных проектов</h2>
+                    <p></p>
                     <div class="js_slider doors_interroom_02">
                         <div class="door" data-toggle="modal" data-target=".cabinet" style="background: red;">
                             <div class="img_wrap">
-                                <a href="/dveri/">
-                                    <img src="img/doors3/doors_list_01.jpg" class="img-responsive" alt="">
-                                </a>
+                                <img src="img/doors3/doors_list_01.jpg" class="img-responsive" alt="">
                             </div>
-
-                            <div><a href="/dveri/" class="door_model" style="color: #6666ff;">
-                               Двери в стиле модерн </a></div>
+                        <div>
+                            <a href="/dveri/" class="door_model" style="color: #6666ff;">
+                               Двери в стиле модерн 
+                           </a>
+                       </div>
                         </div>
                         <div class="door">
                             <div class="img_wrap">
@@ -1093,7 +1093,7 @@
 </section>
 
 
-<section class="records">
+<section class="records mk_door">
     <div class="container">
         <div class="main_title">
             Именно поэтому мы<br>

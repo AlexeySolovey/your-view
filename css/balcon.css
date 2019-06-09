@@ -129,6 +129,9 @@
 	margin-left: 50px; 
 }
 
+.title-img .text-title{
+	padding-left: 50px;
+}
 
 .btn{
 	background-color: #00cc00;
@@ -190,6 +193,7 @@
 	color: #fff;
 	font-size: 40px;
 	font-weight: bold;
+	line-height: 40px;
 }
 
 .time_desc, .make_all_desc, .call_master_desc{
@@ -764,6 +768,9 @@
 .balcons_object_img{
     width: 100%;
 }
+.balc.sketch .button{margin: 47px 0 15px;}
+.balc .hol{margin-bottom: 20px;}
+.stage .main_title{margin-bottom: 27px; text-align: center;}
 
 @media screen and (max-width: 990px){
     .balcons_object{
