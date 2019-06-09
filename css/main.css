@@ -6306,6 +6306,12 @@ modal {
 .adv-slider .slick-dots{
     bottom: -45px;
 }
+.calculation-vd .title{
+    padding: 30px;
+    top: -95px;
+}
+
+
 
 header#site-header{
     border-bottom: none;
