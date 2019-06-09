@@ -85,7 +85,7 @@ li a {
 
 .main_title {
     font-weight: 500;
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 45px
 }
 
@@ -4864,7 +4864,7 @@ body .button:focus {
 }
 
 .company_index .main_title {
-    margin-bottom: 70px
+    margin-bottom: 40px
 }
 
 .company_index .img {
@@ -6212,11 +6212,7 @@ modal {
 }
 
 
-.marg>.title{
-    top: -20px;
-}
-
-.toor>.title{
+.panorama__link>.title{
     margin: 0;
 }
 
