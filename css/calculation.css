@@ -1165,8 +1165,8 @@
 }
 
 @media (max-width:1195px){
-    .wrapper{
+    
+    .calculation-vd .calculation_item_wrapp{
         margin-bottom: 0px;
-    }
+    } 
 }
-

@@ -375,11 +375,11 @@
             </div>
         </div>
 
-        <div class="calculation_item_wrapp wrapper" id="next">
+        <div class="calculation_item_wrapp" id="next">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="calculation_item calculation_item_1 item_01">
+                        <div class="calculation_item calculation_item_1">
                             <div class="title">
                                 Выберите формат двери
                             </div>
