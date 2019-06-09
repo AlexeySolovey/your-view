@@ -327,7 +327,7 @@
 .balc.calculation .calculation_item_1 .form_type_5 input[type=radio]:checked+label {background: url(../img/balkon/plan/balcon_form-4_h.png) no-repeat center;}
 
 .balc.calculation .calculation_item_3{background: none;}
-.balc.calculation .calculation_item_3 .form_size_wrapp{height: auto;}
+.balc.calculation .calculation_item_3 .form_size_wrapp{height: 300px;}
 .balc.calculation .calculation_item_3 .title{ margin-bottom: 25px; font-size: 32px; font-weight: 500; margin-top: 25px; line-height: 22px; color: inherit;}
 .balc.calculation .calculation_item_3 .form_size{position: absolute; display: block;  left: 275px;}
 .balc.calculation .calculation_item_3 .form_size_img{top:105px;}
@@ -772,10 +772,15 @@
 .balc .hol{margin-bottom: 20px;}
 .stage .main_title{margin-bottom: 27px; text-align: center;}
 
-@media screen and (max-width: 990px){
+
+.balc.calculation .calculation_item_0 .calculation_type_radio .title{
+	margin-top: 25px;
+}
+@media screen and (max-width: 991px){
     .balcons_object{
         display: block;
     }
+    .call_master{padding: 0;}
 }
 
 
@@ -784,7 +789,9 @@
 /*================== GLAZING_COTTADES =================*/
 /*=====================================================*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 	.diagram.balc{padding-top: 270px;}
+	.balc .space_title{height: auto;}
+	.balc.calculation .calculation_type_radio_img{margin-top: 30px;}
 }
 
