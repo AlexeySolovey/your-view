@@ -923,7 +923,7 @@
     text-align: center;
     margin-bottom: 15px;
     position: absolute;
-    top: -20px;
+    top: -60px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
@@ -1159,3 +1159,14 @@
         background: url(../img/white-door/dveri_type_3.jpg) no-repeat center
     }
 }
+
+.calculation-vd.calculation .calculation_item{
+    padding: 0;
+}
+
+@media (max-width:1195px){
+    .wrapper{
+        margin-bottom: 0px;
+    }
+}
+

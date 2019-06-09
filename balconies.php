@@ -1038,7 +1038,6 @@
                 <div class="make_all_title">
                     Мы сделаем все, от планировки до мебели
                 </div>
-                <br/>
                 <div class="make_all_desc">
                     Все работы выполняются нашими сотрудниками, компания несет ответственность за весь объем выполненных работ и гарантирует качество и долговечность.
                 </div>
@@ -1049,7 +1048,7 @@
 
 
 
-<section class="builders_team" style="padding: 110px 0;background: url(img/builder_team.jpg) no-repeat center;">
+<section class="builders_team" style="padding: 120px 0;background: url(img/builder_team.jpg) no-repeat center;">
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
@@ -1075,7 +1074,6 @@
                 <div class="time_title">
                     Четкое соблюдение сроков                
                 </div>
-                <br/>
                 <div class="time_desc">
                     Средний срок работ по перепланировке балкона - 10 дней. Мы гарантируем соблюдение оговоренных в договоре сроков.                
                 </div>
@@ -1086,7 +1084,7 @@
 
 
 
-<section class="balc records">
+<section class="records">
     <div class="container">
         <div class="main_title">
             Именно поэтому мы<br>
@@ -1109,7 +1107,7 @@
 
 
 
-<section class="balc fears">
+<section class="fears">
     <div class="container">
         <div class="hol" style=" font-size: 48px;text-align: center;font-weight: bold;">
             Мифы о ремонте балконов
@@ -1169,7 +1167,7 @@
 
 
 
-<section class="balc sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
+<section class="sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
     <div class="container">
         <div class="row">
             <div class="ajaxForm form-vertical"  id="selectForm2">
@@ -1248,7 +1246,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select2">
+                    <button type="button" class="button send_to_form" data-toggle="modal" data-target=".modal_select2" style="width: 100%; margin: 28px 0 15px;">
                         Рассчитать
                     </button>
                 </div>
@@ -1260,8 +1258,8 @@
 
 
 
-<section class="balc stage">
-   <div class="main_title"><strong>Этапы работ</strong></div>
+<section>
+   <div class="title-m"><strong>Этапы работ</strong></div>
    <section class="title-img" style="background-image: url(img/rem.jpg);">
         <div class="container">
            <div class="row">
@@ -1358,23 +1356,6 @@
            </div>
         </div>
    </section>
-
-    <section class="title-img" style="background-image: url(img/balkon/rem/rem.jpg);">
-        <div class="container">
-           <div class="row">
-               <div class="col-sm-6 text-title">
-                
-                    <h2> Отделка балкона</h2>
-                    <p>
-                        После окончания всех монтажных работ мы приступаем к отделке балкона. Обшиваем стены пластиком, вагонкой или гипсокартоном, клеим обои, красим потолок, стелим паркет, ламинат или кафель. Устанавливаем всю необходимую мебель.
-                    </p>
-                    
-                    <button type="button" class="button send_to_form">узнайте подробнее
-                    </button>
-               </div>
-           </div>
-        </div>
-   </section>
   
 </section>
 
@@ -1415,7 +1396,7 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
-                <div class="panorama__link toor">
+                <div class="panorama__link">
                     <img class="img-responsive" alt="" src="img/pano_img.png">
                     <div class="title">
                         3D тур
