@@ -781,6 +781,9 @@
 .rehau .text{margin-top: 251px;height: 100%;color: #fff; font-size: 18px;}
 .rehau .rehau_h2{font-size:35px; font-weight: bold;}
 
+.balc.service .title{ margin: 25px 0; text-align: center;  line-height: 46px;}
+.balc.service .num{ line-height: 27px;  min-height: 42px;}
+
 @media screen and (max-width: 1229px){
 	.balc.calculation .calculation_item_3 .form_size_img{left: 64%;}
 	.balc.calculation .calculation_item_3 .form_size_wrapp{height: 250px;}
@@ -799,6 +802,9 @@
     .call_master_title{font-size: 29px; line-height: 30px; padding-top: 25px;}
     .call_master_desc{line-height: 26px; font-weight: 400; padding-top: 35px;}
     .mass{top:2px;}
+
+	.balc.service .title{margin-bottom: 0;}
+    .balc.service .box{min-height: 120px;}
 }	 
 
 @media screen and (max-width: 767px){
@@ -820,6 +826,9 @@
 	.call_master { background: #4e5b62;}
 	.mass{position: relative; margin:0 auto;}
 	.call_master{ height: auto;  padding-bottom: 30px;}
+	.call_master_desc{padding-top: 10px;}
+
+	.balc.service .title{margin-bottom: 25px;}
 }
 
 @media screen and (max-width: 576px){
@@ -830,6 +839,7 @@
 	.balc.calculation .calculation_item_3 .form_size.form_size_2 span { left: -27px;}
 	.balc.calculation .calculation_item_3 .form_size_3, .balc.calculation .calculation_item_3 .form_size_4{left: inherit; right: 0;}
 	.balc.calculation .calculation_item_3 .form_size_3:before, .balc.calculation .calculation_item_3 .form_size_4:before{display: none;}
+	.balc.service .title{font-size: 34px;font-weight: 700;line-height: 34px;}
 }
 
 @media screen and (max-width: 500px){

@@ -1000,7 +1000,7 @@
 </section>
 
 
-<section class="" id="service">
+<section class="balc service" id="service">
     <div class="container">
         <div class="title">Почему наш сервис лучший в Украине</div>
         <div class="row">
