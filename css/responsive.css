@@ -50,7 +50,7 @@
 
 @media screen and (max-width:1280px) {
     .fears_title {
-		height: 70px!important;
+		height: 70px;
 	}
 	.border_item {
         margin: 0 0 50px

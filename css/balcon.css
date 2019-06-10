@@ -119,7 +119,7 @@
 	background-size: cover;
     background: no-repeat center;
     height: 386px;
-    padding-top: 70px!important;
+    padding-top: 70px;
 }
 
 
@@ -784,7 +784,13 @@
 .balc.service .title{ margin: 25px 0; text-align: center;  line-height: 46px;}
 .balc.service .num{ line-height: 27px;  min-height: 42px;}
 
-@media screen and (max-width: 1229px){
+.balc.make_all{ padding: 80px 0; background: url(../img/make_all_bg.jpg) no-repeat center}
+.balc.builders_team{ padding: 80px 0; background: url(../img/builder_team.jpg) no-repeat center}
+.balc.time_section{ padding: 80px 0; background: url(../img/time_bg.jpg) no-repeat center}
+.balc#sketch{background: url(../img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;}
+.balc.stage .mobile-img{display: none;}
+
+@media screen and (max-width: 1229px){{ padding: 80px 0; background: url(../img/make_all_bg.jpg) no-repeat center}
 	.balc.calculation .calculation_item_3 .form_size_img{left: 64%;}
 	.balc.calculation .calculation_item_3 .form_size_wrapp{height: 250px;}
 	.rehau .text{margin-top: 170px;}
@@ -829,6 +835,26 @@
 	.call_master_desc{padding-top: 10px;}
 
 	.balc.service .title{margin-bottom: 25px;}
+
+	.balc.make_all{background: #5b686f;}
+	.balc.builders_team{background: #fff;}
+	.balc.time_section{background: #0db40d}
+
+	.balc.records{background: #3e484e;}
+	.balc .hol{margin-bottom: 40px; line-height: 1; margin-top: 10px;}
+	.balc.fears .img-responsive{width: 100%}
+	.balc.fears .fears_title{ height: 20px;	}
+
+	.balc#sketch{background: #e60f63;}
+	.balc#sketch .form_item{text-align: left;}
+	.balc#sketch .placeholder{padding-bottom: 5px;display: block;}
+	.balc#sketch .send_to_form{padding: 0px; font-size: 20px;}
+
+	.balc.stage section{background: none!important; height: auto; padding-top: 0;}
+	.balc.stage .mobile-img{display: block;}
+	.balc.stage .text-title{padding-left: 20px; margin-left: 0;}
+	.balc.stage .title-img{padding-bottom: 30px;}
+
 }
 
 @media screen and (max-width: 576px){
