@@ -983,7 +983,11 @@ body .button:focus {
     font-weight: 500;
     color: #000
 }
-.door .fixsd_title_box>.calculation_item_2>.title{ margin-bottom: 20px; }
+.door .fixsd_title_box>.calculation_item_2>.title{ 
+    padding: 0;
+    padding-top: 29px;
+    margin-bottom: 30px;
+}
 .footer {
     padding-top: 55px;
     background-color: #fff;

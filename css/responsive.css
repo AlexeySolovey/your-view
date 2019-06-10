@@ -352,22 +352,7 @@
 		margin-bottom: 40px;
 		font-size:30px;
 	}
-	.call_master_title {
-		font-size: 25px;
-		padding-right: 15px;
-		font-weight: 700;
-		margin-bottom: 20px;
-		line-height: 25px;
-		color: #fff;
-	}
-	.call_master_desc {
-		font-size: 18px;
-		line-height: 21px;
-		color: #fff;
-	}
-	.call_master {
-		background-position: -739px 0;
-	}
+	
 	.rehau {
 		background-size: cover;
 		padding-top: 50px;

@@ -855,12 +855,12 @@
 
 
 
-<section class="rehau" style="background: url(img/rehau_bg.png) no-repeat center;">
+<section class="rehau">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <div class="text" style="margin-top: 251px;height: 100%;color: #fff; font-size: 18px;">
-                    <h2 style="font-size:35px; font-weight: bold;"> Компания Ваш Вид является авторизрованным партнёром компании Rehau </h2>
+                    <h2 class="rehau_h2"> Компания Ваш Вид является авторизрованным партнёром компании Rehau </h2>
                     <p id="bottomAnchor">
                        Наша компания является авторизированным партнером немецкого производителя оконных профилей Rehau. Все наши монтажники проходят обязательную стажировку и сертификацию, а при монтаже мы следуем всем стандартам Rehau. Это позволяет нам давать гарантию 5 лет на оконные профили и монтаж. 
                     </p>                   
@@ -969,7 +969,7 @@
 
 
 
-<section class="call_master" style="background-image: url('img/xx.png');">&gt;
+<section class="call_master">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
