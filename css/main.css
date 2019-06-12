@@ -84,7 +84,6 @@ li a {
 }
 
 .main_title {
-    font-weight: 500;
     margin-top: 0px;
     font-size: 45px
 }
@@ -983,11 +982,7 @@ body .button:focus {
     font-weight: 500;
     color: #000
 }
-.door .fixsd_title_box>.calculation_item_2>.title{ 
-    padding: 0;
-    padding-top: 29px;
-    margin-bottom: 30px;
-}
+.door .fixsd_title_box>.calculation_item_2>.title{ margin-bottom: 20px; }
 .footer {
     padding-top: 55px;
     background-color: #fff;
@@ -4514,7 +4509,6 @@ body .button:focus {
 .can_also .main_title {
     margin-bottom: 45px;
     font-size: 45px;
-    font-weight: 500
 }
 
 .can_also .img {
@@ -4843,8 +4837,7 @@ body .button:focus {
     font-size: 45px;
     line-height: 45px;
     font-weight: 500;
-    margin-bottom: 35px;
-    margin-top: 0;
+    margin-bottom: 35px
 }
 
 .produced_index .produced_mk_wrapp .produced_mk_item .desc {
@@ -5623,6 +5616,15 @@ input:focus:required:invalid {
     .salon_text {
         margin-top: 0
     }
+    .salon_wrapp {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.salon-form{
+		margin-right: auto;
+	}
 }
 
 @media (max-width:767px) {
