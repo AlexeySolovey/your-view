@@ -257,7 +257,7 @@
 .calculation .calculation_item_1 {
     padding-bottom: 50px;
     background-color: #ebebec;
-    height: 515px;
+    height: 567px;
     margin-bottom: 115px;
     position: relative
 }
@@ -319,7 +319,7 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-orient: horizontal;
@@ -1095,7 +1095,7 @@
     color: #fff
 }
 .calculation-vd.calculation .calculation_item{
-    padding: 0;
+    /*padding: 0;*/
 }
 .calculation-vd.calculation .calculation_item.calculation_item_2{
     padding-left: 25px;
@@ -1145,7 +1145,7 @@
 
 @media (max-width:1195px){
     .calculation .calculation_item_1 .form_type_3 label {
-        width: 300px;
+        width: 245px;
         background: url(../img/white-door/dveri_type_3.jpg) no-repeat center
     }
     .calculation-vd .calculation_item_wrapp{margin-bottom: 0px;} 

@@ -755,7 +755,7 @@
 }
 
 .slick-list img {
-	width:100%;
+	/*width:100%;*/
 	height:auto;
 }
 
@@ -845,4 +845,11 @@
 @media screen and (max-width: 500px){
 	.balc.calculation .calculation_item_3 .form_size input{width: 60px;}
 	.mass{ width: 290px; }
+}
+
+
+
+
+.can_also_item .title{
+    margin: 0;
 }
