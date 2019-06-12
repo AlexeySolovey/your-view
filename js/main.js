@@ -503,28 +503,37 @@ AOS.init({
             var formName = $(this).data('form');
             var formData = takeData(formName);
 
-            if( $('#' +formName+' .js_mask').val() ) {
-                var phone =  $('#' +formName+' .js_mask').val().replace(/\D+/g,"").length;
-            }else if($('#' +formName+'_phone').val()) {
-                var phone =  $('#' +formName+'_phone').val().replace(/\D+/g,"").length;
-            }
-
-            if (phone  < 12 ) {
-                $('#' +formName+' .js_mask').css('border-color','#f00');
-            } else {
-                 messAjax(formData);
-            }
-
-
-
-
-
 
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
+
+            if(validationForms(formData)){
+                messAjax(formData);
+
+                var telefone = formData.phone.replace(/\D+/g,"");
+                nextelSubmitForm(telefone, formData.fName, formData.email);
+
+
+                console.log(nextelSubmitForm);
+
+                console.log('send');
+            }else{
+                console.log('not send');
+            }
+           
            // if(!openCaseValidate()) return;
            // console.log(formData); return;
            
         });
+
+        function validationForms(form) {
+            console.log(form);
+            var valid = true;
+            
+            var length = form.phone.replace(/\D+/g,"").length;
+            if(length < 12) valid = false;
+            
+            return valid;
+        }
 
         function openCaseValidate(){
             validateOpenCase = true;
@@ -605,13 +614,6 @@ AOS.init({
         })
 
 
-
-
-        $('.increase_space button').on('click', function () {
-            
-        });
-
-
         $('.js_slider_production2').slick({
                     slidesToShow: 1,
                     prevArrow: '<span class="slick_prev2"></span>',
@@ -621,6 +623,11 @@ AOS.init({
         setTimeout(function(){
             $('.modal_download').removeClass('forAddSlider');
         }, 1500);
+
+        $('.stageswork').on('click', function(){
+            console.log(this.data('header'));
+        })
+
 
     });
 })(jQuery)

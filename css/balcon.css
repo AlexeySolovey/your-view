@@ -853,7 +853,8 @@
 	.balc.stage section{background: none!important; height: auto; padding-top: 0;}
 	.balc.stage .mobile-img{display: block;}
 	.balc.stage .text-title{padding-left: 20px; margin-left: 0;}
-	.balc.stage .title-img{padding-bottom: 30px;}
+	.balc.stage .title-img,
+	.balc.stage .sem{padding-bottom: 30px;}
 
 }
 
