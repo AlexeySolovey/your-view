@@ -840,7 +840,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="main_title">
+                    <div class="main_title best_title">
                         Почему наш сервис - лучший в Украине                
                     </div>
                 </div>
@@ -913,7 +913,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="main_title">
+                    <div class="main_title service_title">
                         При производстве дверей используем <br>
                         исключительно экологически чистые материалы                
                     </div>
@@ -928,6 +928,7 @@
                 <div class="row">
 
                     <img src="img/75920.png" class="img-responsive visible-xs" alt="">
+                    <img src="img/mat_list_01.png" class="mat_list" alt="">
 
                     <div class="col-sm-6 full_width_box col-sm-offset-6">
                         <div class="title" style="margin: 35px 0px 35px 0px;">
@@ -948,6 +949,8 @@
             <div class="container">
                 <div class="row">
                     <img src="img/cffb.png" class="img-responsive visible-xs" alt="">
+                    <img src="img/mat_list_02.png" class="mat_list" alt="">
+
                     <div class="col-sm-6 full_width_box ">
                         <div class="title" style="margin: 35px 0px 35px 0px;">
                             Итальянский лак
@@ -968,6 +971,8 @@
                 <div class="row">
 
                     <img src="img/daace.png" class="img-responsive visible-xs" alt="">
+                    <img src="img/mat_list_03.png" class="mat_list" alt="">
+
 
                     <div class="col-sm-6 full_width_box col-sm-offset-6">
                         <div class="title" style="margin: 35px 0px 35px 0px;">
@@ -1040,7 +1045,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main_title">
+                <div class="main_title mezhkom_title">
                     Все двери производятся на современном австрийском оборудовании в Украине
                 </div>
             </div>

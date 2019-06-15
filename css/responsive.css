@@ -1377,8 +1377,17 @@
     }
     .service .main_title {
         font-size: 27px;
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
+    .service_title{
+        margin-top:30px;
+    }
+    .best_title{
+        margin-top:30px;
+        margin-bottom: 10px!important;
+    }
+
+
     .full_width_item {
         background-image: none!important;
         padding: 0
@@ -1782,6 +1791,18 @@
         width: 50%;
         padding: 0 5px
     }
+
+    .order_mk_wrapp_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .order_mk_wrapp_item img{
+        max-width: 100%;
+    }
+
     .door_order_mk .door_order_mk_wrapp .order_mk_wrapp_item .name {
         font-size: 13px
     }

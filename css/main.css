@@ -893,7 +893,7 @@ body .button:focus {
     width: 68px;
     height: 70px;
     position: absolute;
-    z-index: 100;
+    z-index: 98;
     cursor: pointer;
     border-radius: 0;
     top: 50%;
@@ -4609,7 +4609,7 @@ body .button:focus {
 }
 
 .door_order_mk .door_order_mk_wrapp .order_mk_wrapp_item img {
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .door_order_mk .door_order_mk_wrapp .order_mk_wrapp_item .name {
@@ -6332,6 +6332,9 @@ header#site-header{
 @media (max-width:1199px) {
     .salon_text .title {font-size: 36px}
     .salon_form {right: 25px}
+    .mezhkom_title{
+        margin-top: -55px;
+    }
 }
 
 @media (max-width:576px) {
@@ -6360,3 +6363,19 @@ header#site-header{
     .page-header,
     .has-transparent-header .page-header{padding-top: 20px; margin-top: 0; padding-bottom: 20px;}
 }
+
+
+
+
+.ex_cart_title .title{
+    margin: 0;
+}
+
+.images_anons_block .images_01{
+    max-width: none;
+}
+
+.salon_text{
+    margin-top: 25px;
+}
+

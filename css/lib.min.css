@@ -7416,15 +7416,20 @@ button.close {
     position: fixed
 }
 
+.mat_list{
+    display: none;
+}
+
 @-ms-viewport {
     width: device-width
 }
 
 @media (max-width:767px) {
-    .visible-xs,
+   /* .visible-xs,
     .visible-xs-block {
-        display: block!important
-    }
+        display: block!important;
+    }*/
+
     table.visible-xs {
         display: table!important
     }
@@ -7440,6 +7445,15 @@ button.close {
     }
     .visible-xs-inline-block {
         display: inline-block!important
+    }
+
+    .mat_list{
+        display: block;
+        width: 100%;
+    }
+
+    .visible-xs{
+       display: none; 
     }
 }
 

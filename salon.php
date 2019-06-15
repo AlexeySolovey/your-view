@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="main_title left_text">
+                    <div class="main_title left_text salon_text">
                         Салон                    
                     </div>
                 </div>
