@@ -624,8 +624,10 @@ AOS.init({
             $('.modal_download').removeClass('forAddSlider');
         }, 1500);
 
-        $('.stageswork').on('click', function(){
-            console.log(this.data('header'));
+        $('.stage .stageswork').on('click', function(){
+            var header =  $(this).data('header');
+            $('#modal-work-js').text(header);
+            $('#stageswork_feedback').val(header);
         })
 
 
