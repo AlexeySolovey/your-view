@@ -614,11 +614,22 @@ AOS.init({
         })
 
 
-        $('.js_slider_production2').slick({
-                    slidesToShow: 1,
-                    prevArrow: '<span class="slick_prev2"></span>',
-                    nextArrow: '<span class="slick_next2"></span>',
-                });
+        if($('.js_slider_production2').length){
+            $('.js_slider_production2').slick({
+                slidesToShow: 1,
+                prevArrow: '<span class="slick_prev2"></span>',
+                nextArrow: '<span class="slick_next2"></span>',
+            });
+        }
+
+        if($('.js_slider_mk_sliders').length){
+             $('.js_slider_mk_sliders').slick({
+                slidesToShow: 1,
+                prevArrow: '<span class="slick_prev"></span>',
+                nextArrow: '<span class="slick_next"></span>',
+            });
+        }
+        
 
         setTimeout(function(){
             $('.modal_download').removeClass('forAddSlider');
