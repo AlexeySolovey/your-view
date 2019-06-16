@@ -260,7 +260,7 @@
                 </div> -->
 
 
-                <div class="col-md-3 col-sm-12 card_more_info ex_cart_title">
+                <div class="col-md-3 col-sm-12 card_more_info">
                     <div class="card_more_info_item">
                         <div class="title">
                             <span>

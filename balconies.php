@@ -1169,7 +1169,7 @@
 
 
 
-<section class="balc sketch" id="sketch" style="background: url(img/sketch_bg.png) no-repeat center; color: #fff;padding: 70px 0;margin: 0 0 50px;text-align: center; color: #fff;font-size: 17px;">
+<section class="balc sketch" id="sketch">
     <div class="container">
         <div class="row">
             <div class="ajaxForm form-vertical"  id="selectForm2">

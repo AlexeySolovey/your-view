@@ -7416,7 +7416,7 @@ button.close {
     position: fixed
 }
 
-.mat_list{
+.material_img_mob{
     display: none;
 }
 
@@ -7447,7 +7447,7 @@ button.close {
         display: inline-block!important
     }
 
-    .mat_list{
+    .material_img_mob{
         display: block;
         width: 100%;
     }
