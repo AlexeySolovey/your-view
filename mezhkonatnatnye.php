@@ -913,7 +913,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="main_title service_title">
+                    <div class="main_title">
                         При производстве дверей используем <br>
                         исключительно экологически чистые материалы                
                     </div>
@@ -1045,7 +1045,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main_title mezhkom_title">
+                <div class="main_title">
                     Все двери производятся на современном австрийском оборудовании в Украине
                 </div>
             </div>

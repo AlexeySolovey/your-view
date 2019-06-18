@@ -1379,11 +1379,11 @@
         font-size: 27px;
         margin-bottom: 30px;
     }
-    .service_title{
+    .service_mk_wrapp.main_title{
         margin-top:30px;
     }
     
-    .mk_door.best .main_title{
+    .mk_door.best.main_title{
         margin-top:30px;
         margin-bottom: 10px!important;
     }
