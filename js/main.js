@@ -509,8 +509,11 @@ AOS.init({
             if(validationForms(formData)){
                 messAjax(formData);
 
-                var telefone = formData.phone.replace(/\D+/g,"");
-                nextelSubmitForm(telefone, formData.fName, formData.email);
+                var telefone  = formData.phone.replace(/\D+/g,"");
+                var nextName  = (formData.fName) ? formData.fName : null;
+                var nextEmail = (formData.email) ? formData.email : null;
+                
+                nextelSubmitForm(telefone, nextName, nextEmail);
 
 
                 console.log(nextelSubmitForm);
