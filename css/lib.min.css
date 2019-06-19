@@ -7446,14 +7446,6 @@ button.close {
     .visible-xs-inline-block {
         display: inline-block!important
     }
-
-    .material_img_mob{
-        display: block;
-    }
-
-    .visible-xs{
-       display: none; 
-    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
