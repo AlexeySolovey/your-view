@@ -1271,7 +1271,7 @@
                     <p>
                         Демонтируем старые элементы балкона, укрепляем основу и при необходимости выносим по парапету, увеличивая площадь балкона. Варим каркас из металла и надежно крепим его.
                     </p>
-                    <button type="button" class="button send_to_form">узнайте подробнее
+                    <button type="button" class="button send_to_form stageswork" data-toggle="modal" data-target=".modal_work" data-header="text">узнайте подробнее
                     </button>
                </div>
            </div>
@@ -1286,7 +1286,7 @@
                     <p>
                         Демонтируем старые элементы балкона, укрепляем основу и при необходимости выносим по парапету, увеличивая площадь балкона. Варим каркас из металла и надежно крепим его.
                     </p>
-                    <button type="button" class="button send_to_form">узнайте подробнее
+                    <button type="button" class="button send_to_form" data-header="header">узнайте подробнее
                     </button>
                </div>
            </div>
@@ -1513,6 +1513,32 @@
             или переданы третьим лицам.</div>
     </div>
 </div><!--modal_form-->
+
+
+<div class="balc modal modal_work fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button class="modal_close" data-dismiss="modal" type="button"></button>
+        <div class="modal_title">Узнать подробнее об утеплении и обшивке стены</div>
+       
+        <div class="form-vertical" id='stageswork'>
+            <input value="1" name="type" type="hidden">        
+            <input value="Балкон просмотр примеров" name="Feedbacks" type="hidden">        
+            <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
+            <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">
+            <input placeholder="Email" maxlength="100" name="email" class="form_input" type="text">       
+            <button class="button send-mess" data-form="stageswork">
+                <span>Отправить заявку</span>
+            </button>
+        </div>
+        
+        
+        <div class="modal_note">Ваши персональные данные не будут опубликованы
+            или переданы третьим лицам.</div>
+    </div>
+</div><!--этапы работ-->
+
+
+
 <div class="balc modal modal_select2 fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button class="modal_close" data-dismiss="modal" type="button"></button>

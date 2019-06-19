@@ -5169,13 +5169,17 @@ body .button:focus {
     overflow: hidden
 }
 
-.height_overflow {
-    max-height: 134px
+.height_overflow{
+    max-height: 128px;
+}
+
+.seo_section .height_overflow {
+    max-height: 134px;
 }
 
 @media screen and (max-width:470px) {
-    .height_overflow {
-        max-height: 140px
+    .seo_section .height_overflow {
+        max-height: 140px;
     }
 }
 
@@ -6232,7 +6236,6 @@ modal {
 
 .question .button_wrapp .button {
     padding: 20px 30px; 
-
 }
 
 
@@ -6339,7 +6342,7 @@ header#site-header{
 @media (max-width:1199px) {
     .salon_text .title {font-size: 36px}
     .salon_form {right: 25px}
-    .mezhkom_title{
+    .produced_mk .main_title{
         margin-top: -55px;
     }
 }
@@ -6378,11 +6381,11 @@ header#site-header{
     margin: 0;
 }
 
-.images_anons_block .images_01{
+.anons_index .img_anons{
     max-width: none;
 }
 
-.salon_text{
+.salon_title .main_title{
     margin-top: 25px;
 }
 

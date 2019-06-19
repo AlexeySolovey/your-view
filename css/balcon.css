@@ -101,7 +101,6 @@
 
 .review_content{
 	font-size: 20px;
-	/*margin-left: 50px;*/
 }
 
 .row_no_padding{
@@ -109,7 +108,6 @@
 }
 
 .title-m, .title{
-	/*text-align: center;*/
 	font-size: 40px;
 	margin: 50px 0px 50px 0px;
 }
@@ -375,12 +373,6 @@
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 50px;
-   
-   /* bottom: 5px;
-    left: 0;
-    width: 164px;
-    height: 32px;
-    background: url(../img/plaska.png) no-repeat center;*/
 }
 
 .balc .space_item_img {
@@ -853,7 +845,8 @@
 	.balc.stage section{background: none!important; height: auto; padding-top: 0;}
 	.balc.stage .mobile-img{display: block;}
 	.balc.stage .text-title{padding-left: 20px; margin-left: 0;}
-	.balc.stage .title-img{padding-bottom: 30px;}
+	.balc.stage .title-img,
+	.balc.stage .sem{padding-bottom: 30px;}
 
 }
 

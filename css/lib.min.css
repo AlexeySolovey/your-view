@@ -7425,10 +7425,10 @@ button.close {
 }
 
 @media (max-width:767px) {
-   /* .visible-xs,
+    .visible-xs,
     .visible-xs-block {
         display: block!important;
-    }*/
+    }
 
     table.visible-xs {
         display: table!important
@@ -7445,15 +7445,6 @@ button.close {
     }
     .visible-xs-inline-block {
         display: inline-block!important
-    }
-
-    .material_img_mob{
-        display: block;
-        width: 100%;
-    }
-
-    .visible-xs{
-       display: none; 
     }
 }
 
