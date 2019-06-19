@@ -7416,6 +7416,10 @@ button.close {
     position: fixed
 }
 
+.material_img_mob{
+    display: none;
+}
+
 @-ms-viewport {
     width: device-width
 }
@@ -7423,8 +7427,9 @@ button.close {
 @media (max-width:767px) {
     .visible-xs,
     .visible-xs-block {
-        display: block!important
+        display: block!important;
     }
+
     table.visible-xs {
         display: table!important
     }

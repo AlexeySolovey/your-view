@@ -836,7 +836,7 @@
     </section> 
 
 
-    <section class="best">
+    <section class="best mk_door">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -928,6 +928,7 @@
                 <div class="row">
 
                     <img src="img/75920.png" class="img-responsive visible-xs" alt="">
+                    <img src="img/mat_list_01.png" class="material_img_mob" alt="">
 
                     <div class="col-sm-6 full_width_box col-sm-offset-6">
                         <div class="title" style="margin: 35px 0px 35px 0px;">
@@ -948,6 +949,8 @@
             <div class="container">
                 <div class="row">
                     <img src="img/cffb.png" class="img-responsive visible-xs" alt="">
+                    <img src="img/mat_list_02.png" class="material_img_mob" alt="">
+
                     <div class="col-sm-6 full_width_box ">
                         <div class="title" style="margin: 35px 0px 35px 0px;">
                             Итальянский лак
@@ -968,6 +971,8 @@
                 <div class="row">
 
                     <img src="img/daace.png" class="img-responsive visible-xs" alt="">
+                    <img src="img/mat_list_03.png" class="material_img_mob" alt="">
+
 
                     <div class="col-sm-6 full_width_box col-sm-offset-6">
                         <div class="title" style="margin: 35px 0px 35px 0px;">

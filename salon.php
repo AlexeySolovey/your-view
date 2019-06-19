@@ -14,6 +14,7 @@
     </div>
 </header>
 
+
 <div class="content">
 	<?php include('pagination.php'); ?>
 	<div class="salon_title">
@@ -100,7 +101,7 @@
         </div>
     </div>
 
-  <section class="salon">
+    <section class="salon">
         <div class="container">
             <div class="row">
 
@@ -156,9 +157,6 @@
             </div>
         </div>
     </section>
-
-
-
 </div>
 
 

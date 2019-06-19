@@ -893,7 +893,7 @@ body .button:focus {
     width: 68px;
     height: 70px;
     position: absolute;
-    z-index: 100;
+    z-index: 98;
     cursor: pointer;
     border-radius: 0;
     top: 50%;
@@ -4609,7 +4609,7 @@ body .button:focus {
 }
 
 .door_order_mk .door_order_mk_wrapp .order_mk_wrapp_item img {
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .door_order_mk .door_order_mk_wrapp .order_mk_wrapp_item .name {
@@ -5169,9 +5169,20 @@ body .button:focus {
     overflow: hidden
 }
 
-.height_overflow {
-    max-height: 128px
+.height_overflow{
+    max-height: 128px;
 }
+
+.seo_section .height_overflow {
+    max-height: 134px;
+}
+
+@media screen and (max-width:470px) {
+    .seo_section .height_overflow {
+        max-height: 140px;
+    }
+}
+
 
 .more_js_typeSection {
     cursor: pointer;
@@ -5658,7 +5669,7 @@ input:focus:required:invalid {
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
-    margin-bottom: 30px
+    margin: 0px 0px 30px 0px;
 }
 
 
@@ -6225,7 +6236,6 @@ modal {
 
 .question .button_wrapp .button {
     padding: 20px 30px; 
-
 }
 
 
@@ -6460,6 +6470,9 @@ header#site-header{
 @media (max-width:1199px) {
     .salon_text .title {font-size: 36px}
     .salon_form {right: 25px}
+    .produced_mk .main_title{
+        margin-top: -55px;
+    }
 }
 
 @media (max-width:576px) {
@@ -6488,3 +6501,19 @@ header#site-header{
     .page-header,
     .has-transparent-header .page-header{padding-top: 20px; margin-top: 0; padding-bottom: 20px;}
 }
+
+
+
+
+.card_more_info .title{
+    margin: 0;
+}
+
+.anons_index .img_anons{
+    max-width: none;
+}
+
+.salon_title .main_title{
+    margin-top: 25px;
+}
+

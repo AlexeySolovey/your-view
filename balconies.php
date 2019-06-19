@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+ <?php include('header.php'); ?>
 
 <header class="header">
 	<div class="header_bottom_line">
@@ -1314,10 +1314,10 @@
    </section>
 
     <section class="title-img" style="background-image: url(img/rem.jpg);">
-        <img class="mobile-img" src="img/rem-1.jpg" alt="rem">
         <div class="container">
            <div class="row">
                <div class="col-sm-6 text-title">
+                
                     <h2> Демонтаж и сварка основы</h2>
                     <p>
                         Демонтируем старые элементы балкона, укрепляем основу и при необходимости выносим по парапету, увеличивая площадь балкона. Варим каркас из металла и надежно крепим его.
