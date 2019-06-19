@@ -5369,8 +5369,8 @@ modal {
     overflow: hidden
 }
 
-.height_overflow {
-    max-height: 128px
+.seo_section .height_overflow {
+    max-height: 128px;
 }
 
 .more_js_typeSection {

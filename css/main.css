@@ -5169,12 +5169,12 @@ body .button:focus {
     overflow: hidden
 }
 
-.height_overflow {
+.seo_section .height_overflow {
     max-height: 134px
 }
 
 @media screen and (max-width:470px) {
-    .height_overflow {
+    .seo_section .height_overflow {
         max-height: 140px
     }
 }
@@ -6381,7 +6381,7 @@ header#site-header{
     max-width: none;
 }
 
-.salon_page.main_title{
+.salon_title .main_title{
     margin-top: 25px;
 }
 

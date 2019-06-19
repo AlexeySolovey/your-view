@@ -7425,10 +7425,10 @@ button.close {
 }
 
 @media (max-width:767px) {
-   /* .visible-xs,
+    .visible-xs,
     .visible-xs-block {
         display: block!important;
-    }*/
+    }
 
     table.visible-xs {
         display: table!important
