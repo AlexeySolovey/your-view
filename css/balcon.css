@@ -101,7 +101,6 @@
 
 .review_content{
 	font-size: 20px;
-	/*margin-left: 50px;*/
 }
 
 .row_no_padding{
@@ -109,7 +108,6 @@
 }
 
 .title-m, .title{
-	/*text-align: center;*/
 	font-size: 40px;
 	margin: 50px 0px 50px 0px;
 }
@@ -375,12 +373,6 @@
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 50px;
-   
-   /* bottom: 5px;
-    left: 0;
-    width: 164px;
-    height: 32px;
-    background: url(../img/plaska.png) no-repeat center;*/
 }
 
 .balc .space_item_img {
@@ -873,3 +865,4 @@
 	.balc.calculation .calculation_item_3 .form_size input{width: 60px;}
 	.mass{ width: 290px; }
 }
+
