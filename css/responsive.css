@@ -947,6 +947,13 @@
 		margin-bottom: 0px;
 		font-size: 30px;
 	}
+
+    .characteristic_wrapp .title{
+        margin:0;
+    }
+
+
+
 	.balc .space_title {
 		height: auto;
 	}
@@ -1385,7 +1392,7 @@
     
     .mk_door.best .main_title{
         margin-top:30px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
 
