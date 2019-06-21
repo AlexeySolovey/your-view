@@ -1937,8 +1937,13 @@
         padding: 0
     }
     .logo_footer {
-        width: 200px
+        width: 330px;
     }
+    footer .button.button_ico{
+        width: 100%;
+    }
+
+
     .blog .blog_item {
         height: auto!important
     }
