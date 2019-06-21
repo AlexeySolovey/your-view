@@ -6517,3 +6517,8 @@ header#site-header{
     margin-top: 25px;
 }
 
+@media screen and (max-width: 767px){
+    .can_also .title {
+        margin:0;
+    }
+}
