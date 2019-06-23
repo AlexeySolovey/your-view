@@ -72,7 +72,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 <!--NEXTEL - Коллтрекинг и виджеты Балконы-->
-<script async src="https://cstat.nextel.com.ua:8443/tracking/script/24/59"></script>
+<script async src="https://cstat.nextel.com.ua:8443/tracking/script/24/52"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.0.min.js"
   integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
