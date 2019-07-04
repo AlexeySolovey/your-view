@@ -509,8 +509,11 @@ AOS.init({
             if(validationForms(formData)){
                 messAjax(formData);
 
-                var telefone = formData.phone.replace(/\D+/g,"");
-                nextelSubmitForm(telefone, formData.fName, formData.email);
+                var telefone  = formData.phone.replace(/\D+/g,"");
+                var nextName  = (formData.fName) ? formData.fName : null;
+                var nextEmail = (formData.email) ? formData.email : null;
+                
+                nextelSubmitForm(telefone, nextName, nextEmail);
 
 
                 console.log(nextelSubmitForm);
@@ -614,18 +617,31 @@ AOS.init({
         })
 
 
-        $('.js_slider_production2').slick({
-                    slidesToShow: 1,
-                    prevArrow: '<span class="slick_prev2"></span>',
-                    nextArrow: '<span class="slick_next2"></span>',
-                });
+        if($('.js_slider_production2').length){
+            $('.js_slider_production2').slick({
+                slidesToShow: 1,
+                prevArrow: '<span class="slick_prev2"></span>',
+                nextArrow: '<span class="slick_next2"></span>',
+            });
+        }
+
+        if($('.js_slider_mk_sliders').length){
+             $('.js_slider_mk_sliders').slick({
+                slidesToShow: 1,
+                prevArrow: '<span class="slick_prev"></span>',
+                nextArrow: '<span class="slick_next"></span>',
+            });
+        }
+        
 
         setTimeout(function(){
             $('.modal_download').removeClass('forAddSlider');
         }, 1500);
 
-        $('.stageswork').on('click', function(){
-            console.log(this.data('header'));
+        $('.stage .stageswork').on('click', function(){
+            var header =  $(this).data('header');
+            $('#modal-work-js').text(header);
+            $('#stageswork_feedback').val(header);
         })
 
 

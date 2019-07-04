@@ -6328,7 +6328,159 @@ modal {
     padding: 30px;
     top: -95px;
 }
+.modal_main.modal_catalog .modal-dialog {
+    border: 0;
+    padding: 40px 50px;
+    width: 1230px;
+    overflow: hidden;
+}
 
+.modal_main.modal_catalog .flex_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px
+}
+
+.modal_main.modal_catalog .title {
+    font-size: 30px;
+    font-weight: 500
+}
+
+.modal_main.modal_catalog .flex_right {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.modal_main.modal_catalog .flex_right .price {
+    font-size: 26px;
+    font-weight: 600;
+    margin-right: 15px;
+    color: #ed3439
+}
+
+.modal_main.modal_catalog .flex_right,.modal_main.modal_catalog .modal_slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.modal_main.modal_catalog .js_modal_catalog {
+    width: 700px;
+    margin-right: 100px
+}
+
+.catalog_error img,.modal_main.modal_catalog .js_modal_catalog .slick-slide img {
+    margin: 0 auto
+}
+
+.modal_main.modal_catalog .js_modal_catalog .slick_next {
+    left: 90%
+}
+
+.modal_main.modal_catalog .js_modal_catalog .slick_prev {
+    right: 90%
+}
+
+.modal_main.modal_catalog .js_modal_catalog_nav {
+    width: 144px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.modal_main.modal_catalog .js_modal_catalog_nav .slick-slide {
+    border: 6px solid #fff;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s
+}
+
+.modal_main.modal_catalog .js_modal_catalog_nav .slick-slide img {
+    margin: 0 auto;
+    width: 60px;
+    max-width: inherit
+}
+
+.modal_main.modal_catalog .js_modal_catalog_nav .slick-slide.slick-center {
+    border: 6px solid #ffe2b6;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s
+}
+
+.modal_main.modal_catalog .js_modal_catalog_nav .slick_next,.modal_main.modal_catalog .js_modal_catalog_nav .slick_prev {
+    z-index: -1;
+    left: 0;
+    opacity: 0
+}
+.modal_catalog_style .sketch {
+    margin: 0 -50px -42px;
+    padding: 40px 0;
+    background-color: #4e5b62;
+    color: #fff;
+    font-size: 17px;
+}
+
+.modal_catalog_style .sketch .title {
+    font-size: 23px;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 0
+}
+
+.modal_catalog_style .sketch .button {
+    margin-top: 0
+}
+
+.modal_catalog_style .modal-dialog input,.sketch input {
+    margin-bottom: 0
+}
+.js_slider_mk_sliders{
+    padding: 0 50px;
+    padding-bottom: 20px;
+}
+
+.js_slider_mk_sliders .slick_next{
+    left: 97%;
+}
+.js_slider_mk_sliders .slick_prev{
+    right: 97%;
+}
+
+.nxtl-popup-form.nxtl-popup-form_horizontal input {
+    background: #fff;
+    border-radius: 12px;
+    color:#000;
+    box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.nxtl-popup-form input[text]{
+    outline: none !important;
+    display: block;
+    width: 100%;
+    border: 2px solid var(--nxtl-p-col-form-inputs-border);
+    padding: 10px 19px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 400;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 16px;
+    color: var(--nxtl-p-col-form-ps-text);
+    background-color: var(--nxtl-p-col-form-inputs);
+    height: 58px;
+}
 
 
 header#site-header{
