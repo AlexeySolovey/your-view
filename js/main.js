@@ -501,13 +501,15 @@ AOS.init({
 
         $('.send-mess, .js-door-calculate, .discont-js').on('click', function(){
             var formName = $(this).data('form');
+            var download = $(this).data('download');
             var formData = takeData(formName);
-
 
             if ($(this).hasClass("js-door-calculate")) formData.calucate = getCalculate();
 
             if(validationForms(formData)){
                 messAjax(formData);
+
+                if (download) { $('#' + download)[0].click();}
 
                 var telefone  = formData.phone.replace(/\D+/g,"");
                 var nextName  = (formData.fName) ? formData.fName : null;

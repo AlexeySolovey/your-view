@@ -1273,9 +1273,10 @@
                     <input value="Скачать полный каталог с сайта межкомнатные двери" name="Feedbacks" type="hidden">        
                     <input required="required" placeholder="Имя" maxlength="100" class="form_input" name="fName" type="text"> 
                     <input required="required" placeholder="Телефон" class="form_input js_mask" name="phone" type="text">        
-                    <button class="button send-mess" data-form="form-katalog">
+                    <button class="button send-mess" data-form="form-katalog" data-download="download-catalog-js">
                         <span>Скачать каталог</span>
                     </button>
+                    <a href="/wp-content/uploads/2019/06/katalog-mk.pdf" id="download-catalog-js" target="_blank"> </a>
                 </div>
 
                 <div class="modal_note">Ваши персональные данные не будут опубликованы
