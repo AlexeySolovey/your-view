@@ -163,6 +163,32 @@ AOS.init({
             }
         }
 
+        //cottage slider
+
+        if($('.calc_price_slider').length){
+            $('.calc_price_slider').on('init', function(slick){
+              slick.currentTarget.style.opacity= 1;
+            });
+            $('.calc_price_slider').slick({
+                infinite: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrow:true,
+                adaptiveHeight: true,
+                swipe: false,
+                prevArrow:'<div class="slick_prev"></div>',
+                nextArrow:'<div class="slick_next"></div>'
+            });
+
+            $('.js_btn_next').on('click', function () {
+                $('.calc_price_slider .slick_next').trigger("click")
+            });
+
+            $('.js_btn_prev').on('click', function () {
+                $('.calc_price_slider .slick_prev').trigger("click")
+            });
+        }
+
         // doors_slider  // enter dors
         if($('.doors_slider').length){
             $('.doors_slider').on('init', function(slick){
