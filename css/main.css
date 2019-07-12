@@ -6681,7 +6681,7 @@ svg:not(:root) {
     margin-bottom: 60px;
 }
 
-.calc_price_slider .calc_price_title {
+.cottage .calc_price_title {
     font-size: 45px;
     line-height: 40px;
     text-align: center;
@@ -6701,7 +6701,29 @@ svg:not(:root) {
     position: relative;
 }
 
-
+.calc_price_slider .calc_body.calc_body_form_ty {
+    margin-top: 30px;
+    border-bottom: none;
+}
+.calc_body_form_ty .pic {
+    margin-right: 30px;
+}
+.calc_price_slider .block_form {
+   margin: 0 20px;
+   width: 40%;
+}
+.calc_price_slider .block_form_flex{
+    display: flex;
+    align-items: center;
+}
+.block_form_flex .input_sm,
+.block_form_flex .input_md{
+    margin: 10px;
+    margin-left: 0;
+}
+.block_form_textarea textarea{
+    margin-top: 10px;
+}
 .calc_price_slider .calc_header {
     text-align: center;
 }
@@ -6710,8 +6732,10 @@ svg:not(:root) {
     display: none;
 }
 .calc_price_slider .holl {
-    font-size: 28px;
+    font-size: 20px;
     color: #333;
+    margin: 20px 0;
+    display: block;
 }
 .calc_price_slider .calc_header .title {
     font-size: 30px;
@@ -6725,12 +6749,19 @@ svg:not(:root) {
     align-items: center;
     text-align: center;
     margin-left: -70px;
+    margin:0;
+    margin-top: 30px;
 }
 
 .calc_price_slider .calc_body, .calc_body .block .check_block, .calc_header .title {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+.calc_price_slider .calc_form_image {
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .calc_price_slider .calc_header .title span {
@@ -6761,6 +6792,7 @@ svg:not(:root) {
     margin: 0 12px;
     cursor: pointer;
     text-align: center;
+    flex: 1;
 }
 .calc_price_slider .calc_body .block .check_block {
     width: 110px;
@@ -6826,6 +6858,10 @@ svg:not(:root) {
     top: 0;
     left: 0;
     overflow: hidden;
+}
+
+.js_btn_prev > svg {
+    transform: rotate(180deg);
 }
 
 .eco_table{

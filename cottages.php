@@ -132,7 +132,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="title calc_price_title">
+                <div class="calc_price_title">
                     Рассчитайте стоимость <br>
                     остекления коттеджа
                 </div>
@@ -140,7 +140,7 @@
                 <div class="calc_price_slider slick-slider">
                     <div class="calc_item js_option slick-slide" style="width: 1170px;" tabindex="0">
                         <div class="calc_header">
-                            <div class="title" style="margin: 20px 0px 20px 0px;">
+                            <div class="title">
                                 <span>01</span>
                                 Что вы хотите остеклить?
                             </div>
@@ -235,7 +235,7 @@
                                 <input type="radio" name="color_1" id="glaze2_1" data-val="Белый" tabindex="-1">
                                 <label for="glaze2_1" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block2_1.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Белый
                                         </span>
                                     <span class="check_block">
@@ -251,7 +251,7 @@
                                 <input type="radio" name="color_1" id="glaze2_2" data-val="Под дерево" tabindex="-1">
                                 <label for="glaze2_2" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block2_2.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Под дерево
                                         </span>
                                     <span class="check_block">
@@ -267,7 +267,7 @@
                                 <input type="radio" name="color_1" id="glaze2_3" data-val="Крашенный" tabindex="-1">
                                 <label for="glaze2_3" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block2_3.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Крашенный
                                         </span>
                                     <span class="check_block">
@@ -315,7 +315,7 @@
                                 <input type="radio" name="level_1" id="glaze3_1" data-val="Максимальный" tabindex="-1">
                                 <label for="glaze3_1" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block3_1.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Максимальный
                                         </span>
                                     <span class="check_block">
@@ -331,7 +331,7 @@
                                 <input type="radio" name="level_1" id="glaze3_2" data-val="Средний" tabindex="-1">
                                 <label for="glaze3_2" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block3_2.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Средний
                                         </span>
                                     <span class="check_block">
@@ -347,7 +347,7 @@
                                 <input type="radio" name="level_1" id="glaze3_3" data-val="Оптимальный" tabindex="-1">
                                 <label for="glaze3_3" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block3_3.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Оптимальный
                                         </span>
                                     <span class="check_block">
@@ -395,7 +395,7 @@
                                 <input type="radio" name="type_1" id="glaze4_1" data-val="Защита от ультрафиолета" tabindex="-1">
                                 <label for="glaze4_1" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block4_1.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Защита от ультрафиолета
                                         </span>
                                     <span class="check_block">
@@ -411,7 +411,7 @@
                                 <input type="radio" name="type_1" id="glaze4_2" data-val="Энергосберегаемость" tabindex="-1">
                                 <label for="glaze4_2" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block4_2.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Энергосберегаемость
                                         </span>
                                     <span class="check_block">
@@ -427,7 +427,7 @@
                                 <input type="radio" name="type_1" id="glaze4_3" data-val="Шумоизолирующий" tabindex="-1">
                                 <label for="glaze4_3" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block4_3.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Шумоизолирующий
                                         </span>
                                     <span class="check_block">
@@ -475,7 +475,7 @@
                                 <input type="radio" name="dop_1" id="glaze5_1" data-val="Термо-подоконник" tabindex="-1">
                                 <label for="glaze5_1" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block5_1.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Термо-подоконник
                                         </span>
                                     <span class="check_block">
@@ -491,7 +491,7 @@
                                 <input type="radio" name="dop_2" id="glaze5_2" data-val="Раздвижные стены" tabindex="-1">
                                 <label for="glaze5_2" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block5_2.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Раздвижные стены
                                         </span>
                                     <span class="check_block">
@@ -507,7 +507,7 @@
                                 <input type="radio" name="dop_3" id="glaze5_3" data-val="Антивзлом" tabindex="-1">
                                 <label for="glaze5_3" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block5_3.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Антивзлом
                                         </span>
                                     <span class="check_block">
@@ -523,7 +523,7 @@
                                 <input type="radio" name="dop_4" id="glaze5_4" data-val="Зимнее проветривание" tabindex="-1">
                                 <label for="glaze5_4" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block5_4.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Зимнее проветривание
                                         </span>
                                     <span class="check_block">
@@ -539,7 +539,7 @@
                                 <input type="radio" name="dop_5" id="glaze5_5" data-val="Противоударные стекла" tabindex="-1">
                                 <label for="glaze5_5" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block5_5.png" class="img-responsive" alt="">
-                                    <span class="title">
+                                    <span class="title holl">
                                             Противоударные стекла
                                         </span>
                                     <span class="check_block">
@@ -652,7 +652,7 @@
                                     <img src="img/gloss__cottages/cottage_operator.png" class="img-responsive" alt="">
                                 </div>
                                 <div class="text">
-                                    <div class="title">
+                                    <div class="title holl">
                                         Спасибо!
                                     </div>
                                     <div class="desc">

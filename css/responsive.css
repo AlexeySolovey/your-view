@@ -1685,6 +1685,10 @@
         line-height: 1;
         color: #000
     }
+    .anons.anons_cottage .anons_block  .anons_block_item .text {
+        color:#fff;
+    }
+
     .anons {
         padding-top: 100px;
         height: auto
