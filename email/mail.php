@@ -9,15 +9,19 @@
 		$to= get_option('admin_email').', soloveyalexey3@gmail.com';
 
 		$subject               = "New feedback";
-									$message  = '<h3> Тип сообщения: ' 		. $form['Feedbacks'] . '</h3>';
-		if($form['gabarits']) 		$message .= '<b> Габариты: </b>'  	    . $form['gabarits']  . '<br/>';
-		if($form['balkonType']) 	$message .= '<b> Тип балкона: </b>' 	. $form['balkonType']  . '<br/>';
-		if($form['balkonMaterial']) $message .= '<b> Утепление: </b>'  	    . $form['balkonMaterial']  . '<br/>';
+									$message  = '<h3> Тип сообщения: ' 		   . $form['Feedbacks'] . '</h3>';
+		if($form['gabarits']) 		$message .= '<b> Габариты: </b>'  	       . $form['gabarits']  . '<br/>';
+		if($form['balkonType']) 	$message .= '<b> Тип балкона: </b>' 	   . $form['balkonType']  . '<br/>';
+		if($form['balkonMaterial']) $message .= '<b> Утепление: </b>'  	       . $form['balkonMaterial']  . '<br/>';
+ 
+		if($form['glazing'])     	$message .= '<b> Тип остекления: </b>'     . $form['glazing']  . '<br/>';
+		if($form['countWindows'])   $message .= '<b> Количество окон: </b>'    . $form['countWindows']  . '<br/>';
+		if($form['windowRequirem']) $message .= '<b> Требования к окнам: </b>' . $form['windowRequirem']  . '<br/>';
 
-		if($form['fName'])			$message .= '<b> Имя клиента: </b>'     . $form['fName']     . '<br/>';
-									$message .= '<b> Телефон:  	  </b>'     . $form['phone']     . '<br/>';
-		if($form['email'])			$message .= '<b> Email:  	  </b>'     . $form['email']     . '<br/>';
-
+		if($form['fName'])			$message .= '<b> Имя клиента: </b>'        . $form['fName']     . '<br/>';
+									$message .= '<b> Телефон:  	  </b>'        . $form['phone']     . '<br/>';
+		if($form['email'])			$message .= '<b> Email:  	  </b>'        . $form['email']     . '<br/>';
+  
 
 
 		if($form['calucate']) {

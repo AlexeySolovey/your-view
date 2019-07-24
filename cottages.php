@@ -132,26 +132,21 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="title calc_price_title">
+                <div class="calc_price_title">
                     Рассчитайте стоимость <br>
                     остекления коттеджа
                 </div>
 
-                <div class="calc_price_slider slick-initialized slick-slider"><div class="slick_prev slick-arrow slick-disabled" aria-disabled="true" style="display: block;"></div>
-
-                    <div class="slick-list draggable" style="height: 674px;"><div class="slick-track" style="opacity: 1; width: 8190px; transform: translate3d(0px, 0px, 0px);"><div class="calc_item js_option slick-slide slick-current slick-active" data-name="Что вы хотите остеклить" data-slick-index="0" aria-hidden="false" style="width: 1170px;" tabindex="0">
-
+                <div class="calc_price_slider slick-slider">
+                    <div class="calc_item js_option slick-slide" style="width: 1170px;" tabindex="0">
                         <div class="calc_header">
-                            <div class="title" style="margin: 20px 0px 20px 0px;">
-                                    <span>
-                                        01
-                                    </span>
+                            <div class="title">
+                                <span>01</span>
                                 Что вы хотите остеклить?
                             </div>
                         </div>
 
                         <div class="calc_body">
-
                             <div class="block">
                                 <input type="radio" name="glaze_1" id="glaze_1" data-val="Дом" tabindex="0">
                                 <label for="glaze_1" class="calc_block">
@@ -170,14 +165,14 @@
                                 <label for="glaze_2" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block_2.png" class="img-responsive" alt="" data-pagespeed-url-hash="2832922800">
                                     <span class="title holl">
-                                            Бассейн
-                                        </span>
+                                        Бассейн
+                                    </span>
                                     <span class="check_block">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="11px">
-                                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M13.984,2.202 L5.373,10.980 L5.373,10.979 L5.372,10.980 L-0.009,5.493 L2.143,3.299 L5.373,6.592 L11.832,0.007 L13.984,2.202 Z"></path>
-                                            </svg>
-                                            Выбрать
-                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="11px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M13.984,2.202 L5.373,10.980 L5.373,10.979 L5.372,10.980 L-0.009,5.493 L2.143,3.299 L5.373,6.592 L11.832,0.007 L13.984,2.202 Z"></path>
+                                        </svg>
+                                        Выбрать
+                                    </span>
                                 </label>
                             </div>
 
@@ -186,14 +181,14 @@
                                 <label for="glaze_3" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block_3.png" class="img-responsive" alt="" data-pagespeed-url-hash="3127422721">
                                     <span class="title holl">
-                                            Дверь
-                                        </span>
+                                        Дверь
+                                    </span>
                                     <span class="check_block">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="11px">
-                                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M13.984,2.202 L5.373,10.980 L5.373,10.979 L5.372,10.980 L-0.009,5.493 L2.143,3.299 L5.373,6.592 L11.832,0.007 L13.984,2.202 Z"></path>
-                                            </svg>
-                                            Выбрать
-                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="11px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M13.984,2.202 L5.373,10.980 L5.373,10.979 L5.372,10.980 L-0.009,5.493 L2.143,3.299 L5.373,6.592 L11.832,0.007 L13.984,2.202 Z"></path>
+                                        </svg>
+                                        Выбрать
+                                    </span>
                                 </label>
                             </div>
 
@@ -202,14 +197,14 @@
                                 <label for="glaze_4" class="calc_block">
                                     <img src="img/gloss__cottages/calc_block_4.png" class="img-responsive" alt="" data-pagespeed-url-hash="3421922642">
                                     <span class="title holl">
-                                            Терасса
-                                        </span>
+                                        Терасса
+                                    </span>
                                     <span class="check_block">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="11px">
-                                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M13.984,2.202 L5.373,10.980 L5.373,10.979 L5.372,10.980 L-0.009,5.493 L2.143,3.299 L5.373,6.592 L11.832,0.007 L13.984,2.202 Z"></path>
-                                            </svg>
-                                            Выбрать
-                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="11px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M13.984,2.202 L5.373,10.980 L5.373,10.979 L5.372,10.980 L-0.009,5.493 L2.143,3.299 L5.373,6.592 L11.832,0.007 L13.984,2.202 Z"></path>
+                                        </svg>
+                                        Выбрать
+                                    </span>
                                 </label>
                             </div>
                         </div>
@@ -223,8 +218,8 @@
                                 </svg>
                             </button>
                         </div>
-
-                    </div><div class="calc_item js_option slick-slide" data-name="Вид профиля" data-slick-index="1" aria-hidden="true" style="width: 1170px;" tabindex="-1">
+                    </div>
+                    <div class="calc_item js_option slick-slide" data-name="Вид профиля" data-slick-index="1" aria-hidden="true" style="width: 1170px;" tabindex="-1">
 
                         <div class="calc_header">
                             <div class="title">
@@ -236,12 +231,11 @@
                         </div>
 
                         <div class="calc_body">
-
                             <div class="block">
                                 <input type="radio" name="color_1" id="glaze2_1" data-val="Белый" tabindex="-1">
                                 <label for="glaze2_1" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="112905005" >
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block2_1.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Белый
                                         </span>
                                     <span class="check_block">
@@ -256,8 +250,8 @@
                             <div class="block">
                                 <input type="radio" name="color_1" id="glaze2_2" data-val="Под дерево" tabindex="-1">
                                 <label for="glaze2_2" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="407404926">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block2_2.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Под дерево
                                         </span>
                                     <span class="check_block">
@@ -272,8 +266,8 @@
                             <div class="block">
                                 <input type="radio" name="color_1" id="glaze2_3" data-val="Крашенный" tabindex="-1">
                                 <label for="glaze2_3" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="701904847" >
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block2_3.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Крашенный
                                         </span>
                                     <span class="check_block">
@@ -303,8 +297,8 @@
                                 </svg>
                             </button>
                         </div>
-
-                    </div><div class="calc_item js_option slick-slide" data-name="Уровень энергосбережения" data-slick-index="2" aria-hidden="true" style="width: 1170px;" tabindex="-1">
+                    </div>
+                    <div class="calc_item js_option slick-slide" data-name="Уровень энергосбережения" data-slick-index="2" aria-hidden="true" style="width: 1170px;" tabindex="-1">
 
                         <div class="calc_header">
                             <div class="title">
@@ -320,8 +314,8 @@
                             <div class="block">
                                 <input type="radio" name="level_1" id="glaze3_1" data-val="Максимальный" tabindex="-1">
                                 <label for="glaze3_1" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="3144509190">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block3_1.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Максимальный
                                         </span>
                                     <span class="check_block">
@@ -336,8 +330,8 @@
                             <div class="block">
                                 <input type="radio" name="level_1" id="glaze3_2" data-val="Средний" tabindex="-1">
                                 <label for="glaze3_2" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="3439009111">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block3_2.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Средний
                                         </span>
                                     <span class="check_block">
@@ -352,8 +346,8 @@
                             <div class="block">
                                 <input type="radio" name="level_1" id="glaze3_3" data-val="Оптимальный" tabindex="-1">
                                 <label for="glaze3_3" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="3733509032">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block3_3.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Оптимальный
                                         </span>
                                     <span class="check_block">
@@ -383,8 +377,8 @@
                                 </svg>
                             </button>
                         </div>
-
-                    </div><div class="calc_item calc_item_4 js_option slick-slide" data-name="Тип стеклопакета" data-slick-index="3" aria-hidden="true" style="width: 1170px;" tabindex="-1">
+                    </div>
+                    <div class="calc_item calc_item_4 js_option slick-slide" data-name="Тип стеклопакета" data-slick-index="3" aria-hidden="true" style="width: 1170px;" tabindex="-1">
 
                         <div class="calc_header">
                             <div class="title">
@@ -400,8 +394,8 @@
                             <div class="block">
                                 <input type="radio" name="type_1" id="glaze4_1" data-val="Защита от ультрафиолета" tabindex="-1">
                                 <label for="glaze4_1" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="1881146079">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block4_1.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Защита от ультрафиолета
                                         </span>
                                     <span class="check_block">
@@ -416,8 +410,8 @@
                             <div class="block">
                                 <input type="radio" name="type_1" id="glaze4_2" data-val="Энергосберегаемость" tabindex="-1">
                                 <label for="glaze4_2" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="2175646000">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block4_2.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Энергосберегаемость
                                         </span>
                                     <span class="check_block">
@@ -432,8 +426,8 @@
                             <div class="block">
                                 <input type="radio" name="type_1" id="glaze4_3" data-val="Шумоизолирующий" tabindex="-1">
                                 <label for="glaze4_3" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="2470145921">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block4_3.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Шумоизолирующий
                                         </span>
                                     <span class="check_block">
@@ -463,8 +457,8 @@
                                 </svg>
                             </button>
                         </div>
-
-                    </div><div class="calc_item js_option slick-slide" data-name="Дополнительная комплектация" data-slick-index="4" aria-hidden="true" style="width: 1170px;" tabindex="-1">
+                    </div>
+                    <div class="calc_item js_option slick-slide" data-name="Дополнительная комплектация" data-slick-index="4" aria-hidden="true" style="width: 1170px;" tabindex="-1">
 
                         <div class="calc_header">
                             <div class="title">
@@ -480,8 +474,8 @@
                             <div class="block">
                                 <input type="radio" name="dop_1" id="glaze5_1" data-val="Термо-подоконник" tabindex="-1">
                                 <label for="glaze5_1" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="617782968">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block5_1.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Термо-подоконник
                                         </span>
                                     <span class="check_block">
@@ -496,8 +490,8 @@
                             <div class="block">
                                 <input type="radio" name="dop_2" id="glaze5_2" data-val="Раздвижные стены" tabindex="-1">
                                 <label for="glaze5_2" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="912282889">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block5_2.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Раздвижные стены
                                         </span>
                                     <span class="check_block">
@@ -512,8 +506,8 @@
                             <div class="block">
                                 <input type="radio" name="dop_3" id="glaze5_3" data-val="Антивзлом" tabindex="-1">
                                 <label for="glaze5_3" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="1206782810">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block5_3.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Антивзлом
                                         </span>
                                     <span class="check_block">
@@ -528,8 +522,8 @@
                             <div class="block">
                                 <input type="radio" name="dop_4" id="glaze5_4" data-val="Зимнее проветривание" tabindex="-1">
                                 <label for="glaze5_4" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="1501282731">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block5_4.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Зимнее проветривание
                                         </span>
                                     <span class="check_block">
@@ -544,8 +538,8 @@
                             <div class="block">
                                 <input type="radio" name="dop_5" id="glaze5_5" data-val="Противоударные стекла" tabindex="-1">
                                 <label for="glaze5_5" class="calc_block">
-                                    <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="1795782652">
-                                    <span class="title">
+                                    <img src="img/gloss__cottages/calc_block5_5.png" class="img-responsive" alt="">
+                                    <span class="title holl">
                                             Противоударные стекла
                                         </span>
                                     <span class="check_block">
@@ -575,12 +569,12 @@
                                 </svg>
                             </button>
                         </div>
-
-                    </div><div class="calc_item slick-slide" data-slick-index="5" aria-hidden="true" style="width: 1170px;" tabindex="-1">
+                    </div>
+                    <div class="calc_item slick-slide" data-slick-index="5" aria-hidden="true" style="width: 1170px;" tabindex="-1">
 
                         <div class="calc_header">
                             <div class="calc_form_image">
-                                <img src="/" class="img-responsive " alt="" data-pagespeed-url-hash="2069464692">
+                                <img src="img/gloss__cottages/calc_block7.png" class="img-responsive " alt="">
                             </div>
                         </div>
 
@@ -640,8 +634,8 @@
                                 </svg>
                             </button>
                         </div>
-
-                    </div><div class="calc_item slick-slide" data-slick-index="6" aria-hidden="true" style="width: 1170px;" tabindex="-1">
+                    </div>
+                    <div class="calc_item slick-slide" data-slick-index="6" aria-hidden="true" style="width: 1170px;" tabindex="-1">
 
                         <div class="calc_header">
                             <div class="title">
@@ -649,38 +643,37 @@
                         </div>
 
                         <form class="ajaxForm block_form_box form-vertical ng-pristine ng-valid" data-show=".js_modal_result" id="yw0" action="/default/feedbacks/index" method="post">
-                        <div style="display:none">
-                            <input type="hidden" value="b3cee2809d298f642720dfc4adfb8a1fd1afefcd" name="YII_CSRF_TOKEN" tabindex="-1"></div>
-                        <div class="calc_body calc_body_fo
-                        rm calc_body_form_ty">
+                            <div style="display:none">
+                                <input type="hidden" value="b3cee2809d298f642720dfc4adfb8a1fd1afefcd" name="YII_CSRF_TOKEN" tabindex="-1"></div>
+                            <div class="calc_body calc_body_fo
+                            rm calc_body_form_ty">
 
-                            <div class="pic">
-                                <img src="/" class="img-responsive" alt="" data-pagespeed-url-hash="26099606">
+                                <div class="pic">
+                                    <img src="img/gloss__cottages/cottage_operator.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="text">
+                                    <div class="title holl">
+                                        Спасибо!
+                                    </div>
+                                    <div class="desc">
+                                        Менеджер уже расчитывает стоимость <br>
+                                        остекления по вашим параметрам
+                                    </div>
+
+                                    <div class="block_form_box">
+                                        <p>Оставьте ваши контакты для связи</p>
+                                        <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden" tabindex="-1">                                    <input value="Рассчитать стоимость работ с сайта коттеджей" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden" tabindex="-1">                                    <input id="options_result_str" name="Feedbacks[content]" type="hidden" tabindex="-1">                                    <input required="required" placeholder="Имя" maxlength="100" name="Feedbacks[name]" id="Feedbacks_name" type="text" tabindex="-1">                                    <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text" tabindex="-1">                                    <button class="button" type="submit" tabindex="-1">
+                                            Отправить
+                                        </button>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div class="text">
-                                <div class="title">
-                                    Спасибо!
-                                </div>
-                                <div class="desc">
-                                    Менеджер уже расчитывает стоимость <br>
-                                    остекления по вашим параметрам
-                                </div>
-
-                                <div class="block_form_box">
-                                    <p>Оставьте ваши контакты для связи</p>
-                                    <input value="1" name="Feedbacks[type]" id="Feedbacks_type" type="hidden" tabindex="-1">                                    <input value="Рассчитать стоимость работ с сайта коттеджей" name="Feedbacks[subject]" id="Feedbacks_subject" type="hidden" tabindex="-1">                                    <input id="options_result_str" name="Feedbacks[content]" type="hidden" tabindex="-1">                                    <input required="required" placeholder="Имя" maxlength="100" name="Feedbacks[name]" id="Feedbacks_name" type="text" tabindex="-1">                                    <input required="required" placeholder="Телефон" maxlength="100" class="js_mask" name="Feedbacks[phone]" id="Feedbacks_phone" type="text" tabindex="-1">                                    <button class="button" type="submit" tabindex="-1">
-                                        Отправить
-                                    </button>
-                                </div>
-
-                            </div>
-
-                        </div>
 
                         </form>
-                    </div></div></div>
-
-                <div class="slick_next slick-arrow" style="display: block;" aria-disabled="false"></div></div>
+                    </div>                        
+                </div>
             </div>
         </div>
     </div>
